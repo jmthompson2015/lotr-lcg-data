@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RingsDB Attachment</title>
+	<script src="../js/JSONFileLoader.js"></script>
+</head>
+<body>
+	<h1>RingsDB Attachment</h1>
+	<div id="panel"></div>
+	<script>
+		"use strict";
+
+		// var file = "http://ringsdb.com/api/public/cards/";
+		var file = "../resource/cards.js";
+		var callback = function(data)
+		{
+			var filteredData = data.filter((card) => card.type_code === "attachment");
+			var content = filteredData.reduce(function(accumulator, card, i)
+			{
+				var item = JSON.stringify(card);
+				return accumulator + item + (i < filteredData.length - 1 ? ", " : "");
+			}, "[");
+			content += "]";
+			document.getElementById("panel").innerHTML = content;
+		}
+		JSONFileLoader.loadFile(file, callback);
+		document.getElementById("panel").innerHTML = "Working...";
+	</script>
+</body>
+
+</html>
