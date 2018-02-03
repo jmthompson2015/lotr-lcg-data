@@ -10,7 +10,7 @@
       "text": "<b>Setup:</b> Search the encounter deck for 1 copy of the Forest Spider and 1 copy of the Old Forest Road, and add them to the staging area. Then, shuffle the encounter deck.",
       "flavor": "You are traveling through Mirkwood forest, carrying an urgent message from King Thanduil to the Lady Galadriel of Lorien. As you move along the dark trail, the spiders gather around you...",
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Passage Through Mirkwood/Flies-and-Spiders-1A.jpg"
+      "image": "quest-card/Passage Through Mirkwood/Flies-and-Spiders-1A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -23,7 +23,7 @@
       "flavor": "The nastiest things they saw were the cobwebs; dark dense cobwebs, with threads extraordinarily thick, often stretched from tree to tree, or tangled in the lower branches on either side of them. There were none stretched across the path, but whether because some magic kept it clear, or for what other reasons they could not guess.\n<cite>The Hobbit</cite>",
       "quest_points": 8,
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Passage Through Mirkwood/Flies-and-Spiders-1B.jpg"
+      "image": "quest-card/Passage Through Mirkwood/Flies-and-Spiders-1B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -35,7 +35,7 @@
       "sequence": "2A",
       "flavor": "As you move through Mirkwood, hounded by spiders, the forest path forks before you...",
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Passage Through Mirkwood/A-Fork-in-the-Road-2A.jpg"
+      "image": "quest-card/Passage Through Mirkwood/A-Fork-in-the-Road-2A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -49,7 +49,7 @@
       "flavor": "Unsure of what lies ahead but spurred by the urgency of your message, you choose a path and proceed...",
       "quest_points": 2,
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Passage Through Mirkwood/A-Fork-in-the-Road-2B.jpg"
+      "image": "quest-card/Passage Through Mirkwood/A-Fork-in-the-Road-2B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -61,7 +61,7 @@
       "sequence": "3A",
       "flavor": "The trail winds into one of the darkest, most tangled parts of the forest...<br/>You sense that foul, dark presence is hunting you, and you move quickly in an attempt to avoid its evil.",
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Passage Through Mirkwood/A-Chosen-Path-Don't-Leave-the-Path-3A.jpg"
+      "image": "quest-card/Passage Through Mirkwood/A-Chosen-Path-Don't-Leave-the-Path-3A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -75,7 +75,7 @@
       "flavor": "The shadows grow darker, and you realize that a foul presence is aiming to draw you from the path. You must defeat it to pass this way.",
       "quest_points": 0,
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Passage Through Mirkwood/A-Chosen-Path-Don't-Leave-the-Path-3B.jpg"
+      "image": "quest-card/Passage Through Mirkwood/A-Chosen-Path-Don't-Leave-the-Path-3B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -87,7 +87,7 @@
       "sequence": "3A",
       "flavor": "The trail winds into one of the darkest, most tangled parts of the forest...<br/>You sense that foul, dark presence is hunting you, and you move quickly in an attempt to avoid its evil.",
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Passage Through Mirkwood/A-Chosen-Path-Beorn's-Path-3A.jpg"
+      "image": "quest-card/Passage Through Mirkwood/A-Chosen-Path-Beorn's-Path-3A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -100,7 +100,7 @@
       "text": "Players cannot defeat this stage while Ungoliant's Spawn is in play. If players defeat this stage, they have won the game.",
       "quest_points": 10,
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Passage Through Mirkwood/A-Chosen-Path-Beorn's-Path-3B.jpg"
+      "image": "quest-card/Passage Through Mirkwood/A-Chosen-Path-Beorn's-Path-3B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -113,7 +113,7 @@
       "text": "<b>Setup:</b> Search the encounter deck for the 3 objective cards, reveal and place them in the staging area. Also, place the Nazgûl of Dol Guldur face up but out of play, alongside the quest deck. Then, shuffle the encounter deck, and attach 1 encounter to each objective card.",
       "flavor": "The Lady Galadriel of Lórien has asked you to investigate the area in the vicinity of Dol Guldur. While doing so, one of your allies was ambushed by Orcs, captured, and is now held in a dungeon cell...",
       "encounter_sets": ["Escape from Dol Guldur", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Escape from Dol Guldur/The-Necromancer's-Tower-1A.jpg"
+      "image": "quest-card/Escape from Dol Guldur/The-Necromancer's-Tower-1A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -126,7 +126,7 @@
       "text": "<b>When Revealed:</b> Randomly select 1 hero card (among all the heroes controlled by the players) and turn it facedown. The hero is now considered a \"prisoner\", cannot be used, cannot be damaged, and does not collect resources, until it is \"rescued\" (as instructed by card effects) later in this quest.<br/>The players, as a group, cannot play more than 1 ally card each round.<br/><b>Players cannot advance to the next stage of this quest unless they have at least 1 objective card.</b>",
       "quest_points": 9,
       "encounter_sets": ["Escape from Dol Guldur", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Escape from Dol Guldur/The-Necromancer's-Tower-1B.jpg"
+      "image": "quest-card/Escape from Dol Guldur/The-Necromancer's-Tower-1B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -138,7 +138,7 @@
       "sequence": "2A",
       "flavor": "Finding a hidden entrance to the dungeons of Dol Guldur at last, you attempt to make your way through the caverns beneath the hill, searching for your imprisoned friend. The denizens of this labyrinth stand in your way, while the jailors protect the prisoner.",
       "encounter_sets": ["Escape from Dol Guldur", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Escape from Dol Guldur/Through-the-Caverns-2A.jpg"
+      "image": "quest-card/Escape from Dol Guldur/Through-the-Caverns-2A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -151,7 +151,7 @@
       "text": "<b>Response:</b> After placing any number of progress tokens on this card, flip the \"prisoner\" hero card face-up, and place 1 damage token on it. The hero has been \"rescued\" and may now be used by its controller.<br/>The players, as a group, cannot play more than 1 ally card each round.<br/><b>Players cannot advance to the next stage of the quest unless they have rescued the prisoner and have all 3 \"Escape from Dol Guldur\" objective cards.",
       "quest_points": 15,
       "encounter_sets": ["Escape from Dol Guldur", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Escape from Dol Guldur/Through-the-Caverns-2B.jpg"
+      "image": "quest-card/Escape from Dol Guldur/Through-the-Caverns-2B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -163,7 +163,7 @@
       "sequence": "3A",
       "flavor": "Following a thread of sunlight, you discover a cavern opening leading out through the side of the hill. Stationed outside the cave–mouth, however, is a large group of Orcs.",
       "encounter_sets": ["Escape from Dol Guldur", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Escape from Dol Guldur/Out-of-the-Dungeons-3A.jpg"
+      "image": "quest-card/Escape from Dol Guldur/Out-of-the-Dungeons-3A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -176,7 +176,7 @@
       "text": "<b>Forced:</b> At the beginning of each quest phase, each player places the top card of his deck, face down in front of him as if it just engaged him from the staging area. These cards are called \"Orc Guard\" and act as enemies with: 1 hit point, 1 Attack, and 1 Defense.<br/><b>Players cannot defeat this stage while Nazgûl of Dol Guldur is in play. If this stage is defeated and Nazgûl of Dol Guldur is not in play, the players have won the game.</b>",
       "quest_points": 7,
       "encounter_sets": ["Escape from Dol Guldur", "Spiders of Mirkwood", "Dol Guldur Orcs"],
-      "image": "scenario-card/Escape from Dol Guldur/Out-of-the-Dungeons-3B.jpg"
+      "image": "quest-card/Escape from Dol Guldur/Out-of-the-Dungeons-3B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -189,7 +189,7 @@
       "text": "<b>Setup:</b> Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area.",
       "flavor": "Emerging from Mirkwood Forest with an urgent message from Lady Galadriel, you must make your way south along the Anduin River in order to reach the forest of Lórien. As you leave the forest behind, you notice that you are being pursued, and thus quicken your pace...",
       "encounter_sets": ["Journey Along the Anduin", "Sauron's Reach", "Dol Guldur Orcs", "Wilderlands"],
-      "image": "scenario-card/Journey Along the Anduin/To-the-River-1A.jpg"
+      "image": "quest-card/Journey Along the Anduin/To-the-River-1A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -203,7 +203,7 @@
       "flavor": "As you approach the location of a small raft stashed on the riverbank, a fearsome Hill Troll emerges from behind a grouping of rocks, and attacks!",
       "quest_points": 8,
       "encounter_sets": ["Journey Along the Anduin", "Sauron's Reach", "Dol Guldur Orcs", "Wilderlands"],
-      "image": "scenario-card/Journey Along the Anduin/To-the-River-1B.jpg"
+      "image": "quest-card/Journey Along the Anduin/To-the-River-1B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -215,7 +215,7 @@
       "sequence": "2A",
       "flavor": "After defeating the Troll, you are able to board the raft and embark upon a river voyage. As you depart, your enemies pursue, harassing the small vessel as you attempt to navigate the river...",
       "encounter_sets": ["Journey Along the Anduin", "Sauron's Reach", "Dol Guldur Orcs", "Wilderlands"],
-      "image": "scenario-card/Journey Along the Anduin/Anduin-Passage-2A.jpg"
+      "image": "quest-card/Journey Along the Anduin/Anduin-Passage-2A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -229,7 +229,7 @@
       "flavor": "As your enemies harass the raft, it is difficult to maintain balance and effectively fight them off.",
       "quest_points": 16,
       "encounter_sets": ["Journey Along the Anduin", "Sauron's Reach", "Dol Guldur Orcs", "Wilderlands"],
-      "image": "scenario-card/Journey Along the Anduin/Anduin-Passage-2B.jpg"
+      "image": "quest-card/Journey Along the Anduin/Anduin-Passage-2B.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -241,7 +241,7 @@
       "sequence": "3A",
       "flavor": "The ongoing harassment from your enemies has forced your raft to the shore, and you must now confront their ambush head on. If you survive this attack, your path to the Golden Wood should be open before you...",
       "encounter_sets": ["Journey Along the Anduin", "Sauron's Reach", "Dol Guldur Orcs", "Wilderlands"],
-      "image": "scenario-card/Journey Along the Anduin/Ambush-on-the-Shore-3A.jpg"
+      "image": "quest-card/Journey Along the Anduin/Ambush-on-the-Shore-3A.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -254,7 +254,7 @@
       "text": "<b>When Revealed:</b> Reveal 2 encounter cards per player, and add them to the staging area.<br/>Skip the staging step of the quest phase for the remainder of the game.<br/><b>Once there are no enemies in play, the players have won the game.</b>",
       "quest_points": 0,
       "encounter_sets": ["Journey Along the Anduin", "Sauron's Reach", "Dol Guldur Orcs", "Wilderlands"],
-      "image": "scenario-card/Journey Along the Anduin/Ambush-on-the-Shore-3B.jpg"
+      "image": "quest-card/Journey Along the Anduin/Ambush-on-the-Shore-3B.jpg"
    },
    {
       "pack_name": "The Hunt for Gollum",
@@ -267,7 +267,7 @@
       "text": "<b>Setup:</b> Reveal 1 card per player from the encounter deck, and add it to the staging area.",
       "flavor": "Gandalf has requested your assistance in the search for the elusive creature known as Gollum. Your search begins in the Anduin Valley between Mirkwood Forest and the Misty Mountains",
       "encounter_sets": ["The Hunt for Gollum", "Journey Along the Anduin", "Sauron's Reach"],
-      "image": "scenario-card/The Hunt for Gollum/The-Hunt-Begins-1A.jpg"
+      "image": "quest-card/The Hunt for Gollum/The-Hunt-Begins-1A.jpg"
    },
    {
       "pack_name": "The Hunt for Gollum",
@@ -281,7 +281,7 @@
       "flavor": "You make your way along the banks of the Anduin River, a likely place for Gollum to find food.",
       "quest_points": 8,
       "encounter_sets": ["The Hunt for Gollum", "Journey Along the Anduin", "Sauron's Reach"],
-      "image": "scenario-card/The Hunt for Gollum/The-Hunt-Begins-1B.jpg"
+      "image": "quest-card/The Hunt for Gollum/The-Hunt-Begins-1B.jpg"
    },
    {
       "pack_name": "The Hunt for Gollum",
@@ -293,7 +293,7 @@
       "sequence": "2A",
       "flavor": "The wood was full of the rumor of him, dreadful tales even among beasts and birds. The Woodmen said that there was some new terror abroad, a ghost that drank blood.\n<cite>The Fellowship of the Ring</cite>",
       "encounter_sets": ["The Hunt for Gollum", "Journey Along the Anduin", "Sauron's Reach"],
-      "image": "scenario-card/The Hunt for Gollum/A-New-Terror-Abroad-2A.jpg"
+      "image": "quest-card/The Hunt for Gollum/A-New-Terror-Abroad-2A.jpg"
    },
    {
       "pack_name": "The Hunt for Gollum",
@@ -307,7 +307,7 @@
       "flavor": "Rumors have led you to the eaves of Mirkwood Forest, where the Woodmen whisper of a new terror in the night...",
       "quest_points": 10,
       "encounter_sets": ["The Hunt for Gollum", "Journey Along the Anduin", "Sauron's Reach"],
-      "image": "scenario-card/The Hunt for Gollum/A-New-Terror-Abroad-2B.jpg"
+      "image": "quest-card/The Hunt for Gollum/A-New-Terror-Abroad-2B.jpg"
    },
    {
       "pack_name": "The Hunt for Gollum",
@@ -319,7 +319,7 @@
       "sequence": "3A",
       "flavor": "\"But at the western edge of Mirkwood the trail turned away. It wandered off southwards and passed out of the Wood–elves' ken, and was lost.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
       "encounter_sets": ["The Hunt for Gollum", "Journey Along the Anduin", "Sauron's Reach"],
-      "image": "scenario-card/The Hunt for Gollum/On-the-Trail-3A.jpg"
+      "image": "quest-card/The Hunt for Gollum/On-the-Trail-3A.jpg"
    },
    {
       "pack_name": "The Hunt for Gollum",
@@ -332,7 +332,7 @@
       "text": "Any player who does not control a hero with at least 1 <b>Clue</b> objective attached cannot commit characters to this quest. If there are ever no heroes with <b>Clue</b> objectives attached in play, reset the quest deck to stage 2B.<br/><b>If the players defeat this stage, the players have once again found a true sign of Gollum's passing, and won the game.</b>",
       "quest_points": 8,
       "encounter_sets": ["The Hunt for Gollum", "Journey Along the Anduin", "Sauron's Reach"],
-      "image": "scenario-card/The Hunt for Gollum/On-the-Trail-3B.jpg"
+      "image": "quest-card/The Hunt for Gollum/On-the-Trail-3B.jpg"
    },
    {
       "pack_name": "Conflict at the Carrock",
@@ -345,7 +345,7 @@
       "text": "<b>Setup:</b> Add The Carrock to the staging area. Remove 4 unique <b>Troll</b> cards and 4 copies of the \"Sacked!\" card from the encounter deck and set them aside, out of play. Then shuffle 1 \"Sacked!\" card per player back into the encounter deck.",
       "flavor": "While searching for Gollum in the Anduin valley, you receive word that a group of Trolls have come to the Carrock.",
       "encounter_sets": ["Conflict at the Carrock", "Journey Along the Anduin", "Wilderlands"],
-      "image": "scenario-card/Conflict at the Carrock/Grimbeorn's-Quest-1A.jpg"
+      "image": "quest-card/Conflict at the Carrock/Grimbeorn's-Quest-1A.jpg"
    },
    {
       "pack_name": "Conflict at the Carrock",
@@ -359,7 +359,7 @@
       "flavor": "As this area is under the watch of the Beornings, you seek out their leader, Grimbeorn the Old, and discover he has already set out in a rage. You follow, hoping to find him before he confronts the Trolls.",
       "quest_points": 7,
       "encounter_sets": ["Conflict at the Carrock", "Journey Along the Anduin", "Wilderlands"],
-      "image": "scenario-card/Conflict at the Carrock/Grimbeorn's-Quest-1B.jpg"
+      "image": "quest-card/Conflict at the Carrock/Grimbeorn's-Quest-1B.jpg"
    },
    {
       "pack_name": "Conflict at the Carrock",
@@ -371,7 +371,7 @@
       "sequence": "2A",
       "flavor": "You approach the Carrock, and find that the Trolls have been watching you from the top of the rocky river landmark. As you approach, the Trolls close in and attack!",
       "encounter_sets": ["Conflict at the Carrock", "Journey Along the Anduin", "Wilderlands"],
-      "image": "scenario-card/Conflict at the Carrock/Against-the-Trolls-2A.jpg"
+      "image": "quest-card/Conflict at the Carrock/Against-the-Trolls-2A.jpg"
    },
    {
       "pack_name": "Conflict at the Carrock",
@@ -385,7 +385,7 @@
       "flavor": "As you approach, the Trolls close in and attack!",
       "quest_points": 1,
       "encounter_sets": ["Conflict at the Carrock", "Journey Along the Anduin", "Wilderlands"],
-      "image": "scenario-card/Conflict at the Carrock/Against-the-Trolls-2B.jpg"
+      "image": "quest-card/Conflict at the Carrock/Against-the-Trolls-2B.jpg"
    },
    {
       "pack_name": "A Journey to Rhosgobel",
@@ -398,7 +398,7 @@
       "text": "<b>Setup:</b> Search the encounter deck for Rhosgobel and Wilyador, and add them to the staging area with 2 damage tokens on Wilyador. Then, shuffle the encounter deck.",
       "flavor": "After a fierce conflict with a group of Trolls, you come across a fallen Eagle, grievously wounded and on the verge of death.",
       "encounter_sets": ["A Journey to Rhosgobel"],
-      "image": "scenario-card/A Journey to Rhosgobel/The-Wounded-Eagle-1A.jpg"
+      "image": "quest-card/A Journey to Rhosgobel/The-Wounded-Eagle-1A.jpg"
    },
    {
       "pack_name": "A Journey to Rhosgobel",
@@ -411,7 +411,7 @@
       "flavor": "The Eagle's wounds cannot be tended in the wilderness, so you attempt to bring the creature to Rhosgobel, where the wisdom of Radagast the Brown may be its only hope.",
       "quest_points": 8,
       "encounter_sets": ["A Journey to Rhosgobel"],
-      "image": "scenario-card/A Journey to Rhosgobel/The-Wounded-Eagle-1B.jpg"
+      "image": "quest-card/A Journey to Rhosgobel/The-Wounded-Eagle-1B.jpg"
    },
    {
       "pack_name": "A Journey to Rhosgobel",
@@ -423,7 +423,7 @@
       "sequence": "2A",
       "flavor": "The Eagle's health has grown worse, but you have at last arrived at Rhosgobel, where Radagast examines the bird. He then asks you to head out into the wilderness to find the healing plant, Athelas. Meantime, any healing lore or supplies your party has it its disposal could be used to assist in comforting the Eagle until you return.",
       "encounter_sets": ["A Journey to Rhosgobel"],
-      "image": "scenario-card/A Journey to Rhosgobel/Radagast's-Request-2A.jpg"
+      "image": "quest-card/A Journey to Rhosgobel/Radagast's-Request-2A.jpg"
    },
    {
       "pack_name": "A Journey to Rhosgobel",
@@ -436,7 +436,7 @@
       "text": "<b>Reponse:</b> After the quest phase begins, the first player may place X damage tokens on Wilyador to look at the top 3 cards of the encounter deck. Reveal and add 1 of these cards to the staging area, and discard the other 2. X is the number of players in the game.<br/><b>Forced:</b> After a card effect heals Wilyador, remove that card from the game.",
       "quest_points": 12,
       "encounter_sets": ["A Journey to Rhosgobel"],
-      "image": "scenario-card/A Journey to Rhosgobel/Radagast's-Request-2B.jpg"
+      "image": "quest-card/A Journey to Rhosgobel/Radagast's-Request-2B.jpg"
    },
    {
       "pack_name": "A Journey to Rhosgobel",
@@ -448,7 +448,7 @@
       "sequence": "3A",
       "flavor": "Feeling that time is runing out on Wilyador's life, you gather the Athelas you have found and head back to Rhosgobel. You arrive at night, wondering if you have found enough of the herb...",
       "encounter_sets": ["A Journey to Rhosgobel"],
-      "image": "scenario-card/A Journey to Rhosgobel/Return-to-Rhosgobel-3A.jpg"
+      "image": "quest-card/A Journey to Rhosgobel/Return-to-Rhosgobel-3A.jpg"
    },
    {
       "pack_name": "A Journey to Rhosgobel",
@@ -461,7 +461,7 @@
       "text": "<b>When Revealed:</b> Heal 5 wounds from Wilyador for each Athelas objective card the players control.<br/><b>If Wilyador is completely healed when this effect resolves, Wilyador survives and the players have won the game. Otherwise, the players have lost the game.</b>",
       "quest_points": 0,
       "encounter_sets": ["A Journey to Rhosgobel"],
-      "image": "scenario-card/A Journey to Rhosgobel/Return-to-Rhosgobel-3B.jpg"
+      "image": "quest-card/A Journey to Rhosgobel/Return-to-Rhosgobel-3B.jpg"
    },
    {
       "pack_name": "The Hills of Emyn Muil",
@@ -474,7 +474,7 @@
       "text": "<b>Setup:</b> Search the encounter deck for Amon Hen and Amon Lhaw, and add them to the staging area. Then shuffle the encounter deck.",
       "flavor": "The hunt for Gollum has led you to the south, and you are now approaching Rauros falls and the nearby hills of Emyn Muil...",
       "encounter_sets": ["The Hills of Emyn Muil", "Dol Guldur Orcs", "Sauron's Reach"],
-      "image": "scenario-card/The Hills of Emyn Muil/The-Hills-of-Emyn-Muil-1A.jpg"
+      "image": "quest-card/The Hills of Emyn Muil/The-Hills-of-Emyn-Muil-1A.jpg"
    },
    {
       "pack_name": "The Hills of Emyn Muil",
@@ -488,7 +488,7 @@
       "flavor": "You are certain that Gollum has fled into the area, and you must explore until you find the fresh trail.",
       "quest_points": 1,
       "encounter_sets": ["The Hills of Emyn Muil", "Dol Guldur Orcs", "Sauron's Reach"],
-      "image": "scenario-card/The Hills of Emyn Muil/The-Hills-of-Emyn-Muil-1B.jpg"
+      "image": "quest-card/The Hills of Emyn Muil/The-Hills-of-Emyn-Muil-1B.jpg"
    },
    {
       "pack_name": "The Dead Marshes",
@@ -501,7 +501,7 @@
       "text": "<b>Setup:</b> Search the encounter deck for Gollum, and add it to the staging area. Shuffle the encounter deck, then reveal 1 card per player from the encounter deck and add it to the staging area.",
       "flavor": "You have followed Gollum's trail for days, and are now closing in fast pursuit. In a last ditch effort to escape you, the creature has fled to The Dead Marshes.",
       "encounter_sets": ["The Dead Marshes", "Sauron's Reach", "Wilderlands"],
-      "image": "scenario-card/The Dead Marshes/Into-the-Marshes-1A.jpg"
+      "image": "quest-card/The Dead Marshes/Into-the-Marshes-1A.jpg"
    },
    {
       "pack_name": "The Dead Marshes",
@@ -514,7 +514,7 @@
       "flavor": "'Yes, yes,' said Gollum. 'All dead, all rotten. Elves and Men and Orcs. The Dead Marshes. There was a great battle long ago, yes, so they told him when Smeagol was young, when I was young before the Precious came. It was a great battle. Tall Men with long swords, and terrible Elves and Orcses shrieking. They fought on the plain for days and months at the Black Gates. But the Marshes have grown since then, swallowed up the graves; always creeping, creeping.'\n<cite>The Two Towers.</cite>",
       "quest_points": 12,
       "encounter_sets": ["The Dead Marshes", "Sauron's Reach", "Wilderlands"],
-      "image": "scenario-card/The Dead Marshes/Into-the-Marshes-1B.jpg"
+      "image": "quest-card/The Dead Marshes/Into-the-Marshes-1B.jpg"
    },
    {
       "pack_name": "The Dead Marshes",
@@ -526,7 +526,7 @@
       "sequence": "2A",
       "flavor": "After a tiring pursuit through the treacherous marshland, you have cornered Gollum, and move in for the capture.",
       "encounter_sets": ["The Dead Marshes", "Sauron's Reach", "Wilderlands"],
-      "image": "scenario-card/The Dead Marshes/The-Capture-2A.jpg"
+      "image": "quest-card/The Dead Marshes/The-Capture-2A.jpg"
    },
    {
       "pack_name": "The Dead Marshes",
@@ -539,7 +539,7 @@
       "text": "<b>Forced:</b> After this stage is defeated, the first player chooses a player. That player must pass an Escape test, dealing 1 card from the encounter deck for each resource token on Gollum, to capture him. If Gollum is not captured at this time, reset the quest deck to stage 1B.<br/><b>If this final Escape test is passed, the players have captured Gollum and won the game.</b>",
       "quest_points": 3,
       "encounter_sets": ["The Dead Marshes", "Sauron's Reach", "Wilderlands"],
-      "image": "scenario-card/The Dead Marshes/The-Capture-2B.jpg"
+      "image": "quest-card/The Dead Marshes/The-Capture-2B.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -552,7 +552,7 @@
       "text": "<b>Setup:</b> Search the encounter deck for Gollum. Choose a player to guard Gollum at the start of the game, and place Gollum in front of that player. Then shuffle the encounter deck. Reveal 1 card per player from the encounter deck, and add it to the staging area.",
       "flavor": "Having captured Gollum, you must now escort him through Mirkwood Forest for interrogation at Thranduil's Palace.",
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "scenario-card/Return to Mirkwood/Through-the-Forest-1A.jpg"
+      "image": "quest-card/Return to Mirkwood/Through-the-Forest-1A.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -565,7 +565,7 @@
       "flavor": "Mirkwood is always a dangerous place, but it is even worse with Gollum. Between the outbursts, tantrums, and the flying provisions, you are not afforded a moment's peace.",
       "quest_points": 12,
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "scenario-card/Return to Mirkwood/Through-the-Forest-1B.jpg"
+      "image": "quest-card/Return to Mirkwood/Through-the-Forest-1B.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -577,7 +577,7 @@
       "sequence": "2A",
       "flavor": "As soon as he thinks that no one is watching, Gollum attempts to slip his bonds and escape.",
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "scenario-card/Return to Mirkwood/Escape-Attempt-2A.jpg"
+      "image": "quest-card/Return to Mirkwood/Escape-Attempt-2A.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -590,7 +590,7 @@
       "text": "The player guarding Gollum cannot commit characters to this quest (unless he is the only player remaining in the game).<br/>If the player quest unsuccessfully, Gollum escapes and the player have lost the game.",
       "quest_points": 3,
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "scenario-card/Return to Mirkwood/Escape-Attempt-2B.jpg"
+      "image": "quest-card/Return to Mirkwood/Escape-Attempt-2B.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -602,7 +602,7 @@
       "sequence": "3A",
       "flavor": "Having thwarted Gollum's escape attempt, you tighten his rope and push on through Mirkwood, to Thranduil's palace.",
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "scenario-card/Return to Mirkwood/To-the-Elven-King's-Halls-3A.jpg"
+      "image": "quest-card/Return to Mirkwood/To-the-Elven-King's-Halls-3A.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -615,7 +615,7 @@
       "text": "The player guarding Gollum cannot play cards from his hand.",
       "quest_points": 7,
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "scenario-card/Return to Mirkwood/To-the-Elven-King's-Halls-3B.jpg"
+      "image": "quest-card/Return to Mirkwood/To-the-Elven-King's-Halls-3B.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -627,7 +627,7 @@
       "sequence": "4A",
       "flavor": "As you make the final push to Thranduil's Palace, your enemies make a desperate attempt to ambush your party, and seize Gollum for themselves.",
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "scenario-card/Return to Mirkwood/Ambush-4A.jpg"
+      "image": "quest-card/Return to Mirkwood/Ambush-4A.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -640,6 +640,6 @@
       "text": "<b>Forced:</b> At the beginning of the combat phase, all enemies in play engage the player guarding Gollum.<br/><b>Players cannot defeat this stage if there are any enemies in play. If players defeat this stage, they have won the game.</b>",
       "quest_points": 2,
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "scenario-card/Return to Mirkwood/Ambush-4B.jpg"
+      "image": "quest-card/Return to Mirkwood/Ambush-4B.jpg"
    }
 ]
