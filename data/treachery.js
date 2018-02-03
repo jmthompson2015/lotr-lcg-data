@@ -46,7 +46,7 @@
       "position": 86,
       "name": "Despair",
       "text": "<b>When Revealed:</b> Remove 4 progress tokens from the current quest card. (If there are fewer than 4 progress tokens on the quest, remove all progress tokens from that quest.)",
-      "shadow_text": "<b>Shadow:</b> Defending character does not count its Defense.",
+      "shadow": "<b>Shadow:</b> Defending character does not count its Defense.",
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Wilderlands/Despair.jpg"
@@ -59,7 +59,7 @@
       "position": 92,
       "name": "Driven by Shadow",
       "text": "<b>When Revealed:</b> Each enemy and each location currently in the staging area gets +1 Threat until the end of the phase. If there are no cards in the staging area, Driven by Shadow gains surge.",
-      "shadow_text": "<b>Shadow:</b> Choose and discard 1 attachment from the defending character. (If this attack is undefended, discard all attachments you control.)",
+      "shadow": "<b>Shadow:</b> Choose and discard 1 attachment from the defending character. (If this attack is undefended, discard all attachments you control.)",
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Dol Guldur Orcs/Driven-by-Shadow.jpg"
@@ -85,7 +85,7 @@
       "position": 67,
       "name": "Exhaustion",
       "text": "<b>When Revealed:</b> Deal 2 damage to each exhausted character.",
-      "shadow_text": "<b>Shadow:</b> Deal 1 damage to each exhausted character.",
+      "shadow": "<b>Shadow:</b> Deal 1 damage to each exhausted character.",
       "quantity_easy": 1,
       "quantity": 3,
       "image": "encounter-card/A Journey to Rhosgobel/Exhaustion.jpg"
@@ -124,7 +124,7 @@
       "position": 69,
       "name": "Festering Wounds",
       "text": "<b>When Revealed:</b> Deal 2 damage to each wounded character.",
-      "shadow_text": "<b>Shadow:</b> Deal 1 damage to each wounded character. (2 damage instead if this attack is undefended.)",
+      "shadow": "<b>Shadow:</b> Deal 1 damage to each wounded character. (2 damage instead if this attack is undefended.)",
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/A Journey to Rhosgobel/Festering-Wounds.jpg"
@@ -138,7 +138,7 @@
       "name": "Flooding",
       "traits": "Disaster.",
       "text": "<b>When Revealed:</b> Remove all progress tokens from all <b>Riverland</b> locations.",
-      "shadow_text": "<b>Shadow:</b> Resolve the \"when revealed\" effect of this card.",
+      "shadow": "<b>Shadow:</b> Resolve the \"when revealed\" effect of this card.",
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Hunt for Gollum/Flooding.jpg"
@@ -152,7 +152,7 @@
       "name": "Gollum's Anguish",
       "traits": "Tantrum.",
       "text": "<b>When Revealed:</b> Raise the threat of the player guarding Gollum by 8. That player must choose a new player to guard Gollum, if able.",
-      "shadow_text": "<b>Shadow:</b> Raise the threat of the player guarding Gollum by 4.",
+      "shadow": "<b>Shadow:</b> Raise the threat of the player guarding Gollum by 4.",
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Return to Mirkwood/Gollum's-Anguish.jpg"
@@ -166,7 +166,7 @@
       "name": "Gollum's Bite",
       "traits": "Tantrum.",
       "text": "<b>When Revealed:</b> Deal 4 damage to a hero controlled by the player guarding Gollum. That player must choose a new player to guard Gollum, if able.",
-      "shadow_text": "<b>Shadow:</b> Deal 2 damage to a hero controlled by the player guarding Gollum.",
+      "shadow": "<b>Shadow:</b> Deal 2 damage to a hero controlled by the player guarding Gollum.",
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Return to Mirkwood/Gollum's-Bite.jpg"
@@ -192,7 +192,7 @@
       "position": 105,
       "name": "Iron Shackles",
       "text": "<b>When Revealed:</b> Attach Iron Shackles to the top of the first player's deck. (Counts as a Condition attachment with the text: \"The next time a player would draw 1 or more cards from attached deck, discard Iron Shackles instead.\")",
-      "shadow_text": "<b>Shadow:</b> Resolve the \"When Revealed\" effect of Iron Shackles.",
+      "shadow": "<b>Shadow:</b> Resolve the \"When Revealed\" effect of Iron Shackles.",
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Escape from Dol Guldur/Iron-Shackles.jpg"
@@ -205,7 +205,7 @@
       "position": 112,
       "name": "Massing at Night",
       "text": "<b>When Revealed:</b> Reveal X additional cards from the encounter deck. X is the number of players in the game.",
-      "shadow_text": "<b>Shadow:</b> Deal X shadow cards to this attacker. X is the number of players in the game.",
+      "shadow": "<b>Shadow:</b> Deal X shadow cards to this attacker. X is the number of players in the game.",
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/Journey Along the Anduin/Massing-at-Night.jpg"
@@ -245,7 +245,7 @@
       "position": 117,
       "name": "Pursued by Shadow",
       "text": "<b>When Revealed:</b> Each player raises his threat by 1 for each character he controls that is not currently committed to a quest.",
-      "shadow_text": "<b>Shadow:</b> Defending player chooses and returns 1 exhausted ally he controls to its owner's hand. If he controls no exhausted allies, raise his threat by 3.",
+      "shadow": "<b>Shadow:</b> Defending player chooses and returns 1 exhausted ally he controls to its owner's hand. If he controls no exhausted allies, raise his threat by 3.",
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Sauron's Reach/Pursued-by-Shadow.jpg"
@@ -258,7 +258,7 @@
       "position": 49,
       "name": "Roasted Slowly",
       "text": "<b>When Revealed:</b> Destroy all heroes with the card \"Sacked!\" attached. Then, shuffle Roasted Slowly back into the encounter deck.",
-      "shadow_text": "<b>Shadow:</b> If attacking enemy is a <b>Troll</b>, remove 2 damage tokens from it.",
+      "shadow": "<b>Shadow:</b> If attacking enemy is a <b>Troll</b>, remove 2 damage tokens from it.",
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Conflict at the Carrock/Roasted-Slowly.jpg"
@@ -272,7 +272,7 @@
       "name": "Rockslide",
       "traits": "Hazard.",
       "text": "<b>When Revealed:</b> Deal 2 damage to each character committed to this quest.",
-      "shadow_text": "<b>Shadow:</b> Remove defending character from combat. This attack is considered undefended.",
+      "shadow": "<b>Shadow:</b> Remove defending character from combat. This attack is considered undefended.",
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/The Hills of Emyn Muil/Rockslide.jpg"
@@ -285,7 +285,7 @@
       "position": 48,
       "name": "Sacked!",
       "text": "<b>When Revealed:</b> Attach to a hero with no \"Sacked!\" cards attached controlled by the first player. (Cannot be canceled.) Counts as a <b>Condition</b> attachment with the text: \"Attached hero cannot attack, defend, commit to a quest, trigger its effect, or collect resources.\"",
-      "shadow_text": "<b>Shadow:</b> If attacking enemy is a <b>Troll</b> resolve this card's \"when revealed\" effect.",
+      "shadow": "<b>Shadow:</b> If attacking enemy is a <b>Troll</b> resolve this card's \"when revealed\" effect.",
       "quantity_easy": 4,
       "quantity": 1,
       "image": "encounter-card/Conflict at the Carrock/Sacked.jpg"
@@ -311,7 +311,7 @@
       "position": 68,
       "name": "Swarming Insects",
       "text": "<b>When Revealed:</b> Deal 1 damage to each character without any attachments.",
-      "shadow_text": "<b>Shadow:</b> If a character (including Wilyador) has more damage than each other character, deal 3 additional damage to that character.",
+      "shadow": "<b>Shadow:</b> If a character (including Wilyador) has more damage than each other character, deal 3 additional damage to that character.",
       "quantity_easy": 1,
       "quantity": 3,
       "image": "encounter-card/A Journey to Rhosgobel/Swarming-Insects.jpg"
@@ -377,7 +377,7 @@
       "position": 104,
       "name": "Under the Shadow",
       "text": "<b>When Revealed:</b> Until the end of the phase, raise the total Threat in the staging area by X, where X is the number of players in the game.",
-      "shadow_text": "<b>Shadow:</b> Defending player raises his threat by the number of enemies with which he is engaged.",
+      "shadow": "<b>Shadow:</b> Defending player raises his threat by the number of enemies with which he is engaged.",
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Escape from Dol Guldur/Under-the-Shadow.jpg"
@@ -391,7 +391,7 @@
       "name": "Wasted Provisions",
       "traits": "Tantrum.",
       "text": "<b>When Revealed:</b> Discard the top 10 cards from the deck of the player guarding Gollum. That player must choose a new player to guard Gollum, if able.",
-      "shadow_text": "<b>Shadow:</b> Discard the top 5 cards from the deck of the player guarding Gollum.",
+      "shadow": "<b>Shadow:</b> Discard the top 5 cards from the deck of the player guarding Gollum.",
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Return to Mirkwood/Wasted-Provisions.jpg"
