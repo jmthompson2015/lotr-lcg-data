@@ -8,7 +8,7 @@
       "name": "Flies and Spiders",
       "sequence": "1A",
       "text": "<b>Setup:</b> Search the encounter deck for 1 copy of the Forest Spider and 1 copy of the Old Forest Road, and add them to the staging area. Then, shuffle the encounter deck.",
-      "flavor": "You are traveling through Mirkwood forest, carrying an urgent message from King Thanduil to the Lady Galadriel of Lorien. As you move along the dark trail, the spiders gather around you...",
+      "flavor": "You are traveling through Mirkwood forest, carrying an urgent message from King Thranduil to the Lady Galadriel of Lorien. As you move along the dark trail, the spiders gather around you...",
       "encounter_sets": ["Passage Through Mirkwood", "Spiders of Mirkwood", "Dol Guldur Orcs"],
       "image": "quest-card/Passage Through Mirkwood/Flies-and-Spiders-1A.jpg"
    },
