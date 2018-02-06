@@ -1,36 +1,28 @@
 "use strict";
 
-var FileLoader = {};
-
-FileLoader.loadFile = function(file, callback)
+define(["js/FileLoader"], function(FileLoader)
 {
-   var xhr = new XMLHttpRequest();
-   xhr.onreadystatechange = function()
+   var JSONFileLoader = {};
+
+   JSONFileLoader.loadFile = function(filepath, callback)
    {
-      if (xhr.readyState === 4 /* && xhr.status === 200 */ )
+      // InputValidator.validateIsString("filepath", filepath);
+      // InputValidator.validateIsFunction("callback", callback);
+
+      var finishCallback = function(response)
       {
-         callback(xhr.responseText);
-      }
+         finishConvert(response, callback);
+      };
+
+      FileLoader.loadFile(filepath, finishCallback);
    };
-   xhr.open('GET', file, true);
-   xhr.send(null);
-};
 
-var JSONFileLoader = {};
-
-JSONFileLoader.loadFile = function(filepath, callback)
-{
-   var finishCallback = function(response)
+   function finishConvert(response, callback)
    {
-      finishConvert(response, callback);
-   };
+      var content = JSON.parse(response);
 
-   FileLoader.loadFile(filepath, finishCallback);
-};
+      callback(content);
+   }
 
-function finishConvert(response, callback)
-{
-   var content = JSON.parse(response);
-
-   callback(content);
-}
+   return JSONFileLoader;
+});

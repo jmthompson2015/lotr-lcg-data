@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>RingsDB Hero</title>
-	<script src="../js/JSONFileLoader.js"></script>
+	<script src="../../lib/requirejs/require-2.3.5.js" data-main="../../src/main"></script>
 </head>
 <body>
 	<h1>RingsDB Hero</h1>
@@ -10,21 +10,24 @@
 	<script>
 		"use strict";
 
-		var file = "http://ringsdb.com/api/public/cards/";
-		var callback = function(data)
+		require(["js/JSONFileLoader"], function(JSONFileLoader)
 		{
-			var filteredData = data.filter((card) => card.type_code === "hero");
-			var content = filteredData.reduce(function(accumulator, card, i)
+			var file = "http://ringsdb.com/api/public/cards/";
+			var callback = function(data)
 			{
-				var item = JSON.stringify(card);
-				return accumulator + item + (i < filteredData.length - 1 ? ", " : "");
-			}, "[");
-			content += "]";
-			console.log(content);
-			document.getElementById("panel").innerHTML = "See browser console for output.";
-		}
-		JSONFileLoader.loadFile(file, callback);
-		document.getElementById("panel").innerHTML = "Working...";
+				var filteredData = data.filter((card) => card.type_code === "hero");
+				var content = filteredData.reduce(function(accumulator, card, i)
+				{
+					var item = JSON.stringify(card);
+					return accumulator + item + (i < filteredData.length - 1 ? ", " : "");
+				}, "[");
+				content += "]";
+				console.log(content);
+				document.getElementById("panel").innerHTML = "See browser console for output.";
+			}
+			JSONFileLoader.loadFile(file, callback);
+			document.getElementById("panel").innerHTML = "Working...";
+		});
 	</script>
 </body>
 
