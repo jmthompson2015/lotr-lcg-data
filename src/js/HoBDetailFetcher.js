@@ -76,7 +76,7 @@ define(["js/FileLoader"], function(FileLoader)
       {
          var image = "encounter-card/" + data1.encounter_set.replace(/\"/g, "") + "/" + data0.imageFile;
          console.log("image = " + image);
-         detail.image = quote(image);
+         detail.image = image;
       }
 
       callback(detail);
@@ -87,13 +87,13 @@ define(["js/FileLoader"], function(FileLoader)
       // console.log("processStatBox() fragment = " + fragment);
 
       var fragment1 = extractBetween(fragment, "<div style=\"font-weight", "</div>", undefined, true);
-      var type_name = quote(extractContent(fragment1));
+      var type_name = extractContent(fragment1);
       var type_code = type_name.toLowerCase();
       console.log("type_code = " + type_code);
       console.log("type_name = " + type_name);
 
       fragment1 = extractBetween(fragment, "<a title=", "</a>", undefined, true);
-      var encounter_set = quote(extractAttribute(fragment1, "title"));
+      var encounter_set = extractAttribute(fragment1, "title");
       console.log("encounter_set = " + encounter_set);
 
       return (
@@ -108,10 +108,19 @@ define(["js/FileLoader"], function(FileLoader)
    {
       // console.log("processStatTextBox() fragment = " + fragment);
 
-      var fragment2 = extractBetween(fragment, "<div", "</div>", undefined, true);
+      var key1 = "<p class='main-text'>";
+      var key2 = "<p class='shadow-text'>";
+      var index1 = fragment.indexOf(key1);
+
+      if (index1 < 0)
+      {
+         index1 = fragment.indexOf(key2);
+      }
+
+      var fragment2 = fragment.substring(0, index1);
       var startKey = "<a";
       var endKey = "</a>";
-      var index1 = fragment2.indexOf(startKey);
+      index1 = fragment2.indexOf(startKey);
       var anchor, index2;
       var traits = "";
 
@@ -125,16 +134,28 @@ define(["js/FileLoader"], function(FileLoader)
          index1 = fragment2.indexOf(startKey, index2);
       }
 
-      traits = quote(traits);
+      if (traits.length === 0)
+      {
+         traits = undefined;
+      }
       console.log("traits = " + traits);
 
-      fragment2 = extractBetween(fragment, "<p class='main-text'>", "</p>", undefined, true);
-      var text = (fragment2 !== undefined ? quote(extractContent(fragment2)) : undefined);
+      fragment2 = extractBetween(fragment, key1, key2, undefined, true);
+      if (fragment2 === undefined || fragment2.length === 0)
+      {
+         fragment2 = extractBetween(fragment, key1, "</div>", undefined, true);
+      }
+
+      var text = (fragment2 !== undefined ? extractContent(fragment2) : undefined);
+      text = text.replace(/<\/p>/g, "");
+      text = text.replace(/<p>/g, "<br/>");
       text = (text !== undefined ? removeAnchor(text) : undefined);
+      text = (text !== undefined ? removeAnchor(text) : undefined);
+      text = text.trim();
       console.log("text = " + text);
 
-      fragment2 = extractBetween(fragment, "<p class='shadow-text'>", "</p>", undefined, true);
-      var shadow = (fragment2 !== undefined ? quote(extractContent(fragment2)) : undefined);
+      fragment2 = extractBetween(fragment, key2, "</p>", undefined, true);
+      var shadow = (fragment2 !== undefined ? extractContent(fragment2) : undefined);
       console.log("shadow = " + shadow);
 
       return (
@@ -161,34 +182,34 @@ define(["js/FileLoader"], function(FileLoader)
             {
                if (threat !== undefined)
                {
-                  quest_points = parts[i - 2].substring(0, parts[i - 2].indexOf("<"));
+                  quest_points = parseInt(parts[i - 2].substring(0, parts[i - 2].indexOf("<")));
                   console.log("quest_points = " + quest_points);
                }
                else
                {
-                  engagement_cost = parts[i - 2].substring(0, parts[i - 2].indexOf("<"));
+                  engagement_cost = parseInt(parts[i - 2].substring(0, parts[i - 2].indexOf("<")));
                   console.log("engagement_cost = " + engagement_cost);
                }
             }
          }
          else if (part.indexOf("threat-med.png") >= 0)
          {
-            threat = parts[i - 1].substring(0, parts[i - 1].indexOf("<"));
+            threat = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
             console.log("threat = " + threat);
          }
          else if (part.indexOf("attack-med.png") >= 0)
          {
-            attack = parts[i - 1].substring(0, parts[i - 1].indexOf("<"));
+            attack = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
             console.log("attack = " + attack);
          }
          else if (part.indexOf("defense-med.png") >= 0)
          {
-            defense = parts[i - 1].substring(0, parts[i - 1].indexOf("<"));
+            defense = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
             console.log("defense = " + defense);
          }
          else if (part.indexOf("heart-med.png") >= 0)
          {
-            hit_points = parts[i - 1].substring(0, parts[i - 1].indexOf("<"));
+            hit_points = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
             console.log("hit_points = " + hit_points);
          }
       });
@@ -206,7 +227,7 @@ define(["js/FileLoader"], function(FileLoader)
 
    function processTitleBox(fragment)
    {
-      console.log("processTitleBox() fragment = " + fragment);
+      // console.log("processTitleBox() fragment = " + fragment);
 
       var startKey = "<div";
       var endKey = "</div>";
@@ -223,7 +244,6 @@ define(["js/FileLoader"], function(FileLoader)
          name = name.substring(name.lastIndexOf(">") + 1);
       }
 
-      name = quote(name);
       console.log("name = " + name);
 
       startKey = "<a";
@@ -231,13 +251,13 @@ define(["js/FileLoader"], function(FileLoader)
       index = fragment.indexOf(startKey, index2);
       index2 = fragment.indexOf(endKey, index + 1);
       fragment1 = fragment.substring(index, index2 + endKey.length);
-      var pack_name = quote(extractContent(fragment1));
+      var pack_name = extractContent(fragment1);
       console.log("pack_name = " + pack_name);
 
       fragment1 = extractBetween(fragment, "<span", "</span>", index2, true);
       var positionQuantities = extractContent(fragment1);
       var index3 = positionQuantities.indexOf(" ");
-      var position = positionQuantities.substring(1, index3);
+      var position = parseInt(positionQuantities.substring(1, index3));
       console.log("position = " + position);
 
       var quantities = extractBetween(positionQuantities, "(", ")");
@@ -247,12 +267,12 @@ define(["js/FileLoader"], function(FileLoader)
       if (quantities.indexOf("/") >= 0)
       {
          var parts = quantities.split("/");
-         quantity_easy = parts[1].substring(1);
-         quantity = parts[0].substring(1) - quantity_easy;
+         quantity_easy = parseInt(parts[1].substring(1));
+         quantity = parseInt(parts[0].substring(1)) - quantity_easy;
       }
       else
       {
-         quantity = quantities.substring(1);
+         quantity_easy = quantities.substring(1);
       }
 
       console.log("quantity_easy = " + quantity_easy);
@@ -348,18 +368,6 @@ define(["js/FileLoader"], function(FileLoader)
       {
          detail[key] = value;
       }
-   }
-
-   function quote(value)
-   {
-      var answer = "";
-
-      if (value !== undefined)
-      {
-         answer = "\"" + value + "\"";
-      }
-
-      return answer;
    }
 
    function removeAnchor(text)
