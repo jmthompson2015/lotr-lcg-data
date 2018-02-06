@@ -92,6 +92,50 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
       HoBDetailFetcher.fetch(file, callback);
    });
 
+   QUnit.test("fetch() Objective Book of Mazarbul", function(assert)
+   {
+      // Setup.
+      var file = "http://hallofbeorn.com/LotR/Details/Book-of-Mazarbul-KD";
+      var callback = function(detail)
+      {
+         // Verify.
+         assert.ok(true, "test resumed from async operation");
+         assert.ok(detail);
+         // console.log("Objective detail: " + JSON.stringify(detail));
+
+         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.scenario_name, undefined, "scenario_name");
+         assert.equal(detail.encounter_set, "The Seventh Level", "encounter_set");
+         assert.equal(detail.type_code, "objective", "type_code");
+         assert.equal(detail.type_name, "Objective", "type_name");
+         assert.equal(detail.position, 24, "position");
+         assert.equal(detail.name, "Book of Mazarbul", "name");
+         assert.equal(detail.is_unique, true, "is_unique");
+         assert.equal(detail.sequence, undefined, "sequence");
+         assert.equal(detail.traits, "Item. Artifact.", "traits");
+         assert.equal(detail.text, "Restricted.<br/><b>Action:</b> Exhaust a hero to claim this objective. Then, attach Book of Mazarbul to that hero. (If detached, return Book of Mazarbul to the staging area.)<br/>Attached hero cannot attack and does not exhaust to commit to a quest.", "text");
+         assert.equal(detail.shadow, undefined, "shadow");
+         assert.equal(detail.flavor, undefined, "flavor");
+         assert.equal(detail.engagement_cost, undefined, "engagement_cost");
+         assert.equal(detail.threat, undefined, "threat");
+         assert.equal(detail.attack, undefined, "attack");
+         assert.equal(detail.defense, undefined, "defense");
+         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.quest_points, undefined, "quest_points");
+         assert.equal(detail.victory, undefined, "victory");
+         assert.equal(detail.encounter_sets, undefined, "encounter_sets");
+         assert.equal(detail.quantity_easy, 1, "quantity_easy");
+         assert.equal(detail.quantity, 0, "quantity");
+         assert.equal(detail.image, "encounter-card/The Seventh Level/Book-of-Mazarbul.jpg", "image");
+
+         done();
+      };
+
+      // Run.
+      var done = assert.async();
+      HoBDetailFetcher.fetch(file, callback);
+   });
+
    QUnit.test("fetch() Treachery Signs of Conflict", function(assert)
    {
       // Setup.
