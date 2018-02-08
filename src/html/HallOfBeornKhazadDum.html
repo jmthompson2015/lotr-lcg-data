@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hall of Beorn: Khazad-dum</title>
+	<script src="../../lib/requirejs/require-2.3.5.js" data-main="../../src/main"></script>
+</head>
+<body>
+	<div id="summaries" style="padding: 10px;"></div>
+	<div id="details" style="padding: 10px;"></div>
+	<div id="status" style="padding: 10px;"></div>
+	<script>
+		"use strict";
+
+		require(["js/HoBPackFetcher"], function(HoBPackFetcher)
+		{
+			var summaryFile = "http://hallofbeorn.com/LotR/Browse/Khazad-dum";
+			var startIndex = 13; // bypass player cards
+			var limit;
+
+			document.getElementById("status").innerHTML = "Working...";
+			var summaries;
+			var packFetcher = new HoBPackFetcher(summaryFile, startIndex, limit);
+			packFetcher.fetch(summaryCallback, detailCallback);
+
+			function summaryCallback(summariesIn)
+			{
+				summaries = summariesIn;
+				document.getElementById("summaries").innerHTML = "summaries.length = " + summaries.length;
+			}
+
+			function detailCallback(typeDetailMap)
+			{
+				var countString = HoBPackFetcher.TYPES.reduce((accumulator, type) =>
+				{
+					var myString = type + " length = " + typeDetailMap[type].length + "<br/>";
+					return accumulator + myString;
+				}, "");
+
+				document.getElementById("details").innerHTML = countString;
+
+				var count = HoBPackFetcher.TYPES.reduce((accumulator, type) => accumulator + typeDetailMap[type].length, startIndex);
+
+				if (count >= summaries.length + (typeDetailMap.quest.length / 2) || count - startIndex >= limit)
+				{
+					document.getElementById("status").innerHTML = "Done.";
+				}
+			}
+		});
+	</script>
+</body>
+
+</html>

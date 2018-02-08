@@ -33,9 +33,12 @@ define(["js/FileLoader"], function(FileLoader)
 
          if (anchor.indexOf("title=") >= 0 && anchor.indexOf("href=") >= 0 && anchor.indexOf("src=") >= 0)
          {
+            var href = extractAttribute(anchor, "href");
+            href = href.replace("Cards/Details/The-Mountains&#39;-Roots-KD", "LotR/Details/The-Mountains'-Roots-KD");
+
             var data = {
                "title": extractAttribute(anchor, "title"),
-               "href": extractAttribute(anchor, "href"),
+               "href": href,
                "src": extractAttribute(anchor, "src")
             };
             summaries.push(data);

@@ -21,7 +21,6 @@ define(["js/FileLoader"], function(FileLoader)
       // Advance to the main content section.
       content = extractFromTo(content, "<body>", "</body>");
       content = extractFromTo(content, "<section", "</section>");
-      // console.log("section: " + content);
 
       var key0 = "<div class=\"titleBox\"";
       var key1 = "<div class=\"statBox\"";
@@ -75,12 +74,12 @@ define(["js/FileLoader"], function(FileLoader)
       var fragment1 = extractBetween(fragment, "<div style=\"font-weight", "</div>", undefined, true);
       var type_name = extractContent(fragment1);
       var type_code = type_name.toLowerCase();
-      console.log("type_code = " + type_code);
-      console.log("type_name = " + type_name);
+      // console.log("type_code = " + type_code);
+      // console.log("type_name = " + type_name);
 
       fragment1 = extractBetween(fragment, "<a title=", "</a>", undefined, true);
       var encounter_set = extractAttribute(fragment1, "title");
-      console.log("encounter_set = " + encounter_set);
+      // console.log("encounter_set = " + encounter_set);
 
       var encounter_sets;
       if (type_code === "quest")
@@ -94,7 +93,7 @@ define(["js/FileLoader"], function(FileLoader)
             encounter_sets.push(part.substring(0, part.indexOf("\"")));
          }
 
-         console.log("encounter_sets = " + encounter_sets);
+         // console.log("encounter_sets = " + encounter_sets);
       }
 
       var data0 = {
@@ -141,7 +140,6 @@ define(["js/FileLoader"], function(FileLoader)
          index2 = fragment2.indexOf(endKey, index1 + 1);
          anchor = fragment2.substring(index1, index2 + endKey.length);
          var trait = extractContent(anchor);
-         // console.log("trait = " + trait);
          traits += trait;
          index1 = fragment2.indexOf(startKey, index2);
       }
@@ -150,7 +148,7 @@ define(["js/FileLoader"], function(FileLoader)
       {
          traits = undefined;
       }
-      console.log("traits = " + traits);
+      // console.log("traits = " + traits);
 
       fragment2 = extractBetween(fragment, key1, key2, undefined, true);
       if (fragment2 === undefined || fragment2.length === 0)
@@ -167,19 +165,19 @@ define(["js/FileLoader"], function(FileLoader)
       }
 
       var text = (fragment2 !== undefined ? extractContent(fragment2) : undefined);
-      text = text.replace(/<\/p>/g, "");
-      text = text.replace(/<p>/g, "<br/>");
-
-      while (text !== undefined && text.indexOf("<a") >= 0)
-      {
-         text = (text !== undefined ? removeAnchor(text) : undefined);
-      }
 
       if (text !== undefined)
       {
          text = text.trim();
+         text = text.replace(/<\/p>/g, "");
+         text = text.replace(/<p>/g, "<br/>");
+
+         while (text.indexOf("<a") >= 0)
+         {
+            text = removeAnchor(text);
+         }
       }
-      console.log("text = " + text);
+      // console.log("text = " + text);
 
       fragment2 = extractBetween(fragment, key3, "</p>", undefined, true);
       if (fragment2 === undefined || fragment2.length === 0)
@@ -199,11 +197,11 @@ define(["js/FileLoader"], function(FileLoader)
             flavor = flavor.substring(0, flavor.length - "</p>".length);
          }
       }
-      console.log("flavor = " + flavor);
+      // console.log("flavor = " + flavor);
 
       fragment2 = extractBetween(fragment, key2, "</p>", undefined, true);
       var shadow = (fragment2 !== undefined ? extractContent(fragment2) : undefined);
-      console.log("shadow = " + shadow);
+      // console.log("shadow = " + shadow);
 
       var data1;
 
@@ -247,7 +245,7 @@ define(["js/FileLoader"], function(FileLoader)
                   {
                      quest_points1 = undefined;
                   }
-                  console.log("quest_points1 = " + quest_points1);
+                  // console.log("quest_points1 = " + quest_points1);
                }
                else if (threat !== undefined)
                {
@@ -256,7 +254,7 @@ define(["js/FileLoader"], function(FileLoader)
                   {
                      quest_points = undefined;
                   }
-                  console.log("quest_points = " + quest_points);
+                  // console.log("quest_points = " + quest_points);
                }
                else
                {
@@ -265,29 +263,29 @@ define(["js/FileLoader"], function(FileLoader)
                   {
                      engagement_cost = undefined;
                   }
-                  console.log("engagement_cost = " + engagement_cost);
+                  // console.log("engagement_cost = " + engagement_cost);
                }
             }
          }
          else if (part.indexOf("threat-med.png") >= 0)
          {
             threat = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
-            console.log("threat = " + threat);
+            // console.log("threat = " + threat);
          }
          else if (part.indexOf("attack-med.png") >= 0)
          {
             attack = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
-            console.log("attack = " + attack);
+            // console.log("attack = " + attack);
          }
          else if (part.indexOf("defense-med.png") >= 0)
          {
             defense = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
-            console.log("defense = " + defense);
+            // console.log("defense = " + defense);
          }
          else if (part.indexOf("heart-med.png") >= 0)
          {
             hit_points = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
-            console.log("hit_points = " + hit_points);
+            // console.log("hit_points = " + hit_points);
          }
       });
 
@@ -330,7 +328,7 @@ define(["js/FileLoader"], function(FileLoader)
             name1 = name;
          }
 
-         console.log("name1 = " + name1);
+         // console.log("name1 = " + name1);
       }
       var is_unique = false;
 
@@ -340,7 +338,7 @@ define(["js/FileLoader"], function(FileLoader)
          name = name.substring(name.lastIndexOf(">") + 1);
       }
 
-      console.log("name = " + name);
+      // console.log("name = " + name);
 
       startKey = "<a";
       endKey = "</a>";
@@ -348,18 +346,18 @@ define(["js/FileLoader"], function(FileLoader)
       index2 = fragment.indexOf(endKey, index + 1);
       fragment1 = fragment.substring(index, index2 + endKey.length);
       var pack_name = extractContent(fragment1);
-      console.log("pack_name = " + pack_name);
+      // console.log("pack_name = " + pack_name);
 
       fragment1 = extractBetween(fragment, "<span", "</span>", index2, true);
       var positionQuantities = extractContent(fragment1);
       var index3 = positionQuantities.indexOf(" ");
       var position = parseInt(positionQuantities.substring(1, index3));
-      console.log("position = " + position);
+      // console.log("position = " + position);
 
       var quantities = extractBetween(positionQuantities, "(", ")");
       var quantity_easy = 0;
       var quantity = 0;
-      console.log("quantities = " + quantities);
+      // console.log("quantities = " + quantities);
 
       if (quantities.indexOf("/") >= 0)
       {
@@ -372,13 +370,13 @@ define(["js/FileLoader"], function(FileLoader)
          quantity_easy = parseInt(quantities.substring(1));
       }
 
-      console.log("quantity_easy = " + quantity_easy);
-      console.log("quantity = " + quantity);
+      // console.log("quantity_easy = " + quantity_easy);
+      // console.log("quantity = " + quantity);
 
       fragment1 = extractBetween(fragment, "<img", "/>", index2, true);
       var src = extractAttribute(fragment1, "src");
       var imageFile = src.substring(src.lastIndexOf("/") + 1);
-      console.log("imageFile = " + imageFile);
+      // console.log("imageFile = " + imageFile);
 
       var imageFile1;
 
@@ -388,7 +386,7 @@ define(["js/FileLoader"], function(FileLoader)
          fragment1 = extractBetween(fragment, "<img", "/>", index2, true);
          src = extractAttribute(fragment1, "src");
          imageFile1 = src.substring(src.lastIndexOf("/") + 1);
-         console.log("imageFile1 = " + imageFile1);
+         // console.log("imageFile1 = " + imageFile1);
       }
 
       var sequence, sequence1;
@@ -396,9 +394,9 @@ define(["js/FileLoader"], function(FileLoader)
       if (type_code === "quest")
       {
          sequence = imageFile.substring(imageFile.lastIndexOf("-") + 1, imageFile.lastIndexOf("."));
-         console.log("sequence = " + sequence);
+         // console.log("sequence = " + sequence);
          sequence1 = imageFile1.substring(imageFile1.lastIndexOf("-") + 1, imageFile1.lastIndexOf("."));
-         console.log("sequence1 = " + sequence1);
+         // console.log("sequence1 = " + sequence1);
       }
 
       var data0 = {
@@ -456,7 +454,7 @@ define(["js/FileLoader"], function(FileLoader)
          var type_code = statBoxData.type_code;
          var prefix = (type_code === "quest" ? "quest-card/" : "encounter-card/");
          var image = prefix + statBoxData.encounter_set + "/" + titleBoxData.imageFile;
-         console.log("image = " + image);
+         // console.log("image = " + image);
          detail.image = image;
       }
 
