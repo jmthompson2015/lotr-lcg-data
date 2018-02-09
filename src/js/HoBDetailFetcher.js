@@ -299,16 +299,28 @@ define(["js/FileLoader", "js/ParseUtilities"],
             else if (part.indexOf("threat-med.png") >= 0)
             {
                threat = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
+               if (Number.isNaN(threat))
+               {
+                  threat = undefined;
+               }
                // console.log("threat = " + threat);
             }
             else if (part.indexOf("attack-med.png") >= 0)
             {
                attack = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
+               if (Number.isNaN(attack))
+               {
+                  attack = undefined;
+               }
                // console.log("attack = " + attack);
             }
             else if (part.indexOf("defense-med.png") >= 0)
             {
                defense = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
+               if (Number.isNaN(defense))
+               {
+                  defense = undefined;
+               }
                // console.log("defense = " + defense);
             }
             else if (part.indexOf("heart-med.png") >= 0)

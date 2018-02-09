@@ -47,6 +47,49 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
       HoBDetailFetcher.fetch(file, callback);
    });
 
+   QUnit.test("fetch() Enemy The Nameless Fear", function(assert)
+   {
+      // Setup.
+      var file = "http://hallofbeorn.com/LotR/Details/The-Nameless-Fear-KD";
+      var callback = function(detail)
+      {
+         // Verify.
+         assert.ok(true, "test resumed from async operation");
+         assert.ok(detail);
+         // console.log("Enemy detail: " + JSON.stringify(detail));
+
+         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.encounter_set, "Flight from Moria", "encounter_set");
+         assert.equal(detail.type_code, "enemy", "type_code");
+         assert.equal(detail.type_name, "Enemy", "type_name");
+         assert.equal(detail.position, 25, "position");
+         assert.equal(detail.name, "The Nameless Fear", "name");
+         assert.equal(detail.is_unique, true, "is_unique");
+         assert.equal(detail.sequence, undefined, "sequence");
+         assert.equal(detail.traits, "Flame. Shadow.", "traits");
+         assert.equal(detail.text, "Immune to player card effects.<br/>The Nameless Fear cannot engage or be engaged.<br/>X is the number of victory points in the victory display.", "text");
+         assert.equal(detail.shadow, undefined, "shadow");
+         assert.equal(detail.flavor, undefined, "flavor");
+         assert.equal(detail.engagement_cost, 50, "engagement_cost");
+         assert.equal(detail.threat, undefined, "threat");
+         assert.equal(detail.attack, undefined, "attack");
+         assert.equal(detail.defense, undefined, "defense");
+         assert.equal(detail.hit_points, 27, "hit_points");
+         assert.equal(detail.quest_points, undefined, "quest_points");
+         assert.equal(detail.victory, undefined, "victory");
+         assert.equal(detail.encounter_sets, undefined, "encounter_sets");
+         assert.equal(detail.quantity_easy, 1, "quantity_easy");
+         assert.equal(detail.quantity, 0, "quantity");
+         assert.equal(detail.image, "encounter-card/Flight from Moria/The-Nameless-Fear.jpg", "image");
+
+         done();
+      };
+
+      // Run.
+      var done = assert.async();
+      HoBDetailFetcher.fetch(file, callback);
+   });
+
    QUnit.test("fetch() Location East-gate", function(assert)
    {
       // Setup.
@@ -335,6 +378,49 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.quantity_easy, 3, "quantity_easy");
          assert.equal(detail.quantity, 0, "quantity");
          assert.equal(detail.image, "encounter-card/Flight from Moria/New-Devilry.jpg", "image");
+
+         done();
+      };
+
+      // Run.
+      var done = assert.async();
+      HoBDetailFetcher.fetch(file, callback);
+   });
+
+   QUnit.test("fetch() Treachery Shadow of Fear", function(assert)
+   {
+      // Setup.
+      var file = "http://hallofbeorn.com/LotR/Details/Shadow-of-Fear-KD";
+      var callback = function(detail)
+      {
+         // Verify.
+         assert.ok(true, "test resumed from async operation");
+         assert.ok(detail);
+         // console.log("Treachery detail: " + JSON.stringify(detail));
+
+         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.encounter_set, "Flight from Moria", "encounter_set");
+         assert.equal(detail.type_code, "treachery", "type_code");
+         assert.equal(detail.type_name, "Treachery", "type_name");
+         assert.equal(detail.position, 27, "position");
+         assert.equal(detail.name, "Shadow of Fear", "name");
+         assert.equal(detail.is_unique, undefined, "is_unique");
+         assert.equal(detail.sequence, undefined, "sequence");
+         assert.equal(detail.traits, undefined, "traits");
+         assert.equal(detail.text, "<b>When Revealed:</b> The first player attaches Shadow of Fear to one of his heroes. Counts as a Condition attachment with the text:Limit 1 per hero. Attached hero cannot exhaust or ready and its text box is treated as if it were blank.<br><b>Action:</b> Pay 3 resources from attached hero's pool to discard this card.", "text");
+         assert.equal(detail.shadow, undefined, "shadow");
+         // flavor missing
+         assert.equal(detail.engagement_cost, undefined, "engagement_cost");
+         assert.equal(detail.threat, undefined, "threat");
+         assert.equal(detail.attack, undefined, "attack");
+         assert.equal(detail.defense, undefined, "defense");
+         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.quest_points, undefined, "quest_points");
+         assert.equal(detail.victory, undefined, "victory");
+         assert.equal(detail.encounter_sets, undefined, "encounter_sets");
+         assert.equal(detail.quantity_easy, 1, "quantity_easy");
+         assert.equal(detail.quantity, 2, "quantity");
+         assert.equal(detail.image, "encounter-card/Flight from Moria/Shadow-of-Fear.jpg", "image");
 
          done();
       };

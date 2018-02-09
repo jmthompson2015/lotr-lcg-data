@@ -109,7 +109,7 @@ define(function()
    {
       var answer = fragment;
 
-      var index = fragment.indexOf("<a");
+      var index = fragment.indexOf("<" + tag);
 
       if (index >= 0)
       {

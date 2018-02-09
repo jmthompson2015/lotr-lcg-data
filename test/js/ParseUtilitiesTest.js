@@ -88,12 +88,21 @@ define(["qunit", "js/ParseUtilities"], function(QUnit, ParseUtilities)
       assert.equal(ParseUtilities.removeImg(fragment, "a"), "<b>Shadow:</b> If this attack is undefended, raise your threat by <a title='Card: The Nameless Fear' href='/LotR/Details/The-Nameless-Fear-KD' target='_blank'>The Nameless Fear</a>'s Threat");
    });
 
-   QUnit.test("removeTag()", function(assert)
+   QUnit.test("removeTag() a", function(assert)
    {
       // Setup.
       var fragment = ParseUtilities.extractExclusive(statTextBox, "<p class='main-text'>", "</p>");
 
       // Run / Verify.
       assert.equal(ParseUtilities.removeTag(fragment, "a"), "<b>When Revealed:</b> If the players are not on stage 1, shuffle the current quest card into the quest deck, then reveal a new quest card. Otherwise, New Devilry gains Surge.");
+   });
+
+   QUnit.test("removeTag() blockquote", function(assert)
+   {
+      // Setup.
+      var fragment = "<b>When Revealed:</b> The first player attaches Shadow of Fear to one of his heroes. Counts as a Condition attachment with the text:<blockquote>Limit 1 per hero. Attached hero cannot exhaust or ready and its text box is treated as if it were blank.<br><b>Action:</b> Pay 3 resources from attached hero's pool to discard this card.</blockquote>";
+
+      // Run / Verify.
+      assert.equal(ParseUtilities.removeTag(fragment, "blockquote"), "<b>When Revealed:</b> The first player attaches Shadow of Fear to one of his heroes. Counts as a Condition attachment with the text:Limit 1 per hero. Attached hero cannot exhaust or ready and its text box is treated as if it were blank.<br><b>Action:</b> Pay 3 resources from attached hero's pool to discard this card.");
    });
 });
