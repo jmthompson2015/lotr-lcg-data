@@ -301,6 +301,49 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
       HoBDetailFetcher.fetch(file, callback);
    });
 
+   QUnit.test("fetch() Treachery New Devilry", function(assert)
+   {
+      // Setup.
+      var file = "http://hallofbeorn.com/LotR/Details/New-Devilry-KD";
+      var callback = function(detail)
+      {
+         // Verify.
+         assert.ok(true, "test resumed from async operation");
+         assert.ok(detail);
+         // console.log("Treachery detail: " + JSON.stringify(detail));
+
+         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.encounter_set, "Flight from Moria", "encounter_set");
+         assert.equal(detail.type_code, "treachery", "type_code");
+         assert.equal(detail.type_name, "Treachery", "type_name");
+         assert.equal(detail.position, 26, "position");
+         assert.equal(detail.name, "New Devilry", "name");
+         assert.equal(detail.is_unique, undefined, "is_unique");
+         assert.equal(detail.sequence, undefined, "sequence");
+         assert.equal(detail.traits, undefined, "traits");
+         assert.equal(detail.text, "<b>When Revealed:</b> If the players are not on stage 1, shuffle the current quest card into the quest deck, then reveal a new quest card. Otherwise, New Devilry gains Surge.", "text");
+         assert.equal(detail.shadow, "<b>Shadow:</b> If this attack is undefended, raise your threat by The Nameless Fear's Threat", "shadow");
+         // flavor missing
+         assert.equal(detail.engagement_cost, undefined, "engagement_cost");
+         assert.equal(detail.threat, undefined, "threat");
+         assert.equal(detail.attack, undefined, "attack");
+         assert.equal(detail.defense, undefined, "defense");
+         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.quest_points, undefined, "quest_points");
+         assert.equal(detail.victory, undefined, "victory");
+         assert.equal(detail.encounter_sets, undefined, "encounter_sets");
+         assert.equal(detail.quantity_easy, 3, "quantity_easy");
+         assert.equal(detail.quantity, 0, "quantity");
+         assert.equal(detail.image, "encounter-card/Flight from Moria/New-Devilry.jpg", "image");
+
+         done();
+      };
+
+      // Run.
+      var done = assert.async();
+      HoBDetailFetcher.fetch(file, callback);
+   });
+
    QUnit.test("fetch() Treachery Signs of Conflict", function(assert)
    {
       // Setup.
