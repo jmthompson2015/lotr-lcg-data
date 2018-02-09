@@ -1,7 +1,7 @@
 [
    {
       "pack_name": "Core Set",
-      "scenario_name": "Passage Through Mirkwood",
+      "encounter_set": "Passage Through Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 119,
@@ -14,7 +14,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Passage Through Mirkwood",
+      "encounter_set": "Passage Through Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 119,
@@ -27,7 +27,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Passage Through Mirkwood",
+      "encounter_set": "Passage Through Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 120,
@@ -39,7 +39,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Passage Through Mirkwood",
+      "encounter_set": "Passage Through Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 120,
@@ -53,7 +53,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Passage Through Mirkwood",
+      "encounter_set": "Passage Through Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 121,
@@ -65,7 +65,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Passage Through Mirkwood",
+      "encounter_set": "Passage Through Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 121,
@@ -79,7 +79,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Passage Through Mirkwood",
+      "encounter_set": "Passage Through Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 122,
@@ -91,7 +91,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Passage Through Mirkwood",
+      "encounter_set": "Passage Through Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 122,
@@ -104,7 +104,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Escape from Dol Guldur",
+      "encounter_set": "Escape from Dol Guldur",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 123,
@@ -117,7 +117,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Escape from Dol Guldur",
+      "encounter_set": "Escape from Dol Guldur",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 123,
@@ -130,7 +130,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Escape from Dol Guldur",
+      "encounter_set": "Escape from Dol Guldur",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 124,
@@ -142,7 +142,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Escape from Dol Guldur",
+      "encounter_set": "Escape from Dol Guldur",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 124,
@@ -155,7 +155,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Escape from Dol Guldur",
+      "encounter_set": "Escape from Dol Guldur",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 125,
@@ -167,7 +167,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Escape from Dol Guldur",
+      "encounter_set": "Escape from Dol Guldur",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 125,
@@ -180,7 +180,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Journey Along the Anduin",
+      "encounter_set": "Journey Along the Anduin",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 126,
@@ -193,7 +193,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Journey Along the Anduin",
+      "encounter_set": "Journey Along the Anduin",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 126,
@@ -207,7 +207,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Journey Along the Anduin",
+      "encounter_set": "Journey Along the Anduin",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 127,
@@ -219,7 +219,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Journey Along the Anduin",
+      "encounter_set": "Journey Along the Anduin",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 127,
@@ -233,7 +233,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Journey Along the Anduin",
+      "encounter_set": "Journey Along the Anduin",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 128,
@@ -245,7 +245,7 @@
    },
    {
       "pack_name": "Core Set",
-      "scenario_name": "Journey Along the Anduin",
+      "encounter_set": "Journey Along the Anduin",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 128,
@@ -258,7 +258,7 @@
    },
    {
       "pack_name": "The Hunt for Gollum",
-      "scenario_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 11,
@@ -271,7 +271,7 @@
    },
    {
       "pack_name": "The Hunt for Gollum",
-      "scenario_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 11,
@@ -285,7 +285,7 @@
    },
    {
       "pack_name": "The Hunt for Gollum",
-      "scenario_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 12,
@@ -297,7 +297,7 @@
    },
    {
       "pack_name": "The Hunt for Gollum",
-      "scenario_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 12,
@@ -311,7 +311,7 @@
    },
    {
       "pack_name": "The Hunt for Gollum",
-      "scenario_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 13,
@@ -323,7 +323,7 @@
    },
    {
       "pack_name": "The Hunt for Gollum",
-      "scenario_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 13,
@@ -336,7 +336,7 @@
    },
    {
       "pack_name": "Conflict at the Carrock",
-      "scenario_name": "Conflict at the Carrock",
+      "encounter_set": "Conflict at the Carrock",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 35,
@@ -349,7 +349,7 @@
    },
    {
       "pack_name": "Conflict at the Carrock",
-      "scenario_name": "Conflict at the Carrock",
+      "encounter_set": "Conflict at the Carrock",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 35,
@@ -363,7 +363,7 @@
    },
    {
       "pack_name": "Conflict at the Carrock",
-      "scenario_name": "Conflict at the Carrock",
+      "encounter_set": "Conflict at the Carrock",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 36,
@@ -375,7 +375,7 @@
    },
    {
       "pack_name": "Conflict at the Carrock",
-      "scenario_name": "Conflict at the Carrock",
+      "encounter_set": "Conflict at the Carrock",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 36,
@@ -389,7 +389,7 @@
    },
    {
       "pack_name": "A Journey to Rhosgobel",
-      "scenario_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 60,
@@ -402,7 +402,7 @@
    },
    {
       "pack_name": "A Journey to Rhosgobel",
-      "scenario_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 60,
@@ -415,7 +415,7 @@
    },
    {
       "pack_name": "A Journey to Rhosgobel",
-      "scenario_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 61,
@@ -427,7 +427,7 @@
    },
    {
       "pack_name": "A Journey to Rhosgobel",
-      "scenario_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 61,
@@ -440,7 +440,7 @@
    },
    {
       "pack_name": "A Journey to Rhosgobel",
-      "scenario_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 62,
@@ -452,7 +452,7 @@
    },
    {
       "pack_name": "A Journey to Rhosgobel",
-      "scenario_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 62,
@@ -465,7 +465,7 @@
    },
    {
       "pack_name": "The Hills of Emyn Muil",
-      "scenario_name": "The Hills of Emyn Muil",
+      "encounter_set": "The Hills of Emyn Muil",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 82,
@@ -478,7 +478,7 @@
    },
    {
       "pack_name": "The Hills of Emyn Muil",
-      "scenario_name": "The Hills of Emyn Muil",
+      "encounter_set": "The Hills of Emyn Muil",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 82,
@@ -492,7 +492,7 @@
    },
    {
       "pack_name": "The Dead Marshes",
-      "scenario_name": "The Dead Marshes",
+      "encounter_set": "The Dead Marshes",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 105,
@@ -505,7 +505,7 @@
    },
    {
       "pack_name": "The Dead Marshes",
-      "scenario_name": "The Dead Marshes",
+      "encounter_set": "The Dead Marshes",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 105,
@@ -518,7 +518,7 @@
    },
    {
       "pack_name": "The Dead Marshes",
-      "scenario_name": "The Dead Marshes",
+      "encounter_set": "The Dead Marshes",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 106,
@@ -530,7 +530,7 @@
    },
    {
       "pack_name": "The Dead Marshes",
-      "scenario_name": "The Dead Marshes",
+      "encounter_set": "The Dead Marshes",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 106,
@@ -543,7 +543,7 @@
    },
    {
       "pack_name": "Return to Mirkwood",
-      "scenario_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 126,
@@ -556,7 +556,7 @@
    },
    {
       "pack_name": "Return to Mirkwood",
-      "scenario_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 126,
@@ -569,7 +569,7 @@
    },
    {
       "pack_name": "Return to Mirkwood",
-      "scenario_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 127,
@@ -581,7 +581,7 @@
    },
    {
       "pack_name": "Return to Mirkwood",
-      "scenario_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 127,
@@ -594,7 +594,7 @@
    },
    {
       "pack_name": "Return to Mirkwood",
-      "scenario_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 128,
@@ -606,7 +606,7 @@
    },
    {
       "pack_name": "Return to Mirkwood",
-      "scenario_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 128,
@@ -619,7 +619,7 @@
    },
    {
       "pack_name": "Return to Mirkwood",
-      "scenario_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 129,
@@ -631,7 +631,7 @@
    },
    {
       "pack_name": "Return to Mirkwood",
-      "scenario_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
       "type_code": "quest",
       "type_name": "Quest",
       "position": 129,
@@ -652,11 +652,7 @@
       "sequence": "1A",
       "text": "<b>Setup:</b> Search the encounter deck for East-gate and Cave Torch. Put East-gate into play as the active location, and have the first player attach Cave Torch to a hero of his choice. Set First Hall and Bridge of Khazad-dûm aside, out of play. Shuffle the encounter deck.",
       "flavor": "You have been sent by the White Council to Moria, to deliver a message to Balin and his Dwarven colony. No one has heard from him in a while.",
-      "encounter_sets": [
-               "Twists and Turns",
-               "Hazards of the Pit",
-               "Goblins of the Deep"
-           ],
+      "encounter_sets": ["Twists and Turns", "Hazards of the Pit", "Goblins of the Deep"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Into the Pit/Entering-the-Mines-1A.jpg"
@@ -669,13 +665,10 @@
       "position": 64,
       "name": "Entering the Mines",
       "sequence": "1B",
-      "text": "<b>When Revealed:</b> Reveal 1 encounter card per player, and add it to the staging area.<br/>Player cannot advance to the next stage of the scenario unless Bridge of Khazad-dûm is in their victory display.",
-      "flavor": "The doors of the East&ndash;gate hang crooked on their henges. The darkness inside the doorway is still and impenetrable, shutting out the last beams of a sinking sun.",
-      "encounter_sets": [
-               "Twists and Turns",
-               "Hazards of the Pit",
-               "Goblins of the Deep"
-           ],
+      "text": "<b>When Revealed:</b> Reveal 1 encounter card per player, and add it to the staging area.<br/><b>Players cannot advance to the next stage of the scenario unless Bridge of Khazad-dûm is in their victory display.</b>",
+      "flavor": "The doors of the East–gate hang crooked on their hinges. The darkness inside the doorway is still and impenetrable, shutting out the last beams of a sinking sun.",
+      "quest_points": 7,
+      "encounter_sets": ["Twists and Turns", "Hazards of the Pit", "Goblins of the Deep"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Into the Pit/Entering-the-Mines-1B.jpg"
@@ -689,11 +682,7 @@
       "name": "Goblin Patrol",
       "sequence": "2A",
       "flavor": "The skeletons of Dwarves and Orcs lie undisturbed, but you have discovered no recent sign of the Dwarven colony. The sound of scampering feet travels to your ears, and you move in that direction to investigate. There is a patrol of Goblins, marching in a loose formation through the shadows.",
-      "encounter_sets": [
-               "Twists and Turns",
-               "Hazards of the Pit",
-               "Goblins of the Deep"
-           ],
+      "encounter_sets": ["Twists and Turns", "Hazards of the Pit", "Goblins of the Deep"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Into the Pit/Goblin-Patrol-2A.jpg"
@@ -706,12 +695,9 @@
       "position": 65,
       "name": "Goblin Patrol",
       "sequence": "2B",
-      "text": "<b>When Revealed:</b> Each player must search the encounter deck and discard pile for 1 enemy of his choice, and add it to the staging area. One choice must be Patrol Leader, if able.<br/><b>Forced:</b> After an enemy is revealed from the encounter deck, discard it instead of adding it to the staging area.<br/><b>If there are no enemies in play, immediately advance to the next stage of the scenario. <i>(Players can also advance by placing 11 progress tokens on Goblin Patrol.)</i></b>",
-      "encounter_sets": [
-               "Twists and Turns",
-               "Hazards of the Pit",
-               "Goblins of the Deep"
-           ],
+      "text": "<b>When Revealed:</b> Each player must search the encounter deck and discard pile for 1 enemy of his choice, and add it to the staging area. One choice must be Patrol Leader, if able.<br/><b>Forced:</b> After an enemy is revealed from the encounter deck, discard it instead of adding it to the staging area.<br/><b>If there are no enemies in play, immediately advance to the next stage of the scenario. (Players can also advance by placing 11 progress tokens on Goblin Patrol.)</b>",
+      "quest_points": 11,
+      "encounter_sets": ["Twists and Turns", "Hazards of the Pit", "Goblins of the Deep"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Into the Pit/Goblin-Patrol-2B.jpg"
@@ -724,12 +710,8 @@
       "position": 66,
       "name": "A Way Up",
       "sequence": "3A",
-      "flavor": "You have captured a member of the patrol, and press the wounded Goblin for information about the Dwarves. It gives a nasty laugh, and with a mouthful of blood spits out &quot;Balin can be found in the chamber of records!&quot; It can say no more.",
-      "encounter_sets": [
-               "Twists and Turns",
-               "Hazards of the Pit",
-               "Goblins of the Deep"
-           ],
+      "flavor": "You have captured a member of the patrol, and press the wounded Goblin for information about the Dwarves. It gives a nasty laugh, and with a mouthful of blood spits out \"Balin can be found in the chamber of records!\" It can say no more.",
+      "encounter_sets": ["Twists and Turns", "Hazards of the Pit", "Goblins of the Deep"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Into the Pit/A-Way-Up-3A.jpg"
@@ -743,11 +725,9 @@
       "name": "A Way Up",
       "sequence": "3B",
       "text": "Heroes do not collect resources during the resource phase.<br/><b>If players defeat this stage, they win the game.</b>",
-      "encounter_sets": [
-               "Twists and Turns",
-               "Hazards of the Pit",
-               "Goblins of the Deep"
-           ],
+      "flavor": "The Chamber of Records is on the Seventh Level of Moria. The way up is treacherous, and you are accompanied by a sense of unease and vague dread.",
+      "quest_points": 12,
+      "encounter_sets": ["Twists and Turns", "Hazards of the Pit", "Goblins of the Deep"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Into the Pit/A-Way-Up-3B.jpg"
@@ -761,10 +741,8 @@
       "name": "Search for the Chamber",
       "sequence": "1A",
       "text": "<b>Setup:</b> Search the encounter deck for Book of Mazarbul, and have the first player attach it to a hero of his choice. Shuffle the encounter deck.",
-      "encounter_sets": [
-               "Goblins of the Deep",
-               "Plundering Goblins"
-           ],
+      "flavor": "You are investigating the Seventh Level of Moria, searching for the Chamber of Records and any sign of Balin's colony. In the heavy twilight of a hall, a bulky tome is discovered in the grip of a Dwarf skeleton. You carefully take possession of the book. Perhaps it will give you some answers...",
+      "encounter_sets": ["Goblins of the Deep", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/The Seventh Level/Search-for-the-Chamber-1A.jpg"
@@ -778,10 +756,9 @@
       "name": "Search for the Chamber",
       "sequence": "1B",
       "text": "<b>When Revealed:</b> Reveal 1 encounter card per player, and add it to the staging area.",
-      "encounter_sets": [
-               "Goblins of the Deep",
-               "Plundering Goblins"
-           ],
+      "flavor": "The Dwarven runes of the book appear to hold a detailed record of the fledgling colony. But there is some Elvish script at the end which seems out of place...",
+      "quest_points": 15,
+      "encounter_sets": ["Goblins of the Deep", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/The Seventh Level/Search-for-the-Chamber-1B.jpg"
@@ -794,11 +771,8 @@
       "position": 68,
       "name": "The Fate of Balin",
       "sequence": "2A",
-      "flavor": "You have discovered the Chamber. Before you lies the resting place of Balin, last lord of Moria. The final portion of the book tells the grim tale-Balin was slain in the Dimrill Dale, and the Dwarves were then trapped in the mines. It seems as if there are no survivors. You stand silently by his tomb, but cannot tarry. Orc war cries and horns sound close. You leave the cumbersome book as a testament to the Dwarves' valor, and prepare to fight your way out, lest Balin's fate become your own...",
-      "encounter_sets": [
-               "Goblins of the Deep",
-               "Plundering Goblins"
-           ],
+      "flavor": "You have discovered the Chamber. Before you lies the resting place of Balin, last lord of Moria. The final portion of the book tells the grim tale-Balin was slain in the Dimrill Dale, and the Dwarves were then trapped in the mines. It seems as if there are no survivors. You stand silently by his tomb, but cannot tarry. Orc war cries and horns sound close. You leave the cumbersome book as a testament to the Dwarves' valor, and prepare to fight your way out, lest Balin's fate becomes your own...",
+      "encounter_sets": ["Goblins of the Deep", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/The Seventh Level/The-Fate-of-Balin-2A.jpg"
@@ -811,11 +785,9 @@
       "position": 68,
       "name": "The Fate of Balin",
       "sequence": "2B",
-      "text": "<b>When Revealed:</b> Remove Book of Mazarbul from the game.<br/><b>Forced:</b> At the end of the staging step, reveal the top X cards of the encounter deck, adding all enemies to the staging area. Discard the other revealed cards without resolving them. X is the number of players.<br/>If the players defeat this stage, they win the game.",
-      "encounter_sets": [
-               "Goblins of the Deep",
-               "Plundering Goblins"
-           ],
+      "text": "<b>When Revealed:</b> Remove Book of Mazarbul from the game.<br/><b>Forced:</b> At the end of the staging step, reveal the top X cards of the encounter deck, adding all enemies to the staging area. Discard the other revealed cards without resolving them. X is the number of players.<br/><b>If the players defeat this stage, they win the game.</b>",
+      "quest_points": 17,
+      "encounter_sets": ["Goblins of the Deep", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/The Seventh Level/The-Fate-of-Balin-2B.jpg"
@@ -829,11 +801,8 @@
       "name": "A Presence in the Dark",
       "sequence": "1A",
       "text": "<b>Setup:</b> Prepare the quest deck. Add The Nameless Fear to the staging area. Remove all copies of A Foe Beyond from the encounter deck. Then, shuffle 1 copy of A Foe Beyond per player back into the encounter deck.",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "flavor": "You have discovered the fate of the Dwarven colony, and seek to leave Moria. But exiting may not be as simple as entering...",
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/A-Presence-in-the-Dark-1A.jpg"
@@ -847,11 +816,9 @@
       "name": "A Presence in the Dark",
       "sequence": "1B",
       "text": "<b>When Revealed:</b> Reveal 1 encounter card per player, and add it to the staging area. Then, add A Presence in the Dark to your victory display.",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "flavor": "As you leave the Seventh Level, the air grows thick and drums begin to roll from the deeps. A man-shape shadow, yet greater, masses at the end of the hall, and begins to head straight for you.",
+      "victory": 2,
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/A-Presence-in-the-Dark-1B.jpg"
@@ -864,13 +831,9 @@
       "position": 70,
       "name": "Search for an Exit",
       "sequence": "2A",
-      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "text": "<b>While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.</b>",
       "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Heading-Down-2A.jpg"
@@ -883,13 +846,11 @@
       "position": 70,
       "name": "Heading Down",
       "sequence": "2B",
-      "text": "<b>Forced:</b> If Heading Up is in the player's victory display at the end of any quest phase, shuffle Heading Up back into the quest deck.<br/><b>Players may bypass this quest card at the end of the combat phase.",
+      "text": "<b>Forced:</b> If Heading Up is in the player's victory display at the end of any quest phase, shuffle Heading Up back into the quest deck.<br/><b>Players may bypass this quest card at the end of the combat phase.</b>",
+      "flavor": "It looks like you may have to head back up the other way.",
+      "victory": 1,
       "quest_points": 5,
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Heading-Down-2B.jpg"
@@ -902,13 +863,9 @@
       "position": 71,
       "name": "Search for an Exit",
       "sequence": "2A",
-      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "text": "<b>While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.</b>",
       "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Heading-Up-2A.jpg"
@@ -921,13 +878,11 @@
       "position": 71,
       "name": "Heading Up",
       "sequence": "2B",
-      "text": "<b>Forced:</b> If Heading Down is in the player's victory display at the end of any quest phase, shuffle Heading Down back into the quest deck.<br/><b>Players may bypass this quest card at the end of the combat phase.",
+      "text": "<b>Forced:</b> If Heading Down is in the player's victory display at the end of any quest phase, shuffle Heading Down back into the quest deck.<br/><b>Players may bypass this quest card at the end of the combat phase.</b>",
+      "flavor": "Perhaps if you climbed this pile of rocks, there would be a way out...",
+      "victory": 1,
       "quest_points": 7,
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Heading-Up-2B.jpg"
@@ -940,13 +895,9 @@
       "position": 72,
       "name": "Search for an Exit",
       "sequence": "2A",
-      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "text": "<b>While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.</b>",
       "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-A-Wrong-Turn-2A.jpg"
@@ -961,12 +912,9 @@
       "sequence": "2B",
       "text": "<b>When Revealed:</b> Reveal 1 encounter card per players, and add it to the staging area.<br/><b>Players may bypass this quest at the end of the combat phase.</b>",
       "flavor": "This is a dangerous part of the Mines.",
+      "victory": 2,
       "quest_points": 1,
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-A-Wrong-Turn-2B.jpg"
@@ -979,13 +927,9 @@
       "position": 73,
       "name": "Search for an Exit",
       "sequence": "2A",
-      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "text": "<b>While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.</b>",
       "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Narrow-Paths-2A.jpg"
@@ -998,13 +942,10 @@
       "position": 73,
       "name": "Narrow Paths",
       "sequence": "2B",
-      "text": "<b>When Revealed:</b> Each player chooses 1 questing character he controls. Each questing character not chosen does not count its Willpower until the end of the turn.<br/><b>Forced:</b> After placing the 1st progress token on Search for an Exit, search the encounter deck and discard pile for Abandoned Tools and add it to the staging area, if able.<br/><b>Players may bypass this quest card at the end of the combat phase.</b>",
+      "text": "<b>When Revealed:</b> Each player chooses 1 questing character he controls. Each questing character not chosen does not count its Willpower until the end of the turn.<br/><b>Forced:</b> After placing the 1st progress token on Narrow Paths, search the encounter deck and discard pile for Abandoned Tools and add it to the staging area, if able.<br/><b>Players may bypass this quest card at the end of the combat phase.</b>",
+      "victory": 1,
       "quest_points": 3,
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Narrow-Paths-2B.jpg"
@@ -1017,13 +958,9 @@
       "position": 74,
       "name": "Search for an Exit",
       "sequence": "2A",
-      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "text": "<b>While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.</b>",
       "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Hasty-Council-2A.jpg"
@@ -1036,12 +973,10 @@
       "position": 74,
       "name": "Hasty Council",
       "sequence": "2B",
-      "text": "<b>When Revealed:</b> Shuffle all copies of A Foe Beyond from the encounter discard pile back into the encounter deck. Reveal the top 2 cards of the quest deck. Choose 1 to become the active quest (flipped to side 2B) and put the other on the bottom of the quest deck. Then, add Search for an Exit to your victory display.",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "text": "<b>When Revealed:</b> Shuffle all copies of A Foe Beyond from the encounter discard pile back into the encounter deck. Reveal the top 2 cards of the quest deck. Choose 1 to become the active quest (flipped to side 2B) and put the other on the bottom of the quest deck. Then, add Hasty Council to your victory display.",
+      "flavor": "You pause momentarily to consider your options...",
+      "victory": 2,
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Hasty-Council-2B.jpg"
@@ -1054,13 +989,9 @@
       "position": 75,
       "name": "Search for an Exit",
       "sequence": "2A",
-      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "text": "<b>While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.</b>",
       "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Blocked-By-Shadow-2A.jpg"
@@ -1071,15 +1002,11 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 75,
-      "name": "Blocked By Shadow",
+      "name": "Blocked by Shadow",
       "sequence": "2B",
-      "text": "<b>When Revealed:</b> The first player chooses 1 of the following:<ul class='no-style-list'><li>• Each player discards 1 card from the top of the encounter deck. If the card is a treachery card, the discarding player is eliminated from the game.</li><li>• Reveals the next quest card, putting Search for an Exit on the bottom of the quest deck.</li></ul><br/><b>Players may bypass this quest card at the end of the combat phase. If the players defeat this stage, they escape and win the game.</b>",
+      "text": "<b>When Revealed:</b> The first player chooses 1 of the following:<br/>• Each player discards 1 card from the top of the encounter deck. If the card is a treachery card, the discarding player is eliminated from the game.<br/>• Reveals the next quest card, putting Blocked by Shadow on the bottom of the quest deck.<br/><b>Players may bypass this quest card at the end of the combat phase. If the players defeat this stage, they escape and win the game.</b>",
       "quest_points": 9,
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Blocked-By-Shadow-2B.jpg"
@@ -1092,13 +1019,9 @@
       "position": 76,
       "name": "Search for an Exit",
       "sequence": "2A",
-      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "text": "<b>While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.</b>",
       "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Escape-from-Darkness-2A.jpg"
@@ -1111,13 +1034,10 @@
       "position": 76,
       "name": "Escape from Darkness",
       "sequence": "2B",
-      "text": "Abandoned Tools gains: <b>Refresh Action:</b> Exhaust attached hero to put a progress token on Search for an Exit.<br/><b>Players may bypass this quest card at the end of the combat phase.<b><br/><b>Progress tokens cannot be placed on Search for an Exit except by Abandoned Tools. If the players defeat this stage, they escape and win the game.</b>",
+      "text": "Abandoned Tools gains: \"<b>Refresh Action:</b> Exhaust attached hero to put a progress token on Escape from Darkness.\"<br/><b>Players may bypass this quest card at the end of the combat phase.</b><br/><b>Progress tokens cannot be placed on Escape from Darkness except by Abandoned Tools. If the players defeat this stage, they escape and win the game.</b>",
+      "flavor": "There is a weakness in the walls. You can practically taste the freedom beyond.",
       "quest_points": 4,
-      "encounter_sets": [
-               "Hazards of the Pit",
-               "Deeps of Moria",
-               "Plundering Goblins"
-           ],
+      "encounter_sets": ["Hazards of the Pit", "Deeps of Moria", "Plundering Goblins"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight from Moria/Search-for-an-Exit-Escape-from-Darkness-2B.jpg"

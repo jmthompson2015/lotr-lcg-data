@@ -161,6 +161,8 @@
       "type_name": "Objective",
       "position": 41,
       "name": "Cave Torch",
+      "traits": "Light.",
+      "text": "Attach to a hero. Restricted.<br/><b>Action:</b> Exhaust self to place up to 3 progress on a <b>Dark</b> location.</br><b>Forced:<\b> After Cave Torch exhausts, discard the top card of the encounter deck. If that card is an enemy, add it to the staging area.",
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Twists and Turns/Cave-Torch.jpg"
