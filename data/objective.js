@@ -126,4 +126,43 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/A Journey to Rhosgobel/Wilyador.jpg"
-}]
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "The Seventh Level",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 24,
+      "name": "Book of Mazarbul",
+      "is_unique": true,
+      "traits": "Item. Artifact.",
+      "text": "Restricted.<br/><b>Action:</b> Exhaust a hero to claim this objective. Then, attach Book of Mazarbul to that hero. (If detached, return Book of Mazarbul to the staging area.)<br/>Attached hero cannot attack and does not exhaust to commit to a quest.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Seventh Level/Book-of-Mazarbul.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 29,
+      "name": "Abandoned Tools",
+      "traits": "Tools.",
+      "text": "Guarded. Restricted.<br/><b>Action:</b> Exhaust a hero to claim this objective if it has no encounters attached. Then, attach Abandoned Tools to that hero. (If detached, return Abandoned Tools to the staging area.)",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Flight from Moria/Abandoned-Tools.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Twists and Turns",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 41,
+      "name": "Cave Torch",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Twists and Turns/Cave-Torch.jpg"
+   }
+]

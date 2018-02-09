@@ -641,5 +641,485 @@
       "quest_points": 2,
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
       "image": "quest-card/Return to Mirkwood/Ambush-4B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Into the Pit",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 64,
+      "name": "Entering the Mines",
+      "sequence": "1A",
+      "text": "<b>Setup:</b> Search the encounter deck for East-gate and Cave Torch. Put East-gate into play as the active location, and have the first player attach Cave Torch to a hero of his choice. Set First Hall and Bridge of Khazad-dûm aside, out of play. Shuffle the encounter deck.",
+      "flavor": "You have been sent by the White Council to Moria, to deliver a message to Balin and his Dwarven colony. No one has heard from him in a while.",
+      "encounter_sets": [
+               "Twists and Turns",
+               "Hazards of the Pit",
+               "Goblins of the Deep"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Into the Pit/Entering-the-Mines-1A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Into the Pit",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 64,
+      "name": "Entering the Mines",
+      "sequence": "1B",
+      "text": "<b>When Revealed:</b> Reveal 1 encounter card per player, and add it to the staging area.<br/>Player cannot advance to the next stage of the scenario unless Bridge of Khazad-dûm is in their victory display.",
+      "flavor": "The doors of the East&ndash;gate hang crooked on their henges. The darkness inside the doorway is still and impenetrable, shutting out the last beams of a sinking sun.",
+      "encounter_sets": [
+               "Twists and Turns",
+               "Hazards of the Pit",
+               "Goblins of the Deep"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Into the Pit/Entering-the-Mines-1B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Into the Pit",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 65,
+      "name": "Goblin Patrol",
+      "sequence": "2A",
+      "flavor": "The skeletons of Dwarves and Orcs lie undisturbed, but you have discovered no recent sign of the Dwarven colony. The sound of scampering feet travels to your ears, and you move in that direction to investigate. There is a patrol of Goblins, marching in a loose formation through the shadows.",
+      "encounter_sets": [
+               "Twists and Turns",
+               "Hazards of the Pit",
+               "Goblins of the Deep"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Into the Pit/Goblin-Patrol-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Into the Pit",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 65,
+      "name": "Goblin Patrol",
+      "sequence": "2B",
+      "text": "<b>When Revealed:</b> Each player must search the encounter deck and discard pile for 1 enemy of his choice, and add it to the staging area. One choice must be Patrol Leader, if able.<br/><b>Forced:</b> After an enemy is revealed from the encounter deck, discard it instead of adding it to the staging area.<br/><b>If there are no enemies in play, immediately advance to the next stage of the scenario. <i>(Players can also advance by placing 11 progress tokens on Goblin Patrol.)</i></b>",
+      "encounter_sets": [
+               "Twists and Turns",
+               "Hazards of the Pit",
+               "Goblins of the Deep"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Into the Pit/Goblin-Patrol-2B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Into the Pit",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 66,
+      "name": "A Way Up",
+      "sequence": "3A",
+      "flavor": "You have captured a member of the patrol, and press the wounded Goblin for information about the Dwarves. It gives a nasty laugh, and with a mouthful of blood spits out &quot;Balin can be found in the chamber of records!&quot; It can say no more.",
+      "encounter_sets": [
+               "Twists and Turns",
+               "Hazards of the Pit",
+               "Goblins of the Deep"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Into the Pit/A-Way-Up-3A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Into the Pit",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 66,
+      "name": "A Way Up",
+      "sequence": "3B",
+      "text": "Heroes do not collect resources during the resource phase.<br/><b>If players defeat this stage, they win the game.</b>",
+      "encounter_sets": [
+               "Twists and Turns",
+               "Hazards of the Pit",
+               "Goblins of the Deep"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Into the Pit/A-Way-Up-3B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "The Seventh Level",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 67,
+      "name": "Search for the Chamber",
+      "sequence": "1A",
+      "text": "<b>Setup:</b> Search the encounter deck for Book of Mazarbul, and have the first player attach it to a hero of his choice. Shuffle the encounter deck.",
+      "encounter_sets": [
+               "Goblins of the Deep",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/The Seventh Level/Search-for-the-Chamber-1A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "The Seventh Level",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 67,
+      "name": "Search for the Chamber",
+      "sequence": "1B",
+      "text": "<b>When Revealed:</b> Reveal 1 encounter card per player, and add it to the staging area.",
+      "encounter_sets": [
+               "Goblins of the Deep",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/The Seventh Level/Search-for-the-Chamber-1B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "The Seventh Level",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 68,
+      "name": "The Fate of Balin",
+      "sequence": "2A",
+      "flavor": "You have discovered the Chamber. Before you lies the resting place of Balin, last lord of Moria. The final portion of the book tells the grim tale-Balin was slain in the Dimrill Dale, and the Dwarves were then trapped in the mines. It seems as if there are no survivors. You stand silently by his tomb, but cannot tarry. Orc war cries and horns sound close. You leave the cumbersome book as a testament to the Dwarves' valor, and prepare to fight your way out, lest Balin's fate become your own...",
+      "encounter_sets": [
+               "Goblins of the Deep",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/The Seventh Level/The-Fate-of-Balin-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "The Seventh Level",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 68,
+      "name": "The Fate of Balin",
+      "sequence": "2B",
+      "text": "<b>When Revealed:</b> Remove Book of Mazarbul from the game.<br/><b>Forced:</b> At the end of the staging step, reveal the top X cards of the encounter deck, adding all enemies to the staging area. Discard the other revealed cards without resolving them. X is the number of players.<br/>If the players defeat this stage, they win the game.",
+      "encounter_sets": [
+               "Goblins of the Deep",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/The Seventh Level/The-Fate-of-Balin-2B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 69,
+      "name": "A Presence in the Dark",
+      "sequence": "1A",
+      "text": "<b>Setup:</b> Prepare the quest deck. Add The Nameless Fear to the staging area. Remove all copies of A Foe Beyond from the encounter deck. Then, shuffle 1 copy of A Foe Beyond per player back into the encounter deck.",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/A-Presence-in-the-Dark-1A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 69,
+      "name": "A Presence in the Dark",
+      "sequence": "1B",
+      "text": "<b>When Revealed:</b> Reveal 1 encounter card per player, and add it to the staging area. Then, add A Presence in the Dark to your victory display.",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/A-Presence-in-the-Dark-1B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 70,
+      "name": "Search for an Exit",
+      "sequence": "2A",
+      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Heading-Down-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 70,
+      "name": "Heading Down",
+      "sequence": "2B",
+      "text": "<b>Forced:</b> If Heading Up is in the player's victory display at the end of any quest phase, shuffle Heading Up back into the quest deck.<br/><b>Players may bypass this quest card at the end of the combat phase.",
+      "quest_points": 5,
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Heading-Down-2B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 71,
+      "name": "Search for an Exit",
+      "sequence": "2A",
+      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Heading-Up-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 71,
+      "name": "Heading Up",
+      "sequence": "2B",
+      "text": "<b>Forced:</b> If Heading Down is in the player's victory display at the end of any quest phase, shuffle Heading Down back into the quest deck.<br/><b>Players may bypass this quest card at the end of the combat phase.",
+      "quest_points": 7,
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Heading-Up-2B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 72,
+      "name": "Search for an Exit",
+      "sequence": "2A",
+      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-A-Wrong-Turn-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 72,
+      "name": "A Wrong Turn",
+      "sequence": "2B",
+      "text": "<b>When Revealed:</b> Reveal 1 encounter card per players, and add it to the staging area.<br/><b>Players may bypass this quest at the end of the combat phase.</b>",
+      "flavor": "This is a dangerous part of the Mines.",
+      "quest_points": 1,
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-A-Wrong-Turn-2B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 73,
+      "name": "Search for an Exit",
+      "sequence": "2A",
+      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Narrow-Paths-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 73,
+      "name": "Narrow Paths",
+      "sequence": "2B",
+      "text": "<b>When Revealed:</b> Each player chooses 1 questing character he controls. Each questing character not chosen does not count its Willpower until the end of the turn.<br/><b>Forced:</b> After placing the 1st progress token on Search for an Exit, search the encounter deck and discard pile for Abandoned Tools and add it to the staging area, if able.<br/><b>Players may bypass this quest card at the end of the combat phase.</b>",
+      "quest_points": 3,
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Narrow-Paths-2B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 74,
+      "name": "Search for an Exit",
+      "sequence": "2A",
+      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Hasty-Council-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 74,
+      "name": "Hasty Council",
+      "sequence": "2B",
+      "text": "<b>When Revealed:</b> Shuffle all copies of A Foe Beyond from the encounter discard pile back into the encounter deck. Reveal the top 2 cards of the quest deck. Choose 1 to become the active quest (flipped to side 2B) and put the other on the bottom of the quest deck. Then, add Search for an Exit to your victory display.",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Hasty-Council-2B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 75,
+      "name": "Search for an Exit",
+      "sequence": "2A",
+      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Blocked-By-Shadow-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 75,
+      "name": "Blocked By Shadow",
+      "sequence": "2B",
+      "text": "<b>When Revealed:</b> The first player chooses 1 of the following:<ul class='no-style-list'><li>• Each player discards 1 card from the top of the encounter deck. If the card is a treachery card, the discarding player is eliminated from the game.</li><li>• Reveals the next quest card, putting Search for an Exit on the bottom of the quest deck.</li></ul><br/><b>Players may bypass this quest card at the end of the combat phase. If the players defeat this stage, they escape and win the game.</b>",
+      "quest_points": 9,
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Blocked-By-Shadow-2B.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 76,
+      "name": "Search for an Exit",
+      "sequence": "2A",
+      "text": "While Search for an Exit is the active quest card, only flip it to side 2B at the beginning of the staging step.",
+      "flavor": "As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape from the Black Pit...",
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Escape-from-Darkness-2A.jpg"
+   },
+   {
+      "pack_name": "Khazad-d&#251;m",
+      "encounter_set": "Flight from Moria",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 76,
+      "name": "Escape from Darkness",
+      "sequence": "2B",
+      "text": "Abandoned Tools gains: <b>Refresh Action:</b> Exhaust attached hero to put a progress token on Search for an Exit.<br/><b>Players may bypass this quest card at the end of the combat phase.<b><br/><b>Progress tokens cannot be placed on Search for an Exit except by Abandoned Tools. If the players defeat this stage, they escape and win the game.</b>",
+      "quest_points": 4,
+      "encounter_sets": [
+               "Hazards of the Pit",
+               "Deeps of Moria",
+               "Plundering Goblins"
+           ],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Flight from Moria/Search-for-an-Exit-Escape-from-Darkness-2B.jpg"
    }
 ]
