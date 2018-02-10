@@ -42,11 +42,11 @@ define(["js/FileLoader", "js/ParseUtilities"],
          var index4 = content.indexOf(key4);
          var statTextBoxFragment = content.substring(index3, index4);
 
-         var statBoxData = processStatBox(statBoxFragment);
+         var statBoxData = this.processStatBox(statBoxFragment);
          var type_code = (Array.isArray(statBoxData) ? statBoxData[0].type_code : statBoxData.type_code);
-         var titleBoxData = processTitleBox(titleBoxFragment, type_code);
-         var statValueBoxData = processStatValueBox(statValueBoxFragment, type_code);
-         var statTextBoxData = processStatTextBox(statTextBoxFragment, type_code);
+         var titleBoxData = this.processTitleBox(titleBoxFragment, type_code);
+         var statValueBoxData = this.processStatValueBox(statValueBoxFragment, type_code);
+         var statTextBoxData = this.processStatTextBox(statTextBoxFragment, type_code);
          var detail;
 
          if (type_code === "quest")
@@ -68,7 +68,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
          }
       };
 
-      function processStatBox(fragment)
+      HoBDetailFetcher.processStatBox = function(fragment)
       {
          // console.log("processStatBox() fragment = " + fragment);
 
@@ -113,37 +113,71 @@ define(["js/FileLoader", "js/ParseUtilities"],
          };
 
          return (type_code === "quest" ? [data0, data1] : data0);
-      }
+      };
 
-      function processStatTextBox(fragment, type_code)
+      HoBDetailFetcher.processStatTextBox = function(fragment, type_code)
       {
          // console.log("processStatTextBox() fragment = " + fragment);
+         var index = fragment.indexOf("<div class=\"statTextBox\"", 1);
+         var fragment0 = (index < 0 ? fragment : fragment.substring(0, index));
 
          var key1 = "<p class='main-text'>";
          var key2 = "<p class='shadow-text'>";
          var key3 = "<p class='flavor-text'>";
          var key4 = "<div class='victory-text'>";
-         var index1 = fragment.indexOf(key1);
+         var index1 = fragment0.indexOf(key1);
 
          if (index1 < 0)
          {
-            index1 = fragment.indexOf(key2);
+            key1 = "<p>";
+            index1 = fragment0.indexOf(key1);
          }
 
-         var fragment2 = fragment.substring(0, index1);
+         var index2 = fragment0.indexOf(key2);
+
+         if (index2 < 0)
+         {
+            var key2222 = "ShadowDivider.png";
+            var index2222 = fragment0.indexOf(key2222);
+            if (index2222 >= 0)
+            {
+               var key222 = "/>";
+               var index222 = fragment0.indexOf(key222, index2222 + key2222.length);
+               key2 = "<p>";
+               index2 = index222 + key222.length;
+            }
+         }
+
+         var index3 = fragment0.indexOf(key3);
+         var index4 = fragment0.indexOf(key4);
+         var indices = [index1, index2, index3, index4];
+         indices.sort((a, b) => parseInt(a) - parseInt(b));
+
+         // traits
+         var i;
+         var myIndex = fragment0.length;
+         for (i = 0; i < 4; i++)
+         {
+            if (indices[i] >= 0)
+            {
+               myIndex = indices[i];
+               break;
+            }
+         }
+         var fragment2 = fragment0.substring(0, myIndex);
          var startKey = "<a";
          var endKey = "</a>";
-         index1 = fragment2.indexOf(startKey);
-         var anchor, index2;
+         var index11 = fragment2.indexOf(startKey);
+         var anchor, index22;
          var traits = "";
 
-         while (index1 >= 0)
+         while (index11 >= 0)
          {
-            index2 = fragment2.indexOf(endKey, index1 + 1);
-            anchor = fragment2.substring(index1, index2 + endKey.length);
+            index22 = fragment2.indexOf(endKey, index11 + 1);
+            anchor = fragment2.substring(index11, index22 + endKey.length);
             var trait = ParseUtilities.extractContent(anchor);
             traits += trait;
-            index1 = fragment2.indexOf(startKey, index2);
+            index11 = fragment2.indexOf(startKey, index22);
          }
 
          if (traits.length === 0)
@@ -152,86 +186,93 @@ define(["js/FileLoader", "js/ParseUtilities"],
          }
          // console.log("traits = " + traits);
 
-         fragment2 = ParseUtilities.extractInclusive(fragment, key1, key2);
-         if (fragment2 === undefined || fragment2.length === 0)
+         // text
+         var text, start, end;
+         if (index1 >= 0)
          {
-            fragment2 = ParseUtilities.extractInclusive(fragment, key1, key3);
-         }
-         if (fragment2 === undefined || fragment2.length === 0)
-         {
-            fragment2 = ParseUtilities.extractInclusive(fragment, key1, key4);
-         }
-         if (fragment2 === undefined || fragment2.length === 0)
-         {
-            fragment2 = ParseUtilities.extractInclusive(fragment, key1, "</div>");
-         }
-
-         var text = (fragment2 !== undefined ? ParseUtilities.extractContent(fragment2) : undefined);
-
-         if (text !== undefined)
-         {
-            text = text.trim();
-            text = text.replace(/<\/p>/g, "");
-            text = text.replace(/<p>/g, "<br/>");
-
-            while (text.indexOf("<a") >= 0)
+            myIndex = fragment0.length;
+            for (i = 0; i < 4; i++)
             {
-               text = ParseUtilities.removeTag(text, "a");
+               if (indices[i] >= 0 && index1 < indices[i])
+               {
+                  myIndex = indices[i];
+                  break;
+               }
             }
 
-            while (text.indexOf("<blockquote") >= 0)
+            start = index1 + key1.length;
+            end = fragment0.lastIndexOf("</p>", myIndex);
+            text = fragment0.substring(start, end);
+
+            if (text !== undefined)
             {
-               text = ParseUtilities.removeTag(text, "blockquote");
+               text = text.trim();
+               text = text.replace(/<\/p>/g, "");
+               text = text.replace(/<p>/g, "<br/>");
+
+               while (text.indexOf("<a") >= 0)
+               {
+                  text = ParseUtilities.removeTag(text, "a");
+               }
+
+               while (text.indexOf("<blockquote") >= 0)
+               {
+                  text = ParseUtilities.removeTag(text, "blockquote");
+               }
+
+               while (text.indexOf("<img") >= 0)
+               {
+                  text = ParseUtilities.removeImg(text);
+               }
+
+               while (text.indexOf("<span") >= 0)
+               {
+                  text = ParseUtilities.removeTag(text, "span");
+               }
             }
 
-            while (text.indexOf("<img") >= 0)
-            {
-               text = ParseUtilities.removeImg(text);
-            }
-
-            while (text.indexOf("<span") >= 0)
-            {
-               text = ParseUtilities.removeTag(text, "span");
-            }
+            // console.log("text = " + text);
          }
-         // console.log("text = " + text);
 
-         fragment2 = ParseUtilities.extractInclusive(fragment, key3, "</p>");
-         if (fragment2 === undefined || fragment2.length === 0)
+         // flavor
+         var flavor;
+         if (index3 >= 0)
          {
-            fragment2 = ParseUtilities.extractInclusive(fragment, key3, key4);
-         }
-         if (fragment2 === undefined || fragment2.length === 0)
-         {
-            fragment2 = ParseUtilities.extractInclusive(fragment, key3, "</div>");
-         }
-         var flavor = (fragment2 !== undefined ? ParseUtilities.extractContent(fragment2) : undefined);
-         if (flavor !== undefined)
-         {
-            flavor = flavor.trim();
-            if (flavor.endsWith("</p>"))
-            {
-               flavor = flavor.substring(0, flavor.length - "</p>".length);
-            }
-         }
-         // console.log("flavor = " + flavor);
+            start = index3 + key3.length;
+            end = fragment0.indexOf("</p>", index3 + 1);
+            flavor = fragment0.substring(start, end);
 
-         fragment2 = ParseUtilities.extractInclusive(fragment, key2, "</p>");
-         var shadow = (fragment2 !== undefined ? ParseUtilities.extractContent(fragment2) : undefined);
-
-         if (shadow !== undefined)
-         {
-            while (shadow.indexOf("<a") >= 0)
+            if (flavor !== undefined)
             {
-               shadow = ParseUtilities.removeTag(shadow, "a");
+               flavor = flavor.trim();
             }
 
-            while (shadow.indexOf("<img") >= 0)
-            {
-               shadow = ParseUtilities.removeImg(shadow);
-            }
+            // console.log("flavor = " + flavor);
          }
-         // console.log("shadow = " + shadow);
+
+         // shadow
+         var shadow;
+         if (index2 >= 0)
+         {
+            start = index2 + key2.length;
+            end = fragment0.indexOf("</p>", index2 + 1);
+            shadow = fragment0.substring(start, end);
+
+            if (shadow !== undefined)
+            {
+               while (shadow.indexOf("<a") >= 0)
+               {
+                  shadow = ParseUtilities.removeTag(shadow, "a");
+               }
+
+               while (shadow.indexOf("<img") >= 0)
+               {
+                  shadow = ParseUtilities.removeImg(shadow);
+               }
+            }
+
+            // console.log("shadow = " + shadow);
+         }
 
          var data1;
 
@@ -241,7 +282,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
             var fragment1 = fragment.substring(index1);
             fragment1 = fragment1.replace("<p>", "<p class='main-text'>");
 
-            data1 = processStatTextBox(fragment1, "enemy");
+            data1 = this.processStatTextBox(fragment1, "enemy");
          }
 
          var data0 = {
@@ -252,13 +293,13 @@ define(["js/FileLoader", "js/ParseUtilities"],
          };
 
          return (type_code === "quest" ? [data0, data1] : data0);
-      }
+      };
 
-      function processStatValueBox(fragment, type_code)
+      HoBDetailFetcher.processStatValueBox = function(fragment, type_code)
       {
          // console.log("processStatValueBox() fragment = " + fragment);
 
-         var engagement_cost, threat, attack, defense, hit_points, quest_points, quest_points1;
+         var engagement_cost, threat, willpower, attack, defense, hit_points, quest_points, quest_points1;
          var parts = fragment.split(">");
          parts.forEach(function(part, i)
          {
@@ -306,6 +347,15 @@ define(["js/FileLoader", "js/ParseUtilities"],
                }
                // console.log("threat = " + threat);
             }
+            else if (part.indexOf("willpower-med.png") >= 0)
+            {
+               willpower = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
+               if (Number.isNaN(willpower))
+               {
+                  willpower = undefined;
+               }
+               // console.log("willpower = " + willpower);
+            }
             else if (part.indexOf("attack-med.png") >= 0)
             {
                attack = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
@@ -334,6 +384,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
          var data0 = {
             "engagement_cost": engagement_cost,
             "threat": threat,
+            "willpower": willpower,
             "attack": attack,
             "defense": defense,
             "hit_points": hit_points,
@@ -345,9 +396,9 @@ define(["js/FileLoader", "js/ParseUtilities"],
          };
 
          return (type_code === "quest" ? [data0, data1] : data0);
-      }
+      };
 
-      function processTitleBox(fragment, type_code)
+      HoBDetailFetcher.processTitleBox = function(fragment, type_code)
       {
          // console.log("processTitleBox() fragment = " + fragment);
 
@@ -463,7 +514,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
          };
 
          return (type_code === "quest" ? [data0, data1] : data0);
-      }
+      };
 
       function createDetailObject(titleBoxData, statBoxData, statTextBoxData, statValueBoxData)
       {
@@ -483,6 +534,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
          maybeAddData(detail, "flavor", statTextBoxData.flavor);
          maybeAddData(detail, "engagement_cost", statValueBoxData.engagement_cost);
          maybeAddData(detail, "threat", statValueBoxData.threat);
+         maybeAddData(detail, "willpower", statValueBoxData.willpower);
          maybeAddData(detail, "attack", statValueBoxData.attack);
          maybeAddData(detail, "defense", statValueBoxData.defense);
          maybeAddData(detail, "hit_points", statValueBoxData.hit_points);

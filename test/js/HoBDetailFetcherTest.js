@@ -133,6 +133,49 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
       HoBDetailFetcher.fetch(file, callback);
    });
 
+   QUnit.test("fetch() Location Barren Hills", function(assert)
+   {
+      // Setup.
+      var file = "http://hallofbeorn.com/LotR/Details/Barren-Hills-RtR";
+      var callback = function(detail)
+      {
+         // Verify.
+         assert.ok(true, "test resumed from async operation");
+         assert.ok(detail);
+         // console.log("Location detail: " + JSON.stringify(detail));
+
+         assert.equal(detail.pack_name, "Road to Rivendell", "pack_name");
+         assert.equal(detail.encounter_set, "Road to Rivendell", "encounter_set");
+         assert.equal(detail.type_code, "location", "type_code");
+         assert.equal(detail.type_name, "Location", "type_name");
+         assert.equal(detail.position, 45, "position");
+         assert.equal(detail.name, "Barren Hills", "name");
+         assert.equal(detail.is_unique, undefined, "is_unique");
+         assert.equal(detail.sequence, undefined, "sequence");
+         assert.equal(detail.traits, "Hills.", "traits");
+         assert.equal(detail.text, "While Barren Hills is the active location, ignore ambush.", "text");
+         assert.equal(detail.shadow, "<b>Shadow:</b> Return attacking enemy to the staging area after it attacks.", "shadow");
+         assert.equal(detail.flavor, undefined, "flavor");
+         assert.equal(detail.engagement_cost, undefined, "engagement_cost");
+         assert.equal(detail.threat, 2, "threat");
+         assert.equal(detail.attack, undefined, "attack");
+         assert.equal(detail.defense, undefined, "defense");
+         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.quest_points, 4, "quest_points");
+         assert.equal(detail.victory, undefined, "victory");
+         assert.equal(detail.encounter_sets, undefined, "encounter_sets");
+         assert.equal(detail.quantity_easy, 2, "quantity_easy");
+         assert.equal(detail.quantity, 0, "quantity");
+         assert.equal(detail.image, "encounter-card/Road to Rivendell/Barren-Hills.jpg", "image");
+
+         done();
+      };
+
+      // Run.
+      var done = assert.async();
+      HoBDetailFetcher.fetch(file, callback);
+   });
+
    QUnit.test("fetch() Objective Book of Mazarbul", function(assert)
    {
       // Setup.
@@ -471,5 +514,36 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
       // Run.
       var done = assert.async();
       HoBDetailFetcher.fetch(file, callback);
+   });
+
+   QUnit.test("processStatTextBox() Quest Up the Pass", function(assert)
+   {
+      // Setup.
+      var statTextBox = "<div class=\"statTextBox\" style=\"margin:2px;padding-top:0px;padding-left:6px;padding-right:6px;border: 1px solid gray;border-radius:4px;max-width:500px;min-height:180px;min-width:200px;position:relative;background-color:#d3d3d3;\">" +
+         "<p class='flavor-text'>Celeborn has bid you to visit her father in Rivendell. Your journey takes you though the Redhorn Gate...</p><p><b>Setup:</b> Add <a title='Caradhras (The Redhorn Gate)' target='_blank' href='/Cards/Details/Caradhras-TRG'>Caradhras</a> to the staging area. Remove all copies of <a title='Snowstorm (The Redhorn Gate)' target='_blank' href='/Cards/Details/Snowstorm-TRG'>Snowstorm</a> from the encounter deck and set them aside, out of play. Put <a target='_blank' title='Arwen Undomiel (The Redhorn Gate)' href='/Cards/Details/Arwen-Undomiel-TRG'>Arwen Undómiel</a> into play under the control of the first player.</p>            </div>" +
+         "<div class=\"statTextBox\" style=\"margin:6px 2px 2px 2px;padding-top:0px;padding-left:6px;padding-right:6px;border: 1px solid gray;border-radius:4px;max-width:500px;min-height:200px;min-width:200px;min-height:100px;position:relative;overflow:;background-color:#d3d3d3;\">" +
+         "<p><b>When Revealed:</b> Reveal 1 card from the encounter deck per player, and add it to the staging area.</p>                </div>" +
+         "</div>";
+      var type_code = "quest";
+
+      // Run.
+      var result = HoBDetailFetcher.processStatTextBox(statTextBox, type_code);
+
+      // Verify.
+      assert.ok(result);
+      assert.equal(Array.isArray(result), true);
+      assert.equal(result.length, 2);
+      var data0 = result[0];
+      assert.ok(data0);
+      assert.equal(data0.traits, undefined, "traits");
+      assert.equal(data0.text, "<b>Setup:</b> Add Caradhras to the staging area. Remove all copies of Snowstorm from the encounter deck and set them aside, out of play. Put Arwen Undómiel into play under the control of the first player.", "text");
+      assert.equal(data0.shadow, undefined, "shadow");
+      assert.equal(data0.flavor, "Celeborn has bid you to visit her father in Rivendell. Your journey takes you though the Redhorn Gate...", "flavor");
+      var data1 = result[1];
+      assert.ok(data1);
+      assert.equal(data1.traits, undefined, "traits");
+      assert.equal(data1.text, "<b>When Revealed:</b> Reveal 1 card from the encounter deck per player, and add it to the staging area.", "text");
+      assert.equal(data1.shadow, undefined, "shadow");
+      assert.equal(data1.flavor, undefined, "flavor");
    });
 });
