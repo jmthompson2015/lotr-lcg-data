@@ -746,5 +746,58 @@
       "quantity_easy": 2,
       "quantity": 2,
       "image": "encounter-card/The Watcher in the Water/Wrapped.jpg"
+   },
+   {
+      "pack_name": "The Long Dark",
+      "encounter_set": "The Long Dark",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 93,
+      "name": "Fatigue",
+      "text": "<b>When Revealed:</b> Each player must exhaust 1 character he controls, if able. Then, if any player controls no unexhausted characters, Fatigue gains surge.",
+      "shadow": "<b>Shadow:</b> The defending player must exhaust 1 character he controls, if able.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Long Dark/Fatigue.jpg"
+   },
+   {
+      "pack_name": "The Long Dark",
+      "encounter_set": "The Long Dark",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 94,
+      "name": "Foul Air",
+      "text": "<b>When Revealed:</b> The first player makes a locate test. If this test is failed, deal 2 damage to all characters and trigger all <b>\"Lost:\"</b> effects in play.",
+      "flavor": "\"...I do not like the smell of the left&ndash;hand way: there is a foul air down there, or I am no guide.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
+      "pass": true,
+      "quantity_easy": 1,
+      "quantity": 3,
+      "image": "encounter-card/The Long Dark/Foul-Air.jpg"
+   },
+   {
+      "pack_name": "The Long Dark",
+      "encounter_set": "The Long Dark",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 95,
+      "name": "Gathering Ground",
+      "text": "<b>When Revealed:</b> Attach this card to a location in the staging area with the highest combined threat and remaining quest points. (Counts as a <b>Condition</b> attachment with the text: \"Each enemy revealed from the encounter deck gains surge.\")",
+      "pass": true,
+      "quantity_easy": 0,
+      "quantity": 1,
+      "image": "encounter-card/The Long Dark/Gathering-Ground.jpg"
+   },
+   {
+      "pack_name": "The Long Dark",
+      "encounter_set": "The Long Dark",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 96,
+      "name": "Vast and Intricate",
+      "text": "<b>When Revealed:</b> The first player makes a locate test. If this test is failed, raise each player's threat by 7, remove all progress tokens from play, and trigger all <b>\"Lost:\"</b> effects in play.",
+      "flavor": "The Mines of Moria were vast and intricate beyond the imagination of Gimli, Glóin's son, dwarf of the mountain-race though he was.\n<cite>The Fellowship of the Ring</cite>",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Long Dark/Vast-and-Intricate.jpg"
    }
 ]

@@ -202,5 +202,19 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Road to Rivendell/Arwen-Und&#243;miel.jpg"
+   },
+   {
+      "pack_name": "The Long Dark",
+      "encounter_set": "The Long Dark",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 88,
+      "name": "Durin&#39;s Greaves",
+      "is_unique": true,
+      "traits": "Artifact. Armour.",
+      "text": "<b>When Revealed:</b> The first player attaches Durin's Greaves to a hero of his choice as an attachment.<br/>Attached hero gets +1 Defense",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Long Dark/Durin&#39;s-Greaves.jpg"
    }
 ]
