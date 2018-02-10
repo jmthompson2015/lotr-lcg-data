@@ -40,6 +40,7 @@ define(["js/FileLoader"], function(FileLoader)
             href = href.replace("Cards/Details/The-Water&#39;s-Edge-FoS", "LotR/Details/The-Water's-Edge-FoS");
             href = href.replace("Cards/Details/Durin&#39;s-Axe-FoS", "LotR/Details/Durin's-Axe-FoS");
             href = href.replace("Cards/Details/Durin&#39;s-Helm-FoS", "LotR/Details/Durin's-Helm-FoS");
+            href = href.replace("Cards/Details/Durin&#39;s-Bane-SaF", "LotR/Details/Durin's-Bane-SaF");
 
             var data = {
                "title": extractAttribute(anchor, "title"),

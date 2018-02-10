@@ -1178,5 +1178,52 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Foundations of Stone/Mithril-Lode.jpg"
+   },
+   {
+      "pack_name": "Shadow and Flame",
+      "encounter_set": "Shadow and Flame",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 141,
+      "name": "Dark Pit",
+      "traits": "Underground. Dark.",
+      "text": "While Dark Pit is the active location it gains: \"<b>Refresh Action:</b> Exhaust X characters <i>(maximum 3)</i> you control to discard the top X cards of your deck. If all discarded cards have a higher combined printed cost than the remaining hit points of Durin's Bane, discard Durin's Bane from play.\"",
+      "threat": 0,
+      "quest_points": 11,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Shadow and Flame/Dark-Pit.jpg"
+   },
+   {
+      "pack_name": "Shadow and Flame",
+      "encounter_set": "Shadow and Flame",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 142,
+      "name": "Second Hall",
+      "is_unique": true,
+      "traits": "Underground.",
+      "text": "While Second Hall is the active location, it gains: \"<b>Forced:</b> After a character leaves play, reveal 1 card from the encounter deck and add it to the staging area.\"",
+      "flavor": "Down the centre stalked a double line of towering pillars. They were carved like boles of mighty trees whose boughs upheld the roof with a branching tracery of stone.\n<cite>The Fellowship of the Ring</cite>",
+      "threat": 4,
+      "quest_points": 2,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Shadow and Flame/Second-Hall.jpg"
+   },
+   {
+      "pack_name": "Shadow and Flame",
+      "encounter_set": "Shadow and Flame",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 143,
+      "name": "Second Deep",
+      "traits": "Underground.",
+      "text": "While Durin's Bane has no damage on it, progress tokens cannot be placed on Second Deep.",
+      "threat": 3,
+      "quest_points": 3,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Shadow and Flame/Second-Deep.jpg"
    }
 ]

@@ -1209,5 +1209,42 @@
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Foundations of Stone/Moria-Bats.jpg"
+   },
+   {
+      "pack_name": "Shadow and Flame",
+      "encounter_set": "Shadow and Flame",
+      "type_code": "enemy",
+      "type_name": "Enemy",
+      "position": 150,
+      "name": "Durin&#39;s Bane",
+      "is_unique": true,
+      "traits": "Balrog. Flame. Shadow.",
+      "text": "Regenerate 3. Indestructible. Players cannot play attachments on Durin's Bane.<br/>Durin's Bane cannot leave the staging area, is considered to be engaged with each player whose threat is 1 or greater, and attacks each of those players in turn during the combat phase <i>(deal and discard a new shadow card each attack)</i>.",
+      "engagement_cost": 1,
+      "threat": 4,
+      "attack": 6,
+      "defense": 3,
+      "hit_points": 27,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Shadow and Flame/Durin&#39;s-Bane.jpg"
+   },
+   {
+      "pack_name": "Shadow and Flame",
+      "encounter_set": "Shadow and Flame",
+      "type_code": "enemy",
+      "type_name": "Enemy",
+      "position": 151,
+      "name": "Ranging Goblin",
+      "traits": "Goblin. Orc.",
+      "text": "<b>When Revealed:</b> Each player must deal 1 damage to a hero he controls.<br/><b>Forced:</b> After a character leaves play, shuffle Ranging Goblin and the top card in the encounter discard pile back into the encounter deck.",
+      "engagement_cost": 35,
+      "threat": 2,
+      "attack": 1,
+      "defense": 1,
+      "hit_points": 2,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Shadow and Flame/Ranging-Goblin.jpg"
    }
 ]
