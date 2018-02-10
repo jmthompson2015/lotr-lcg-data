@@ -184,5 +184,23 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Redhorn Gate/Arwen-Und&#243;miel.jpg"
+   },
+   {
+      "pack_name": "Road to Rivendell",
+      "encounter_set": "Road to Rivendell",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 41,
+      "name": "Arwen Und&#243;miel",
+      "is_unique": true,
+      "traits": "Noldor. Noble. Ally.",
+      "text": "The first player gains control of Arwen Undómiel, as an ally.<br/><b>Response:</b> After Arwen Undómiel exhausts, choose a hero. Add 1 resource to that hero's resource pool.<br/><b>If Arwen Undómiel leaves play, the players are defeated.</b>",
+      "willpower": 2,
+      "attack": 0,
+      "defense": 1,
+      "hit_points": 2,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Road to Rivendell/Arwen-Und&#243;miel.jpg"
    }
- ]
+]

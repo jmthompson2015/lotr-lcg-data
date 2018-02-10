@@ -669,5 +669,43 @@
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/The Redhorn Gate/Avalanche.jpg"
+   },
+   {
+      "pack_name": "Road to Rivendell",
+      "encounter_set": "Road to Rivendell",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 46,
+      "name": "Sleeping Sentry",
+      "text": "<b>When Revealed:</b> Deal 1 damage to each exhausted character. Then, exhaust all ready characters.",
+      "shadow": "<b>Shadow:</b> Defending player must discard all exhausted characters he controls.",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/Road to Rivendell/Sleeping-Sentry.jpg"
+   },
+   {
+      "pack_name": "Road to Rivendell",
+      "encounter_set": "Road to Rivendell",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 47,
+      "name": "Followed by Night",
+      "text": "<b>When Revealed:</b> The first player (choose 1): deals 1 damage to all allies in play and Followed by Night gains surge, or all enemies engaged with players make an immediate attack, if able.",
+      "shadow": "<b>Shadow:</b> Return attacking enemy to the staging area after it attacks.",
+      "quantity_easy": 1,
+      "quantity": 2,
+      "image": "encounter-card/Road to Rivendell/Followed-by-Night.jpg"
+   },
+   {
+      "pack_name": "Road to Rivendell",
+      "encounter_set": "Road to Rivendell",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 48,
+      "name": "Orc Ambush",
+      "text": "Surge.<br/><b>When Revealed:</b> All <b>Orc</b> enemies in the staging area engage the first player. If there are no <b>Orc</b> enemies in the staging area, return all <b>Orc</b> enemies in the encounter discard pile to the staging area, if able.",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/Road to Rivendell/Orc-Ambush.jpg"
    }
- ]
+]
