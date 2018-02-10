@@ -707,5 +707,44 @@
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Road to Rivendell/Orc-Ambush.jpg"
+   },
+   {
+      "pack_name": "The Watcher in the Water",
+      "encounter_set": "The Watcher in the Water",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 70,
+      "name": "Ill Purpose",
+      "text": "<b>When Revealed:</b> All enemies in the staging area engage the player with the highest threat. Then, each player raises his threat by the total Threat of all cards in the staging area.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. (+3 Attack instead if it is a <b>Tentacle</b>.)",
+      "quantity_easy": 0,
+      "quantity": 1,
+      "image": "encounter-card/The Watcher in the Water/Ill-Purpose.jpg"
+   },
+   {
+      "pack_name": "The Watcher in the Water",
+      "encounter_set": "The Watcher in the Water",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 71,
+      "name": "Disturbed Waters",
+      "text": "Doomed 5.",
+      "flavor": "...there came a soft sound: a swish, followed by a plop, as if a fish had disturbed the still surface of the water. Turning quickly they saw ripples, black-edged with shadow in the waning light: great rings were widening outwards from a point far out in the lake. There was a bubbling noise, and then silence.\n<cite>The Fellowship of the Ring</cite>",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Watcher in the Water/Disturbed-Waters.jpg"
+   },
+   {
+      "pack_name": "The Watcher in the Water",
+      "encounter_set": "The Watcher in the Water",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 76,
+      "name": "Wrapped!",
+      "traits": "Tentacle.",
+      "text": "<b>When Revealed:</b> The first player attaches Wrapped! to a hero he controls. (Counts as a <b>Tentacle</b> attachment with the text: \"Limit 1 per hero. Attached hero cannot exhaust or ready. At the end of the round, discard attached hero from play.<br><b>Combat Action:</b> Exhaust a hero you control without a <b>Tentacle</b> attachment to discard Wrapped!.\")",
+      "quantity_easy": 2,
+      "quantity": 2,
+      "image": "encounter-card/The Watcher in the Water/Wrapped.jpg"
    }
 ]
