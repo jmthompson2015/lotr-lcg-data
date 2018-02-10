@@ -799,5 +799,31 @@
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Long Dark/Vast-and-Intricate.jpg"
+   },
+   {
+      "pack_name": "Foundations of Stone",
+      "encounter_set": "Foundations of Stone",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 123,
+      "name": "Deep Deep Dark",
+      "text": "Doomed 1. Surge.<br/><b>When Revealed:</b> Attach 1 card from the top of the first player's deck to each <b>Nameless</b> enemy in play, if able.",
+      "shadow": "<b>Shadow:</b> If attacking enemy is <b>Nameless</b>, the defending player must discard his hand.",
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/Foundations of Stone/Deep-Deep-Dark.jpg"
+   },
+   {
+      "pack_name": "Foundations of Stone",
+      "encounter_set": "Foundations of Stone",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 124,
+      "name": "Lost and Alone",
+      "text": "<b>When Revealed:</b> Each player chooses and shuffles a hero he controls into his deck. When he draws that hero, he puts it into play.",
+      "shadow": "<b>Shadow:</b> If attacking enemy is <b>Nameless</b>, the defending player must discard his hand.",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/Foundations of Stone/Lost-and-Alone.jpg"
    }
 ]

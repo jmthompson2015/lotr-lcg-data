@@ -1148,5 +1148,35 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Long Dark/Twisting-Passage.jpg"
+   },
+   {
+      "pack_name": "Foundations of Stone",
+      "encounter_set": "Foundations of Stone",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 121,
+      "name": "Drowned Treasury",
+      "traits": "Underground. Underwater.",
+      "text": "If Drowned Treasury is the active location at the end of the quest phase, each player must discard 1 character he controls.<br/><b>Response:</b> After Drowned Treasury leaves play as an explored location, each player may draw 2 cards or claim 1 objective in play.",
+      "threat": 2,
+      "quest_points": 3,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Foundations of Stone/Drowned-Treasury.jpg"
+   },
+   {
+      "pack_name": "Foundations of Stone",
+      "encounter_set": "Foundations of Stone",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 122,
+      "name": "Mithril Lode",
+      "traits": "Underground.",
+      "text": "Doomed 1.<br/>While Mithril Lode is the active location, it gains: \"<b>Refresh Action:</b> Exhaust a character you control to place X progress tokens on the current quest card, bypassing any active location. X is the exhausted character's Willpower. (Limit once per round.)\"",
+      "threat": 2,
+      "quest_points": 5,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Foundations of Stone/Mithril-Lode.jpg"
    }
 ]

@@ -216,5 +216,33 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Long Dark/Durin&#39;s-Greaves.jpg"
+   },
+   {
+      "pack_name": "Foundations of Stone",
+      "encounter_set": "Foundations of Stone",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 119,
+      "name": "Durin&#39;s Axe",
+      "is_unique": true,
+      "traits": "Weapon. Artifact.",
+      "text": "Surge. Restricted.<br/>Attached hero gets +3 Attack. If attached hero is a <b>Dwarf</b>, it gets +1 Willpower<br/><b>Action:</b> Exhaust a hero to claim this objective. Then, attach Durin's Axe to that hero as an attachment.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Foundations of Stone/Durin&#39;s-Axe.jpg"
+   },
+   {
+      "pack_name": "Foundations of Stone",
+      "encounter_set": "Foundations of Stone",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 120,
+      "name": "Durin&#39;s Helm",
+      "is_unique": true,
+      "traits": "Armor. Artifact.",
+      "text": "Surge.<br/>Attached hero gets +1 Defense. If attached hero is a <b>Dwarf</b>, it gets +2 hit points.<br/><b>Action:</b> Exhaust a hero to claim this objective. Then, attach Durin's Helm to that hero as an attachment.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Foundations of Stone/Durin&#39;s-Helm.jpg"
    }
 ]
