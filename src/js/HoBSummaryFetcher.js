@@ -35,6 +35,7 @@ define(["js/FileLoader"], function(FileLoader)
          {
             var href = extractAttribute(anchor, "href");
             href = href.replace("Cards/Details/The-Mountains&#39;-Roots-KD", "LotR/Details/The-Mountains'-Roots-KD");
+            href = href.replace("Cards/Details/The-Mountains&#39;-Peaks-TRG", "LotR/Details/The-Mountains'-Peaks-TRG");
 
             var data = {
                "title": extractAttribute(anchor, "title"),

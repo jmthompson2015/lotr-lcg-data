@@ -110,7 +110,8 @@ define(["js/HoBDetailFetcher", "js/HoBSummaryFetcher"],
             var typeDetailMap = this.typeDetailMap();
             HoBPackFetcher.TYPES.forEach((type) =>
             {
-               console.log(type + "\n" + JSON.stringify(typeDetailMap[type], null, 4));
+               // console.log(type + "\n" + JSON.stringify(typeDetailMap[type], null, 4));
+               console.log(type + "\n" + JSON.stringify(typeDetailMap[type]));
             });
          }
       };

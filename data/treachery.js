@@ -602,5 +602,72 @@
       "quantity_easy": 0,
       "quantity": 3,
       "image": "encounter-card/Goblins of the Deep/Watchful-Eyes.jpg"
+   },
+   {
+      "pack_name": "The Redhorn Gate",
+      "encounter_set": "The Redhorn Gate",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 20,
+      "name": "Fell Voices",
+      "text": "<b>When Revealed:</b> Return the top 2 <b>Snow</b> cards in the encounter discard pile to the top of the encounter deck. If this effect returned less than 2 <b>Snow</b> treachery cards, Fell Voices gains surge.",
+      "flavor": "It may have been only a trick of the wind...but the sounds were those of shrill cries, and wild howls of laughter.\n<cite>The Fellowship of the Ring</cite>",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Redhorn Gate/Fell-Voices.jpg"
+   },
+   {
+      "pack_name": "The Redhorn Gate",
+      "encounter_set": "The Redhorn Gate",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 21,
+      "name": "Fallen Stones",
+      "text": "<b>When Revealed:</b> The first player (choose 1): removes all progress tokens from play, or reveals 2 cards from the encounter deck and adds them to the staging area.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack for each progress token on the active location.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Redhorn Gate/Fallen-Stones.jpg"
+   },
+   {
+      "pack_name": "The Redhorn Gate",
+      "encounter_set": "The Redhorn Gate",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 22,
+      "name": "Snowstorm",
+      "traits": "Snow.",
+      "text": "<b>When Revealed:</b> Each questing character gets -1 Willpower until the end of the phase.",
+      "shadow": "<b>Shadow:</b> Until the end of the phase, characters defending this attack get -1 Willpower and are discarded if their Willpower is 0.",
+      "quantity_easy": 5,
+      "quantity": 0,
+      "image": "encounter-card/The Redhorn Gate/Snowstorm.jpg"
+   },
+   {
+      "pack_name": "The Redhorn Gate",
+      "encounter_set": "The Redhorn Gate",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 23,
+      "name": "Freezing Cold",
+      "traits": "Snow.",
+      "text": "<b>When Revealed:</b> The first player attaches this card to a hero he controls. Counts as a <b>Condition</b> attachment with the text: \"Attached hero gets -2 Willpower and cannot commit to a quest. If attached hero has more than 1 copy of Freezing Cold attached, discard attached hero from play.\"",
+      "quantity_easy": 1,
+      "quantity": 2,
+      "image": "encounter-card/The Redhorn Gate/Freezing-Cold.jpg"
+   },
+   {
+      "pack_name": "The Redhorn Gate",
+      "encounter_set": "The Redhorn Gate",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 24,
+      "name": "Avalanche!",
+      "traits": "Snow.",
+      "text": "<b>When Revealed:</b> Exhaust each ready character and if it is the quest phase commit them to the quest.",
+      "flavor": "Every now and again they heard a dull rumble, as a great boulder rolled down from hidden heights.\n<cite>The Fellowship of the Ring</cite>",
+      "quantity_easy": 0,
+      "quantity": 1,
+      "image": "encounter-card/The Redhorn Gate/Avalanche.jpg"
    }
-]
+ ]
