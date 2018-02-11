@@ -183,7 +183,7 @@
       "hit_points": 2,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Redhorn Gate/Arwen-Und&#243;miel.jpg"
+      "image": "encounter-card/The Redhorn Gate/Arwen-Undomiel.jpg"
    },
    {
       "pack_name": "Road to Rivendell",
@@ -201,7 +201,7 @@
       "hit_points": 2,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/Road to Rivendell/Arwen-Und&#243;miel.jpg"
+      "image": "encounter-card/Road to Rivendell/Arwen-Undomiel.jpg"
    },
    {
       "pack_name": "The Long Dark",

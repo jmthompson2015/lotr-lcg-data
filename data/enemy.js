@@ -81,9 +81,9 @@
       "type_code": "enemy",
       "type_name": "Enemy",
       "position": 90,
-      "name": "Chieftain Ufthak",
+      "name": "Chieftan Ufthak",
       "traits": "Dol Guldur. Orc.",
-      "text": "Chieftain Ufthak gets +2 Attack for each resource token on him.<br/><b>Forced:</b> After Chieftain Ufthak attacks, place 1 resource token on him.",
+      "text": "Chieftan Ufthak gets +2 Attack for each resource token on him.<br/><b>Forced:</b> After Chieftan Ufthak attacks, place 1 resource token on him.",
       "engagement_cost": 35,
       "threat": 2,
       "attack": 3,
@@ -92,7 +92,7 @@
       "victory": 4,
       "quantity_easy": 0,
       "quantity": 1,
-      "image": "encounter-card/Dol Guldur Orcs/Chieftain-Ufthak.jpg"
+      "image": "encounter-card/Dol Guldur Orcs/Chieftan-Ufthak.jpg"
    },
    {
       "pack_name": "Core Set",
@@ -488,7 +488,7 @@
       "hit_points": 9,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/Escape from Dol Guldur/Nazgûl-of-Dol-Guldur.jpg"
+      "image": "encounter-card/Escape from Dol Guldur/Nazgul-of-Dol-Guldur.jpg"
    },
    {
       "pack_name": "The Hills of Emyn Muil",

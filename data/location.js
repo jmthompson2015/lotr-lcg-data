@@ -652,7 +652,7 @@
       "victory": 2,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/Into the Pit/Bridge-of-Khazad-d&#251;m.jpg"
+      "image": "encounter-card/Into the Pit/Bridge-of-Khazad-dum.jpg"
    },
    {
       "pack_name": "Khazad-d&#251;m",
@@ -668,7 +668,7 @@
       "quest_points": 4,
       "quantity_easy": 2,
       "quantity": 0,
-      "image": "encounter-card/Into the Pit/Stairs-of-N&#225;in.jpg"
+      "image": "encounter-card/Into the Pit/Stairs-of-Nain.jpg"
    },
    {
       "pack_name": "Khazad-d&#251;m",

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Gallery</title>
+	<script src="../../lib/requirejs/require-2.3.5.js" data-main="../../src/main"></script>
+</head>
+<body>
+	<div id="chooser">
+		<select id="cardTypeChooser" name="cardType">
+			<!--
+			<option value="hero.js">Hero</option>
+			<option value="ally.js">Ally</option>
+			<option value="attachment.js">Attachment</option>
+			<option value="event.js">Event</option>
+			 -->
+			<option value="quest.js" selected="true">Quest</option>
+			<option value="enemy.js">Enemy</option>
+			<option value="location.js">Location</option>
+			<option value="objective.js">Objective</option>
+			<option value="treachery.js">Treachery</option>
+		</select>
+	</div>
+	<div id="gallery"></div>
+	<script>
+		"use strict";
+
+		require(["js/CardGallery", "js/JSONFileLoader"],
+			function(CardGallery, JSONFileLoader)
+			{
+				function chooserCallback(selectedObject)
+				{
+					var selectedValue = selectedObject.value;
+					var loaderCallback = function(cards)
+					{
+						var cardGallery = new CardGallery(
+						{
+							cards: cards,
+							width: (selectedValue.indexOf("quest") >= 0 ? 300 : 200),
+						});
+
+						document.getElementById("gallery").innerHTML = cardGallery.render();
+					};
+
+					var file = "../../data/" + selectedValue;
+					JSONFileLoader.loadFile(file, loaderCallback);
+				}
+
+				document.getElementById("cardTypeChooser").addEventListener("change",
+					function()
+					{
+						chooserCallback(this);
+					}, false);
+
+				chooserCallback(
+				{
+					value: "quest.js",
+				});
+			});
+	</script>
+</body>
+
+</html>

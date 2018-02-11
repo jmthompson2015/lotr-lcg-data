@@ -598,11 +598,11 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 128,
-      "name": "To the Elven King's Halls",
+      "name": "To the Elvin King's Halls",
       "sequence": "3A",
       "flavor": "Having thwarted Gollum's escape attempt, you tighten his rope and push on through Mirkwood, to Thranduil's palace.",
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "quest-card/Return to Mirkwood/To-the-Elven-King's-Halls-3A.jpg"
+      "image": "quest-card/Return to Mirkwood/To-the-Elvin-King's-Halls-3A.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",
@@ -610,12 +610,12 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 128,
-      "name": "To the Elven King's Halls",
+      "name": "To the Elvin King's Halls",
       "sequence": "3B",
       "text": "The player guarding Gollum cannot play cards from his hand.",
       "quest_points": 7,
       "encounter_sets": ["Return to Mirkwood", "Spiders of Mirkwood", "Wilderlands"],
-      "image": "quest-card/Return to Mirkwood/To-the-Elven-King's-Halls-3B.jpg"
+      "image": "quest-card/Return to Mirkwood/To-the-Elvin-King's-Halls-3B.jpg"
    },
    {
       "pack_name": "Return to Mirkwood",

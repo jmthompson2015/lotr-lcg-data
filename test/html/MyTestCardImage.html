@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyTestCardImage</title>
+	<script src="../../lib/requirejs/require-2.3.5.js" data-main="../../src/main"></script>
+</head>
+<body>
+	<div id="card0"></div>
+	<script>
+		"use strict";
+
+		require(["js/CardImage"], function(CardImage)
+		{
+			var cardImage0 = new CardImage(
+			{
+				card:
+				{
+					image: "encounter-card/Into the Pit/Patrol-Leader.jpg",
+				},
+				width: 250,
+			});
+			document.getElementById("card0").innerHTML = cardImage0.render();
+		});
+	</script>
+</body>
+
+</html>
