@@ -1125,4 +1125,43 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Steward&#39;s Fear/False-Lead.jpg"
+   },
+   {
+      "pack_name": "The Dr&#250;adan Forest",
+      "encounter_set": "The Dr&#250;adan Forest",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 53,
+      "name": "Men in the Dark",
+      "text": "<b>When Revealed:</b> Each hero must pay 1 resource or take 1 damage. If no hero takes damage from this effect, Men in the Dark gains surge.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack for each hero the defending player controls with no resources.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Druadan Forest/Men-in-the-Dark.jpg"
+   },
+   {
+      "pack_name": "The Dr&#250;adan Forest",
+      "encounter_set": "The Dr&#250;adan Forest",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 54,
+      "name": "Stars in Sky",
+      "text": "Prowl 2.<br/><b>When Revealed:</b> Each questing hero must pay 1 resource or it is removed from the quest.",
+      "shadow": "<b>Shadow:</b> Discard all resources from the defending character's resource pool.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Druadan Forest/Stars-in-Sky.jpg"
+   },
+   {
+      "pack_name": "The Dr&#250;adan Forest",
+      "encounter_set": "The Dr&#250;adan Forest",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 55,
+      "name": "Leaves on Tree",
+      "text": "Surge.<br/><b>When Revealed:</b> Each player must pay 1 resource for each attachment he controls or discard all attachments he controls.",
+      "shadow": "<b>Shadow:</b> Discard an attachment from the defending character.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Druadan Forest/Leaves-on-Tree.jpg"
    }]
