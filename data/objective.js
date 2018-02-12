@@ -244,5 +244,54 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Foundations of Stone/Durin&#39;s-Helm.jpg"
-   }
-]
+   },
+   {
+      "pack_name": "Heirs of N&#250;menor",
+      "encounter_set": "Peril in Pelargir",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 19,
+      "name": "Alcaron's Scroll",
+      "is_unique": true,
+      "traits": "Scroll.",
+      "text": "If unattached, return Alcaron's Scroll to the staging area and it gains: \"<b>Action:</b> Exhaust a hero to attach Alcaron's Scroll to that hero.\"<br/><b>Forced:</b> When the hero with Alcaron's Scroll attached is damaged by an enemy attack, attach Alcaron's Scroll to that enemy.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Peril in Pelargir/Alcaron's-Scroll.jpg"
+   },
+   {
+      "pack_name": "Heirs of N&#250;menor",
+      "encounter_set": "Into Ithilien",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 25,
+      "name": "Celador",
+      "is_unique": true,
+      "traits": "Gondor. Ranger.",
+      "text": "While Celador is in the staging area, he is committed to the current quest.<br/><b>Forced:</b> After players quest unsuccessfully or a character leaves play, deal 1 damage to Celador.<br/>If Celador leaves play, remove him from the game.",
+      "willpower": 2,
+      "attack": 2,
+      "defense": 2,
+      "hit_points": 3,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Into Ithilien/Celador.jpg"
+   },
+   {
+      "pack_name": "Heirs of N&#250;menor",
+      "encounter_set": "Into Ithilien",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 26,
+      "name": "Ithilien Guardian",
+      "traits": "Gondor. Ranger.",
+      "text": "While Ithilien Guardian is in the staging area, he is committed to the current quest.<br/><b>When Revealed:</b> Add Ithilien Guardian to the staging area and Ithilien Guardian gains surge.",
+      "shadow": "<b>Shadow:</b> Deal 2 damage to the attacking enemy.",
+      "willpower": 2,
+      "attack": 2,
+      "defense": 1,
+      "hit_points": 2,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Into Ithilien/Ithilien-Guardian.jpg"
+   }]
