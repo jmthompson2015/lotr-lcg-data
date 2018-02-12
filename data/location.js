@@ -1547,4 +1547,53 @@
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/The Druadan Forest/Glade-of-Cleansing.jpg"
-   }]
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 75,
+      "name": "Burning Farmhouse",
+      "traits": "Gondor.",
+      "text": "Villagers 4.<br/><b>Forced:</b> At the end of the round, discard 1 villager token from Burning Farmhouse.",
+      "flavor": "Houses and barns were burning.\n<cite>The Return of the King</cite>",
+      "threat": 1,
+      "quest_points": 5,
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/Encounter at Amon Din/Burning-Farmhouse.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 76,
+      "name": "Gondorian Hamlet",
+      "traits": "Gondor.",
+      "text": "Villagers 3.<br/>While Gondorian Hamlet is in the staging area it gains: \"<b>Forced:</b> After a treachery card is revealed from the encounter deck, discard 1 villager token from Gondorian Hamlet.\"",
+      "flavor": "The townlands were rich, with wide tilth and many orchards...\n<cite>The Return of the King</cite>",
+      "threat": 2,
+      "quest_points": 4,
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/Encounter at Amon Din/Gondorian-Hamlet.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 77,
+      "name": "Secluded Farmhouse",
+      "traits": "Gondor.",
+      "text": "Villagers 2.<br/><b>Travel:</b> Reveal the top card of the encounter deck and add it to the staging area to travel here.",
+      "flavor": "\"...the herdsmen and husbandmen that dwelt there were not many...\"\n<cite>The Return of the King</cite>",
+      "threat": 3,
+      "quest_points": 3,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Encounter at Amon Din/Secluded-Farmhouse.jpg"
+   }
+ ]

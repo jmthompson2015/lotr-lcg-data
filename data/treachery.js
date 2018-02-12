@@ -1164,4 +1164,44 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Druadan Forest/Leaves-on-Tree.jpg"
-   }]
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 78,
+      "name": "Burnt Homestead",
+      "text": "Surge.<br/><b>When Revealed:</b> Raise each player's threat by the number of damage tokens on Dead Villagers.",
+      "shadow": "<b>Shadow:</b> Defending player raises his threat by 1 for each damage token on Dead Villagers.",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/Encounter at Amon Din/Burnt-Homestead.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 79,
+      "name": "Trapped Inside",
+      "text": "Doomed 2.<br/><b>When Revealed:</b> Discard 1 villager token from the active location for each player in the game. If no villager tokens were removed by this effect, Trapped Inside gains surge.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, discard 1 villager token from Rescued Villagers.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Encounter at Amon Din/Trapped-Inside.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 80,
+      "name": "Panicked!",
+      "text": "<b>When Revealed:</b> Each player must take a villager token from Rescued Villagers and place it on a location in the staging area, if able. If no villager tokens were placed on a location by this effect, Panicked! gains surge.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack for each damage token on Dead Villagers.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Encounter at Amon Din/Panicked.jpg"
+   }
+]

@@ -2195,4 +2195,65 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/The Druadan Forest/The-Passage-Out-3B.jpg"
-   }]
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 66,
+      "name": "Savagery of the Orcs",
+      "sequence": "1A",
+      "text": "<b>Setup:</b> Set Ghulat aside, out of play. Put Lord Alcaron into play. Make Burning Farmhouse the active location. Add the Rescued Villagers and Dead Villagers objectives to the staging area. Then, shuffle the encounter deck and reveal 1 encounter card per player and add it to the staging area.",
+      "flavor": "Emerging from the Drúadan Forest with news of the conspirators' demise, you begin your journey to Minas Tirith. As you wake the following day, you see dark plumes of smoke rising across the lands of Anórien.",
+      "encounter_sets": ["Ravaging Orcs"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Encounter at Amon Din/Savagery-of-the-Orcs-1A.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 66,
+      "name": "Savagery of the Orcs",
+      "sequence": "1B",
+      "text": "Villagers 5.<br/>When progress would be placed on Savagery of the Orcs, move an equal number of villager tokens from this quest onto Rescued Villagers instead.<br/>If there are no villager tokens on Savagery of the Orcs, advance to the next stage.",
+      "flavor": "In a smoldering village near Amon Dîn, you find none other than a tired Lord Alcaron. Pleased to see you, he requests your assistance in protecting the village.",
+      "encounter_sets": ["Ravaging Orcs"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Encounter at Amon Din/Savagery-of-the-Orcs-1B.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 67,
+      "name": "Protect the Villagers",
+      "sequence": "2A",
+      "text": "<b>When Revealed:</b> Add Ghulat to the staging area.",
+      "flavor": "The orcs pillaging Anórien are remnants of the army defeated at Cair Andros. Stranded on the western bank of the Anduin, they are now punishing the local population. One of the roving bands is led by a cunning orc captain by the name of Ghulat. You must stop Ghulat and his orcs, or many innocents will die...",
+      "encounter_sets": ["Ravaging Orcs"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Encounter at Amon Din/Protect-the-Villagers-2A.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 67,
+      "name": "Protect the Villagers",
+      "sequence": "2B",
+      "text": "If an attack goes undefended, discard X villager tokens from Rescued Villagers instead of damaging a hero. X is the amount of damage that would have been dealt.<br/><b>When the players defeat this stage, end the game. Compare the number of tokens on Rescued Villagers to the number of tokens on Dead Villagers.",
+      "quest_points": 15,
+      "encounter_sets": ["Ravaging Orcs"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Encounter at Amon Din/Protect-the-Villagers-2B.jpg"
+   }
+]

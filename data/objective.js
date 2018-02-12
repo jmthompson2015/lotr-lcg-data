@@ -376,4 +376,47 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Steward&#39;s Fear/Poisoned-Counsels.jpg"
-   }]
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 68,
+      "name": "Rescued Villagers",
+      "text": "If a location leaves play as an explored location, move any villager tokens from that location to Rescued Villagers.<br/><b>At the end of the game, if there are more villager tokens here than damage tokens on Dead Villagers, the players have won.</b>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Encounter at Amon Din/Rescued-Villagers.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 69,
+      "name": "Dead Villagers",
+      "text": "If a villager token is discarded from a location, objective, or quest stage, place a damage token on Dead Villagers.<br/><b>At the end of the game, if there are more damage tokens here than villager tokens on Rescued Villagers, the players have lost.</b>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Encounter at Amon Din/Dead-Villagers.jpg"
+   },
+   {
+      "pack_name": "Encounter at Amon D&#238;n",
+      "encounter_set": "Encounter at Amon D&#238;n",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 70,
+      "name": "Lord Alcaron",
+      "is_unique": true,
+      "traits": "Gondor. Noble.",
+      "text": "The first player gains control of Lord Alcaron.<br/><b>Response:</b> After a villager token is discarded, exhaust Lord Alcaron to place that villager token on a location instead.<br/><b>If Lord Alcaron leaves play, the players have lost the game.</b>",
+      "willpower": 1,
+      "attack": 2,
+      "defense": 2,
+      "hit_points": 3,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Encounter at Amon Din/Lord-Alcaron.jpg"
+   }
+]
