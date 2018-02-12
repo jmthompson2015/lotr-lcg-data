@@ -1088,4 +1088,41 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Ravaging Orcs/Scourge-of-Mordor.jpg"
+   },
+   {
+      "pack_name": "The Steward&#39;s Fear",
+      "encounter_set": "The Steward&#39;s Fear",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 23,
+      "name": "Unwelcome Discovery",
+      "text": "Surge.<br/><b>When Revealed:</b> Reveal 1 card from the underworld deck and add it to the staging area. If it is a <i><b>Clue</b></i> card, discard it instead.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Steward&#39;s Fear/Unwelcome-Discovery.jpg"
+   },
+   {
+      "pack_name": "The Steward&#39;s Fear",
+      "encounter_set": "The Steward&#39;s Fear",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 24,
+      "name": "A Knife in the Back",
+      "text": "<b>When Revealed:</b> Randomly select 1 ally controlled by the first player, if able. The first player deals X damage to one of his heroes, where X is that ally's Attack. Then discard that ally. If no ally is discarded by this effect, A Knife in the Back gains surge.",
+      "quantity_easy": 1,
+      "quantity": 2,
+      "image": "encounter-card/The Steward&#39;s Fear/A-Knife-in-the-Back.jpg"
+   },
+   {
+      "pack_name": "The Steward&#39;s Fear",
+      "encounter_set": "The Steward&#39;s Fear",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 25,
+      "name": "False Lead",
+      "text": "<b>When Revealed:</b> End the quest phase without resolving the quest.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, remove all tokens from the current quest.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Steward&#39;s Fear/False-Lead.jpg"
    }]
