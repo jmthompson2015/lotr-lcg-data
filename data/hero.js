@@ -24,7 +24,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9001",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01001",
-   "imagesrc": "/bundles/cards/01001.png"
+   "imagesrc": "/bundles/cards/01001.png",
+   "image": "player-card/hero/Aragorn.jpg"
 },
 {
    "pack_code": "Core",
@@ -51,7 +52,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9002",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01002",
-   "imagesrc": "/bundles/cards/01002.png"
+   "imagesrc": "/bundles/cards/01002.png",
+   "image": "player-card/hero/Theodred.jpg"
 },
 {
    "pack_code": "Core",
@@ -78,7 +80,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9003",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01003",
-   "imagesrc": "/bundles/cards/01003.png"
+   "imagesrc": "/bundles/cards/01003.png",
+   "image": "player-card/hero/Gloin.jpg"
 },
 {
    "pack_code": "Core",
@@ -105,7 +108,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9004",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01004",
-   "imagesrc": "/bundles/cards/01004.png"
+   "imagesrc": "/bundles/cards/01004.png",
+   "image": "player-card/hero/Gimli.jpg"
 },
 {
    "pack_code": "Core",
@@ -132,7 +136,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9005",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01005",
-   "imagesrc": "/bundles/cards/01005.png"
+   "imagesrc": "/bundles/cards/01005.png",
+   "image": "player-card/hero/Legolas.jpg"
 },
 {
    "pack_code": "Core",
@@ -159,7 +164,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9006",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01006",
-   "imagesrc": "/bundles/cards/01006.png"
+   "imagesrc": "/bundles/cards/01006.png",
+   "image": "player-card/hero/Thalin.jpg"
 },
 {
    "pack_code": "Core",
@@ -186,7 +192,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9007",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01007",
-   "imagesrc": "/bundles/cards/01007.png"
+   "imagesrc": "/bundles/cards/01007.png",
+   "image": "player-card/hero/Eowyn.jpg"
 },
 {
    "pack_code": "Core",
@@ -213,7 +220,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9008",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01008",
-   "imagesrc": "/bundles/cards/01008.png"
+   "imagesrc": "/bundles/cards/01008.png",
+   "image": "player-card/hero/Eleanor.jpg"
 },
 {
    "pack_code": "Core",
@@ -240,7 +248,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9009",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01009",
-   "imagesrc": "/bundles/cards/01009.png"
+   "imagesrc": "/bundles/cards/01009.png",
+   "image": "player-card/hero/Dunhere.jpg"
 },
 {
    "pack_code": "Core",
@@ -267,7 +276,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9010",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01010",
-   "imagesrc": "/bundles/cards/01010.png"
+   "imagesrc": "/bundles/cards/01010.png",
+   "image": "player-card/hero/Denethor.jpg"
 },
 {
    "pack_code": "Core",
@@ -294,7 +304,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9011",
    "has_errata": false,
    "url": "http://ringsdb.com/card/01011",
-   "imagesrc": "/bundles/cards/01011.png"
+   "imagesrc": "/bundles/cards/01011.png",
+   "image": "player-card/hero/Glorfindel.jpg"
 },
 {
    "pack_code": "Core",
@@ -321,7 +332,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801200c9012",
    "has_errata": true,
    "url": "http://ringsdb.com/card/01012",
-   "imagesrc": "/bundles/cards/01012.png"
+   "imagesrc": "/bundles/cards/01012.png",
+   "image": "player-card/hero/Beravor.jpg"
 },
 {
    "pack_code": "HfG",
@@ -348,7 +360,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801201c9001",
    "has_errata": false,
    "url": "http://ringsdb.com/card/02001",
-   "imagesrc": "/bundles/cards/02001.png"
+   "imagesrc": "/bundles/cards/02001.png",
+   "image": "player-card/hero/Bilbo-Baggins.jpg"
 },
 {
    "pack_code": "CatC",
@@ -375,7 +388,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801202c9001",
    "has_errata": false,
    "url": "http://ringsdb.com/card/02025",
-   "imagesrc": "/bundles/cards/02025.png"
+   "imagesrc": "/bundles/cards/02025.png",
+   "image": "player-card/hero/Frodo-Baggins.jpg"
 },
 {
    "pack_code": "JtR",
@@ -402,7 +416,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801203c9001",
    "has_errata": false,
    "url": "http://ringsdb.com/card/02050",
-   "imagesrc": "/bundles/cards/02050.png"
+   "imagesrc": "/bundles/cards/02050.png",
+   "image": "player-card/hero/Prince-Imrahil.jpg"
 },
 {
    "pack_code": "HoEM",
@@ -429,7 +444,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801204c9003",
    "has_errata": false,
    "url": "http://ringsdb.com/card/02072",
-   "imagesrc": "/bundles/cards/02072.png"
+   "imagesrc": "/bundles/cards/02072.png",
+   "image": "player-card/hero/Brand-son-of-Bain.jpg"
 },
 {
    "pack_code": "TDM",
@@ -456,7 +472,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801205c9002",
    "has_errata": false,
    "url": "http://ringsdb.com/card/02095",
-   "imagesrc": "/bundles/cards/02095.png"
+   "imagesrc": "/bundles/cards/02095.png",
+   "image": "player-card/hero/Boromir.jpg"
 },
 {
    "pack_code": "RtM",
@@ -483,7 +500,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801206c9005",
    "has_errata": false,
    "url": "http://ringsdb.com/card/02116",
-   "imagesrc": "/bundles/cards/02116.png"
+   "imagesrc": "/bundles/cards/02116.png",
+   "image": "player-card/hero/Dain-Ironfoot.jpg"
 },
 {
    "pack_code": "KD",
@@ -510,7 +528,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801207c9025",
    "has_errata": false,
    "url": "http://ringsdb.com/card/03001",
-   "imagesrc": "/bundles/cards/03001.png"
+   "imagesrc": "/bundles/cards/03001.png",
+   "image": "player-card/hero/Dwalin.jpg"
 },
 {
    "pack_code": "KD",
@@ -537,7 +556,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801207c9008",
    "has_errata": false,
    "url": "http://ringsdb.com/card/03002",
-   "imagesrc": "/bundles/cards/03002.png"
+   "imagesrc": "/bundles/cards/03002.png",
+   "image": "player-card/hero/Bifur.jpg"
 },
 {
    "pack_code": "TRG",
@@ -564,7 +584,8 @@
    "octgnid": "cc7beee8-1f42-4926-8c45-8a50f3a87c57",
    "has_errata": false,
    "url": "http://ringsdb.com/card/04001",
-   "imagesrc": "/bundles/cards/04001.png"
+   "imagesrc": "/bundles/cards/04001.png",
+   "image": "player-card/hero/Elrohir.jpg"
 },
 {
    "pack_code": "RtR",
@@ -591,7 +612,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801209c9010",
    "has_errata": false,
    "url": "http://ringsdb.com/card/04028",
-   "imagesrc": "/bundles/cards/04028.png"
+   "imagesrc": "/bundles/cards/04028.png",
+   "image": "player-card/hero/Elladan.jpg"
 },
 {
    "pack_code": "WitW",
@@ -618,7 +640,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801210c9001",
    "has_errata": false,
    "url": "http://ringsdb.com/card/04053",
-   "imagesrc": "/bundles/cards/04053.png"
+   "imagesrc": "/bundles/cards/04053.png",
+   "image": "player-card/hero/Aragorn_WitW.jpg"
 },
 {
    "pack_code": "TLD",
@@ -645,7 +668,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801211c9016",
    "has_errata": false,
    "url": "http://ringsdb.com/card/04076",
-   "imagesrc": "/bundles/cards/04076.png"
+   "imagesrc": "/bundles/cards/04076.png",
+   "image": "player-card/hero/Hama.jpg"
 },
 {
    "pack_code": "FoS",
@@ -672,7 +696,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801212c9016",
    "has_errata": false,
    "url": "http://ringsdb.com/card/04101",
-   "imagesrc": "/bundles/cards/04101.png"
+   "imagesrc": "/bundles/cards/04101.png",
+   "image": "player-card/hero/Glorfindel_FoS.jpg"
 },
 {
    "pack_code": "SaF",
@@ -699,7 +724,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-0801213c9004",
    "has_errata": false,
    "url": "http://ringsdb.com/card/04128",
-   "imagesrc": "/bundles/cards/04128.png"
+   "imagesrc": "/bundles/cards/04128.png",
+   "image": "player-card/hero/Elrond.jpg"
 },
 {
    "pack_code": "HoN",
@@ -726,7 +752,8 @@
    "octgnid": "4823aae3-46ef-4a75-89f9-cbd3aa1b9005",
    "has_errata": false,
    "url": "http://ringsdb.com/card/05001",
-   "imagesrc": "/bundles/cards/05001.png"
+   "imagesrc": "/bundles/cards/05001.png",
+   "image": "player-card/hero/Beregond.jpg"
 },
 {
    "pack_code": "HoN",
@@ -753,7 +780,8 @@
    "octgnid": "4823aae3-46ef-4a75-89f9-cbd3aa1b9008",
    "has_errata": false,
    "url": "http://ringsdb.com/card/05002",
-   "imagesrc": "/bundles/cards/05002.png"
+   "imagesrc": "/bundles/cards/05002.png",
+   "image": "player-card/hero/Boromir_HoN.jpg"
 },
 {
    "pack_code": "TSF",
@@ -780,7 +808,8 @@
    "octgnid": "85699571-9cc3-4ccc-98b0-0e1664893ef5",
    "has_errata": false,
    "url": "http://ringsdb.com/card/06001",
-   "imagesrc": "/bundles/cards/06001.png"
+   "imagesrc": "/bundles/cards/06001.png",
+   "image": "player-card/hero/Hirluin-the-Fair.jpg"
 },
 {
    "pack_code": "TDF",
@@ -807,7 +836,8 @@
    "octgnid": "536c80ba-ad8b-447e-b378-1684508eb0f9",
    "has_errata": false,
    "url": "http://ringsdb.com/card/06032",
-   "imagesrc": "/bundles/cards/06032.png"
+   "imagesrc": "/bundles/cards/06032.png",
+   "image": "player-card/hero/Mirlonde.jpg"
 },
 {
    "pack_code": "EaAD",
@@ -834,7 +864,8 @@
    "octgnid": "fd89bdbf-7475-4f3e-96fc-8f5315a90021",
    "has_errata": false,
    "url": "http://ringsdb.com/card/06056",
-   "imagesrc": "/bundles/cards/06056.png"
+   "imagesrc": "/bundles/cards/06056.png",
+   "image": "player-card/hero/Pippin.jpg"
 },
 {
    "pack_code": "AoO",
@@ -861,7 +892,8 @@
    "octgnid": "323ebfa3-57e5-4394-9f55-284b2f7ee0be",
    "has_errata": false,
    "url": "http://ringsdb.com/card/06081",
-   "imagesrc": "/bundles/cards/06081.png"
+   "imagesrc": "/bundles/cards/06081.png",
+   "image": "player-card/hero/Faramir.jpg"
 },
 {
    "pack_code": "BoG",
@@ -888,7 +920,8 @@
    "octgnid": "60725069-031c-4251-9b2c-3f368545e9ac",
    "has_errata": false,
    "url": "http://ringsdb.com/card/06107",
-   "imagesrc": "/bundles/cards/06107.png"
+   "imagesrc": "/bundles/cards/06107.png",
+   "image": "player-card/hero/Caldara.jpg"
 },
 {
    "pack_code": "TMV",
@@ -915,7 +948,8 @@
    "octgnid": "29d5feef-6165-4077-bb80-692526a8a924",
    "has_errata": false,
    "url": "http://ringsdb.com/card/06134",
-   "imagesrc": "/bundles/cards/06134.png"
+   "imagesrc": "/bundles/cards/06134.png",
+   "image": "player-card/hero/Theoden.jpg"
 },
 {
    "pack_code": "VoI",
@@ -942,7 +976,8 @@
    "octgnid": "21cfb9e9-6777-4bc6-ace6-08fe68e949a4",
    "has_errata": false,
    "url": "http://ringsdb.com/card/07001",
-   "imagesrc": "/bundles/cards/07001.png"
+   "imagesrc": "/bundles/cards/07001.png",
+   "image": "player-card/hero/Eomer.jpg"
 },
 {
    "pack_code": "VoI",
@@ -969,7 +1004,8 @@
    "octgnid": "b49c3563-b3cd-4f33-b706-c2a721028891",
    "has_errata": false,
    "url": "http://ringsdb.com/card/07002",
-   "imagesrc": "/bundles/cards/07002.png"
+   "imagesrc": "/bundles/cards/07002.png",
+   "image": "player-card/hero/Grima.jpg"
 },
 {
    "pack_code": "TDT",
@@ -996,7 +1032,8 @@
    "octgnid": "4c4cccd3-576a-41f1-8b6c-ba11b4cc3d4b",
    "has_errata": false,
    "url": "http://ringsdb.com/card/08001",
-   "imagesrc": "/bundles/cards/08001.png"
+   "imagesrc": "/bundles/cards/08001.png",
+   "image": "player-card/hero/Celeborn.jpg"
 },
 {
    "pack_code": "TTT",
@@ -1023,7 +1060,8 @@
    "octgnid": "df9683da-d86f-46c9-9ef5-66001753dad5",
    "has_errata": false,
    "url": "http://ringsdb.com/card/08025",
-   "imagesrc": "/bundles/cards/08025.png"
+   "imagesrc": "/bundles/cards/08025.png",
+   "image": "player-card/hero/Idraen.jpg"
 },
 {
    "pack_code": "TiT",
@@ -1050,7 +1088,8 @@
    "octgnid": "9d548a43-0ef8-45e6-ab95-7356d218d203",
    "has_errata": false,
    "url": "http://ringsdb.com/card/08056",
-   "imagesrc": "/bundles/cards/08056.png"
+   "imagesrc": "/bundles/cards/08056.png",
+   "image": "player-card/hero/Haldir-of-Lorien.jpg"
 },
 {
    "pack_code": "NiE",
@@ -1077,7 +1116,8 @@
    "octgnid": "9e3a4b3b-7bb7-4403-984c-411af5ec8467",
    "has_errata": false,
    "url": "http://ringsdb.com/card/08084",
-   "imagesrc": "/bundles/cards/08084.png"
+   "imagesrc": "/bundles/cards/08084.png",
+   "image": "player-card/hero/Mablung.jpg"
 },
 {
    "pack_code": "CS",
@@ -1104,7 +1144,8 @@
    "octgnid": "8d6a15a8-e363-46bb-8e49-0af45a1ea0d1",
    "has_errata": false,
    "url": "http://ringsdb.com/card/08112",
-   "imagesrc": "/bundles/cards/08112.png"
+   "imagesrc": "/bundles/cards/08112.png",
+   "image": "player-card/hero/Galadriel.jpg"
 },
 {
    "pack_code": "TAC",
@@ -1131,7 +1172,8 @@
    "octgnid": "f2a282eb-eab1-472d-b7fb-71429a1a4855",
    "has_errata": false,
    "url": "http://ringsdb.com/card/08137",
-   "imagesrc": "/bundles/cards/08137.png"
+   "imagesrc": "/bundles/cards/08137.png",
+   "image": "player-card/hero/Erkenbrand.jpg"
 },
 {
    "pack_code": "TLR",
@@ -1158,7 +1200,8 @@
    "octgnid": "09ebd71c-8286-4838-b661-36a8633c9f0c",
    "has_errata": false,
    "url": "http://ringsdb.com/card/09001",
-   "imagesrc": "/bundles/cards/09001.png"
+   "imagesrc": "/bundles/cards/09001.png",
+   "image": "player-card/hero/Aragorn_TLR.jpg"
 },
 {
    "pack_code": "TLR",
@@ -1185,7 +1228,8 @@
    "octgnid": "52b151e9-f13b-4f85-961c-62838d25b97a",
    "has_errata": false,
    "url": "http://ringsdb.com/card/09002",
-   "imagesrc": "/bundles/cards/09002.png"
+   "imagesrc": "/bundles/cards/09002.png",
+   "image": "player-card/hero/Halbarad.jpg"
 },
 {
    "pack_code": "WoE",
@@ -1212,7 +1256,8 @@
    "octgnid": "03a7152b-e6af-4aaf-a064-7e814fc181d5",
    "has_errata": false,
    "url": "http://ringsdb.com/card/10001",
-   "imagesrc": "/bundles/cards/10001.png"
+   "imagesrc": "/bundles/cards/10001.png",
+   "image": "player-card/hero/Merry.jpg"
 },
 {
    "pack_code": "EfMG",
@@ -1239,7 +1284,8 @@
    "octgnid": "18fea279-cd38-4a5e-b271-b94d4f64eda1",
    "has_errata": false,
    "url": "http://ringsdb.com/card/10028",
-   "imagesrc": "/bundles/cards/10028.png"
+   "imagesrc": "/bundles/cards/10028.png",
+   "image": "player-card/hero/Rossiel.jpg"
 },
 {
    "pack_code": "AtE",
@@ -1266,7 +1312,8 @@
    "octgnid": "a25c47a4-3a9c-4883-a7a7-c40df596650c",
    "has_errata": false,
    "url": "http://ringsdb.com/card/10054",
-   "imagesrc": "/bundles/cards/10054.png"
+   "imagesrc": "/bundles/cards/10054.png",
+   "image": "player-card/hero/Dori.jpg"
 },
 {
    "pack_code": "ToR",
@@ -1293,7 +1340,8 @@
    "octgnid": "b188f729-0314-4664-95a0-7f93f4d44133",
    "has_errata": false,
    "url": "http://ringsdb.com/card/10084",
-   "imagesrc": "/bundles/cards/10084.png"
+   "imagesrc": "/bundles/cards/10084.png",
+   "image": "player-card/hero/Erestor.jpg"
 },
 {
    "pack_code": "BoCD",
@@ -1320,7 +1368,8 @@
    "octgnid": "94726dff-4b95-4c7c-9542-320b45652d7a",
    "has_errata": false,
    "url": "http://ringsdb.com/card/10115",
-   "imagesrc": "/bundles/cards/10115.png"
+   "imagesrc": "/bundles/cards/10115.png",
+   "image": "player-card/hero/Amarthiul.jpg"
 },
 {
    "pack_code": "TDR",
@@ -1347,7 +1396,8 @@
    "octgnid": "21f0ac18-21ea-44b7-b67b-4d1c5baaae0f",
    "has_errata": false,
    "url": "http://ringsdb.com/card/10140",
-   "imagesrc": "/bundles/cards/10140.png"
+   "imagesrc": "/bundles/cards/10140.png",
+   "image": "player-card/hero/Arwen-Undomiel.jpg"
 },
 {
    "pack_code": "TGH",
@@ -1374,7 +1424,8 @@
    "octgnid": "76ee3df4-3ebe-4d2d-9d7f-a0bbe759358a",
    "has_errata": false,
    "url": "http://ringsdb.com/card/11001",
-   "imagesrc": "/bundles/cards/11001.png"
+   "imagesrc": "/bundles/cards/11001.png",
+   "image": "player-card/hero/Cirdan-the-Shipwright.jpg"
 },
 {
    "pack_code": "TGH",
@@ -1401,7 +1452,8 @@
    "octgnid": "52e217a6-ddc0-4082-9ec2-09d92e8c25c7",
    "has_errata": false,
    "url": "http://ringsdb.com/card/11002",
-   "imagesrc": "/bundles/cards/11002.png"
+   "imagesrc": "/bundles/cards/11002.png",
+   "image": "player-card/hero/Galdor-of-the-Havens.jpg"
 },
 {
    "pack_code": "FotS",
@@ -1428,7 +1480,8 @@
    "octgnid": "4a76ad60-35d1-4657-ab4a-2f7f15cc7ab7",
    "has_errata": false,
    "url": "http://ringsdb.com/card/12001",
-   "imagesrc": "/bundles/cards/12001.png"
+   "imagesrc": "/bundles/cards/12001.png",
+   "image": "player-card/hero/Denethor_FotS.jpg"
 },
 {
    "pack_code": "TitD",
@@ -1455,7 +1508,8 @@
    "octgnid": "47750277-6869-470c-9376-7eb7f0a706f5",
    "has_errata": false,
    "url": "http://ringsdb.com/card/12030",
-   "imagesrc": "/bundles/cards/12030.png"
+   "imagesrc": "/bundles/cards/12030.png",
+   "image": "player-card/hero/Lanwyn.jpg"
 },
 {
    "pack_code": "TotD",
@@ -1482,7 +1536,8 @@
    "octgnid": "14820d35-cb36-499b-80ec-da6442548f7b",
    "has_errata": false,
    "url": "http://ringsdb.com/card/12057",
-   "imagesrc": "/bundles/cards/12057.png"
+   "imagesrc": "/bundles/cards/12057.png",
+   "image": "player-card/hero/Elfhelm.jpg"
 },
 {
    "pack_code": "DR",
@@ -1508,7 +1563,8 @@
    "octgnid": "8aea2aaf-8320-4694-bc64-fc264b409bab",
    "has_errata": false,
    "url": "http://ringsdb.com/card/12082",
-   "imagesrc": "/bundles/cards/12082.png"
+   "imagesrc": "/bundles/cards/12082.png",
+   "image": "player-card/hero/Argalad.jpg"
 },
 {
    "pack_code": "SoCH",
@@ -1534,7 +1590,8 @@
    "octgnid": "5205f00e-c538-4b5e-976c-5db99d33bc4e",
    "has_errata": false,
    "url": "http://ringsdb.com/card/12109",
-   "imagesrc": "/bundles/cards/12109.png"
+   "imagesrc": "/bundles/cards/12109.png",
+   "image": "player-card/hero/Na'asiyah.jpg"
 },
 {
    "pack_code": "CoC",
@@ -1560,7 +1617,8 @@
    "octgnid": "66cf39b5-015f-4bae-b304-4a61b5d1bedf",
    "has_errata": false,
    "url": "http://ringsdb.com/card/12138",
-   "imagesrc": "/bundles/cards/12138.png"
+   "imagesrc": "/bundles/cards/12138.png",
+   "image": "player-card/hero/Prince-Imrahil_CoC.jpg"
 },
 {
    "pack_code": "OHaUH",
@@ -1586,7 +1644,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-1801204c9017",
    "has_errata": false,
    "url": "http://ringsdb.com/card/131001",
-   "imagesrc": "/bundles/cards/131001.png"
+   "imagesrc": "/bundles/cards/131001.png",
+   "image": "player-card/hero/Bilbo-Baggins_OHaUH.jpg"
 },
 {
    "pack_code": "OHaUH",
@@ -1613,7 +1672,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-1801204c9083",
    "has_errata": false,
    "url": "http://ringsdb.com/card/131002",
-   "imagesrc": "/bundles/cards/131002.png"
+   "imagesrc": "/bundles/cards/131002.png",
+   "image": "player-card/hero/Thorin-Oakenshield.jpg"
 },
 {
    "pack_code": "OHaUH",
@@ -1640,7 +1700,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-1801204c9062",
    "has_errata": true,
    "url": "http://ringsdb.com/card/131003",
-   "imagesrc": "/bundles/cards/131003.png"
+   "imagesrc": "/bundles/cards/131003.png",
+   "image": "player-card/hero/Nori.jpg"
 },
 {
    "pack_code": "OHaUH",
@@ -1667,7 +1728,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-1801204c9065",
    "has_errata": false,
    "url": "http://ringsdb.com/card/131004",
-   "imagesrc": "/bundles/cards/131004.png"
+   "imagesrc": "/bundles/cards/131004.png",
+   "image": "player-card/hero/Ori.jpg"
 },
 {
    "pack_code": "OHaUH",
@@ -1694,7 +1756,8 @@
    "octgnid": "51223bd0-ffd1-11df-a976-1801204c9015",
    "has_errata": false,
    "url": "http://ringsdb.com/card/131005",
-   "imagesrc": "/bundles/cards/131005.png"
+   "imagesrc": "/bundles/cards/131005.png",
+   "image": "player-card/hero/Beorn.jpg"
 },
 {
    "pack_code": "OtD",
@@ -1720,7 +1783,8 @@
    "octgnid": "4e61b160-2104-497f-9977-4b353e54fbb7",
    "has_errata": false,
    "url": "http://ringsdb.com/card/132001",
-   "imagesrc": "/bundles/cards/132001.png"
+   "imagesrc": "/bundles/cards/132001.png",
+   "image": "player-card/hero/Bilbo-Baggins_OtD.jpg"
 },
 {
    "pack_code": "OtD",
@@ -1747,7 +1811,8 @@
    "octgnid": "bf2cb5a8-2ec6-4366-89f6-7e3010686a85",
    "has_errata": false,
    "url": "http://ringsdb.com/card/132002",
-   "imagesrc": "/bundles/cards/132002.png"
+   "imagesrc": "/bundles/cards/132002.png",
+   "image": "player-card/hero/Balin.jpg"
 },
 {
    "pack_code": "OtD",
@@ -1774,7 +1839,8 @@
    "octgnid": "e2cf87be-ccdc-48e9-8127-57bee67d4a0c",
    "has_errata": false,
    "url": "http://ringsdb.com/card/132003",
-   "imagesrc": "/bundles/cards/132003.png"
+   "imagesrc": "/bundles/cards/132003.png",
+   "image": "player-card/hero/Bard-the-Bowman.jpg"
 },
 {
    "pack_code": "OtD",
@@ -1801,7 +1867,8 @@
    "octgnid": "b21a2af5-7443-4630-9503-1b334ae51c6e",
    "has_errata": false,
    "url": "http://ringsdb.com/card/132004",
-   "imagesrc": "/bundles/cards/132004.png"
+   "imagesrc": "/bundles/cards/132004.png",
+   "image": "player-card/hero/Oin.jpg"
 },
 {
    "pack_code": "OtD",
@@ -1828,7 +1895,8 @@
    "octgnid": "66f66c2e-36e7-4d97-aebb-1ca413f9edeb",
    "has_errata": false,
    "url": "http://ringsdb.com/card/132005",
-   "imagesrc": "/bundles/cards/132005.png"
+   "imagesrc": "/bundles/cards/132005.png",
+   "image": "player-card/hero/Bombur.jpg"
 },
 {
    "pack_code": "TBR",
@@ -1855,7 +1923,8 @@
    "octgnid": "3217a119-6b86-47dd-b451-c5e45be3f874",
    "has_errata": false,
    "url": "http://ringsdb.com/card/141001",
-   "imagesrc": "/bundles/cards/141001.png"
+   "imagesrc": "/bundles/cards/141001.png",
+   "image": "player-card/hero/Frodo-Baggins_TBR.jpg"
 },
 {
    "pack_code": "TBR",
@@ -1882,7 +1951,8 @@
    "octgnid": "4124136c-8c86-4f86-830c-94c8c76df161",
    "has_errata": false,
    "url": "http://ringsdb.com/card/141002",
-   "imagesrc": "/bundles/cards/141002.png"
+   "imagesrc": "/bundles/cards/141002.png",
+   "image": "player-card/hero/Sam-Gamgee.jpg"
 },
 {
    "pack_code": "TBR",
@@ -1909,7 +1979,8 @@
    "octgnid": "052b1f85-8b9c-4bb0-a735-bdbd5ac1b2c4",
    "has_errata": false,
    "url": "http://ringsdb.com/card/141003",
-   "imagesrc": "/bundles/cards/141003.png"
+   "imagesrc": "/bundles/cards/141003.png",
+   "image": "player-card/hero/Merry_TBR.jpg"
 },
 {
    "pack_code": "TBR",
@@ -1936,7 +2007,8 @@
    "octgnid": "ce96b767-c569-48b8-a998-d8009b0143c7",
    "has_errata": false,
    "url": "http://ringsdb.com/card/141004",
-   "imagesrc": "/bundles/cards/141004.png"
+   "imagesrc": "/bundles/cards/141004.png",
+   "image": "player-card/hero/Pippin_TBR.jpg"
 },
 {
    "pack_code": "TBR",
@@ -1963,7 +2035,8 @@
    "octgnid": "5d75d4dd-7300-43d7-87f2-963271c9c904",
    "has_errata": false,
    "url": "http://ringsdb.com/card/141005",
-   "imagesrc": "/bundles/cards/141005.png"
+   "imagesrc": "/bundles/cards/141005.png",
+   "image": "player-card/hero/Fatty-Bolger.jpg"
 },
 {
    "pack_code": "TRD",
@@ -1990,7 +2063,8 @@
    "octgnid": "f9196cda-8f50-4cc5-9aad-1c56cb677bca",
    "has_errata": false,
    "url": "http://ringsdb.com/card/142001",
-   "imagesrc": "/bundles/cards/142001.png"
+   "imagesrc": "/bundles/cards/142001.png",
+   "image": "player-card/hero/Frodo-Baggins_TRD.jpg"
 },
 {
    "pack_code": "TRD",
@@ -2017,7 +2091,8 @@
    "octgnid": "3e055edf-4540-4cf1-94ce-afbf5fc28f82",
    "has_errata": false,
    "url": "http://ringsdb.com/card/142002",
-   "imagesrc": "/bundles/cards/142002.png"
+   "imagesrc": "/bundles/cards/142002.png",
+   "image": "player-card/hero/Gandalf.jpg"
 },
 {
    "pack_code": "ToS",
@@ -2044,7 +2119,8 @@
    "octgnid": "f5178135-1485-43c5-9660-99232a4cdca8",
    "has_errata": false,
    "url": "http://ringsdb.com/card/143001",
-   "imagesrc": "/bundles/cards/143001.png"
+   "imagesrc": "/bundles/cards/143001.png",
+   "image": "player-card/hero/Aragorn_ToS.jpg"
 },
 {
    "pack_code": "ToS",
@@ -2071,7 +2147,8 @@
    "octgnid": "f3d88160-30f2-4b8b-9e83-c42e62851bbc",
    "has_errata": false,
    "url": "http://ringsdb.com/card/143002",
-   "imagesrc": "/bundles/cards/143002.png"
+   "imagesrc": "/bundles/cards/143002.png",
+   "image": "player-card/hero/Theoden_ToS.jpg"
 },
 {
    "pack_code": "ToS",
@@ -2098,7 +2175,8 @@
    "octgnid": "94f6738a-c946-4415-9b38-0ce3a443fa33",
    "has_errata": false,
    "url": "http://ringsdb.com/card/143003",
-   "imagesrc": "/bundles/cards/143003.png"
+   "imagesrc": "/bundles/cards/143003.png",
+   "image": "player-card/hero/Treebeard.jpg"
 },
 {
    "pack_code": "LoS",
@@ -2125,7 +2203,8 @@
    "octgnid": "fe58a6d3-7028-41c1-ab00-5e33e7d77b5f",
    "has_errata": false,
    "url": "http://ringsdb.com/card/144001",
-   "imagesrc": "/bundles/cards/144001.png"
+   "imagesrc": "/bundles/cards/144001.png",
+   "image": "player-card/hero/Frodo-Baggins_LoS.jpg"
 },
 {
    "pack_code": "LoS",
@@ -2152,7 +2231,8 @@
    "octgnid": "8f937f89-b248-4261-9b00-4e3cd9763299",
    "has_errata": false,
    "url": "http://ringsdb.com/card/144002",
-   "imagesrc": "/bundles/cards/144002.png"
+   "imagesrc": "/bundles/cards/144002.png",
+   "image": "player-card/hero/Faramir_LoS.jpg"
 },
 {
    "pack_code": "LoS",
@@ -2179,7 +2259,8 @@
    "octgnid": "3f482b9c-aa18-415e-ab9b-58f9c3b328a1",
    "has_errata": false,
    "url": "http://ringsdb.com/card/144003",
-   "imagesrc": "/bundles/cards/144003.png"
+   "imagesrc": "/bundles/cards/144003.png",
+   "image": "player-card/hero/Damrod.jpg"
 },
 {
    "pack_code": "FotW",
@@ -2206,7 +2287,8 @@
    "octgnid": "2e778689-9e3f-4da8-a473-781c777f6473",
    "has_errata": false,
    "url": "http://ringsdb.com/card/145001",
-   "imagesrc": "/bundles/cards/145001.png"
+   "imagesrc": "/bundles/cards/145001.png",
+   "image": "player-card/hero/Aragorn_FotW.jpg"
 },
 {
    "pack_code": "FotW",
@@ -2233,7 +2315,8 @@
    "octgnid": "6dc19efc-af54-4eff-b9ee-ee45e9fd4072",
    "has_errata": false,
    "url": "http://ringsdb.com/card/145002",
-   "imagesrc": "/bundles/cards/145002.png"
+   "imagesrc": "/bundles/cards/145002.png",
+   "image": "player-card/hero/Eowyn_FotW.jpg"
 },
 {
    "pack_code": "FotW",
@@ -2260,7 +2343,8 @@
    "octgnid": "da4c926c-7917-4b6d-a1be-cc90fbdce597",
    "has_errata": false,
    "url": "http://ringsdb.com/card/145003",
-   "imagesrc": "/bundles/cards/145003.png"
+   "imagesrc": "/bundles/cards/145003.png",
+   "image": "player-card/hero/Beregond_FotW.jpg"
 },
 {
    "pack_code": "MoF",
@@ -2286,7 +2370,8 @@
    "illustrator": "Aleksander Karcz",
    "octgnid": "b937644c-ccbb-4a39-ae3c-24857d1d4d57",
    "has_errata": false,
-   "url": "http://ringsdb.com/card/146001"
+   "url": "http://ringsdb.com/card/146001",
+   "image": "player-card/hero/Frodo-Baggins_MoF.jpg"
 },
 {
    "pack_code": "MoF",
@@ -2312,7 +2397,8 @@
    "illustrator": "David A. Nash",
    "octgnid": "f1cc6057-ced3-4105-9172-869d26a54af5",
    "has_errata": false,
-   "url": "http://ringsdb.com/card/146002"
+   "url": "http://ringsdb.com/card/146002",
+   "image": "player-card/hero/Aragorn_MoF.jpg"
 },
 {
    "pack_code": "MoF",
@@ -2338,7 +2424,8 @@
    "illustrator": "Ryan Valle",
    "octgnid": "7a1bc81a-c226-4589-a1cf-65668846c64b",
    "has_errata": false,
-   "url": "http://ringsdb.com/card/146003"
+   "url": "http://ringsdb.com/card/146003",
+   "image": "player-card/hero/Eomer_MoF.jpg"
 },
 {
    "pack_code": "MoF",
@@ -2363,7 +2450,8 @@
    "illustrator": "Nicholas Gregory",
    "octgnid": "bbab76d6-7554-40da-af74-fb502d08d9a8",
    "has_errata": false,
-   "url": "http://ringsdb.com/card/146004"
+   "url": "http://ringsdb.com/card/146004",
+   "image": "player-card/hero/Tom-Cotton.jpg"
 },
 {
    "pack_code": "TSoH",
@@ -2390,7 +2478,8 @@
    "octgnid": "053357f5-4192-4a35-bf2c-7f48d584f292",
    "has_errata": false,
    "url": "http://ringsdb.com/card/16001",
-   "imagesrc": "/bundles/cards/16001.png"
+   "imagesrc": "/bundles/cards/16001.png",
+   "image": "player-card/hero/Gimli_TSoH.jpg"
 },
 {
    "pack_code": "TSoH",
@@ -2417,7 +2506,8 @@
    "octgnid": "8124f5ac-6f03-4629-96f5-b8775ec8a7c4",
    "has_errata": false,
    "url": "http://ringsdb.com/card/16002",
-   "imagesrc": "/bundles/cards/16002.png"
+   "imagesrc": "/bundles/cards/16002.png",
+   "image": "player-card/hero/Legolas_TSoH.jpg"
 },
 {
    "pack_code": "M",
@@ -2444,7 +2534,8 @@
    "octgnid": "ae49dd35-f2c7-4ab5-b34d-0cc8e5fb1f6e",
    "has_errata": false,
    "url": "http://ringsdb.com/card/17001",
-   "imagesrc": "/bundles/cards/17001.png"
+   "imagesrc": "/bundles/cards/17001.png",
+   "image": "player-card/hero/Kahliel.jpg"
 },
 {
    "pack_code": "RAH",
@@ -2471,7 +2562,8 @@
    "octgnid": "12946b30-a231-4074-a524-960365081360",
    "has_errata": false,
    "url": "http://ringsdb.com/card/17028",
-   "imagesrc": "/bundles/cards/17028.png"
+   "imagesrc": "/bundles/cards/17028.png",
+   "image": "player-card/hero/Thurindir.jpg"
 },
 {
    "pack_code": "BtS",
@@ -2498,7 +2590,8 @@
    "octgnid": "068e0590-6bb4-429e-8a2b-2ef0869c7c4f",
    "has_errata": false,
    "url": "http://ringsdb.com/card/17055",
-   "imagesrc": "/bundles/cards/17055.png"
+   "imagesrc": "/bundles/cards/17055.png",
+   "image": "player-card/hero/Hirgon.jpg"
 },
 {
    "pack_code": "TBS",
@@ -2523,7 +2616,8 @@
    "illustrator": "Lukasz Jaskolski",
    "octgnid": "d87344c3-d234-44c8-89b1-249f5c88bfab",
    "has_errata": false,
-   "url": "http://ringsdb.com/card/17081"
+   "url": "http://ringsdb.com/card/17081",
+   "image": "player-card/hero/Fastred.jpg"
 },
 {
    "pack_code": "DoCG",
@@ -2549,5 +2643,6 @@
    "illustrator": "Owen William Weber",
    "octgnid": "375d1e9d-7de9-4853-a99f-c15885256a6f",
    "has_errata": false,
-   "url": "http://ringsdb.com/card/17109"
+   "url": "http://ringsdb.com/card/17109",
+   "image": "player-card/hero/Folco-Boffin.jpg"
 }]

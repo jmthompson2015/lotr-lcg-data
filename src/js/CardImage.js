@@ -25,7 +25,7 @@ define(function()
       var alt = card.name;
       var content = "<img src=\"" + src + "\" width=\"" + width + "\" alt=\"" + alt + "\" />";
       var style = "padding: 0.25em;";
-      var title = card.encounter_set + ": " + card.name;
+      var title = card.pack_name + ": " + card.name;
       var element = "<div style=\"" + style + "\" title=\"" + title + "\">" + content + "</div>";
 
       return element;
