@@ -2255,5 +2255,34 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Encounter at Amon Din/Protect-the-Villagers-2B.jpg"
+   },
+   {
+      "pack_name": "Assault on Osgiliath",
+      "encounter_set": "Assault on Osgiliath",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 91,
+      "name": "Retake the City",
+      "sequence": "1A",
+      "text": "<b>Setup:</b> Each player chooses 1 enemy and 1 unique location and add them to the staging area. Shuffle the encounter deck.",
+      "flavor": "You have returned to Minas Tirith just in time to join the army of Gondor as it marches to Osgiliath. An army of orcs and southrons have garrisoned the ancient city, but Lord Boromir means to retake it. Eager to strike a blow against Mordor, you will see the city retaken or die in the attempt...",
+      "encounter_sets": ["Mordor Elite", "Southrons"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Assault on Osgiliath/Retake-the-City-1A.jpg"
+   },
+   {
+      "pack_name": "Assault on Osgiliath",
+      "encounter_set": "Assault on Osgiliath",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 91,
+      "name": "Retake the City",
+      "sequence": "1B",
+      "text": "Player card effects cannot place progress tokens on locations in the staging area.<br/><b>Forced:</b> When an <b>Osgiliath</b> location leaves play as an explored location, the first player takes control of that location.<br/><b>If the players control all Osgiliath locations in play at the end of the round, they have won the game.</b>",
+      "encounter_sets": ["Mordor Elite", "Southrons"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Assault on Osgiliath/Retake-the-City-1B.jpg"
    }
 ]

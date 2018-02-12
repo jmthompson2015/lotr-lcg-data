@@ -1203,5 +1203,43 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Encounter at Amon Din/Panicked.jpg"
+   },
+   {
+      "pack_name": "Assault on Osgiliath",
+      "encounter_set": "Assault on Osgiliath",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 104,
+      "name": "Pinned Down",
+      "text": "<b>When Revealed:</b> Add X to the archery total this round. X is the number of locations the players control. If the players control less than 4 locations, Pinned Down gains surge.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, that character's controller must return a location he controls with the highest Threat to the staging area.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Assault on Osgiliath/Pinned-Down.jpg"
+   },
+   {
+      "pack_name": "Assault on Osgiliath",
+      "encounter_set": "Assault on Osgiliath",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 105,
+      "name": "Street Fighting",
+      "text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until an <b>Osgiliath</b> location is discarded. The first player may exhaust a hero to take control of that location. Otherwise, add that location to the staging area. This effect cannot be canceled.",
+      "flavor": "And now the fighting waxed furious...\n<cite>The Return of the King</cite>",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Assault on Osgiliath/Street-Fighting.jpg"
+   },
+   {
+      "pack_name": "Assault on Osgiliath",
+      "encounter_set": "Assault on Osgiliath",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 106,
+      "name": "Counter-attack",
+      "text": "Surge.<br/><b>When Revealed:</b> Each player must either return the location he controls with the highest Threat to the staging area, or raise his threat by the total Threat of all locations he controls.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Assault on Osgiliath/Counter-attack.jpg"
    }
 ]
