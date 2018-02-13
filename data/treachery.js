@@ -1280,5 +1280,57 @@
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/The Blood of Gondor/Conflict-at-the-Crossroads.jpg"
+   },
+   {
+      "pack_name": "The Morgul Vale",
+      "encounter_set": "The Morgul Vale",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 157,
+      "name": "Impenetrable Fog",
+      "text": "<b>When Revealed:</b> The first player either places 3 progress tokens on To the Tower or reveals X additional cards from the encounter deck and adds them to the staging area. X is the number of players in the game.",
+      "flavor": "The air above was heavy with fog, and a reek lay on the land about them.\n<cite>The Two Towers</cite>",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/The Morgul Vale/Impenetrable-Fog.jpg"
+   },
+   {
+      "pack_name": "The Morgul Vale",
+      "encounter_set": "The Morgul Vale",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 158,
+      "name": "Sleepless Malice",
+      "text": "Doomed 2.<br/><b>When Revealed:</b> Each player must discard 3 random cards from his hand or place 1 progress token on To the Tower.",
+      "shadow": "<b>Shadow:</b> Return attacking enemy to the staging area after this attack.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Morgul Vale/Sleepless-Malice.jpg"
+   },
+   {
+      "pack_name": "The Morgul Vale",
+      "encounter_set": "The Morgul Vale",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 159,
+      "name": "Terror Drives Them",
+      "text": "Surge.<br/><b>When Revealed:</b> Place 1 progress token on To the Tower.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack for each progress token on To the Tower.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Morgul Vale/Terror-Drives-Them.jpg"
+   },
+   {
+      "pack_name": "The Morgul Vale",
+      "encounter_set": "The Morgul Vale",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 160,
+      "name": "The Dead City Looms",
+      "text": "<b>When Revealed:</b> Raise each player's threat by the number of progress tokens on To the Tower. If there are no progress tokens on To the Tower, The Dead City Looms gains surge.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack for each progress token on To the Tower.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Morgul Vale/The-Dead-City-Looms.jpg"
    }
 ]

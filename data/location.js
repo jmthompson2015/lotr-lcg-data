@@ -1821,5 +1821,52 @@
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Blood of Gondor/The-Dark-Woods.jpg"
+   },
+   {
+      "pack_name": "The Morgul Vale",
+      "encounter_set": "The Morgul Vale",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 154,
+      "name": "Morgul Road",
+      "traits": "Road.",
+      "text": "<b>Response:</b> After Morgul Road leaves play as an explored location, the first player may remove 1 progress token from To the Tower or deal 1 damage to any enemy in play.",
+      "shadow": "<b>Shadow:</b> Return attacking enemy to the staging area after this attack.",
+      "threat": 2,
+      "quest_points": 5,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Morgul Vale/Morgul-Road.jpg"
+   },
+   {
+      "pack_name": "The Morgul Vale",
+      "encounter_set": "The Morgul Vale",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 155,
+      "name": "Morgul Vale",
+      "traits": "Valley.",
+      "text": "<b>Forced:</b> At the end of the round, each player returns 1 enemy engaged with him to the staging area.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, place 1 progress token on To the Tower.",
+      "threat": 3,
+      "quest_points": 3,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Morgul Vale/Morgul-Vale.jpg"
+   },
+   {
+      "pack_name": "The Morgul Vale",
+      "encounter_set": "The Morgul Vale",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 156,
+      "name": "The White Bridge",
+      "is_unique": true,
+      "traits": "Bridge.",
+      "text": "X is the number of progress tokens on To the Tower.",
+      "flavor": "So they came slowly to the white bridge.\n<cite>The Two Towers</cite>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Morgul Vale/The-White-Bridge.jpg"
    }
 ]

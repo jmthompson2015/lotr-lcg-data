@@ -454,5 +454,18 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Blood of Gondor/Lord-Alcaron.jpg"
+   },
+   {
+      "pack_name": "The Morgul Vale",
+      "encounter_set": "The Morgul Vale",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 147,
+      "name": "To the Tower",
+      "traits": "Captured.",
+      "text": "To the Tower cannot leave the staging area.<br/>Remove Faramir from the game.<br/><b>If 10 or more progress tokens are on To the Tower, the players have lost the game.</b>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Morgul Vale/To-the-Tower.jpg"
    }
 ]
