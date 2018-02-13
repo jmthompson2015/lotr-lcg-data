@@ -467,5 +467,38 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Morgul Vale/To-the-Tower.jpg"
+   },
+   {
+      "pack_name": "The Voice of Isengard",
+      "encounter_set": "The Fords of Isen",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 16,
+      "name": "Gr&#237;ma",
+      "is_unique": true,
+      "traits": "Rohan.",
+      "text": "If free of encounters, the first player gains control of Gríma.<br/><b>Action:</b> Exhaust Gríma to draw a card.<br/><b>If Gríma leaves play, the players lose the game.</b>",
+      "flavor": "Behind him cringing between two other men, came Gríma the Wormtongue.\n<cite>The Two Towers</cite>",
+      "willpower": 2,
+      "attack": 1,
+      "defense": 2,
+      "hit_points": 3,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Fords of Isen/Grima.jpg"
+   },
+   {
+      "pack_name": "The Voice of Isengard",
+      "encounter_set": "Into Fangorn",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 31,
+      "name": "Mugash",
+      "is_unique": true,
+      "traits": "Orc. Uruk.",
+      "text": "Guarded.<br/><b>Action:</b> Exhaust a hero to claim this objective when it is free of encounters. Attach Mugash to that hero.<br/><b>Forced:</b> After attached hero takes damage, return Mugash to the top of the encounter deck.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Into Fangorn/Mugash.jpg"
    }
 ]
