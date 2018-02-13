@@ -418,5 +418,41 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Encounter at Amon Din/Lord-Alcaron.jpg"
+   },
+   {
+      "pack_name": "The Blood of Gondor",
+      "encounter_set": "The Blood of Gondor",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 132,
+      "name": "Faramir",
+      "is_unique": true,
+      "traits": "Gondor. Noble. Ranger.",
+      "text": "The first player gains control of Faramir.<br/><b>Combat Action:</b> Exhaust Faramir to turn a hidden card faceup. If that card is an enemy, deal 3 damage to it.<br/><b>If Faramir leaves play, the players have lost the game.</b>",
+      "willpower": 2,
+      "attack": 3,
+      "defense": 1,
+      "hit_points": 4,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Blood of Gondor/Faramir.jpg"
+   },
+   {
+      "pack_name": "The Blood of Gondor",
+      "encounter_set": "The Blood of Gondor",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 133,
+      "name": "Lord Alcaron",
+      "is_unique": true,
+      "traits": "Gondor. Noble.",
+      "text": "The first player gains control of Lord Alcaron.<br/><b>Action:</b> Exhaust Lord Alcaron to return an enemy engaged with you to the staging area.<br/><b>If Lord Alcaron leaves play, the players have lost the game.</b>",
+      "willpower": 1,
+      "attack": 2,
+      "defense": 2,
+      "hit_points": 3,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Blood of Gondor/Lord-Alcaron.jpg"
    }
 ]

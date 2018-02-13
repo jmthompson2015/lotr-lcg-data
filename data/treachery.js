@@ -1241,5 +1241,44 @@
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Assault on Osgiliath/Counter-attack.jpg"
+   },
+   {
+      "pack_name": "The Blood of Gondor",
+      "encounter_set": "The Blood of Gondor",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 129,
+      "name": "Lying in Wait",
+      "text": "<b>When Revealed:</b> The first player turns each hidden card in his play area faceup. Resolve the \"When Revealed\" effects of each encounter card turned faceup by this effect. If a location is turned faceup, add it to the staging area.",
+      "flavor": "Up came the Orcs, yelling, with their long arms stretched out to seize him.\n<cite>The Two Towers</cite>",
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/The Blood of Gondor/Lying-in-Wait.jpg"
+   },
+   {
+      "pack_name": "The Blood of Gondor",
+      "encounter_set": "The Blood of Gondor",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 130,
+      "name": "Mordor Looms",
+      "text": "Surge.<br/><b>When Revealed:</b> Each player takes 1 hidden card.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, that character's controller turns each of his hidden cards faceup.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Blood of Gondor/Mordor-Looms.jpg"
+   },
+   {
+      "pack_name": "The Blood of Gondor",
+      "encounter_set": "The Blood of Gondor",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 131,
+      "name": "Conflict at the Crossroads",
+      "text": "<b>When Revealed:</b> Until the end of the phase, <b>Orc</b> enemies engaged with players add their Threat to the staging area. If no <b>Orc</b> enemies are engaged with players, Conflict at the Crossroads gains surge.",
+      "shadow": "<b>Shadow:</b> Take 1 hidden card.",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/The Blood of Gondor/Conflict-at-the-Crossroads.jpg"
    }
 ]
