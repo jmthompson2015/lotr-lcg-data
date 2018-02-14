@@ -562,5 +562,23 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Trouble in Tharbad/Nalir.jpg"
+   },
+   {
+      "pack_name": "The N&#238;n-in-Eilph",
+      "encounter_set": "The N&#238;n-in-Eilph",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 102,
+      "name": "Nalir",
+      "is_unique": true,
+      "traits": "Dwarf.",
+      "text": "The first player gains control of Nalir.<br/><b>Forced:</b> At the beginning of the refresh phase, raise your threat by 1 for each player in the game.<br/><b>If Nalir leaves play, the players lose the game.</b>",
+      "willpower": 0,
+      "attack": 1,
+      "defense": 2,
+      "hit_points": 3,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Nin-in-Eilph/Nalir.jpg"
    }
 ]

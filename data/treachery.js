@@ -1613,5 +1613,31 @@
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Trouble in Tharbad/Get-That-Dwarf.jpg"
+   },
+   {
+      "pack_name": "The N&#238;n-in-Eilph",
+      "encounter_set": "The N&#238;n-in-Eilph",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 110,
+      "name": "Shifting Marshland",
+      "text": "Surge.<br/><b>When Revealed:</b> Remove 1 time counter from the current quest.",
+      "shadow": "<b>Shadow:</b> Attacking enemy makes an additional attack after this one.",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/The Nin-in-Eilph/Shifting-Marshland.jpg"
+   },
+   {
+      "pack_name": "The N&#238;n-in-Eilph",
+      "encounter_set": "The N&#238;n-in-Eilph",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 111,
+      "name": "Remnants of Elder Days",
+      "text": "<b>When Revealed:</b> Each player must search the encounter deck and discard pile for a <b>Creature</b> enemy and put it into play engaged with him. Shuffle the encounter deck. This effect cannot be canceled.",
+      "flavor": "\"An evil of the Ancient World it seemed, such as I have never seen before...\"\n<cite>Aragorn, The Fellowship of the Ring</cite>",
+      "quantity_easy": 0,
+      "quantity": 1,
+      "image": "encounter-card/The Nin-in-Eilph/Remnants-of-Elder-Days.jpg"
    }
 ]
