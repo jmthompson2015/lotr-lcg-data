@@ -2937,5 +2937,63 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/The Three Trials/The-Antlered-Crown-3B.jpg"
+   },
+   {
+      "pack_name": "Trouble in Tharbad",
+      "encounter_set": "Trouble in Tharbad",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 66,
+      "name": "Double Dealings",
+      "sequence": "1A",
+      "text": "<b>Setup:</b> Set Bellach and The Crossing at Tharbad aside, out of play. Search the encounter deck for 1 copy of Spy From Mordor per player, and add them to the staging area. Make The Empty Mug the active location. The first player takes control of Nalir, as an ally. Shuffle the encounter deck.",
+      "flavor": "Your meeting with Nalir is interrupted by a host of Orcs led by a man, Bellach. In the ensuing chaos, you manage to escape with the Dwarf but the Orcs pursue. Outnumbered, you must throw the Orcs off your trail if you hope to escape...",
+      "encounter_sets": ["Misty Mountain Orcs"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Trouble in Tharbad/Double-Dealings-1A.jpg"
+   },
+   {
+      "pack_name": "Trouble in Tharbad",
+      "encounter_set": "Trouble in Tharbad",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 66,
+      "name": "Double Dealings",
+      "sequence": "1B",
+      "text": "Time 4. <b>Forced:</b> After the last time counter is removed from this quest, reduce each player's threat elimination level by 10 for the remainder of the game. Then, place 4 time counters on this stage.<br/><b>Forced:</b> After one or more progress is placed on this quest, cancel all progress and reduce each player's threat by an equal amount.<br/><b>When all players have 0 threat, immediately proceed to stage 2.</b>",
+      "encounter_sets": ["Misty Mountain Orcs"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Trouble in Tharbad/Double-Dealings-1B.jpg"
+   },
+   {
+      "pack_name": "Trouble in Tharbad",
+      "encounter_set": "Trouble in Tharbad",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 67,
+      "name": "Escape from Tharbad",
+      "sequence": "2A",
+      "text": "<b>When Revealed:</b> Add Bellach and The Crossing at Tharbad to the staging area. Then, shuffle the encounter discard pile into the encounter deck and discard cards from the encounter deck until X <b>Orc</b> enemies have been discarded, where X is the number of players in the game. Add all discarded <b>Orc</b> enemies to the staging area.",
+      "flavor": "You've eluded the Orcs and you make haste for the river crossing. If you can get across, perhaps you can escape. But, Bellach has cleverly set a patrol at the ford, and you are quickly spotted. You make a dash for the river...",
+      "encounter_sets": ["Misty Mountain Orcs"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Trouble in Tharbad/Escape-from-Tharbad-2A.jpg"
+   },
+   {
+      "pack_name": "Trouble in Tharbad",
+      "encounter_set": "Trouble in Tharbad",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 67,
+      "name": "Escape from Tharbad",
+      "sequence": "2B",
+      "text": "Time 3. <b>Forced:</b> After the last time counter is removed from the quest, either raise each player's threat by 3 or Bellach makes an immediate attack against Nalir. Then, place 3 time counters on this stage.<br/>Progress that would be placed on this quest are instead placed on The Crossing at Tharbad.<br/><b>Forced:</b> After a character leaves play, raise its controller's threat by 2.",
+      "encounter_sets": ["Misty Mountain Orcs"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Trouble in Tharbad/Escape-from-Tharbad-2B.jpg"
    }
 ]

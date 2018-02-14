@@ -1885,7 +1885,7 @@
    "has_errata": false,
    "url": "http://ringsdb.com/card/08058",
    "imagesrc": "/bundles/cards/08058.png",
-   "image": "player-card/attachment/O-Lorien!.jpg"
+   "image": "player-card/attachment/O-Lorien.jpg"
 },
 {
    "pack_code": "TiT",
@@ -2605,7 +2605,7 @@
    "has_errata": false,
    "url": "http://ringsdb.com/card/11014",
    "imagesrc": "/bundles/cards/11014.png",
-   "image": "player-card/attachment/To-the-Sea,-to-the-Sea!.jpg"
+   "image": "player-card/attachment/To-the-Sea-to-the-Sea.jpg"
 },
 {
    "pack_code": "TGH",

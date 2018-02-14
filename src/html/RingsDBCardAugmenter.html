@@ -38,7 +38,7 @@
 					var name = card.name;
 					name = name.replace(/ /g, "-");
 					name = name.replace(/,/g, "");
-					name = name.replace(/!/g, "");
+					name = name.replace(/\!/g, "");
 					name = name.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
 					card.image = "player-card/" + type + "/" + name + ".jpg";
 				});

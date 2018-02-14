@@ -1561,5 +1561,57 @@
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Three Trials/Wild-Tenacity.jpg"
+   },
+   {
+      "pack_name": "Trouble in Tharbad",
+      "encounter_set": "Trouble in Tharbad",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 80,
+      "name": "Constant Tail",
+      "text": "<b>When Revealed:</b> Return all engaged enemies to the staging area. Then, the first player either removes 1 time counter from the current quest or each <b>Spy</b> enemy in the staging area gets +2 Threat until the end of the phase.",
+      "flavor": "Concealment was no longer possible, and they could only hope that no enemy or spy was observing them.\n<cite>The Fellowship of the Ring</cite>",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Trouble in Tharbad/Constant-Tail.jpg"
+   },
+   {
+      "pack_name": "Trouble in Tharbad",
+      "encounter_set": "Trouble in Tharbad",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 81,
+      "name": "Conspicuous Lot",
+      "text": "<b>When Revealed:</b> Each player raises his threat by 1 for each ally he controls. Then, if any player's threat is 20 or less, this card gains surge.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack (+2 Attack instead if the defending player's threat is 20 or less).",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Trouble in Tharbad/Conspicuous-Lot.jpg"
+   },
+   {
+      "pack_name": "Trouble in Tharbad",
+      "encounter_set": "Trouble in Tharbad",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 82,
+      "name": "Cornered",
+      "text": "<b>When Revealed:</b> The first player either removes 1 time counter from the current quest or each enemies gets -20 engagement cost and +1 Attack until the end of the round.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack (+2 Attack instead if the defending player's threat is 20 or less).",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Trouble in Tharbad/Cornered.jpg"
+   },
+   {
+      "pack_name": "Trouble in Tharbad",
+      "encounter_set": "Trouble in Tharbad",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 83,
+      "name": "Get That Dwarf!",
+      "text": "<b>When Revealed:</b> The enemy in the staging area with the highest Attack engages the first player and makes an immediate attack against Nalir. If there are no enemies in the staging area, Get That Dwarf! gains surge.",
+      "shadow": "<b>Shadow:</b> If this attack is undefended, deal 2 damage to Nalir.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Trouble in Tharbad/Get-That-Dwarf.jpg"
    }
 ]
