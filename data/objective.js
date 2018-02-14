@@ -500,5 +500,50 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Into Fangorn/Mugash.jpg"
+   },
+   {
+      "pack_name": "The Three Trials",
+      "encounter_set": "The Three Trials",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 43,
+      "name": "Key of the Boar",
+      "is_unique": true,
+      "traits": "Item. Key. Boar.",
+      "text": "If unattached, the first player must claim Key of the Boar and attach it to a hero he controls.<br/>If Key of the Boar is discarded, add it to the staging area.",
+      "shadow": "<b>Shadow:</b> Shuffle Key of the Boar back into the encounter deck.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Three Trials/Key-of-the-Boar.jpg"
+   },
+   {
+      "pack_name": "The Three Trials",
+      "encounter_set": "The Three Trials",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 44,
+      "name": "Key of the Wolf",
+      "is_unique": true,
+      "traits": "Item. Key. Wolf.",
+      "text": "If unattached, the first player must claim Key of the Wolf and attach it to a hero he controls.<br/>If Key of the Wolf is discarded, add it to the staging area.",
+      "shadow": "<b>Shadow:</b> Shuffle Key of the Wolf back into the encounter deck.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Three Trials/Key-of-the-Wolf.jpg"
+   },
+   {
+      "pack_name": "The Three Trials",
+      "encounter_set": "The Three Trials",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 45,
+      "name": "Key of the Raven",
+      "is_unique": true,
+      "traits": "Item. Key. Raven.",
+      "text": "If unattached, the first player must claim Key of the Raven and attach it to a hero he controls.<br/>If Key of the Raven is discarded, add it to the staging area.",
+      "shadow": "<b>Shadow:</b> Shuffle Key of the Raven back into the encounter deck.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Three Trials/Key-of-the-Raven.jpg"
    }
 ]

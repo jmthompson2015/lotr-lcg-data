@@ -1522,5 +1522,44 @@
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/The Dunland Trap/Dunlending-Ambush.jpg"
+   },
+   {
+      "pack_name": "The Three Trials",
+      "encounter_set": "The Three Trials",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 53,
+      "name": "Curse of the Wild Men",
+      "text": "<b>When Revealed:</b> Deal 1 damage to each non-unique character in play. If the players control 3 <b>Key</b> objectives, Curse of the Wild Men gains surge.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack for each <b>Key</b> objective the players control.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Three Trials/Curse-of-the-Wild-Men.jpg"
+   },
+   {
+      "pack_name": "The Three Trials",
+      "encounter_set": "The Three Trials",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 54,
+      "name": "The Guardian&#39;s Fury",
+      "text": "<b>When Revealed:</b> Each <b>Guardian</b> enemy makes an attack. If there are no <b>Guardian</b> enemies in play, reveal a random <b>Guardian</b> enemy from the victory display, and add it to the staging area.",
+      "shadow": "If the attacking enemy is a <b>Guardian</b> it makes an additional attack after this one.",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/The Three Trials/The-Guardian&#39;s-Fury.jpg"
+   },
+   {
+      "pack_name": "The Three Trials",
+      "encounter_set": "The Three Trials",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 55,
+      "name": "Wild Tenacity",
+      "text": "<b>When Revealed:</b> Remove X time counters from each enemy in play with the time keyword, where X is the number of players.",
+      "shadow": "<b>Shadow:</b> If attacking enemy is a <b>Guardian</b> deal it 2 additional shadow cards for this attack.",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/The Three Trials/Wild-Tenacity.jpg"
    }
 ]
