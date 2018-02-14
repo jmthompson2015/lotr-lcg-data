@@ -1497,5 +1497,30 @@
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Weary Travelers/In-Need-of-Rest.jpg"
+   },
+   {
+      "pack_name": "The Dunland Trap",
+      "encounter_set": "The Dunland Trap",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 23,
+      "name": "Frenzied Attack",
+      "text": "<b>When Revealed:</b> Each player draws a card. Each player discard each ally from his hand. If no allies were discarded this way, Frenzied Attack gains surge.",
+      "shadow": "<b>Shadow:</b> Until the end of the round, attacking enemy cannot take damage.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Dunland Trap/Frenzied-Attack.jpg"
+   },
+   {
+      "pack_name": "The Dunland Trap",
+      "encounter_set": "The Dunland Trap",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 24,
+      "name": "Dunlending Ambush",
+      "text": "Surge.<br/><b>When Revealed:</b> Attach to the active location. (Counts as a <b>Condition</b> attachment with the text: \"Limit 1 per location. <b>Forced:</b> After attached location is explored, each player searches the encounter deck and discard pile for a <b>Dunland</b> enemy and puts it into play engaged with him. Shuffle the encounter deck.\")",
+      "quantity_easy": 1,
+      "quantity": 2,
+      "image": "encounter-card/The Dunland Trap/Dunlending-Ambush.jpg"
    }
 ]
