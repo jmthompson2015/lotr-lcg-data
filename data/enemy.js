@@ -1282,7 +1282,7 @@
       "type_code": "enemy",
       "type_name": "Enemy",
       "position": 150,
-      "name": "Durin&#39;s Bane",
+      "name": "Durin's Bane",
       "is_unique": true,
       "traits": "Balrog. Flame. Shadow.",
       "text": "Regenerate 3. Indestructible. Players cannot play attachments on Durin's Bane.<br/>Durin's Bane cannot leave the staging area, is considered to be engaged with each player whose threat is 1 or greater, and attacks each of those players in turn during the combat phase <i>(deal and discard a new shadow card each attack)</i>.",
@@ -1293,7 +1293,7 @@
       "hit_points": 27,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/Shadow and Flame/Durin&#39;s-Bane.jpg"
+      "image": "encounter-card/Shadow and Flame/Durin's-Bane.jpg"
    },
    {
       "pack_code": "SaF",
@@ -1709,7 +1709,7 @@
       "hit_points": 2,
       "quantity_easy": 5,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Underworld-Dissident.jpg"
+      "image": "encounter-card/The Steward's Fear/Underworld-Dissident.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1729,7 +1729,7 @@
       "hit_points": 5,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Daughter-of-Beruthiel.jpg"
+      "image": "encounter-card/The Steward's Fear/Daughter-of-Beruthiel.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1749,7 +1749,7 @@
       "hit_points": 6,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/The-Hand-of-Castamir.jpg"
+      "image": "encounter-card/The Steward's Fear/The-Hand-of-Castamir.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1758,7 +1758,7 @@
       "type_code": "enemy",
       "type_name": "Enemy",
       "position": 17,
-      "name": "Telemnar&#39;s Bane",
+      "name": "Telemnar's Bane",
       "is_unique": true,
       "traits": "Gondor. Villain.",
       "text": "<b>Forced:</b> When Telemnar's Bane attacks, discard the top 3 cards of each player's deck.<br/><b>Forced:</b> After a player plays an event card, Telemnar's Bane makes an immediate attack against the first player.",
@@ -1769,7 +1769,7 @@
       "hit_points": 7,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Telemnar&#39;s-Bane.jpg"
+      "image": "encounter-card/The Steward's Fear/Telemnar's-Bane.jpg"
    },
    {
       "pack_code": "TDF",
@@ -2257,7 +2257,7 @@
       "type_code": "enemy",
       "type_name": "Enemy",
       "position": 25,
-      "name": "Mugash&#39;s Guard",
+      "name": "Mugash's Guard",
       "traits": "Orc. Uruk.",
       "text": "While a player controls a hero with Mugash attached, Mugash's Guard engages that player.<br/><b>Forced:</b> After Mugash's Guard destroys a character, if Mugash is attached to a hero, return Mugash to the staging area.",
       "engagement_cost": 40,
@@ -2268,7 +2268,7 @@
       "victory": 3,
       "quantity_easy": 3,
       "quantity": 0,
-      "image": "encounter-card/To Catch an Orc/Mugash&#39;s-Guard.jpg"
+      "image": "encounter-card/To Catch an Orc/Mugash's-Guard.jpg"
    },
    {
       "pack_code": "VoI",
@@ -2614,7 +2614,7 @@
       "type_code": "enemy",
       "type_name": "Enemy",
       "position": 40,
-      "name": "Boar&#39;s Guardian",
+      "name": "Boar's Guardian",
       "is_unique": true,
       "traits": "Guardian. Boar.",
       "text": "Cannot have non-<b>Key</b> attachments.<br/>Time 2. <b>Forced:</b> After the last time counter is removed from Boar's Guardian, the engaged player must discard an ally he controls. Place 2 time counters on Boar's Guardian.",
@@ -2626,7 +2626,7 @@
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Three Trials/Boar&#39;s-Guardian.jpg"
+      "image": "encounter-card/The Three Trials/Boar's-Guardian.jpg"
    },
    {
       "pack_code": "TTT",
@@ -2635,7 +2635,7 @@
       "type_code": "enemy",
       "type_name": "Enemy",
       "position": 41,
-      "name": "Wolf&#39;s Guardian",
+      "name": "Wolf's Guardian",
       "is_unique": true,
       "traits": "Guardian. Wolf.",
       "text": "Cannot have non-<b>Key</b> attachments.<br/>Time 3. <b>Forced:</b> After the last time counter is removed from Wolf's Guardian, it makes an immediate attack against the engaged player. Place 3 time counters on Wolf's Guardian.",
@@ -2647,7 +2647,7 @@
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Three Trials/Wolf&#39;s-Guardian.jpg"
+      "image": "encounter-card/The Three Trials/Wolf's-Guardian.jpg"
    },
    {
       "pack_code": "TTT",
@@ -2656,7 +2656,7 @@
       "type_code": "enemy",
       "type_name": "Enemy",
       "position": 42,
-      "name": "Raven&#39;s Guardian",
+      "name": "Raven's Guardian",
       "is_unique": true,
       "traits": "Guardian. Raven.",
       "text": "Cannot have non-<b>Key</b> attachments.<br/>Time 4. <b>Forced:</b> After the last time counter is removed from Raven's Guardian, deal 1 damage to each character controlled by the engaged player. Place 4 time counters on Raven's Guardian.",
@@ -2668,7 +2668,7 @@
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Three Trials/Raven&#39;s-Guardian.jpg"
+      "image": "encounter-card/The Three Trials/Raven's-Guardian.jpg"
    },
    {
       "pack_code": "TTT",
@@ -2736,7 +2736,7 @@
       "type_code": "enemy",
       "type_name": "Enemy",
       "position": 73,
-      "name": "Bellach&#39;s Marauder",
+      "name": "Bellach's Marauder",
       "traits": "Orc.",
       "text": "While Bellach's Marauder is engaged with a player, it gains: \"<b>Forced:</b> After a time counter is removed from the current quest, deal Bellach's Marauder 2 shadow cards.\"",
       "shadow": "<b>Shadow:</b> Remove 1 time counter from the current quest.",
@@ -2747,7 +2747,7 @@
       "hit_points": 5,
       "quantity_easy": 1,
       "quantity": 1,
-      "image": "encounter-card/Trouble in Tharbad/Bellach&#39;s-Marauder.jpg"
+      "image": "encounter-card/Trouble in Tharbad/Bellach's-Marauder.jpg"
    },
    {
       "pack_code": "NiE",
@@ -2809,5 +2809,65 @@
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Nin-in-Eilph/Neekerbreekers.jpg"
+   },
+   {
+      "pack_code": "CS",
+      "pack_name": "Celebrimbor's Secret",
+      "encounter_set": "Celebrimbor's Secret",
+      "type_code": "enemy",
+      "type_name": "Enemy",
+      "position": 124,
+      "name": "Bellach",
+      "is_unique": true,
+      "traits": "Mordor. Spy.",
+      "text": "X is the number of cards underneath The Orcs' Search.<br/><b>Scour:</b> Each player must search the encounter deck and discard pile for an <b>Orc</b> enemy and add it to the staging area.",
+      "engagement_cost": 50,
+      "attack": 5,
+      "defense": 4,
+      "hit_points": 7,
+      "victory": 5,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Celebrimbor's Secret/Bellach.jpg"
+   },
+   {
+      "pack_code": "CS",
+      "pack_name": "Celebrimbor's Secret",
+      "encounter_set": "Celebrimbor's Secret",
+      "type_code": "enemy",
+      "type_name": "Enemy",
+      "position": 128,
+      "name": "Bellach's Scout",
+      "traits": "Mordor. Orc.",
+      "text": "<b>When Revealed:</b> Either place 3 damage on the active location, or reveal an additional encounter card.<br/><b>Scour:</b> Place 1 damage on the active location.",
+      "shadow": "<b>Shadow:</b> Place 1 damage on the active location.",
+      "engagement_cost": 40,
+      "threat": 2,
+      "attack": 3,
+      "defense": 2,
+      "hit_points": 4,
+      "quantity_easy": 3,
+      "quantity": 1,
+      "image": "encounter-card/Celebrimbor's Secret/Bellach's-Scout.jpg"
+   },
+   {
+      "pack_code": "CS",
+      "pack_name": "Celebrimbor's Secret",
+      "encounter_set": "Celebrimbor's Secret",
+      "type_code": "enemy",
+      "type_name": "Enemy",
+      "position": 129,
+      "name": "Prowling Orc",
+      "traits": "Mordor. Orc.",
+      "text": "<b>Forced:</b> After Prowling Orc attacks, place 1 damage on the active location.<br/><b>Scour:</b> Prowling Orc engages the player with the highest threat and makes an immediate attack.",
+      "flavor": "\"Garn! You don't even know what you're looking for.\"\n<cite>Orc, The Return of the King</cite>",
+      "engagement_cost": 45,
+      "threat": 3,
+      "attack": 5,
+      "defense": 3,
+      "hit_points": 5,
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Celebrimbor's Secret/Prowling-Orc.jpg"
    }
 ]

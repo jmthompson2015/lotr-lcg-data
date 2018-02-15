@@ -1765,5 +1765,47 @@
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/The Nin-in-Eilph/Remnants-of-Elder-Days.jpg"
+   },
+   {
+      "pack_code": "CS",
+      "pack_name": "Celebrimbor's Secret",
+      "encounter_set": "Celebrimbor's Secret",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 134,
+      "name": "Discovered!",
+      "text": "<b>When Revealed:</b> Either trigger each <b>Scour</b> effect currently in play, or each player places a random card from his hand facedown underneath The Orcs' Search.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, place that character facedown underneath The Orcs' Search.",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/Celebrimbor's Secret/Discovered.jpg"
+   },
+   {
+      "pack_code": "CS",
+      "pack_name": "Celebrimbor's Secret",
+      "encounter_set": "Celebrimbor's Secret",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 135,
+      "name": "Desecrated Ruins",
+      "text": "<b>When Revealed:</b> Place 3 damage on the active location. If there is no active location, Desecrated Ruins gains surge.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. If this attack destroys an ally, place X damage on the active location. X is that ally's cost.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Celebrimbor's Secret/Desecrated-Ruins.jpg"
+   },
+   {
+      "pack_code": "CS",
+      "pack_name": "Celebrimbor's Secret",
+      "encounter_set": "Celebrimbor's Secret",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 136,
+      "name": "Spies from Mordor",
+      "text": "<b>When Revealed:</b> Each player must exhaust X characters he controls. X is the number of cards underneath The Orcs' Search. If no characters are exhausted this way, Spies from Mordor gains surge.",
+      "shadow": "<b>Shadow:</b> Defending player discards a non-objective attachment he controls.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Celebrimbor's Secret/Spies-from-Mordor.jpg"
    }
 ]

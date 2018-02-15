@@ -619,5 +619,34 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Nin-in-Eilph/Nalir.jpg"
+   },
+   {
+      "pack_code": "CS",
+      "pack_name": "Celebrimbor's Secret",
+      "encounter_set": "Celebrimbor's Secret",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 125,
+      "name": "The Orcs' Search",
+      "text": "When a location has damage equal to its printed quest points, place it facedown underneath The Orcs' Search.<br/><b>Forced:</b> At the end of the refresh phase, raise each player's threat by 1 for each card underneath The Orcs' Search.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Celebrimbor's Secret/The-Orcs'-Search.jpg"
+   },
+   {
+      "pack_code": "CS",
+      "pack_name": "Celebrimbor's Secret",
+      "encounter_set": "Celebrimbor's Secret",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 127,
+      "name": "Celebrimbor's Mould",
+      "is_unique": true,
+      "traits": "Artifact. Item.",
+      "text": "If Celebrimbor's Mould is free of encounters, the first player claims it and attaches it to a hero he controls.<br/><b>If the attached hero leaves play, the players lose the game.</b>",
+      "flavor": "\"Celebrimbor of Hollin drew these signs.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Celebrimbor's Secret/Celebrimbor's-Mould.jpg"
    }
 ]
