@@ -1807,5 +1807,47 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Celebrimbor's Secret/Spies-from-Mordor.jpg"
+   },
+   {
+      "pack_code": "TAC",
+      "pack_name": "The Antlered Crown",
+      "encounter_set": "The Antlered Crown",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 159,
+      "name": "Raising the Cry",
+      "text": "<b>When Revealed:</b> Remove 1 time counter from each location in play. Place X time counters on each location in play with no time counters on it. X is the \"Time X\" value on that location. If there are not locations in the staging area, Raising the Cry gains surge.",
+      "flavor": "...a cry went up into the shuddering air...\n<cite>The Return of the King</cite>",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/The Antlered Crown/Raising-the-Cry.jpg"
+   },
+   {
+      "pack_code": "TAC",
+      "pack_name": "The Antlered Crown",
+      "encounter_set": "The Antlered Crown",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 160,
+      "name": "Fierce Folk",
+      "text": "Doomed 3.<br/><b>When Revealed:</b> Each player draws 3 cards. Until the end of the round, players cannot play events.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. If this attack destroys a character, remove 1 time counter from the active location.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Antlered Crown/Fierce-Folk.jpg"
+   },
+   {
+      "pack_code": "TAC",
+      "pack_name": "The Antlered Crown",
+      "encounter_set": "The Antlered Crown",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 161,
+      "name": "Driven Back",
+      "text": "<b>When Revealed:</b> Remove all progress from each location in the staging area. Increase the total Threat in the staging area by 1 for each progress removed this way. If no progress was removed by this effect, Driven Back gains surge.",
+      "flavor": "\"We are overmastered.\"\n<cite>Ceorl, The Two Towers</cite>",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Antlered Crown/Driven-Back.jpg"
    }
 ]

@@ -648,5 +648,24 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Celebrimbor's Secret/Celebrimbor's-Mould.jpg"
+   },
+   {
+      "pack_code": "TAC",
+      "pack_name": "The Antlered Crown",
+      "encounter_set": "The Antlered Crown",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 150,
+      "name": "Chief Turch",
+      "is_unique": true,
+      "traits": "Dunland. Boar Clan.",
+      "text": "The first player gains control of Chief Turch.<br/>Immune to player card effects. Chief Turch does not exhaust to defend.<br/><b>If Chief Turch leaves play, the players lose the game.</b>",
+      "willpower": 1,
+      "attack": 3,
+      "defense": 2,
+      "hit_points": 5,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Antlered Crown/Chief-Turch.jpg"
    }
 ]
