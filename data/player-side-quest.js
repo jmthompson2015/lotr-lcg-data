@@ -22,7 +22,8 @@
       "octgnid": "128f940d-8a71-4a80-83c2-bdbc014d95c9",
       "has_errata": false,
       "url": "http://ringsdb.com/card/09014",
-      "imagesrc": "/bundles/cards/09014.png"
+      "imagesrc": "/bundles/cards/09014.png",
+      "image": "player-card/side-quest/Gather-Information.jpg"
    },
    {
       "pack_code": "WoE",
@@ -46,7 +47,8 @@
       "octgnid": "f8a3acfb-3b0d-414b-b5d0-2612d33c193d",
       "has_errata": false,
       "url": "http://ringsdb.com/card/10009",
-      "imagesrc": "/bundles/cards/10009.png"
+      "imagesrc": "/bundles/cards/10009.png",
+      "image": "player-card/side-quest/Scout-Ahead.jpg"
    },
    {
       "pack_code": "EfMG",
@@ -71,7 +73,8 @@
       "octgnid": "f4d94f3d-d3af-44d6-9896-764484302bb1",
       "has_errata": false,
       "url": "http://ringsdb.com/card/10034",
-      "imagesrc": "/bundles/cards/10034.png"
+      "imagesrc": "/bundles/cards/10034.png",
+      "image": "player-card/side-quest/Double-Back.jpg"
    },
    {
       "pack_code": "AtE",
@@ -96,7 +99,8 @@
       "octgnid": "b11ff1d9-c9e9-4cc1-b329-8226b73dd429",
       "has_errata": false,
       "url": "http://ringsdb.com/card/10058",
-      "imagesrc": "/bundles/cards/10058.png"
+      "imagesrc": "/bundles/cards/10058.png",
+      "image": "player-card/side-quest/Delay-the-Enemy.jpg"
    },
    {
       "pack_code": "ToR",
@@ -121,7 +125,8 @@
       "octgnid": "ad0cbc82-6807-4a5a-ada8-97952cb02c5f",
       "has_errata": false,
       "url": "http://ringsdb.com/card/10086",
-      "imagesrc": "/bundles/cards/10086.png"
+      "imagesrc": "/bundles/cards/10086.png",
+      "image": "player-card/side-quest/Send-for-Aid.jpg"
    },
    {
       "pack_code": "TSoH",
@@ -145,7 +150,8 @@
       "octgnid": "458b755e-1d93-4586-bbca-bab905f895c0",
       "has_errata": false,
       "url": "http://ringsdb.com/card/16013",
-      "imagesrc": "/bundles/cards/16013.png"
+      "imagesrc": "/bundles/cards/16013.png",
+      "image": "player-card/side-quest/The-Storm-Comes.jpg"
    },
    {
       "pack_code": "M",
@@ -169,7 +175,8 @@
       "octgnid": "8ad1cefa-21c5-435c-8865-6417de0e5ba6",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17003",
-      "imagesrc": "/bundles/cards/17003.png"
+      "imagesrc": "/bundles/cards/17003.png",
+      "image": "player-card/side-quest/Prepare-for-Battle.jpg"
    },
    {
       "pack_code": "RAH",
@@ -192,7 +199,8 @@
       "octgnid": "d7e2e209-7730-48fe-87c7-e226143e462b",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17036",
-      "imagesrc": "/bundles/cards/17036.png"
+      "imagesrc": "/bundles/cards/17036.png",
+      "image": "player-card/side-quest/Explore-Secret-Ways.jpg"
    },
    {
       "pack_code": "BtS",
@@ -216,7 +224,8 @@
       "octgnid": "b8f5c0b1-a11e-41f5-b0bd-8dab7d537feb",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17059",
-      "imagesrc": "/bundles/cards/17059.png"
+      "imagesrc": "/bundles/cards/17059.png",
+      "image": "player-card/side-quest/Keep-Watch.jpg"
    },
    {
       "pack_code": "TBS",
@@ -239,6 +248,7 @@
       "illustrator": "Jason Jenicke",
       "octgnid": "97d09901-724d-4932-ac51-59df1ef1dbec",
       "has_errata": false,
-      "url": "http://ringsdb.com/card/17087"
+      "url": "http://ringsdb.com/card/17087",
+      "image": "player-card/side-quest/Rally-the-West.jpg"
    }
 ]

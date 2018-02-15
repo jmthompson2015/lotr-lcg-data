@@ -10,7 +10,7 @@
 
 		require(["js/JSONFileLoader"], function(JSONFileLoader)
 		{
-			var files = ["ally.js", "attachment.js", "event.js", "hero.js"];
+			var files = ["ally.js", "attachment.js", "event.js", "hero.js", "player-side-quest.js"];
 			var fileIndex = 0;
 
 			function processFile()
@@ -40,7 +40,9 @@
 					name = name.replace(/,/g, "");
 					name = name.replace(/\!/g, "");
 					name = name.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
-					card.image = "player-card/" + type + "/" + name + ".jpg";
+					var typePath = type;
+					typePath = typePath.replace("player-", "");
+					card.image = "player-card/" + typePath + "/" + name + ".jpg";
 				});
 
 				var imageMap = {};
