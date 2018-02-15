@@ -1,31 +1,6 @@
 [
    {
-      "pack_name": "A Journey to Rhosgobel",
-      "encounter_set": "A Journey to Rhosgobel",
-      "type_code": "objective",
-      "type_name": "Objective",
-      "position": 63,
-      "name": "Athelas",
-      "traits": "Item.",
-      "text": "Guarded.<br/><b>Action:<b> Exhaust a hero to claim this objective if it has no encounters attached. Then, attach Athelas to that hero.",
-      "quantity_easy": 4,
-      "quantity": 0,
-      "image": "encounter-card/A Journey to Rhosgobel/Athelas.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Escape from Dol Guldur",
-      "type_code": "objective",
-      "type_name": "Objective",
-      "position": 109,
-      "name": "Dungeon Torch",
-      "traits": "Item.",
-      "text": "Guarded. Restricted.<br/><b>Action:</b> Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Dungeon Torch to a hero you control. (Counts as an attachment. If detached, return Dungeon Torch to the staging area.)<br/><b>Forced:</b> At the end of each round, raise attached hero's controller's threat by 2.",
-      "quantity_easy": 1,
-      "quantity": 0,
-      "image": "encounter-card/Escape from Dol Guldur/Dungeon-Torch.jpg"
-   },
-   {
+      "pack_code": "Core",
       "pack_name": "Core Set",
       "encounter_set": "Escape from Dol Guldur",
       "type_code": "objective",
@@ -39,35 +14,49 @@
       "image": "encounter-card/Escape from Dol Guldur/Gandalf's-Map.jpg"
    },
    {
-      "pack_name": "Return to Mirkwood",
-      "encounter_set": "Return to Mirkwood",
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Escape from Dol Guldur",
       "type_code": "objective",
       "type_name": "Objective",
-      "position": 130,
-      "name": "Gollum",
-      "is_unique": true,
-      "traits": "Creature.",
-      "text": "Damage from undefended attacks against you must be dealt to Gollum. If Gollum is destroyed, or if the player guarding Gollum is eliminated, the players have lost the game.<br/><b>Forced:</b> At the end of each round, raise the threat of the player guarding Gollum by 3. Then, that player may choose a new player to guard Gollum.",
-      "hit_points": 5,
+      "position": 109,
+      "name": "Dungeon Torch",
+      "traits": "Item.",
+      "text": "Guarded. Restricted.<br/><b>Action:</b> Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Dungeon Torch to a hero you control. (Counts as an attachment. If detached, return Dungeon Torch to the staging area.)<br/><b>Forced:</b> At the end of each round, raise attached hero's controller's threat by 2.",
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/Return to Mirkwood/Gollum.jpg"
+      "image": "encounter-card/Escape from Dol Guldur/Dungeon-Torch.jpg"
    },
    {
-      "pack_name": "The Dead Marshes",
-      "encounter_set": "The Dead Marshes",
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Escape from Dol Guldur",
       "type_code": "objective",
       "type_name": "Objective",
-      "position": 107,
-      "name": "Gollum",
-      "is_unique": true,
-      "traits": "Gollum.",
-      "text": "If Gollum ever has 8 or more resource tokens on him, shuffle him back into the encounter deck.<br/><b>Forced:</b> At the end of the quest phase, the party must make an escape test, dealing 1 card per player from the encounter deck. If this test is failed, place 2 resource tokens on Gollum.",
+      "position": 110,
+      "name": "Shadow Key",
+      "traits": "Item.",
+      "text": "Guarded. Restricted.<br/><b>Action:</b> Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Shadow Key to a hero you control. (Counts as an attachment. If detached, return Shadow Key to the staging area.)<br/><b>Forced:</b> At the end of each round, attached hero suffers 1 damage.",
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Dead Marshes/Gollum.jpg"
+      "image": "encounter-card/Escape from Dol Guldur/Shadow-Key.jpg"
    },
    {
+      "pack_code": "HfG",
+      "pack_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 14,
+      "name": "Signs of Gollum",
+      "traits": "Clue.",
+      "text": "Guarded.<br/><b>Response:</b> After the players quest successfully, the players may claim Signs of Gollum if it has no attached encounters. When claimed, attach Signs of Gollum to any hero committed to the quest. (Counts as a Condition attachment with: \"<b>Forced:</b> After attached hero is damaged or leaves play, return this card to the top of the encounter deck.\")",
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/The Hunt for Gollum/Signs-of-Gollum.jpg"
+   },
+   {
+      "pack_code": "CatC",
       "pack_name": "Conflict at the Carrock",
       "encounter_set": "Conflict at the Carrock",
       "type_code": "objective",
@@ -85,32 +74,21 @@
       "image": "encounter-card/Conflict at the Carrock/Grimbeorn-the-Old.jpg"
    },
    {
-      "pack_name": "Core Set",
-      "encounter_set": "Escape from Dol Guldur",
+      "pack_code": "JtR",
+      "pack_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
       "type_code": "objective",
       "type_name": "Objective",
-      "position": 110,
-      "name": "Shadow Key",
+      "position": 63,
+      "name": "Athelas",
       "traits": "Item.",
-      "text": "Guarded. Restricted.<br/><b>Action:</b> Raise your threat by 2 to claim this objective when it is free of encounters. When claimed, attach Shadow Key to a hero you control. (Counts as an attachment. If detached, return Shadow Key to the staging area.)<br/><b>Forced:</b> At the end of each round, attached hero suffers 1 damage.",
-      "quantity_easy": 1,
-      "quantity": 0,
-      "image": "encounter-card/Escape from Dol Guldur/Shadow-Key.jpg"
-   },
-   {
-      "pack_name": "The Hunt for Gollum",
-      "encounter_set": "The Hunt for Gollum",
-      "type_code": "objective",
-      "type_name": "Objective",
-      "position": 14,
-      "name": "Signs of Gollum",
-      "traits": "Clue.",
-      "text": "Guarded.<br/><b>Response:</b> After the players quest successfully, the players may claim Signs of Gollum if it has no attached encounters. When claimed, attach Signs of Gollum to any hero committed to the quest. (Counts as a Condition attachment with: \"<b>Forced:</b> After attached hero is damaged or leaves play, return this card to the top of the encounter deck.\")",
+      "text": "Guarded.<br/><b>Action:<b> Exhaust a hero to claim this objective if it has no encounters attached. Then, attach Athelas to that hero.",
       "quantity_easy": 4,
       "quantity": 0,
-      "image": "encounter-card/The Hunt for Gollum/Signs-of-Gollum.jpg"
+      "image": "encounter-card/A Journey to Rhosgobel/Athelas.jpg"
    },
    {
+      "pack_code": "JtR",
       "pack_name": "A Journey to Rhosgobel",
       "encounter_set": "A Journey to Rhosgobel",
       "type_code": "objective",
@@ -128,7 +106,39 @@
       "image": "encounter-card/A Journey to Rhosgobel/Wilyador.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "TDM",
+      "pack_name": "The Dead Marshes",
+      "encounter_set": "The Dead Marshes",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 107,
+      "name": "Gollum",
+      "is_unique": true,
+      "traits": "Gollum.",
+      "text": "If Gollum ever has 8 or more resource tokens on him, shuffle him back into the encounter deck.<br/><b>Forced:</b> At the end of the quest phase, the party must make an escape test, dealing 1 card per player from the encounter deck. If this test is failed, place 2 resource tokens on Gollum.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Dead Marshes/Gollum.jpg"
+   },
+   {
+      "pack_code": "RtM",
+      "pack_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 130,
+      "name": "Gollum",
+      "is_unique": true,
+      "traits": "Creature.",
+      "text": "Damage from undefended attacks against you must be dealt to Gollum. If Gollum is destroyed, or if the player guarding Gollum is eliminated, the players have lost the game.<br/><b>Forced:</b> At the end of each round, raise the threat of the player guarding Gollum by 3. Then, that player may choose a new player to guard Gollum.",
+      "hit_points": 5,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Return to Mirkwood/Gollum.jpg"
+   },
+   {
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "The Seventh Level",
       "type_code": "objective",
       "type_name": "Objective",
@@ -142,7 +152,8 @@
       "image": "encounter-card/The Seventh Level/Book-of-Mazarbul.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Flight from Moria",
       "type_code": "objective",
       "type_name": "Objective",
@@ -155,7 +166,8 @@
       "image": "encounter-card/Flight from Moria/Abandoned-Tools.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Twists and Turns",
       "type_code": "objective",
       "type_name": "Objective",
@@ -168,6 +180,7 @@
       "image": "encounter-card/Twists and Turns/Cave-Torch.jpg"
    },
    {
+      "pack_code": "TRG",
       "pack_name": "The Redhorn Gate",
       "encounter_set": "The Redhorn Gate",
       "type_code": "objective",
@@ -186,6 +199,7 @@
       "image": "encounter-card/The Redhorn Gate/Arwen-Undomiel.jpg"
    },
    {
+      "pack_code": "RtR",
       "pack_name": "Road to Rivendell",
       "encounter_set": "Road to Rivendell",
       "type_code": "objective",
@@ -204,6 +218,7 @@
       "image": "encounter-card/Road to Rivendell/Arwen-Undomiel.jpg"
    },
    {
+      "pack_code": "TLD",
       "pack_name": "The Long Dark",
       "encounter_set": "The Long Dark",
       "type_code": "objective",
@@ -218,6 +233,7 @@
       "image": "encounter-card/The Long Dark/Durin&#39;s-Greaves.jpg"
    },
    {
+      "pack_code": "FoS",
       "pack_name": "Foundations of Stone",
       "encounter_set": "Foundations of Stone",
       "type_code": "objective",
@@ -232,6 +248,7 @@
       "image": "encounter-card/Foundations of Stone/Durin&#39;s-Axe.jpg"
    },
    {
+      "pack_code": "FoS",
       "pack_name": "Foundations of Stone",
       "encounter_set": "Foundations of Stone",
       "type_code": "objective",
@@ -246,7 +263,8 @@
       "image": "encounter-card/Foundations of Stone/Durin&#39;s-Helm.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Peril in Pelargir",
       "type_code": "objective",
       "type_name": "Objective",
@@ -260,7 +278,8 @@
       "image": "encounter-card/Peril in Pelargir/Alcaron's-Scroll.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Into Ithilien",
       "type_code": "objective",
       "type_name": "Objective",
@@ -278,7 +297,8 @@
       "image": "encounter-card/Into Ithilien/Celador.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Into Ithilien",
       "type_code": "objective",
       "type_name": "Objective",
@@ -296,8 +316,9 @@
       "image": "encounter-card/Into Ithilien/Ithilien-Guardian.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 26,
@@ -310,8 +331,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/A-Scrap-of-History.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 27,
@@ -324,8 +346,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/Secret-Map.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 28,
@@ -338,8 +361,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/A-Prisoner.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 29,
@@ -351,8 +375,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/Unholy-Alliance.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 30,
@@ -364,8 +389,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/Up-in-Flames.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 31,
@@ -378,8 +404,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/Poisoned-Counsels.jpg"
    },
    {
-      "pack_name": "Encounter at Amon D&#238;n",
-      "encounter_set": "Encounter at Amon D&#238;n",
+      "pack_code": "EaAD",
+      "pack_name": "Encounter at Amon Dîn",
+      "encounter_set": "Encounter at Amon Dîn",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 68,
@@ -390,8 +417,9 @@
       "image": "encounter-card/Encounter at Amon Din/Rescued-Villagers.jpg"
    },
    {
-      "pack_name": "Encounter at Amon D&#238;n",
-      "encounter_set": "Encounter at Amon D&#238;n",
+      "pack_code": "EaAD",
+      "pack_name": "Encounter at Amon Dîn",
+      "encounter_set": "Encounter at Amon Dîn",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 69,
@@ -402,8 +430,9 @@
       "image": "encounter-card/Encounter at Amon Din/Dead-Villagers.jpg"
    },
    {
-      "pack_name": "Encounter at Amon D&#238;n",
-      "encounter_set": "Encounter at Amon D&#238;n",
+      "pack_code": "EaAD",
+      "pack_name": "Encounter at Amon Dîn",
+      "encounter_set": "Encounter at Amon Dîn",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 70,
@@ -420,6 +449,7 @@
       "image": "encounter-card/Encounter at Amon Din/Lord-Alcaron.jpg"
    },
    {
+      "pack_code": "BoG",
       "pack_name": "The Blood of Gondor",
       "encounter_set": "The Blood of Gondor",
       "type_code": "objective",
@@ -438,6 +468,7 @@
       "image": "encounter-card/The Blood of Gondor/Faramir.jpg"
    },
    {
+      "pack_code": "BoG",
       "pack_name": "The Blood of Gondor",
       "encounter_set": "The Blood of Gondor",
       "type_code": "objective",
@@ -456,6 +487,7 @@
       "image": "encounter-card/The Blood of Gondor/Lord-Alcaron.jpg"
    },
    {
+      "pack_code": "TMV",
       "pack_name": "The Morgul Vale",
       "encounter_set": "The Morgul Vale",
       "type_code": "objective",
@@ -469,6 +501,7 @@
       "image": "encounter-card/The Morgul Vale/To-the-Tower.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "The Fords of Isen",
       "type_code": "objective",
@@ -488,6 +521,7 @@
       "image": "encounter-card/The Fords of Isen/Grima.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "Into Fangorn",
       "type_code": "objective",
@@ -502,6 +536,7 @@
       "image": "encounter-card/Into Fangorn/Mugash.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "objective",
@@ -517,6 +552,7 @@
       "image": "encounter-card/The Three Trials/Key-of-the-Boar.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "objective",
@@ -532,6 +568,7 @@
       "image": "encounter-card/The Three Trials/Key-of-the-Wolf.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "objective",
@@ -547,6 +584,7 @@
       "image": "encounter-card/The Three Trials/Key-of-the-Raven.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "objective",
@@ -564,8 +602,9 @@
       "image": "encounter-card/Trouble in Tharbad/Nalir.jpg"
    },
    {
-      "pack_name": "The N&#238;n-in-Eilph",
-      "encounter_set": "The N&#238;n-in-Eilph",
+      "pack_code": "NiE",
+      "pack_name": "The Nîn-in-Eilph",
+      "encounter_set": "The Nîn-in-Eilph",
       "type_code": "objective",
       "type_name": "Objective",
       "position": 102,

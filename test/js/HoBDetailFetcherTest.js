@@ -15,7 +15,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.ok(detail);
          // console.log("Enemy detail: " + JSON.stringify(detail));
 
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Into the Pit", "encounter_set");
          assert.equal(detail.type_code, "enemy", "type_code");
          assert.equal(detail.type_name, "Enemy", "type_name");
@@ -58,7 +59,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.ok(detail);
          // console.log("Enemy detail: " + JSON.stringify(detail));
 
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Flight from Moria", "encounter_set");
          assert.equal(detail.type_code, "enemy", "type_code");
          assert.equal(detail.type_name, "Enemy", "type_name");
@@ -101,7 +103,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.ok(detail);
          // console.log("Location detail: " + JSON.stringify(detail));
 
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Into the Pit", "encounter_set");
          assert.equal(detail.type_code, "location", "type_code");
          assert.equal(detail.type_name, "Location", "type_name");
@@ -144,6 +147,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.ok(detail);
          // console.log("Location detail: " + JSON.stringify(detail));
 
+         assert.equal(detail.pack_code, "RtR", "pack_code");
          assert.equal(detail.pack_name, "Road to Rivendell", "pack_name");
          assert.equal(detail.encounter_set, "Road to Rivendell", "encounter_set");
          assert.equal(detail.type_code, "location", "type_code");
@@ -187,7 +191,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.ok(detail);
          // console.log("Objective detail: " + JSON.stringify(detail));
 
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "The Seventh Level", "encounter_set");
          assert.equal(detail.type_code, "objective", "type_code");
          assert.equal(detail.type_name, "Objective", "type_name");
@@ -233,7 +238,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          // console.log("Quest detail A: " + JSON.stringify(details[0]));
 
          var detail = details[0];
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Into the Pit", "encounter_set");
          assert.equal(detail.type_code, "quest", "type_code");
          assert.equal(detail.type_name, "Quest", "type_name");
@@ -266,7 +272,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
 
          // console.log("Quest detail B: " + JSON.stringify(details[1]));
          detail = details[1];
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Into the Pit", "encounter_set");
          assert.equal(detail.type_code, "quest", "type_code");
          assert.equal(detail.type_name, "Quest", "type_name");
@@ -317,7 +324,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          // console.log("Quest detail A: " + JSON.stringify(details[0]));
 
          var detail = details[0];
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Flight from Moria", "encounter_set");
          assert.equal(detail.type_code, "quest", "type_code");
          assert.equal(detail.type_name, "Quest", "type_name");
@@ -350,7 +358,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
 
          // console.log("Quest detail B: " + JSON.stringify(details[1]));
          detail = details[1];
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Flight from Moria", "encounter_set");
          assert.equal(detail.type_code, "quest", "type_code");
          assert.equal(detail.type_name, "Quest", "type_name");
@@ -398,7 +407,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.ok(detail);
          // console.log("Treachery detail: " + JSON.stringify(detail));
 
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Flight from Moria", "encounter_set");
          assert.equal(detail.type_code, "treachery", "type_code");
          assert.equal(detail.type_name, "Treachery", "type_name");
@@ -441,7 +451,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.ok(detail);
          // console.log("Treachery detail: " + JSON.stringify(detail));
 
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Flight from Moria", "encounter_set");
          assert.equal(detail.type_code, "treachery", "type_code");
          assert.equal(detail.type_name, "Treachery", "type_name");
@@ -484,7 +495,8 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.ok(detail);
          // console.log("Treachery detail: " + JSON.stringify(detail));
 
-         assert.equal(detail.pack_name, "Khazad-d&#251;m", "pack_name");
+         assert.equal(detail.pack_code, "KD", "pack_code");
+         assert.equal(detail.pack_name, "Khazad-d\u00fbm", "pack_name");
          assert.equal(detail.encounter_set, "Into the Pit", "encounter_set");
          assert.equal(detail.type_code, "treachery", "type_code");
          assert.equal(detail.type_name, "Treachery", "type_name");

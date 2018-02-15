@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Augmenter</title>
+	<script src="../../lib/requirejs/require-2.3.5.js" data-main="../../src/main"></script>
+</head>
+<body>
+	<script>
+		"use strict";
+
+		require(["js/CardComparator", "js/JSONFileLoader", "js/Pack"],
+			function(CardComparator, JSONFileLoader, Pack)
+			{
+				var files = ["enemy.js", "location.js", "objective.js", "quest.js", "treachery.js"];
+				var fileIndex = 0;
+
+				function processFile()
+				{
+					var file = files[fileIndex];
+					console.log(fileIndex + " Processing file " + file);
+					fileIndex++;
+					var filepath = "../../data/" + file;
+					var type = file.substring(0, file.indexOf("."));
+					// console.log("type = " + type);
+					var myLoaderCallback = function(cards)
+					{
+						loaderCallback(type, cards);
+					}
+					JSONFileLoader.loadFile(filepath, myLoaderCallback);
+				}
+
+				function loaderCallback(type, cards)
+				{
+					// console.log("loaderCallback() cards.length = " + cards.length);
+					// console.log("loaderCallback() type = " + type);
+
+					cards.forEach((card, i) =>
+					{
+						if (card.pack_code === undefined)
+						{
+							var pack_name = card.pack_name;
+							pack_name = pack_name.replace("&#39;", "'"); // '
+							pack_name = pack_name.replace("&#238;", "\u00ee"); // î
+							pack_name = pack_name.replace("&#250;", "\u00fa"); // ú
+							pack_name = pack_name.replace("&#251;", "\u00fb"); // û
+							card.pack_name = pack_name;
+
+							var encounter_set = card.encounter_set;
+							encounter_set = encounter_set.replace("&#39;", "'"); // '
+							encounter_set = encounter_set.replace("&#238;", "\u00ee"); // î
+							encounter_set = encounter_set.replace("&#250;", "\u00fa"); // ú
+							encounter_set = encounter_set.replace("&#251;", "\u00fb"); // û
+							card.encounter_set = encounter_set;
+
+							var packData = Pack.findByName(pack_name);
+							var pack_code = (packData !== undefined ? packData.code : undefined);
+							cards[i] = Object.assign(
+							{
+								"pack_code": pack_code
+							}, card);
+						}
+					});
+
+					cards.sort(CardComparator);
+
+					console.log(type + " " + JSON.stringify(cards));
+
+					if (fileIndex < files.length)
+					{
+						processFile();
+					}
+				}
+
+				processFile();
+			});
+	</script>
+</body>
+
+</html>

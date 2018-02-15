@@ -1,178 +1,6 @@
 [
    {
-      "pack_name": "The Hills of Emyn Muil",
-      "encounter_set": "The Hills of Emyn Muil",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 83,
-      "name": "Amon Hen",
-      "is_unique": true,
-      "traits": "Emyn Muil.",
-      "text": "X is double the number of players in the game.<br/>While Amon Hen is the active location, players cannot play events.",
-      "quest_points": 5,
-      "victory": 5,
-      "quantity_easy": 1,
-      "quantity": 0,
-      "image": "encounter-card/The Hills of Emyn Muil/Amon-Hen.jpg"
-   },
-   {
-      "pack_name": "The Hills of Emyn Muil",
-      "encounter_set": "The Hills of Emyn Muil",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 84,
-      "name": "Amon Lhaw",
-      "is_unique": true,
-      "traits": "Emyn Muil.",
-      "text": "X is double the number of players in the game.<br/>While Amon Lhaw is the active location, treat all attachments as if their printed text boxes were blank.",
-      "quest_points": 5,
-      "victory": 5,
-      "quantity_easy": 1,
-      "quantity": 0,
-      "image": "encounter-card/The Hills of Emyn Muil/Amon-Lhaw.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Journey Along the Anduin",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 113,
-      "name": "Banks of the Anduin",
-      "traits": "Riverland.",
-      "text": "<b>Forced:</b> If Banks of the Anduin leaves play, return it to the top of the encounter deck instead of placing it in the discard pile.",
-      "flavor": "Here and there through openings Frodo could catch sudden glimpses of rolling mounds, and far beyond them hills in the sunset, and away on the edge of sight a dark line, where marches the southernmost ranks of the Misty Mountains.\n<cite>The Fellowship of the Ring</cite>",
-      "threat": 1,
-      "quest_points": 3,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/Journey Along the Anduin/Banks-of-the-Anduin.jpg"
-   },
-   {
-      "pack_name": "Conflict at the Carrock",
-      "encounter_set": "Conflict at the Carrock",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 45,
-      "name": "Bee Pastures",
-      "traits": "Wilderlands.",
-      "text": "<b>Response:</b> After you travel to Bee Pastures, search the encounter deck and discard pile for Grimbeorn the Old and add him to the staging area. Then, shuffle the encounter deck.",
-      "threat": 1,
-      "quest_points": 2,
-      "quantity_easy": 3,
-      "quantity": 0,
-      "image": "encounter-card/Conflict at the Carrock/Bee-Pastures.jpg"
-   },
-   {
-      "pack_name": "Return to Mirkwood",
-      "encounter_set": "Return to Mirkwood",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 132,
-      "name": "Dry Watercourse",
-      "traits": "Forest.",
-      "text": "While Dry Watercourse is the active location, all treachery card effects that target the player guarding Gollum also target each other player.",
-      "threat": 2,
-      "quest_points": 2,
-      "quantity_easy": 3,
-      "quantity": 0,
-      "image": "encounter-card/Return to Mirkwood/Dry-Watercourse.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Dol Guldur Orcs",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 95,
-      "name": "Enchanted Stream",
-      "traits": "Forest.",
-      "text": "While Enchanted Stream is the active location, players cannot draw cards.",
-      "flavor": "\"There is one stream, I know, black and strong which crosses the path. That you should neither drink of, nor bathe in; for I have heard that it carries enchantment and a great drowsiness and forgetfulness.\"\n<cite>Beorn, The Hobbit</cite>",
-      "threat": 2,
-      "quest_points": 2,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/Dol Guldur Orcs/Enchanted-Stream.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Escape from Dol Guldur",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 106,
-      "name": "Endless Caverns",
-      "traits": "Dungeon.",
-      "text": "Doomed 1. Surge.",
-      "flavor": "\"I alone of you have ever been in the dungeons of the Dark Lord, and only in his older and lesser dwelling in Dol Guldur.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
-      "threat": 1,
-      "quest_points": 3,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/Escape from Dol Guldur/Endless-Caverns.jpg"
-   },
-   {
-      "pack_name": "The Dead Marshes",
-      "encounter_set": "The Dead Marshes",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 115,
-      "name": "Fens and Mires",
-      "traits": "DeadMarshes.",
-      "text": "<b>Forced:</b> After the players travel to this location, place 1 resource token on Gollum for each location in the staging area.",
-      "threat": 2,
-      "quest_points": 2,
-      "escape": 2,
-      "quantity_easy": 4,
-      "quantity": 0,
-      "image": "encounter-card/The Dead Marshes/Fens-and-Mires.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Passage Through Mirkwood",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 100,
-      "name": "Forest Gate",
-      "traits": "Forest.",
-      "text": "<b>Response:</b> After you travel to Forest Gate, the first player may draw 2 cards.",
-      "flavor": "The path itself was narrow and wound in and out among the trunks. Soon the light in the gate was like a little bright hole far behind, and the quiet was so deep that their feet seemed to thump along while the trees leaned over them and listened.\n<cite>The Hobbit</cite>",
-      "threat": 2,
-      "quest_points": 4,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/Passage Through Mirkwood/Forest-Gate.jpg"
-   },
-   {
-      "pack_name": "A Journey to Rhosgobel",
-      "encounter_set": "A Journey to Rhosgobel",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 66,
-      "name": "Forest Grove",
-      "traits": "Forest.",
-      "text": "<b>Response:</b> After the players explore Forest Grove, search the encounter deck and discard pile for 1 Athelas objective, and add it to the staging area. Then, shuffle the encounter deck.",
-      "threat": 2,
-      "quest_points": 3,
-      "quantity_easy": 4,
-      "quantity": 0,
-      "image": "encounter-card/A Journey to Rhosgobel/Forest-Grove.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Journey Along the Anduin",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 114,
-      "name": "Gladden Fields",
-      "traits": "Marshland.",
-      "text": "<b>Forced:</b> While Gladden Fields is the active location, each player must raise his threat by an additional point during the refresh phase.",
-      "flavor": "\"On a time they took a boat and went down to the Gladden Fields, where there were great beds of iris and flowering reeds.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
-      "threat": 3,
-      "quest_points": 3,
-      "quantity_easy": 1,
-      "quantity": 2,
-      "image": "encounter-card/Journey Along the Anduin/Gladden-Fields.jpg"
-   },
-   {
+      "pack_code": "Core",
       "pack_name": "Core Set",
       "encounter_set": "Spiders of Mirkwood",
       "type_code": "location",
@@ -189,23 +17,7 @@
       "image": "encounter-card/Spiders of Mirkwood/Great-Forest-Web.jpg"
    },
    {
-      "pack_name": "The Dead Marshes",
-      "encounter_set": "The Dead Marshes",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 113,
-      "name": "Impassable Bog",
-      "traits": "DeadMarshes.",
-      "text": "<b>When Revealed:</b> Place 1 resource token on Gollum for each location in the staging area.",
-      "threat": 1,
-      "quest_points": 12,
-      "victory": 7,
-      "escape": 2,
-      "quantity_easy": 2,
-      "quantity": 2,
-      "image": "encounter-card/The Dead Marshes/Impassable-Bog.jpg"
-   },
-   {
+      "pack_code": "Core",
       "pack_name": "Core Set",
       "encounter_set": "Spiders of Mirkwood",
       "type_code": "location",
@@ -221,6 +33,41 @@
       "image": "encounter-card/Spiders of Mirkwood/Mountains-of-Mirkwood.jpg"
    },
    {
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Wilderlands",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 87,
+      "name": "The Brown Lands",
+      "traits": "Wasteland.",
+      "text": "<b>Forced:</b> After the players travel to The Brown Lands, place 1 progress token on it.",
+      "flavor": "They had come to the Brown Lands that lay, vast and desolate, between Southern Mirkwood and the hills of the Emyn Muil. What pestilence or war or evil deed of the Enemy had so blasted all that region even Aragorn could not tell.\n<cite>The Fellowship of the Ring</cite>",
+      "threat": 5,
+      "quest_points": 1,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Wilderlands/The-Brown-Lands.jpg"
+   },
+   {
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Wilderlands",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 88,
+      "name": "The East Bight",
+      "traits": "Wasteland.",
+      "text": "When faced with the option to travel, the players must travel to The East Bight if there is no active location.",
+      "flavor": "\"...to the east the lands are waste, and full of Sauron's creatures...\"\n<cite>Haldir, The Fellowship of the Ring</cite>",
+      "threat": 1,
+      "quest_points": 6,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Wilderlands/The-East-Bight.jpg"
+   },
+   {
+      "pack_code": "Core",
       "pack_name": "Core Set",
       "encounter_set": "Dol Guldur Orcs",
       "type_code": "location",
@@ -237,21 +84,24 @@
       "image": "encounter-card/Dol Guldur Orcs/Necromancer's-Pass.jpg"
    },
    {
-      "pack_name": "Conflict at the Carrock",
-      "encounter_set": "Conflict at the Carrock",
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Dol Guldur Orcs",
       "type_code": "location",
       "type_name": "Location",
-      "position": 46,
-      "name": "Oak-wood Grove",
+      "position": 95,
+      "name": "Enchanted Stream",
       "traits": "Forest.",
-      "text": "While Oak-wood Grove is the active location, resource tokens from any sphere may be spent as Leadership resource tokens.",
+      "text": "While Enchanted Stream is the active location, players cannot draw cards.",
+      "flavor": "\"There is one stream, I know, black and strong which crosses the path. That you should neither drink of, nor bathe in; for I have heard that it carries enchantment and a great drowsiness and forgetfulness.\"\n<cite>Beorn, The Hobbit</cite>",
       "threat": 2,
-      "quest_points": 1,
-      "quantity_easy": 3,
+      "quest_points": 2,
+      "quantity_easy": 2,
       "quantity": 0,
-      "image": "encounter-card/Conflict at the Carrock/Oak-wood-Grove.jpg"
+      "image": "encounter-card/Dol Guldur Orcs/Enchanted-Stream.jpg"
    },
    {
+      "pack_code": "Core",
       "pack_name": "Core Set",
       "encounter_set": "Passage Through Mirkwood",
       "type_code": "location",
@@ -268,6 +118,342 @@
       "image": "encounter-card/Passage Through Mirkwood/Old-Forest-Road.jpg"
    },
    {
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Passage Through Mirkwood",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 100,
+      "name": "Forest Gate",
+      "traits": "Forest.",
+      "text": "<b>Response:</b> After you travel to Forest Gate, the first player may draw 2 cards.",
+      "flavor": "The path itself was narrow and wound in and out among the trunks. Soon the light in the gate was like a little bright hole far behind, and the quiet was so deep that their feet seemed to thump along while the trees leaned over them and listened.\n<cite>The Hobbit</cite>",
+      "threat": 2,
+      "quest_points": 4,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Passage Through Mirkwood/Forest-Gate.jpg"
+   },
+   {
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Escape from Dol Guldur",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 106,
+      "name": "Endless Caverns",
+      "traits": "Dungeon.",
+      "text": "Doomed 1. Surge.",
+      "flavor": "\"I alone of you have ever been in the dungeons of the Dark Lord, and only in his older and lesser dwelling in Dol Guldur.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
+      "threat": 1,
+      "quest_points": 3,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Escape from Dol Guldur/Endless-Caverns.jpg"
+   },
+   {
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Escape from Dol Guldur",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 107,
+      "name": "Tower Gate",
+      "traits": "Dungeon.",
+      "text": "<b>Forced:</b> After travelling to Tower Gate each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called \"Orc Guard\", and act as enemies with: 1 hit point, 1 Attack and 1 Defense.",
+      "flavor": "\"I myself dared to pass the doors of the Necromancer in Dol Guldur, and secretly explored his ways.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
+      "threat": 2,
+      "quest_points": 1,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Escape from Dol Guldur/Tower-Gate.jpg"
+   },
+   {
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Journey Along the Anduin",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 113,
+      "name": "Banks of the Anduin",
+      "traits": "Riverland.",
+      "text": "<b>Forced:</b> If Banks of the Anduin leaves play, return it to the top of the encounter deck instead of placing it in the discard pile.",
+      "flavor": "Here and there through openings Frodo could catch sudden glimpses of rolling mounds, and far beyond them hills in the sunset, and away on the edge of sight a dark line, where marches the southernmost ranks of the Misty Mountains.\n<cite>The Fellowship of the Ring</cite>",
+      "threat": 1,
+      "quest_points": 3,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Journey Along the Anduin/Banks-of-the-Anduin.jpg"
+   },
+   {
+      "pack_code": "Core",
+      "pack_name": "Core Set",
+      "encounter_set": "Journey Along the Anduin",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 114,
+      "name": "Gladden Fields",
+      "traits": "Marshland.",
+      "text": "<b>Forced:</b> While Gladden Fields is the active location, each player must raise his threat by an additional point during the refresh phase.",
+      "flavor": "\"On a time they took a boat and went down to the Gladden Fields, where there were great beds of iris and flowering reeds.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
+      "threat": 3,
+      "quest_points": 3,
+      "quantity_easy": 1,
+      "quantity": 2,
+      "image": "encounter-card/Journey Along the Anduin/Gladden-Fields.jpg"
+   },
+   {
+      "pack_code": "HfG",
+      "pack_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 15,
+      "name": "The Old Ford",
+      "traits": "Riverland.",
+      "text": "X is the number of ally cards in play.",
+      "shadow": "<b>Shadow:</b> Discard from play all allies with a printed cost lower than the number of <b>Riverland</b> locations in play.",
+      "quest_points": 2,
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/The Hunt for Gollum/The-Old-Ford.jpg"
+   },
+   {
+      "pack_code": "HfG",
+      "pack_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 16,
+      "name": "The Eaves of Mirkwood",
+      "traits": "Forest.",
+      "text": "While The Eaves of Mirkwood is the active location, encounter card effects cannot be canceled.",
+      "flavor": "By the afternoon they had reached the eaves of Mirkwood, and were resting almost beneath the great overhanging boughs of its outer trees.\n<cite>The Hobbit</cite>",
+      "threat": 2,
+      "quest_points": 2,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Hunt for Gollum/The-Eaves-of-Mirkwood.jpg"
+   },
+   {
+      "pack_code": "HfG",
+      "pack_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 17,
+      "name": "River Ninglor",
+      "traits": "Riverland.",
+      "text": "While River Ninglor is the active location, remove 1 progress token from it and from the current quest at the end of each round.",
+      "shadow": "<b>Shadow:</b> Remove 1 progress token from the current quest. (2 progress tokens instead if this attack is undefended.)",
+      "threat": 2,
+      "quest_points": 4,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Hunt for Gollum/River-Ninglor.jpg"
+   },
+   {
+      "pack_code": "HfG",
+      "pack_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 18,
+      "name": "The East Bank",
+      "traits": "Riverland.",
+      "text": "While The East Bank is the active location, ally cards cost 1 additional matching resource to play from hand.",
+      "shadow": "<b>Shadow:</b> If you do not control at least 1 hero with a <b>Clue</b> card attached, return this enemy to the staging area after its attack resolves.",
+      "threat": 3,
+      "quest_points": 3,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Hunt for Gollum/The-East-Bank.jpg"
+   },
+   {
+      "pack_code": "HfG",
+      "pack_name": "The Hunt for Gollum",
+      "encounter_set": "The Hunt for Gollum",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 19,
+      "name": "The West Bank",
+      "traits": "Riverland.",
+      "text": "While The West Bank is the active location, attachment and event cards cost 1 additional matching resource to play from hand.",
+      "shadow": "<b>Shadow:</b> If you do not control at least 1 hero with a <b>Clue</b> card attached, double this enemy's base Attack for this attack.",
+      "threat": 3,
+      "quest_points": 3,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Hunt for Gollum/The-West-Bank.jpg"
+   },
+   {
+      "pack_code": "CatC",
+      "pack_name": "Conflict at the Carrock",
+      "encounter_set": "Conflict at the Carrock",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 43,
+      "name": "The Carrock",
+      "is_unique": true,
+      "traits": "Riverland.",
+      "text": "Immune to player card effects.<br/>Players cannot travel to The Carrock except through quest card effects.<br/>While The Carrock is the active location, Troll enemies get +1 Attack and +1 Defense.",
+      "threat": 2,
+      "quest_points": 6,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Conflict at the Carrock/The-Carrock.jpg"
+   },
+   {
+      "pack_code": "CatC",
+      "pack_name": "Conflict at the Carrock",
+      "encounter_set": "Conflict at the Carrock",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 44,
+      "name": "River Langflood",
+      "traits": "Riverland.",
+      "text": "While it is in the staging area, River Langflood gets +1 Threat for each <b>Troll</b> enemy in play.",
+      "threat": 2,
+      "quest_points": 3,
+      "quantity_easy": 2,
+      "quantity": 2,
+      "image": "encounter-card/Conflict at the Carrock/River-Langflood.jpg"
+   },
+   {
+      "pack_code": "CatC",
+      "pack_name": "Conflict at the Carrock",
+      "encounter_set": "Conflict at the Carrock",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 45,
+      "name": "Bee Pastures",
+      "traits": "Wilderlands.",
+      "text": "<b>Response:</b> After you travel to Bee Pastures, search the encounter deck and discard pile for Grimbeorn the Old and add him to the staging area. Then, shuffle the encounter deck.",
+      "threat": 1,
+      "quest_points": 2,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Conflict at the Carrock/Bee-Pastures.jpg"
+   },
+   {
+      "pack_code": "CatC",
+      "pack_name": "Conflict at the Carrock",
+      "encounter_set": "Conflict at the Carrock",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 46,
+      "name": "Oak-wood Grove",
+      "traits": "Forest.",
+      "text": "While Oak-wood Grove is the active location, resource tokens from any sphere may be spent as Leadership resource tokens.",
+      "threat": 2,
+      "quest_points": 1,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Conflict at the Carrock/Oak-wood-Grove.jpg"
+   },
+   {
+      "pack_code": "JtR",
+      "pack_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 65,
+      "name": "Rhosgobel",
+      "is_unique": true,
+      "traits": "Forest.",
+      "text": "X is the number of players in the game.<br/>While Rhosgobel is in the staging area, Wilyador cannot be healed.<br/><b>Travel:</b> Players must complete stage one of this quest before they can travel to Rhosgobel.",
+      "quest_points": 4,
+      "victory": 4,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/A Journey to Rhosgobel/Rhosgobel.jpg"
+   },
+   {
+      "pack_code": "JtR",
+      "pack_name": "A Journey to Rhosgobel",
+      "encounter_set": "A Journey to Rhosgobel",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 66,
+      "name": "Forest Grove",
+      "traits": "Forest.",
+      "text": "<b>Response:</b> After the players explore Forest Grove, search the encounter deck and discard pile for 1 Athelas objective, and add it to the staging area. Then, shuffle the encounter deck.",
+      "threat": 2,
+      "quest_points": 3,
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/A Journey to Rhosgobel/Forest-Grove.jpg"
+   },
+   {
+      "pack_code": "HoEM",
+      "pack_name": "The Hills of Emyn Muil",
+      "encounter_set": "The Hills of Emyn Muil",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 83,
+      "name": "Amon Hen",
+      "is_unique": true,
+      "traits": "Emyn Muil.",
+      "text": "X is double the number of players in the game.<br/>While Amon Hen is the active location, players cannot play events.",
+      "quest_points": 5,
+      "victory": 5,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Hills of Emyn Muil/Amon-Hen.jpg"
+   },
+   {
+      "pack_code": "HoEM",
+      "pack_name": "The Hills of Emyn Muil",
+      "encounter_set": "The Hills of Emyn Muil",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 84,
+      "name": "Amon Lhaw",
+      "is_unique": true,
+      "traits": "Emyn Muil.",
+      "text": "X is double the number of players in the game.<br/>While Amon Lhaw is the active location, treat all attachments as if their printed text boxes were blank.",
+      "quest_points": 5,
+      "victory": 5,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Hills of Emyn Muil/Amon-Lhaw.jpg"
+   },
+   {
+      "pack_code": "HoEM",
+      "pack_name": "The Hills of Emyn Muil",
+      "encounter_set": "The Hills of Emyn Muil",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 85,
+      "name": "The East Wall of Rohan",
+      "traits": "Emyn Muil.",
+      "text": "While The East Wall of Rohan is the active location, non-<b>Rohan</b> characters cost 2 additional matching resources to play.",
+      "threat": 4,
+      "quest_points": 2,
+      "victory": 3,
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/The Hills of Emyn Muil/The-East-Wall-of-Rohan.jpg"
+   },
+   {
+      "pack_code": "HoEM",
+      "pack_name": "The Hills of Emyn Muil",
+      "encounter_set": "The Hills of Emyn Muil",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 86,
+      "name": "The North Stair",
+      "traits": "Emyn Muil.",
+      "text": "<b>Forced:</b> After traveling to The North Stair, move the top card of the encounter discard pile to the staging area. Resolve any \"when revealed\" effects on that card.",
+      "threat": 3,
+      "quest_points": 3,
+      "victory": 3,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Hills of Emyn Muil/The-North-Stair.jpg"
+   },
+   {
+      "pack_code": "HoEM",
       "pack_name": "The Hills of Emyn Muil",
       "encounter_set": "The Hills of Emyn Muil",
       "type_code": "location",
@@ -285,229 +471,7 @@
       "image": "encounter-card/The Hills of Emyn Muil/Rauros-Falls.jpg"
    },
    {
-      "pack_name": "A Journey to Rhosgobel",
-      "encounter_set": "A Journey to Rhosgobel",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 65,
-      "name": "Rhosgobel",
-      "is_unique": true,
-      "traits": "Forest.",
-      "text": "X is the number of players in the game.<br/>While Rhosgobel is in the staging area, Wilyador cannot be healed.<br/><b>Travel:</b> Players must complete stage one of this quest before they can travel to Rhosgobel.",
-      "quest_points": 4,
-      "victory": 4,
-      "quantity_easy": 1,
-      "quantity": 0,
-      "image": "encounter-card/A Journey to Rhosgobel/Rhosgobel.jpg"
-   },
-   {
-      "pack_name": "Conflict at the Carrock",
-      "encounter_set": "Conflict at the Carrock",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 44,
-      "name": "River Langflood",
-      "traits": "Riverland.",
-      "text": "While it is in the staging area, River Langflood gets +1 Threat for each <b>Troll</b> enemy in play.",
-      "threat": 2,
-      "quest_points": 3,
-      "quantity_easy": 2,
-      "quantity": 2,
-      "image": "encounter-card/Conflict at the Carrock/River-Langflood.jpg"
-   },
-   {
-      "pack_name": "The Hunt for Gollum",
-      "encounter_set": "The Hunt for Gollum",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 17,
-      "name": "River Ninglor",
-      "traits": "Riverland.",
-      "text": "While River Ninglor is the active location, remove 1 progress token from it and from the current quest at the end of each round.",
-      "shadow": "<b>Shadow:</b> Remove 1 progress token from the current quest. (2 progress tokens instead if this attack is undefended.)",
-      "threat": 2,
-      "quest_points": 4,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/The Hunt for Gollum/River-Ninglor.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Wilderlands",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 87,
-      "name": "The Brown Lands",
-      "traits": "Wasteland.",
-      "text": "<b>Forced:</b> After the players travel to The Brown Lands, place 1 progress token on it.",
-      "flavor": "They had come to the Brown Lands that lay, vast and desolate, between Southern Mirkwood and the hills of the Emyn Muil. What pestilence or war or evil deed of the Enemy had so blasted all that region even Aragorn could not tell.\n<cite>The Fellowship of the Ring</cite>",
-      "threat": 5,
-      "quest_points": 1,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/Wilderlands/The-Brown-Lands.jpg"
-   },
-   {
-      "pack_name": "Conflict at the Carrock",
-      "encounter_set": "Conflict at the Carrock",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 43,
-      "name": "The Carrock",
-      "is_unique": true,
-      "traits": "Riverland.",
-      "text": "Immune to player card effects.<br/>Players cannot travel to The Carrock except through quest card effects.<br/>While The Carrock is the active location, Troll enemies get +1 Attack and +1 Defense.",
-      "threat": 2,
-      "quest_points": 6,
-      "quantity_easy": 1,
-      "quantity": 0,
-      "image": "encounter-card/Conflict at the Carrock/The-Carrock.jpg"
-   },
-   {
-      "pack_name": "The Hunt for Gollum",
-      "encounter_set": "The Hunt for Gollum",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 18,
-      "name": "The East Bank",
-      "traits": "Riverland.",
-      "text": "While The East Bank is the active location, ally cards cost 1 additional matching resource to play from hand.",
-      "shadow": "<b>Shadow:</b> If you do not control at least 1 hero with a <b>Clue</b> card attached, return this enemy to the staging area after its attack resolves.",
-      "threat": 3,
-      "quest_points": 3,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/The Hunt for Gollum/The-East-Bank.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Wilderlands",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 88,
-      "name": "The East Bight",
-      "traits": "Wasteland.",
-      "text": "When faced with the option to travel, the players must travel to The East Bight if there is no active location.",
-      "flavor": "\"...to the east the lands are waste, and full of Sauron's creatures...\"\n<cite>Haldir, The Fellowship of the Ring</cite>",
-      "threat": 1,
-      "quest_points": 6,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/Wilderlands/The-East-Bight.jpg"
-   },
-   {
-      "pack_name": "The Hills of Emyn Muil",
-      "encounter_set": "The Hills of Emyn Muil",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 85,
-      "name": "The East Wall of Rohan",
-      "traits": "Emyn Muil.",
-      "text": "While The East Wall of Rohan is the active location, non-<b>Rohan</b> characters cost 2 additional matching resources to play.",
-      "threat": 4,
-      "quest_points": 2,
-      "victory": 3,
-      "quantity_easy": 0,
-      "quantity": 2,
-      "image": "encounter-card/The Hills of Emyn Muil/The-East-Wall-of-Rohan.jpg"
-   },
-   {
-      "pack_name": "The Hunt for Gollum",
-      "encounter_set": "The Hunt for Gollum",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 16,
-      "name": "The Eaves of Mirkwood",
-      "traits": "Forest.",
-      "text": "While The Eaves of Mirkwood is the active location, encounter card effects cannot be canceled.",
-      "flavor": "By the afternoon they had reached the eaves of Mirkwood, and were resting almost beneath the great overhanging boughs of its outer trees.\n<cite>The Hobbit</cite>",
-      "threat": 2,
-      "quest_points": 2,
-      "quantity_easy": 3,
-      "quantity": 0,
-      "image": "encounter-card/The Hunt for Gollum/The-Eaves-of-Mirkwood.jpg"
-   },
-   {
-      "pack_name": "The Dead Marshes",
-      "encounter_set": "The Dead Marshes",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 114,
-      "name": "The Heart of the Marshes",
-      "traits": "DeadMarshes.",
-      "text": "While The Heart of the Marshes is the active location, all cards dealt from the encounter deck for escape tests get +1 Escape. (Cards receive this bonus even if they do not have a printed escape value.)",
-      "threat": 3,
-      "quest_points": 4,
-      "escape": 1,
-      "quantity_easy": 2,
-      "quantity": 2,
-      "image": "encounter-card/The Dead Marshes/The-Heart-of-the-Marshes.jpg"
-   },
-   {
-      "pack_name": "The Hills of Emyn Muil",
-      "encounter_set": "The Hills of Emyn Muil",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 90,
-      "name": "The Highlands",
-      "traits": "Emyn Muil.",
-      "text": "Travel: In order to travel to The Highlands, the players must reveal the top card of the encounter deck, and add it to the staging area.",
-      "threat": 1,
-      "quest_points": 1,
-      "victory": 1,
-      "quantity_easy": 4,
-      "quantity": 0,
-      "image": "encounter-card/The Hills of Emyn Muil/The-Highlands.jpg"
-   },
-   {
-      "pack_name": "The Hills of Emyn Muil",
-      "encounter_set": "The Hills of Emyn Muil",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 86,
-      "name": "The North Stair",
-      "traits": "Emyn Muil.",
-      "text": "<b>Forced:</b> After traveling to The North Stair, move the top card of the encounter discard pile to the staging area. Resolve any \"when revealed\" effects on that card.",
-      "threat": 3,
-      "quest_points": 3,
-      "victory": 3,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/The Hills of Emyn Muil/The-North-Stair.jpg"
-   },
-   {
-      "pack_name": "The Hunt for Gollum",
-      "encounter_set": "The Hunt for Gollum",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 15,
-      "name": "The Old Ford",
-      "traits": "Riverland.",
-      "text": "X is the number of ally cards in play.",
-      "shadow": "<b>Shadow:</b> Discard from play all allies with a printed cost lower than the number of <b>Riverland</b> locations in play.",
-      "quest_points": 2,
-      "quantity_easy": 0,
-      "quantity": 2,
-      "image": "encounter-card/The Hunt for Gollum/The-Old-Ford.jpg"
-   },
-   {
-      "pack_name": "The Hills of Emyn Muil",
-      "encounter_set": "The Hills of Emyn Muil",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 89,
-      "name": "The Outer Ridge",
-      "traits": "Emyn Muil.",
-      "text": "While The Outer Ridge is the active location, each location in the staging area gets +1 Threat.",
-      "shadow": "<b>Shadow:</b> After this attack resolves, return attacking enemy to the staging area.",
-      "threat": 2,
-      "quest_points": 2,
-      "victory": 2,
-      "quantity_easy": 3,
-      "quantity": 0,
-      "image": "encounter-card/The Hills of Emyn Muil/The-Outer-Ridge.jpg"
-   },
-   {
+      "pack_code": "HoEM",
       "pack_name": "The Hills of Emyn Muil",
       "encounter_set": "The Hills of Emyn Muil",
       "type_code": "location",
@@ -525,6 +489,94 @@
       "image": "encounter-card/The Hills of Emyn Muil/The-Shores-of-Nen-Hithoel.jpg"
    },
    {
+      "pack_code": "HoEM",
+      "pack_name": "The Hills of Emyn Muil",
+      "encounter_set": "The Hills of Emyn Muil",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 89,
+      "name": "The Outer Ridge",
+      "traits": "Emyn Muil.",
+      "text": "While The Outer Ridge is the active location, each location in the staging area gets +1 Threat.",
+      "shadow": "<b>Shadow:</b> After this attack resolves, return attacking enemy to the staging area.",
+      "threat": 2,
+      "quest_points": 2,
+      "victory": 2,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Hills of Emyn Muil/The-Outer-Ridge.jpg"
+   },
+   {
+      "pack_code": "HoEM",
+      "pack_name": "The Hills of Emyn Muil",
+      "encounter_set": "The Hills of Emyn Muil",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 90,
+      "name": "The Highlands",
+      "traits": "Emyn Muil.",
+      "text": "Travel: In order to travel to The Highlands, the players must reveal the top card of the encounter deck, and add it to the staging area.",
+      "threat": 1,
+      "quest_points": 1,
+      "victory": 1,
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/The Hills of Emyn Muil/The-Highlands.jpg"
+   },
+   {
+      "pack_code": "TDM",
+      "pack_name": "The Dead Marshes",
+      "encounter_set": "The Dead Marshes",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 113,
+      "name": "Impassable Bog",
+      "traits": "DeadMarshes.",
+      "text": "<b>When Revealed:</b> Place 1 resource token on Gollum for each location in the staging area.",
+      "threat": 1,
+      "quest_points": 12,
+      "victory": 7,
+      "escape": 2,
+      "quantity_easy": 2,
+      "quantity": 2,
+      "image": "encounter-card/The Dead Marshes/Impassable-Bog.jpg"
+   },
+   {
+      "pack_code": "TDM",
+      "pack_name": "The Dead Marshes",
+      "encounter_set": "The Dead Marshes",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 114,
+      "name": "The Heart of the Marshes",
+      "traits": "DeadMarshes.",
+      "text": "While The Heart of the Marshes is the active location, all cards dealt from the encounter deck for escape tests get +1 Escape. (Cards receive this bonus even if they do not have a printed escape value.)",
+      "threat": 3,
+      "quest_points": 4,
+      "escape": 1,
+      "quantity_easy": 2,
+      "quantity": 2,
+      "image": "encounter-card/The Dead Marshes/The-Heart-of-the-Marshes.jpg"
+   },
+   {
+      "pack_code": "TDM",
+      "pack_name": "The Dead Marshes",
+      "encounter_set": "The Dead Marshes",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 115,
+      "name": "Fens and Mires",
+      "traits": "DeadMarshes.",
+      "text": "<b>Forced:</b> After the players travel to this location, place 1 resource token on Gollum for each location in the staging area.",
+      "threat": 2,
+      "quest_points": 2,
+      "escape": 2,
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/The Dead Marshes/Fens-and-Mires.jpg"
+   },
+   {
+      "pack_code": "RtM",
       "pack_name": "Return to Mirkwood",
       "encounter_set": "Return to Mirkwood",
       "type_code": "location",
@@ -541,53 +593,23 @@
       "image": "encounter-card/Return to Mirkwood/The-Spiders'-Ring.jpg"
    },
    {
-      "pack_name": "The Hunt for Gollum",
-      "encounter_set": "The Hunt for Gollum",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 19,
-      "name": "The West Bank",
-      "traits": "Riverland.",
-      "text": "While The West Bank is the active location, attachment and event cards cost 1 additional matching resource to play from hand.",
-      "shadow": "<b>Shadow:</b> If you do not control at least 1 hero with a <b>Clue</b> card attached, double this enemy's base Attack for this attack.",
-      "threat": 3,
-      "quest_points": 3,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/The Hunt for Gollum/The-West-Bank.jpg"
-   },
-   {
-      "pack_name": "Core Set",
-      "encounter_set": "Escape from Dol Guldur",
-      "type_code": "location",
-      "type_name": "Location",
-      "position": 107,
-      "name": "Tower Gate",
-      "traits": "Dungeon.",
-      "text": "<b>Forced:</b> After travelling to Tower Gate each player places the top card of his deck, face down in front of him, as if it just engaged him from the staging area. These cards are called \"Orc Guard\", and act as enemies with: 1 hit point, 1 Attack and 1 Defense.",
-      "flavor": "\"I myself dared to pass the doors of the Necromancer in Dol Guldur, and secretly explored his ways.\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
-      "threat": 2,
-      "quest_points": 1,
-      "quantity_easy": 2,
-      "quantity": 0,
-      "image": "encounter-card/Escape from Dol Guldur/Tower-Gate.jpg"
-   },
-   {
+      "pack_code": "RtM",
       "pack_name": "Return to Mirkwood",
       "encounter_set": "Return to Mirkwood",
       "type_code": "location",
       "type_name": "Location",
-      "position": 134,
-      "name": "Wood Elf Path",
+      "position": 132,
+      "name": "Dry Watercourse",
       "traits": "Forest.",
-      "text": "<b>Response:</b> After the players travel to Wood Elf Path, the player guarding Gollum may choose a new player to guard him.",
-      "threat": 1,
-      "quest_points": 3,
+      "text": "While Dry Watercourse is the active location, all treachery card effects that target the player guarding Gollum also target each other player.",
+      "threat": 2,
+      "quest_points": 2,
       "quantity_easy": 3,
       "quantity": 0,
-      "image": "encounter-card/Return to Mirkwood/Wood-Elf-Path.jpg"
+      "image": "encounter-card/Return to Mirkwood/Dry-Watercourse.jpg"
    },
    {
+      "pack_code": "RtM",
       "pack_name": "Return to Mirkwood",
       "encounter_set": "Return to Mirkwood",
       "type_code": "location",
@@ -603,7 +625,24 @@
       "image": "encounter-card/Return to Mirkwood/Woodman's-Glade.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "RtM",
+      "pack_name": "Return to Mirkwood",
+      "encounter_set": "Return to Mirkwood",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 134,
+      "name": "Wood Elf Path",
+      "traits": "Forest.",
+      "text": "<b>Response:</b> After the players travel to Wood Elf Path, the player guarding Gollum may choose a new player to guard him.",
+      "threat": 1,
+      "quest_points": 3,
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Return to Mirkwood/Wood-Elf-Path.jpg"
+   },
+   {
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Into the Pit",
       "type_code": "location",
       "type_name": "Location",
@@ -620,7 +659,8 @@
       "image": "encounter-card/Into the Pit/East-gate.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Into the Pit",
       "type_code": "location",
       "type_name": "Location",
@@ -637,7 +677,8 @@
       "image": "encounter-card/Into the Pit/First-Hall.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Into the Pit",
       "type_code": "location",
       "type_name": "Location",
@@ -655,7 +696,8 @@
       "image": "encounter-card/Into the Pit/Bridge-of-Khazad-dum.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Into the Pit",
       "type_code": "location",
       "type_name": "Location",
@@ -671,7 +713,8 @@
       "image": "encounter-card/Into the Pit/Stairs-of-Nain.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "The Seventh Level",
       "type_code": "location",
       "type_name": "Location",
@@ -687,7 +730,8 @@
       "image": "encounter-card/The Seventh Level/Upper-Hall.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Plundering Goblins",
       "type_code": "location",
       "type_name": "Location",
@@ -702,7 +746,8 @@
       "image": "encounter-card/Plundering Goblins/Plundered-Armoury.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Twists and Turns",
       "type_code": "location",
       "type_name": "Location",
@@ -717,7 +762,8 @@
       "image": "encounter-card/Twists and Turns/Branching-Paths.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Twists and Turns",
       "type_code": "location",
       "type_name": "Location",
@@ -733,7 +779,8 @@
       "image": "encounter-card/Twists and Turns/Lightless-Passage.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Twists and Turns",
       "type_code": "location",
       "type_name": "Location",
@@ -748,7 +795,8 @@
       "image": "encounter-card/Twists and Turns/Zigil-Mineshaft.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Deeps of Moria",
       "type_code": "location",
       "type_name": "Location",
@@ -763,7 +811,8 @@
       "image": "encounter-card/Deeps of Moria/The-Mountains&#39;-Roots.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Hazards of the Pit",
       "type_code": "location",
       "type_name": "Location",
@@ -778,7 +827,8 @@
       "image": "encounter-card/Hazards of the Pit/Dreadful-Gap.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Hazards of the Pit",
       "type_code": "location",
       "type_name": "Location",
@@ -793,7 +843,8 @@
       "image": "encounter-card/Hazards of the Pit/Fouled-Well.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Misty Mountains",
       "type_code": "location",
       "type_name": "Location",
@@ -808,7 +859,8 @@
       "image": "encounter-card/Misty Mountains/Knees-of-the-Mountain.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Misty Mountains",
       "type_code": "location",
       "type_name": "Location",
@@ -824,7 +876,8 @@
       "image": "encounter-card/Misty Mountains/Turbulent-Waters.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Misty Mountains",
       "type_code": "location",
       "type_name": "Location",
@@ -839,7 +892,8 @@
       "image": "encounter-card/Misty Mountains/Warg-Lair.jpg"
    },
    {
-      "pack_name": "Khazad-d&#251;m",
+      "pack_code": "KD",
+      "pack_name": "Khazad-dûm",
       "encounter_set": "Goblins of the Deep",
       "type_code": "location",
       "type_name": "Location",
@@ -855,6 +909,7 @@
       "image": "encounter-card/Goblins of the Deep/Goblin-Tunnels.jpg"
    },
    {
+      "pack_code": "TRG",
       "pack_name": "The Redhorn Gate",
       "encounter_set": "The Redhorn Gate",
       "type_code": "location",
@@ -872,6 +927,7 @@
       "image": "encounter-card/The Redhorn Gate/Caradhras.jpg"
    },
    {
+      "pack_code": "TRG",
       "pack_name": "The Redhorn Gate",
       "encounter_set": "The Redhorn Gate",
       "type_code": "location",
@@ -889,6 +945,7 @@
       "image": "encounter-card/The Redhorn Gate/Fanuidhol.jpg"
    },
    {
+      "pack_code": "TRG",
       "pack_name": "The Redhorn Gate",
       "encounter_set": "The Redhorn Gate",
       "type_code": "location",
@@ -906,6 +963,7 @@
       "image": "encounter-card/The Redhorn Gate/Celebdil.jpg"
    },
    {
+      "pack_code": "TRG",
       "pack_name": "The Redhorn Gate",
       "encounter_set": "The Redhorn Gate",
       "type_code": "location",
@@ -923,6 +981,7 @@
       "image": "encounter-card/The Redhorn Gate/The-Dimrill-Stair.jpg"
    },
    {
+      "pack_code": "TRG",
       "pack_name": "The Redhorn Gate",
       "encounter_set": "The Redhorn Gate",
       "type_code": "location",
@@ -939,6 +998,7 @@
       "image": "encounter-card/The Redhorn Gate/Rocky-Crags.jpg"
    },
    {
+      "pack_code": "RtR",
       "pack_name": "Road to Rivendell",
       "encounter_set": "Road to Rivendell",
       "type_code": "location",
@@ -955,6 +1015,7 @@
       "image": "encounter-card/Road to Rivendell/Ruined-Road.jpg"
    },
    {
+      "pack_code": "RtR",
       "pack_name": "Road to Rivendell",
       "encounter_set": "Road to Rivendell",
       "type_code": "location",
@@ -971,6 +1032,7 @@
       "image": "encounter-card/Road to Rivendell/Goblin-Gate.jpg"
    },
    {
+      "pack_code": "RtR",
       "pack_name": "Road to Rivendell",
       "encounter_set": "Road to Rivendell",
       "type_code": "location",
@@ -987,6 +1049,7 @@
       "image": "encounter-card/Road to Rivendell/Pathless-Country.jpg"
    },
    {
+      "pack_code": "RtR",
       "pack_name": "Road to Rivendell",
       "encounter_set": "Road to Rivendell",
       "type_code": "location",
@@ -1003,6 +1066,7 @@
       "image": "encounter-card/Road to Rivendell/Barren-Hills.jpg"
    },
    {
+      "pack_code": "WitW",
       "pack_name": "The Watcher in the Water",
       "encounter_set": "The Watcher in the Water",
       "type_code": "location",
@@ -1019,6 +1083,7 @@
       "image": "encounter-card/The Watcher in the Water/Doors-of-Durin.jpg"
    },
    {
+      "pack_code": "WitW",
       "pack_name": "The Watcher in the Water",
       "encounter_set": "The Watcher in the Water",
       "type_code": "location",
@@ -1036,6 +1101,7 @@
       "image": "encounter-card/The Watcher in the Water/Stair-Falls.jpg"
    },
    {
+      "pack_code": "WitW",
       "pack_name": "The Watcher in the Water",
       "encounter_set": "The Watcher in the Water",
       "type_code": "location",
@@ -1052,6 +1118,7 @@
       "image": "encounter-card/The Watcher in the Water/Perilous-Swamp.jpg"
    },
    {
+      "pack_code": "WitW",
       "pack_name": "The Watcher in the Water",
       "encounter_set": "The Watcher in the Water",
       "type_code": "location",
@@ -1068,6 +1135,7 @@
       "image": "encounter-card/The Watcher in the Water/Makeshift-Passage.jpg"
    },
    {
+      "pack_code": "WitW",
       "pack_name": "The Watcher in the Water",
       "encounter_set": "The Watcher in the Water",
       "type_code": "location",
@@ -1084,6 +1152,7 @@
       "image": "encounter-card/The Watcher in the Water/Stagnant-Creek.jpg"
    },
    {
+      "pack_code": "TLD",
       "pack_name": "The Long Dark",
       "encounter_set": "The Long Dark",
       "type_code": "location",
@@ -1101,6 +1170,7 @@
       "image": "encounter-card/The Long Dark/Abandoned-Mine.jpg"
    },
    {
+      "pack_code": "TLD",
       "pack_name": "The Long Dark",
       "encounter_set": "The Long Dark",
       "type_code": "location",
@@ -1118,6 +1188,7 @@
       "image": "encounter-card/The Long Dark/Dwarven-Forge.jpg"
    },
    {
+      "pack_code": "TLD",
       "pack_name": "The Long Dark",
       "encounter_set": "The Long Dark",
       "type_code": "location",
@@ -1134,6 +1205,7 @@
       "image": "encounter-card/The Long Dark/Silent-Caverns.jpg"
    },
    {
+      "pack_code": "TLD",
       "pack_name": "The Long Dark",
       "encounter_set": "The Long Dark",
       "type_code": "location",
@@ -1150,6 +1222,7 @@
       "image": "encounter-card/The Long Dark/Twisting-Passage.jpg"
    },
    {
+      "pack_code": "FoS",
       "pack_name": "Foundations of Stone",
       "encounter_set": "Foundations of Stone",
       "type_code": "location",
@@ -1165,6 +1238,7 @@
       "image": "encounter-card/Foundations of Stone/Drowned-Treasury.jpg"
    },
    {
+      "pack_code": "FoS",
       "pack_name": "Foundations of Stone",
       "encounter_set": "Foundations of Stone",
       "type_code": "location",
@@ -1180,6 +1254,7 @@
       "image": "encounter-card/Foundations of Stone/Mithril-Lode.jpg"
    },
    {
+      "pack_code": "SaF",
       "pack_name": "Shadow and Flame",
       "encounter_set": "Shadow and Flame",
       "type_code": "location",
@@ -1195,6 +1270,7 @@
       "image": "encounter-card/Shadow and Flame/Dark-Pit.jpg"
    },
    {
+      "pack_code": "SaF",
       "pack_name": "Shadow and Flame",
       "encounter_set": "Shadow and Flame",
       "type_code": "location",
@@ -1212,6 +1288,7 @@
       "image": "encounter-card/Shadow and Flame/Second-Hall.jpg"
    },
    {
+      "pack_code": "SaF",
       "pack_name": "Shadow and Flame",
       "encounter_set": "Shadow and Flame",
       "type_code": "location",
@@ -1227,7 +1304,8 @@
       "image": "encounter-card/Shadow and Flame/Second-Deep.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Peril in Pelargir",
       "type_code": "location",
       "type_name": "Location",
@@ -1243,7 +1321,8 @@
       "image": "encounter-card/Peril in Pelargir/The-Leaping-Fish.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Peril in Pelargir",
       "type_code": "location",
       "type_name": "Location",
@@ -1259,7 +1338,8 @@
       "image": "encounter-card/Peril in Pelargir/Pelargir-Docks.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Peril in Pelargir",
       "type_code": "location",
       "type_name": "Location",
@@ -1275,7 +1355,8 @@
       "image": "encounter-card/Peril in Pelargir/Harbor-Storehouse.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Into Ithilien",
       "type_code": "location",
       "type_name": "Location",
@@ -1291,7 +1372,8 @@
       "image": "encounter-card/Into Ithilien/Ithilien-Road.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "The Siege of Cair Andros",
       "type_code": "location",
       "type_name": "Location",
@@ -1307,7 +1389,8 @@
       "image": "encounter-card/The Siege of Cair Andros/The-Citadel.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "The Siege of Cair Andros",
       "type_code": "location",
       "type_name": "Location",
@@ -1323,7 +1406,8 @@
       "image": "encounter-card/The Siege of Cair Andros/The-Approach.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "The Siege of Cair Andros",
       "type_code": "location",
       "type_name": "Location",
@@ -1339,7 +1423,8 @@
       "image": "encounter-card/The Siege of Cair Andros/The-Banks.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Streets of Gondor",
       "type_code": "location",
       "type_name": "Location",
@@ -1355,7 +1440,8 @@
       "image": "encounter-card/Streets of Gondor/City-Street.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Streets of Gondor",
       "type_code": "location",
       "type_name": "Location",
@@ -1371,7 +1457,8 @@
       "image": "encounter-card/Streets of Gondor/Market-Square.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Brooding Forest",
       "type_code": "location",
       "type_name": "Location",
@@ -1387,7 +1474,8 @@
       "image": "encounter-card/Brooding Forest/Overgrown-Trail.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Brooding Forest",
       "type_code": "location",
       "type_name": "Location",
@@ -1404,7 +1492,8 @@
       "image": "encounter-card/Brooding Forest/Secluded-Glade.jpg"
    },
    {
-      "pack_name": "Heirs of N&#250;menor",
+      "pack_code": "HoN",
+      "pack_name": "Heirs of Númenor",
       "encounter_set": "Mordor Elite",
       "type_code": "location",
       "type_name": "Location",
@@ -1420,8 +1509,9 @@
       "image": "encounter-card/Mordor Elite/Orc-War-Camp.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "location",
       "type_name": "Location",
       "position": 18,
@@ -1435,8 +1525,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/Sewers.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "location",
       "type_name": "Location",
       "position": 19,
@@ -1452,8 +1543,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/Roots-of-Mindolluin.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "location",
       "type_name": "Location",
       "position": 20,
@@ -1469,8 +1561,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/Storehouse.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "location",
       "type_name": "Location",
       "position": 21,
@@ -1486,8 +1579,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/Houses-of-the-Dead.jpg"
    },
    {
-      "pack_name": "The Steward&#39;s Fear",
-      "encounter_set": "The Steward&#39;s Fear",
+      "pack_code": "TSF",
+      "pack_name": "The Steward's Fear",
+      "encounter_set": "The Steward's Fear",
       "type_code": "location",
       "type_name": "Location",
       "position": 22,
@@ -1502,8 +1596,9 @@
       "image": "encounter-card/The Steward&#39;s Fear/The-Fourth-Star.jpg"
    },
    {
-      "pack_name": "The Dr&#250;adan Forest",
-      "encounter_set": "The Dr&#250;adan Forest",
+      "pack_code": "TDF",
+      "pack_name": "The Drúadan Forest",
+      "encounter_set": "The Drúadan Forest",
       "type_code": "location",
       "type_name": "Location",
       "position": 50,
@@ -1518,8 +1613,9 @@
       "image": "encounter-card/The Druadan Forest/Ancestral-Clearing.jpg"
    },
    {
-      "pack_name": "The Dr&#250;adan Forest",
-      "encounter_set": "The Dr&#250;adan Forest",
+      "pack_code": "TDF",
+      "pack_name": "The Drúadan Forest",
+      "encounter_set": "The Drúadan Forest",
       "type_code": "location",
       "type_name": "Location",
       "position": 51,
@@ -1534,8 +1630,9 @@
       "image": "encounter-card/The Druadan Forest/Garden-of-Poisons.jpg"
    },
    {
-      "pack_name": "The Dr&#250;adan Forest",
-      "encounter_set": "The Dr&#250;adan Forest",
+      "pack_code": "TDF",
+      "pack_name": "The Drúadan Forest",
+      "encounter_set": "The Drúadan Forest",
       "type_code": "location",
       "type_name": "Location",
       "position": 52,
@@ -1549,8 +1646,9 @@
       "image": "encounter-card/The Druadan Forest/Glade-of-Cleansing.jpg"
    },
    {
-      "pack_name": "Encounter at Amon D&#238;n",
-      "encounter_set": "Encounter at Amon D&#238;n",
+      "pack_code": "EaAD",
+      "pack_name": "Encounter at Amon Dîn",
+      "encounter_set": "Encounter at Amon Dîn",
       "type_code": "location",
       "type_name": "Location",
       "position": 75,
@@ -1565,8 +1663,9 @@
       "image": "encounter-card/Encounter at Amon Din/Burning-Farmhouse.jpg"
    },
    {
-      "pack_name": "Encounter at Amon D&#238;n",
-      "encounter_set": "Encounter at Amon D&#238;n",
+      "pack_code": "EaAD",
+      "pack_name": "Encounter at Amon Dîn",
+      "encounter_set": "Encounter at Amon Dîn",
       "type_code": "location",
       "type_name": "Location",
       "position": 76,
@@ -1581,8 +1680,9 @@
       "image": "encounter-card/Encounter at Amon Din/Gondorian-Hamlet.jpg"
    },
    {
-      "pack_name": "Encounter at Amon D&#238;n",
-      "encounter_set": "Encounter at Amon D&#238;n",
+      "pack_code": "EaAD",
+      "pack_name": "Encounter at Amon Dîn",
+      "encounter_set": "Encounter at Amon Dîn",
       "type_code": "location",
       "type_name": "Location",
       "position": 77,
@@ -1597,6 +1697,7 @@
       "image": "encounter-card/Encounter at Amon Din/Secluded-Farmhouse.jpg"
    },
    {
+      "pack_code": "AoO",
       "pack_name": "Assault on Osgiliath",
       "encounter_set": "Assault on Osgiliath",
       "type_code": "location",
@@ -1613,6 +1714,7 @@
       "image": "encounter-card/Assault on Osgiliath/West-Gate.jpg"
    },
    {
+      "pack_code": "AoO",
       "pack_name": "Assault on Osgiliath",
       "encounter_set": "Assault on Osgiliath",
       "type_code": "location",
@@ -1630,6 +1732,7 @@
       "image": "encounter-card/Assault on Osgiliath/The-King&#39;s-Library.jpg"
    },
    {
+      "pack_code": "AoO",
       "pack_name": "Assault on Osgiliath",
       "encounter_set": "Assault on Osgiliath",
       "type_code": "location",
@@ -1646,6 +1749,7 @@
       "image": "encounter-card/Assault on Osgiliath/Ancient-Harbor.jpg"
    },
    {
+      "pack_code": "AoO",
       "pack_name": "Assault on Osgiliath",
       "encounter_set": "Assault on Osgiliath",
       "type_code": "location",
@@ -1662,6 +1766,7 @@
       "image": "encounter-card/Assault on Osgiliath/The-Old-Bridge.jpg"
    },
    {
+      "pack_code": "AoO",
       "pack_name": "Assault on Osgiliath",
       "encounter_set": "Assault on Osgiliath",
       "type_code": "location",
@@ -1678,6 +1783,7 @@
       "image": "encounter-card/Assault on Osgiliath/West-Quarter.jpg"
    },
    {
+      "pack_code": "AoO",
       "pack_name": "Assault on Osgiliath",
       "encounter_set": "Assault on Osgiliath",
       "type_code": "location",
@@ -1694,6 +1800,7 @@
       "image": "encounter-card/Assault on Osgiliath/East-Quarter.jpg"
    },
    {
+      "pack_code": "AoO",
       "pack_name": "Assault on Osgiliath",
       "encounter_set": "Assault on Osgiliath",
       "type_code": "location",
@@ -1709,6 +1816,7 @@
       "image": "encounter-card/Assault on Osgiliath/Ruined-Square.jpg"
    },
    {
+      "pack_code": "AoO",
       "pack_name": "Assault on Osgiliath",
       "encounter_set": "Assault on Osgiliath",
       "type_code": "location",
@@ -1724,6 +1832,7 @@
       "image": "encounter-card/Assault on Osgiliath/Ruined-Tower.jpg"
    },
    {
+      "pack_code": "BoG",
       "pack_name": "The Blood of Gondor",
       "encounter_set": "The Blood of Gondor",
       "type_code": "location",
@@ -1740,6 +1849,7 @@
       "image": "encounter-card/The Blood of Gondor/The-Cross-roads.jpg"
    },
    {
+      "pack_code": "BoG",
       "pack_name": "The Blood of Gondor",
       "encounter_set": "The Blood of Gondor",
       "type_code": "location",
@@ -1757,6 +1867,7 @@
       "image": "encounter-card/The Blood of Gondor/Southern-Road.jpg"
    },
    {
+      "pack_code": "BoG",
       "pack_name": "The Blood of Gondor",
       "encounter_set": "The Blood of Gondor",
       "type_code": "location",
@@ -1774,6 +1885,7 @@
       "image": "encounter-card/The Blood of Gondor/Western-Road.jpg"
    },
    {
+      "pack_code": "BoG",
       "pack_name": "The Blood of Gondor",
       "encounter_set": "The Blood of Gondor",
       "type_code": "location",
@@ -1791,6 +1903,7 @@
       "image": "encounter-card/The Blood of Gondor/Northern-Road.jpg"
    },
    {
+      "pack_code": "BoG",
       "pack_name": "The Blood of Gondor",
       "encounter_set": "The Blood of Gondor",
       "type_code": "location",
@@ -1808,6 +1921,7 @@
       "image": "encounter-card/The Blood of Gondor/Eastern-Road.jpg"
    },
    {
+      "pack_code": "BoG",
       "pack_name": "The Blood of Gondor",
       "encounter_set": "The Blood of Gondor",
       "type_code": "location",
@@ -1823,6 +1937,7 @@
       "image": "encounter-card/The Blood of Gondor/The-Dark-Woods.jpg"
    },
    {
+      "pack_code": "TMV",
       "pack_name": "The Morgul Vale",
       "encounter_set": "The Morgul Vale",
       "type_code": "location",
@@ -1839,6 +1954,7 @@
       "image": "encounter-card/The Morgul Vale/Morgul-Road.jpg"
    },
    {
+      "pack_code": "TMV",
       "pack_name": "The Morgul Vale",
       "encounter_set": "The Morgul Vale",
       "type_code": "location",
@@ -1855,6 +1971,7 @@
       "image": "encounter-card/The Morgul Vale/Morgul-Vale.jpg"
    },
    {
+      "pack_code": "TMV",
       "pack_name": "The Morgul Vale",
       "encounter_set": "The Morgul Vale",
       "type_code": "location",
@@ -1870,6 +1987,7 @@
       "image": "encounter-card/The Morgul Vale/The-White-Bridge.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "The Fords of Isen",
       "type_code": "location",
@@ -1887,6 +2005,7 @@
       "image": "encounter-card/The Fords of Isen/The-Islet.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "The Fords of Isen",
       "type_code": "location",
@@ -1903,6 +2022,7 @@
       "image": "encounter-card/The Fords of Isen/Fords-of-Isen.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "The Fords of Isen",
       "type_code": "location",
@@ -1918,6 +2038,7 @@
       "image": "encounter-card/The Fords of Isen/The-King&#39;s-Road.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "The Fords of Isen",
       "type_code": "location",
@@ -1934,6 +2055,7 @@
       "image": "encounter-card/The Fords of Isen/Gap-of-Rohan.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "To Catch an Orc",
       "type_code": "location",
@@ -1950,6 +2072,7 @@
       "image": "encounter-card/To Catch an Orc/Methedras.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "To Catch an Orc",
       "type_code": "location",
@@ -1965,6 +2088,7 @@
       "image": "encounter-card/To Catch an Orc/Orc-Cave.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "To Catch an Orc",
       "type_code": "location",
@@ -1981,6 +2105,7 @@
       "image": "encounter-card/To Catch an Orc/Mugash&#39;s-Lair.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "Into Fangorn",
       "type_code": "location",
@@ -1999,6 +2124,7 @@
       "image": "encounter-card/Into Fangorn/Edge-of-Fangorn.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "Into Fangorn",
       "type_code": "location",
@@ -2015,6 +2141,7 @@
       "image": "encounter-card/Into Fangorn/Heart-of-Fangorn.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "Ancient Forest",
       "type_code": "location",
@@ -2031,6 +2158,7 @@
       "image": "encounter-card/Ancient Forest/Ancient-Forest.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "Ancient Forest",
       "type_code": "location",
@@ -2047,6 +2175,7 @@
       "image": "encounter-card/Ancient Forest/Tangled-Woods.jpg"
    },
    {
+      "pack_code": "VoI",
       "pack_name": "The Voice of Isengard",
       "encounter_set": "Broken Lands",
       "type_code": "location",
@@ -2063,6 +2192,7 @@
       "image": "encounter-card/Broken Lands/Broken-Lands.jpg"
    },
    {
+      "pack_code": "TDT",
       "pack_name": "The Dunland Trap",
       "encounter_set": "The Dunland Trap",
       "type_code": "location",
@@ -2080,6 +2210,7 @@
       "image": "encounter-card/The Dunland Trap/Munuv-Duv-Ravine.jpg"
    },
    {
+      "pack_code": "TDT",
       "pack_name": "The Dunland Trap",
       "encounter_set": "The Dunland Trap",
       "type_code": "location",
@@ -2097,6 +2228,7 @@
       "image": "encounter-card/The Dunland Trap/Old-South-Road.jpg"
    },
    {
+      "pack_code": "TDT",
       "pack_name": "The Dunland Trap",
       "encounter_set": "The Dunland Trap",
       "type_code": "location",
@@ -2111,6 +2243,7 @@
       "image": "encounter-card/The Dunland Trap/Hithaeglir-Foothills.jpg"
    },
    {
+      "pack_code": "TDT",
       "pack_name": "The Dunland Trap",
       "encounter_set": "The Dunland Trap",
       "type_code": "location",
@@ -2126,6 +2259,7 @@
       "image": "encounter-card/The Dunland Trap/Hills-of-Dunland.jpg"
    },
    {
+      "pack_code": "TDT",
       "pack_name": "The Dunland Trap",
       "encounter_set": "The Dunland Trap",
       "type_code": "location",
@@ -2142,6 +2276,7 @@
       "image": "encounter-card/The Dunland Trap/Plains-of-Enedwaith.jpg"
    },
    {
+      "pack_code": "TDT",
       "pack_name": "The Dunland Trap",
       "encounter_set": "The Dunland Trap",
       "type_code": "location",
@@ -2158,6 +2293,7 @@
       "image": "encounter-card/The Dunland Trap/Hithaeglir-Stream.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "location",
@@ -2175,6 +2311,7 @@
       "image": "encounter-card/The Three Trials/Hill-Barrow.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "location",
@@ -2192,6 +2329,7 @@
       "image": "encounter-card/The Three Trials/Cave-Barrow.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "location",
@@ -2209,6 +2347,7 @@
       "image": "encounter-card/The Three Trials/Stone-Barrow.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "location",
@@ -2225,6 +2364,7 @@
       "image": "encounter-card/The Three Trials/Hallowed-Circle.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "location",
@@ -2241,6 +2381,7 @@
       "image": "encounter-card/The Three Trials/Cursed-Forest.jpg"
    },
    {
+      "pack_code": "TTT",
       "pack_name": "The Three Trials",
       "encounter_set": "The Three Trials",
       "type_code": "location",
@@ -2255,6 +2396,7 @@
       "image": "encounter-card/The Three Trials/Grim-Foothills.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "location",
@@ -2272,6 +2414,7 @@
       "image": "encounter-card/Trouble in Tharbad/The-Empty-Mug.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "location",
@@ -2288,6 +2431,7 @@
       "image": "encounter-card/Trouble in Tharbad/The-Crossing-at-Tharbad.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "location",
@@ -2304,6 +2448,7 @@
       "image": "encounter-card/Trouble in Tharbad/Streets-of-Tharbad.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "location",
@@ -2319,6 +2464,7 @@
       "image": "encounter-card/Trouble in Tharbad/Tharbad-Hideout.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "location",
@@ -2335,6 +2481,7 @@
       "image": "encounter-card/Trouble in Tharbad/Ruins-of-the-Second-Age.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "location",
@@ -2351,6 +2498,7 @@
       "image": "encounter-card/Trouble in Tharbad/Seedy-Inn.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "location",
@@ -2366,6 +2514,7 @@
       "image": "encounter-card/Trouble in Tharbad/Hidden-Alleyway.jpg"
    },
    {
+      "pack_code": "TiT",
       "pack_name": "Trouble in Tharbad",
       "encounter_set": "Trouble in Tharbad",
       "type_code": "location",
@@ -2381,8 +2530,9 @@
       "image": "encounter-card/Trouble in Tharbad/Decrepit-Rooftops.jpg"
    },
    {
-      "pack_name": "The N&#238;n-in-Eilph",
-      "encounter_set": "The N&#238;n-in-Eilph",
+      "pack_code": "NiE",
+      "pack_name": "The Nîn-in-Eilph",
+      "encounter_set": "The Nîn-in-Eilph",
       "type_code": "location",
       "type_name": "Location",
       "position": 106,
@@ -2397,8 +2547,9 @@
       "image": "encounter-card/The Nin-in-Eilph/Fen-of-Reeds.jpg"
    },
    {
-      "pack_name": "The N&#238;n-in-Eilph",
-      "encounter_set": "The N&#238;n-in-Eilph",
+      "pack_code": "NiE",
+      "pack_name": "The Nîn-in-Eilph",
+      "encounter_set": "The Nîn-in-Eilph",
       "type_code": "location",
       "type_name": "Location",
       "position": 107,
@@ -2413,8 +2564,9 @@
       "image": "encounter-card/The Nin-in-Eilph/Finger-of-Glanduin.jpg"
    },
    {
-      "pack_name": "The N&#238;n-in-Eilph",
-      "encounter_set": "The N&#238;n-in-Eilph",
+      "pack_code": "NiE",
+      "pack_name": "The Nîn-in-Eilph",
+      "encounter_set": "The Nîn-in-Eilph",
       "type_code": "location",
       "type_name": "Location",
       "position": 108,
@@ -2428,8 +2580,9 @@
       "image": "encounter-card/The Nin-in-Eilph/Hidden-Eyot.jpg"
    },
    {
-      "pack_name": "The N&#238;n-in-Eilph",
-      "encounter_set": "The N&#238;n-in-Eilph",
+      "pack_code": "NiE",
+      "pack_name": "The Nîn-in-Eilph",
+      "encounter_set": "The Nîn-in-Eilph",
       "type_code": "location",
       "type_name": "Location",
       "position": 109,

@@ -1,7 +1,7 @@
 "use strict";
 
-define(["js/FileLoader", "js/ParseUtilities"],
-   function(FileLoader, ParseUtilities)
+define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
+   function(FileLoader, Pack, ParseUtilities)
    {
       var HoBDetailFetcher = {};
 
@@ -81,6 +81,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
 
          fragment1 = ParseUtilities.extractInclusive(fragment, "<a title=", "</a>");
          var encounter_set = ParseUtilities.extractAttribute(fragment1, "title");
+         encounter_set = encounter_set.replace("&#39;", "'"); // '
          // console.log("encounter_set = " + encounter_set);
 
          var encounter_sets;
@@ -439,7 +440,15 @@ define(["js/FileLoader", "js/ParseUtilities"],
          index2 = fragment.indexOf(endKey, index + 1);
          fragment1 = fragment.substring(index, index2 + endKey.length);
          var pack_name = ParseUtilities.extractContent(fragment1);
+         // Prefer unicode.
+         pack_name = pack_name.replace("&#39;", "'"); // '
+         pack_name = pack_name.replace("&#238;", "\u00ee"); // î
+         pack_name = pack_name.replace("&#250;", "\u00fa"); // ú
+         pack_name = pack_name.replace("&#251;", "\u00fb"); // û
          // console.log("pack_name = " + pack_name);
+
+         var packData = Pack.findByName(pack_name);
+         var pack_code = (packData !== undefined ? packData.code : undefined);
 
          fragment1 = ParseUtilities.extractInclusive(fragment.substring(index2), "<span", "</span>");
          var positionQuantities = ParseUtilities.extractContent(fragment1);
@@ -493,6 +502,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
          }
 
          var data0 = {
+            "pack_code": pack_code,
             "pack_name": pack_name,
             "position": position,
             "name": name,
@@ -504,6 +514,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
          };
 
          var data1 = {
+            "pack_code": pack_code,
             "pack_name": pack_name,
             "position": position,
             "name": name1,
@@ -520,6 +531,7 @@ define(["js/FileLoader", "js/ParseUtilities"],
       {
          var detail = {};
 
+         maybeAddData(detail, "pack_code", titleBoxData.pack_code);
          maybeAddData(detail, "pack_name", titleBoxData.pack_name);
          maybeAddData(detail, "encounter_set", statBoxData.encounter_set);
          maybeAddData(detail, "type_code", statBoxData.type_code);
