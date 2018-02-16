@@ -667,5 +667,48 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Antlered Crown/Chief-Turch.jpg"
+   },
+   {
+      "pack_code": "TLR",
+      "pack_name": "The Lost Realm",
+      "encounter_set": "I&#226;rion",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 16,
+      "name": "I&#226;rion",
+      "traits": "Dúnedain. Ranger.",
+      "text": "X is the number of quest cards in play.<br/>The first player gains control of Iârion.<br/><b>Response:</b> After a side quest is revealed from the encounter deck, ready Iârion.<br/><b>If Iârion leaves play, the players lose the game.</b>",
+      "hit_points": 4,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Iarion/Iarion.jpg"
+   },
+   {
+      "pack_code": "TLR",
+      "pack_name": "The Lost Realm",
+      "encounter_set": "The Weather Hills",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 71,
+      "name": "Hunting the Orcs",
+      "traits": "Mission.",
+      "text": "<b>Forced:</b> After an enemy is defeated, place 1 resource token here. Then, if there are at least X resource tokens here, flip Hunting the Orcs and place each resource token that was on it on Savage Counter-attack. X is 3 more than the number of players in the game.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Weather Hills/Hunting-the-Orcs.jpg"
+   },
+   {
+      "pack_code": "TLR",
+      "pack_name": "The Lost Realm",
+      "encounter_set": "The Weather Hills",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 72,
+      "name": "Savage Counter-attack",
+      "traits": "Mission.",
+      "text": "<b>Forced:</b> After Savage Counter-attack enters play, advance to stage 2A.<br/><b>Forced:</b> After an enemy attacks and destroys a character, discard 1 resource token from Savage Counter-attack.<br/><b>If there are no resource tokens here, the players lose the game.</b>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Weather Hills/Savage-Counter-attack.jpg"
    }
 ]
