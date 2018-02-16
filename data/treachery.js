@@ -2051,5 +2051,34 @@
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Dark Sorcery/Heavy-Curse.jpg"
+   },
+   {
+      "pack_code": "WoE",
+      "pack_name": "The Wastes of Eriador",
+      "encounter_set": "The Wastes of Eriador",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 26,
+      "name": "Sudden Darkness",
+      "traits": "Weather.",
+      "text": "<b>When Revealed:</b> If it is Night, raise each player's threat by 4. If it is Day, flip the <b>Time</b> objective to Nightfall.",
+      "shadow": "<b>Shadow:</b> Put the topmost <b>Warg</b> enemy from the discard pile into play engaged with you and deal it a shadow card.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Wastes of Eriador/Sudden-Darkness.jpg"
+   },
+   {
+      "pack_code": "WoE",
+      "pack_name": "The Wastes of Eriador",
+      "encounter_set": "The Wastes of Eriador",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 27,
+      "name": "Predatory Wolves",
+      "text": "<b>When Revealed:</b> Each player must choose: either discard the highest cost ally he controls, or search the encounter deck and discard pile for a <b>Warg</b> enemy, reveal it, and add it to the staging area. Shuffle the encounter deck.",
+      "shadow": "<b>Shadow:</b> Exhaust a character you control.",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/The Wastes of Eriador/Predatory-Wolves.jpg"
    }
 ]

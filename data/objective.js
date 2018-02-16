@@ -710,5 +710,52 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Weather Hills/Savage-Counter-attack.jpg"
+   },
+   {
+      "pack_code": "WoE",
+      "pack_name": "The Wastes of Eriador",
+      "encounter_set": "The Wastes of Eriador",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 11,
+      "name": "Daybreak",
+      "traits": "Time.",
+      "text": "It is Day. Enemies do not make engagement checks.<br/><b>Forced:</b> When it becomes Day, return each enemy in play to the staging area.<br/><b>Forced:</b> At the end of the round, flip this objective.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Wastes of Eriador/Daybreak.jpg"
+   },
+   {
+      "pack_code": "WoE",
+      "pack_name": "The Wastes of Eriador",
+      "encounter_set": "The Wastes of Eriador",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 12,
+      "name": "Nightfall",
+      "traits": "Time.",
+      "text": "It is Night. Progress cannot be placed quest cards. Encounter card effects cannot be canceled.<br/><b>Forced:</b> When it becomes Night, reveal an encounter card.<br/><b>Forced:</b> At the end of the round, flip this objective.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Wastes of Eriador/Nightfall.jpg"
+   },
+   {
+      "pack_code": "WoE",
+      "pack_name": "The Wastes of Eriador",
+      "encounter_set": "The Wastes of Eriador",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 16,
+      "name": "Amarthi&#250;l",
+      "is_unique": true,
+      "traits": "Dúnedain. Ranger. Warrior.",
+      "text": "<b>Response:</b> After an enemy engages a player, give control of Amarthiúl to that player.<br/><b>If Amarthiúl leaves play, the players lose the game.</b>",
+      "willpower": 1,
+      "attack": 3,
+      "defense": 3,
+      "hit_points": 3,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Wastes of Eriador/Amarthiul.jpg"
    }
 ]
