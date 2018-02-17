@@ -158,5 +158,21 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Dark Sorcery/The-Power-of-Angmar.jpg"
+   },
+   {
+      "pack_code": "EfMG",
+      "pack_name": "Escape from Mount Gram",
+      "encounter_set": "Escape from Mount Gram",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 53,
+      "name": "Stop the Executioners!",
+      "text": "Capture 5.<br/>Time 4. <b>Forced:</b> When the last time counter is removed from this quest, discard its captured cards and remove this quest from the game. Then, raise each player's threat by 3 for each of his characters that was discarded by this effect.",
+      "flavor": "Several of your captured companions are being sent to the executioner's block. If you make it in time, you might be able to save them before they are slain!",
+      "quest_points": 6,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Escape from Mount Gram/Stop-the-Executioners.jpg"
    }
 ]

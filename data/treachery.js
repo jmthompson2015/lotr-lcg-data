@@ -2080,5 +2080,60 @@
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Wastes of Eriador/Predatory-Wolves.jpg"
+   },
+   {
+      "pack_code": "EfMG",
+      "pack_name": "Escape from Mount Gram",
+      "encounter_set": "Escape from Mount Gram",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 49,
+      "name": "Sound the Alarm!",
+      "text": "Doomed 3.<br/><b>When Revealed:</b> Until the end of the round, each enemy gets -10 engagement cost and +1 Attack. If there are no enemies in play, search the encounter deck and discard pile for an enemy and add it to the staging area.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Escape from Mount Gram/Sound-the-Alarm.jpg"
+   },
+   {
+      "pack_code": "EfMG",
+      "pack_name": "Escape from Mount Gram",
+      "encounter_set": "Escape from Mount Gram",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 50,
+      "name": "Feeble and Weary",
+      "text": "<b>When Revealed:</b> Each player must either deal 1 damage to each exhausted character he controls, or remove each exhausted character he controls from the quest.",
+      "shadow": "<b>Shadow:</b> Exhaust a character you control.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Escape from Mount Gram/Feeble-and-Weary.jpg"
+   },
+   {
+      "pack_code": "EfMG",
+      "pack_name": "Escape from Mount Gram",
+      "encounter_set": "Escape from Mount Gram",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 51,
+      "name": "Captives of Gorn&#225;kh",
+      "text": "<b>When Revealed:</b> Each player chooses one of his allies and captures it underneath the encounter card with the highest Threat.",
+      "shadow": "<b>Shadow:</b> If this attack would damage an ally, capture that ally underneath the attacking enemy instead.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Escape from Mount Gram/Captives-of-Gornakh.jpg"
+   },
+   {
+      "pack_code": "EfMG",
+      "pack_name": "Escape from Mount Gram",
+      "encounter_set": "Escape from Mount Gram",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 52,
+      "name": "Interrogation",
+      "text": "<b>When Revealed:</b> Each player discards the top card of his captured deck and raises his threat by that card's printed resource cost. If at least 1 player discarded no cards from this effect, Interrogation gains doomed 2.",
+      "shadow": "<b>Shadow:</b> Discard a random card from your hand and raise your threat by its printed cost.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Escape from Mount Gram/Interrogation.jpg"
    }
 ]
