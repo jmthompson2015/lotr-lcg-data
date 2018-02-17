@@ -3168,5 +3168,37 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Escape from Mount Gram/Tunnels-of-Mount-Gram.jpg"
+   },
+   {
+      "pack_code": "AtE",
+      "pack_name": "Across the Ettenmoors",
+      "encounter_set": "Across the Ettenmoors",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 77,
+      "name": "Troll-fells",
+      "traits": "Ettenmoors.",
+      "text": "While Troll-fells is the active location, <b>Weather</b> cards gain doomed 1.<br/><b>When Revealed:</b> If Troll-fells is not revealed guarding a safe location, search the encounter deck and discard pile for a location with the safe keyword and attach it to Troll-fells, guarded. Shuffle the encounter deck.",
+      "threat": 1,
+      "quest_points": 6,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Across the Ettenmoors/Troll-fells.jpg"
+   },
+   {
+      "pack_code": "AtE",
+      "pack_name": "Across the Ettenmoors",
+      "encounter_set": "Across the Ettenmoors",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 78,
+      "name": "Barren Moorland",
+      "traits": "Ettenmoors.",
+      "text": "While Barren Moorland is in the staging area, it gains: \"<b>Forced:</b> When an ally enters play, you must either exhaust it or deal 1 damage to it.\"<br/><b>Travel:</b> Deal 1 damage to each exhausted character.",
+      "threat": 2,
+      "quest_points": 4,
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/Across the Ettenmoors/Barren-Moorland.jpg"
    }
 ]

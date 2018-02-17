@@ -2135,5 +2135,31 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Escape from Mount Gram/Interrogation.jpg"
+   },
+   {
+      "pack_code": "AtE",
+      "pack_name": "Across the Ettenmoors",
+      "encounter_set": "Across the Ettenmoors",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 79,
+      "name": "Arador&#39;s Bane",
+      "text": "<b>When Revealed:</b> Starting with the first player, each player must either engage an enemy in the staging area with a higher engagement cost than his threat, or search the encounter deck and discard pile for a <b>Troll</b> or <b>Giant</b> enemy and add it to the staging area. Deal each enemy that engages a player through this effect 2 shadow cards.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Across the Ettenmoors/Arador's-Bane.jpg"
+   },
+   {
+      "pack_code": "AtE",
+      "pack_name": "Across the Ettenmoors",
+      "encounter_set": "Across the Ettenmoors",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 80,
+      "name": "No Rest",
+      "text": "<b>When Revealed:</b> Attach to an exhausted hero, or a ready hero if there are no exhausted heroes. (Counts as a <b>Condition</b> attachment with the text: \"Limit 1 per hero. Attached hero cannot ready and does not collect resources during the resource phase. Discard No Rest if the players travel to a safe location.\")",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Across the Ettenmoors/No-Rest.jpg"
    }
 ]

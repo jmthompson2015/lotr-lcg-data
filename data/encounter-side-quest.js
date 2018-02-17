@@ -174,5 +174,53 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Escape from Mount Gram/Stop-the-Executioners.jpg"
+   },
+   {
+      "pack_code": "AtE",
+      "pack_name": "Across the Ettenmoors",
+      "encounter_set": "Across the Ettenmoors",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 81,
+      "name": "Lie Low",
+      "text": "<b>Forced:</b> At the end of the quest phase, if no progress was placed on Lie Low this round, each enemy gets -20 engagement cost until the end of the round.<br/><b>Response:</b> After this stage is defeated, choose an enemy in the staging area and shuffle it into the encounter deck.",
+      "flavor": "Trolls and Giants have been pursuing you since your arrival in these moors. Your company must cover their tracks so the vile creatures do not follow.",
+      "quest_points": 8,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Across the Ettenmoors/Lie-Low.jpg"
+   },
+   {
+      "pack_code": "AtE",
+      "pack_name": "Across the Ettenmoors",
+      "encounter_set": "Across the Ettenmoors",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 82,
+      "name": "Forage for Food",
+      "text": "<b>Forced:</b> After 1 or more resources are spent from a hero's resource pool, deal 1 damage to that hero.<br/><b>Response:</b> After this stage is defeated, heal 1 damage from each hero.",
+      "flavor": "What little rations you managed to recover after your imprisonment have run dry. If the Trolls or the cold doesn't kill you, starvation surely will. There must be some food to find in these barren hills.",
+      "quest_points": 6,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Across the Ettenmoors/Forage-for-Food.jpg"
+   },
+   {
+      "pack_code": "AtE",
+      "pack_name": "Across the Ettenmoors",
+      "encounter_set": "Across the Ettenmoors",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 83,
+      "name": "Scavenge for Supplies",
+      "text": "The cost to play each player card is increased by 1.<br/><b>Forced:</b> When this stage is defeated, search the encounter deck and discard pile for a <b>Troll</b> enemy and put it into play engaged with the player with the highest threat. Each player may play a card from his hand, at no cost.",
+      "flavor": "You risk drawing the attention of nearby Trolls by venturing into their lair. Perhaps inside you can find supplies to help you get back to Rivendell...",
+      "quest_points": 7,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Across the Ettenmoors/Scavenge-for-Supplies.jpg"
    }
 ]
