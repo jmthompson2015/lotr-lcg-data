@@ -222,5 +222,49 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Across the Ettenmoors/Scavenge-for-Supplies.jpg"
+   },
+   {
+      "pack_code": "ToR",
+      "pack_name": "The Treachery of Rhudaur",
+      "encounter_set": "The Treachery of Rhudaur",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 109,
+      "name": "Quiet the Spirits",
+      "text": "While Quiet the Spirits is the current quest, each <b>Undead</b> enemy that enters play immediately engages the player with the highest threat. Enemies that engage a player from this effect contribute their Threat to the total Threat in the staging area until the end of the phase.<br/><b>Forced:</b> After an enemy is destroyed, place 2 progress on Quiet the Spirits.<br/><b>When this quest is defeated, flip it over.</b>",
+      "quest_points": 16,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Treachery of Rhudaur/Quiet-the-Spirits.jpg"
+   },
+   {
+      "pack_code": "ToR",
+      "pack_name": "The Treachery of Rhudaur",
+      "encounter_set": "The Treachery of Rhudaur",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 111,
+      "name": "Sift through the Debris",
+      "text": "While Sift through the Debris is the current quest, each location in the staging area gets +1 Threat<br/><b>Forced:</b> After a location is explored, place 2 progress on Sift through the Debris.<br/><b>When this quest is defeated, flip it over.</b>",
+      "flavor": "You search through the ashes of the keep's destroyed rooms. If you are diligent, you may be able to find a clue as to Iârion's ancestry.</b>",
+      "quest_points": 18,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Treachery of Rhudaur/Sift-through-the-Debris.jpg"
+   },
+   {
+      "pack_code": "ToR",
+      "pack_name": "The Treachery of Rhudaur",
+      "encounter_set": "The Treachery of Rhudaur",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 113,
+      "name": "Decipher Ancient Texts",
+      "text": "While Decipher Ancient Texts is the current quest, allies get –2 Willpower.<br/><b>Action:</b> Pay 1 resource to place 1 progress on Decipher Ancient Texts. (Any player may trigger this action. Limit 3 times per round.)<br/><b>When this quest is defeated, flip it over.</b>",
+      "flavor": "You look through the keep's many torn and ancient records, hoping to find information to help you understand the Enemy's plan...",
+      "quest_points": 14,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Treachery of Rhudaur/Decipher-Ancient-Texts.jpg"
    }
 ]
