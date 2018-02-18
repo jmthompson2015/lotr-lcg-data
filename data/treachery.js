@@ -2224,7 +2224,7 @@
    {
       "pack_code": "BoCD",
       "pack_name": "The Battle of Carn Dûm",
-      "encounter_set": "The Battle of Carn D&#251;m",
+      "encounter_set": "The Battle of Carn Dûm",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 136,
@@ -2239,7 +2239,7 @@
    {
       "pack_code": "BoCD",
       "pack_name": "The Battle of Carn Dûm",
-      "encounter_set": "The Battle of Carn D&#251;m",
+      "encounter_set": "The Battle of Carn Dûm",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 137,
@@ -2254,7 +2254,7 @@
    {
       "pack_code": "BoCD",
       "pack_name": "The Battle of Carn Dûm",
-      "encounter_set": "The Battle of Carn D&#251;m",
+      "encounter_set": "The Battle of Carn Dûm",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 138,
@@ -2264,5 +2264,48 @@
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Battle of Carn Dum/Daechanar's-Will.jpg"
+   },
+   {
+      "pack_code": "TDR",
+      "pack_name": "The Dread Realm",
+      "encounter_set": "The Dread Realm",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 162,
+      "name": "Possession",
+      "traits": "Sorcery.",
+      "text": "Doomed 1.<br/><b>When Revealed:</b> Destroy the highest cost ally in play. That ally's controller reanimates that character, adds it to the staging area, and attaches Possession to it. (Counts as a <b>Condition</b> attachment with the text: \"If Possession is discarded, the attached card is also discarded.\")",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/The Dread Realm/Possession.jpg"
+   },
+   {
+      "pack_code": "TDR",
+      "pack_name": "The Dread Realm",
+      "encounter_set": "The Dread Realm",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 163,
+      "name": "A Fell Dread",
+      "traits": "Sorcery.",
+      "text": "<b>When Revealed:</b> The player with the highest threat must attach A Fell Dread to a hero he controls without A Fell Dread attached. (Counts as a <b>Condition</b> attachment with the text: \"Attached hero's Willpower is reduced to 0. During the quest phase, attached hero must commit to the quest, if able.\")",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Dread Realm/A-Fell-Dread.jpg"
+   },
+   {
+      "pack_code": "TDR",
+      "pack_name": "The Dread Realm",
+      "encounter_set": "The Dread Realm",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 164,
+      "name": "Death and Calamity",
+      "traits": "Sorcery.",
+      "text": "<b>When Revealed:</b> Attach Death and Calamity to the current quest. Then, the first player reanimates the top X cards of his deck, where X is the number of copies of Death and Calamity in play.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +X Attack, where X is the number of <b>Sorcery</b> cards in play.",
+      "quantity_easy": 2,
+      "quantity": 2,
+      "image": "encounter-card/The Dread Realm/Death-and-Calamity.jpg"
    }
 ]
