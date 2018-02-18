@@ -2220,5 +2220,49 @@
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Treachery of Rhudaur/Haunting-Fog.jpg"
+   },
+   {
+      "pack_code": "BoCD",
+      "pack_name": "The Battle of Carn Dûm",
+      "encounter_set": "The Battle of Carn D&#251;m",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 136,
+      "name": "The Sky Darkens",
+      "traits": "Sorcery.",
+      "text": "<b>When Revealed:</b> Each player must discard a random card from his hand. Each player then searches his deck for each other copy of the card he discarded, and discards those as well. Shuffle each searched deck.",
+      "shadow": "<b>Shadow:</b> Discard a random card from the defending player's hand.",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/The Battle of Carn Dum/The-Sky-Darkens.jpg"
+   },
+   {
+      "pack_code": "BoCD",
+      "pack_name": "The Battle of Carn Dûm",
+      "encounter_set": "The Battle of Carn D&#251;m",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 137,
+      "name": "Vile Afflication",
+      "traits": "Sorcery.",
+      "text": "<b>When Revealed:</b> Each player must distribute damage among questing characters he controls equal to the printed cost of the highest cost card in that player's discard pile.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. If this attack destroys an ally, search your deck for another copy of that ally and discard it, if able.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Battle of Carn Dum/Vile-Afflication.jpg"
+   },
+   {
+      "pack_code": "BoCD",
+      "pack_name": "The Battle of Carn Dûm",
+      "encounter_set": "The Battle of Carn D&#251;m",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 138,
+      "name": "Daechanar&#39;s Will",
+      "text": "<b>When Revealed:</b> Flip Thaurdir. Then, if he is <b>Captain</b> side faceup, Daechanar's Will gains surge.",
+      "shadow": "<b>Shadow:</b> Flip Thaurdir after this attack.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Battle of Carn Dum/Daechanar's-Will.jpg"
    }
 ]

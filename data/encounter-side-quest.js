@@ -266,5 +266,21 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Treachery of Rhudaur/Decipher-Ancient-Texts.jpg"
+   },
+   {
+      "pack_code": "BoCD",
+      "pack_name": "The Battle of Carn Dûm",
+      "encounter_set": "The Battle of Carn D&#251;m",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 139,
+      "name": "Furious Charge",
+      "text": "Surge.<br/><b>Forced:</b> When at least 1 progress is placed on Furious Charge, each character gets -2 Defense until the end of the round. If Thaurdir is <b>Captain</b> side faceup, flip him.<br/><b>Response:</b> After Furious Charge is defeated, add 10 progress to the main quest.",
+      "flavor": "With reckless abandon, your company makes a mad dash for the gates!",
+      "quest_points": 5,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Battle of Carn Dum/Furious-Charge.jpg"
    }
 ]
