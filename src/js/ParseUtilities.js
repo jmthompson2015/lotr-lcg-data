@@ -31,11 +31,18 @@ define(function()
 
    ParseUtilities.extractAttribute = function(fragment, attributeName)
    {
-      var fragment2 = fragment.replace(/'/g, "\"");
-      var startDelimiter = attributeName + "=\"";
-      var endDelimiter = "\"";
+      let answer;
 
-      return this.extract(fragment2, startDelimiter, endDelimiter, false, false);
+      if (fragment !== undefined)
+      {
+         let fragment2 = fragment.replace(/'/g, "\"");
+         const startDelimiter = attributeName + "=\"";
+         const endDelimiter = "\"";
+
+         answer = this.extract(fragment2, startDelimiter, endDelimiter, false, false);
+      }
+
+      return answer;
    };
 
    ParseUtilities.extractContent = function(fragment)
@@ -87,6 +94,21 @@ define(function()
                break;
             case "/Images/defense-small.png":
                content = "Defense";
+               break;
+            case "/Images/heading-cloudy.png":
+               content = "Cloudy Heading";
+               break;
+            case "/Images/heading-rainy.png":
+               content = "Rainy Heading";
+               break;
+            case "/Images/heading-stormy.png":
+               content = "Stormy Heading";
+               break;
+            case "/Images/heading-sunny.png":
+               content = "Sunny Heading";
+               break;
+            case "/Images/sailing-success.png":
+               content = "Sailing Test Success";
                break;
             case "/Images/threat-small.png":
                content = "Threat";
