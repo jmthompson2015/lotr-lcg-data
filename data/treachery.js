@@ -2503,5 +2503,47 @@
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Flight of the Stormcaller/Raging-Squall.jpg"
+   },
+   {
+      "pack_code": "TitD",
+      "pack_name": "The Thing in the Depths",
+      "encounter_set": "The Stormcaller",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 48,
+      "name": "Hold Steady!",
+      "text": "<b>When Revealed:</b> Exhaust each character with 1 Defense or less.",
+      "shadow": "<b>Shadow:</b> If the defending character has 0 Defense, discard it. Otherwise, the defending character gets –2 Defense for this attack.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Stormcaller/Hold-Steady.jpg"
+   },
+   {
+      "pack_code": "TitD",
+      "pack_name": "The Thing in the Depths",
+      "encounter_set": "The Thing in the Depths",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 55,
+      "name": "From the Depths",
+      "text": "<b>When Revealed:</b> Discard the top 3 cards of the encounter deck. Resolve the Grapple keyword on each enemy discarded by this effect.",
+      "shadow": "<b>Shadow:</b> Assign damage among characters you control equal to the number of enemies grappled with locations in the staging area.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Thing in the Depths/From-the-Depths.jpg"
+   },
+   {
+      "pack_code": "TitD",
+      "pack_name": "The Thing in the Depths",
+      "encounter_set": "The Thing in the Depths",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 56,
+      "name": "Lashing Tentacles",
+      "text": "<b>When Revealed:</b> The Thing in the Depths attacks each player in turn order from the staging area (deal and resolve a shadow card for each attack).",
+      "shadow": "<b>Shadow:</b> After this attack, The Thing in the Depths makes an attack against the defending player (deal a shadow card for this attack).",
+      "quantity_easy": 0,
+      "quantity": 2,
+      "image": "encounter-card/The Thing in the Depths/Lashing-Tentacles.jpg"
    }
 ]
