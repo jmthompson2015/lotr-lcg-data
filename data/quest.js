@@ -4941,5 +4941,36 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/The Thing in the Depths/Defend-the-Ship-3B.jpg"
+   },
+   {
+      "pack_code": "TotD",
+      "pack_name": "Temple of the Deceived",
+      "encounter_set": "Temple of the Deceived",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 67,
+      "name": "Searching the Island",
+      "sequence": "1A",
+      "text": "<b>Setup:</b> Prepare the Island Map (see insert). Flip over the top-left and bottom-left locations of the Island Map (without resolving their <b>Forced</b> effects, if any), and choose one as the player's starting active location, using a resource token to represent which location is active. The first player takes control of Captain Sahír, and the last player takes control of Na'asiyah (objective-ally side faceup). Add Temple Guardian to the staging area and attach Gate Key to it, guarded. Shuffle the encounter deck.",
+      "encounter_sets": ["Ruins of N&#250;menor", "Drowned Dead", "The Stormcaller Elite"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Temple of the Deceived/Searching-the-Island-1A.jpg"
+   },
+   {
+      "pack_code": "TotD",
+      "pack_name": "Temple of the Deceived",
+      "encounter_set": "Temple of the Deceived",
+      "type_code": "quest",
+      "type_name": "Quest",
+      "position": 67,
+      "name": "Searching the Island",
+      "sequence": "1B",
+      "text": "Exploration.<br/>For each progress that would be placed on Searching the Island, you may place it on a location in the staging area, instead.",
+      "flavor": "Sahír has led you to an uncharted isle, and has agreed to help you find a chest he claims the black key will open. First, you must find the Gate Key that opens the way to the grand temple on the eastern side of the island.",
+      "encounter_sets": ["Ruins of N&#250;menor", "Drowned Dead", "The Stormcaller Elite"],
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "quest-card/Temple of the Deceived/Searching-the-Island-1B.jpg"
    }
 ]

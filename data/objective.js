@@ -1050,5 +1050,20 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dream-chaser's Fleet/Silver-Wing.jpg"
+   },
+   {
+      "pack_code": "TotD",
+      "pack_name": "Temple of the Deceived",
+      "encounter_set": "Temple of the Deceived",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 71,
+      "name": "Gate Key",
+      "is_unique": true,
+      "traits": "Item. Artifact.",
+      "text": "If unattached, return Gate Key to the staging area and it gains: \"Action: Exhaust a hero to claim Gate Key and attach it to that hero.\"<br/><b>Action:</b> Exhaust Gate Key and attached hero and spend 3 resources from attached hero's resource pool to look at the facedown side of a Temple of the Deceived.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Temple of the Deceived/Gate-Key.jpg"
    }
 ]

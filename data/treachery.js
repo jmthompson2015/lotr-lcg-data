@@ -2545,5 +2545,59 @@
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/The Thing in the Depths/Lashing-Tentacles.jpg"
+   },
+   {
+      "pack_code": "TotD",
+      "pack_name": "Temple of the Deceived",
+      "encounter_set": "Temple of the Deceived",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 78,
+      "name": "Deeper into the Ruins",
+      "text": "<b>When Revealed:</b> Until the end of the phase, add X Threat to the total Threat in the staging area. X is the total Threat of all locations to the left of the active location (in its row). If X is 0, Deeper into the Ruins gains Doomed 1.",
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/Temple of the Deceived/Deeper-into-the-Ruins.jpg"
+   },
+   {
+      "pack_code": "TotD",
+      "pack_name": "Temple of the Deceived",
+      "encounter_set": "Temple of the Deceived",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 79,
+      "name": "Furious Rainstorm",
+      "text": "<b>When Revealed:</b> Each player must choose: raise his threat by the number of his characters committed to the quest, or deal 1 damage to each of his characters committed to the quest.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, raise your threat by the attacking enemy's Threat.",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/Temple of the Deceived/Furious-Rainstorm.jpg"
+   },
+   {
+      "pack_code": "TotD",
+      "pack_name": "Temple of the Deceived",
+      "encounter_set": "Temple of the Deceived",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 80,
+      "name": "Dwindling Supplies",
+      "text": "<b>When Revealed:</b> Each player must randomly discard cards from his hand until he has no more than 3 cards in his hand. If no cards were discarded by this effect, Dwindling Supplies gains doomed 2.",
+      "shadow": "<b>Shadow:</b> Defending characters gets -2 Defense for this attack.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Temple of the Deceived/Dwindling-Supplies.jpg"
+   },
+   {
+      "pack_code": "TotD",
+      "pack_name": "Temple of the Deceived",
+      "encounter_set": "Temple of the Deceived",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 81,
+      "name": "Sunken Ruins",
+      "text": "Doomed 1.<br/><b>When Revealed:</b> Each Uncharted location in the staging area gets +1 Threat until the end of the phase. If the active location has the <b>Ruins</b> trait, discard 1 resource from each hero and objective-ally in play.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Temple of the Deceived/Sunken-Ruins.jpg"
    }
 ]
