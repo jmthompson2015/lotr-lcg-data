@@ -2475,5 +2475,33 @@
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Ruins of Numenor/Aimless-Wandering.jpg"
+   },
+   {
+      "pack_code": "FotS",
+      "pack_name": "Flight of the Stormcaller",
+      "encounter_set": "Flight of the Stormcaller",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 28,
+      "name": "Man Overboard!",
+      "text": "<b>When Revealed:</b> Each player contributing at least 8 Willpower to the quest must discard a questing character. If your heading is at the worst setting (Stormy Heading), this effect cannot be canceled.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +X Attack, where X is the Stormcaller's current quest stage.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Flight of the Stormcaller/Man-Overboard.jpg"
+   },
+   {
+      "pack_code": "FotS",
+      "pack_name": "Flight of the Stormcaller",
+      "encounter_set": "Flight of the Stormcaller",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 29,
+      "name": "Raging Squall",
+      "traits": "Weather.",
+      "text": "Doomed 2.<br/><b>When Revealed:</b> Attach Raging Squall to the current quest. (Counts as a <b>Condition</b> attachment with the text: \"<b>Forced:</b> After an ally is committed to the quest, deal 1 damage to that ally if you are off-course.\")",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Flight of the Stormcaller/Raging-Squall.jpg"
    }
 ]
