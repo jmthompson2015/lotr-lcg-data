@@ -2698,5 +2698,57 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/A Storm on Cobas Haven/The-Raiders'-Assault.jpg"
+   },
+   {
+      "pack_code": "CoC",
+      "pack_name": "The City of Corsairs",
+      "encounter_set": "Coast of Umbar",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 157,
+      "name": "Serpent's Tail",
+      "text": "<b>When Revealed:</b> Deal 1 shadow card to each <b>Ship</b> enemy in play. Then, if you are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), each <b>Ship</b> enemy in play gets -10 engagement cost until the end of the round.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Coast of Umbar/Serpent's-Tail.jpg"
+   },
+   {
+      "pack_code": "CoC",
+      "pack_name": "The City of Corsairs",
+      "encounter_set": "The City of Corsairs",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 163,
+      "name": "Foes of Ecthelion",
+      "text": "<b>When Revealed:</b> Add 2 resources to a <b>Raider</b> enemy in the staging area. Each <b>Raider</b> enemy in the staging area gets +1 Threat for each resource on it until the end of the phase. If there are no <b>Raider</b> enemies in the staging area, Foes of Ecthelion gains surge.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The City of Corsairs/Foes-of-Ecthelion.jpg"
+   },
+   {
+      "pack_code": "CoC",
+      "pack_name": "The City of Corsairs",
+      "encounter_set": "The City of Corsairs",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 164,
+      "name": "Umbar Patrol",
+      "text": "<b>When Revealed:</b> Each player returns an enemy engaged with him to the staging area. Until the end of the round, enemies cannot be optionally engaged. If there are no enemies in the staging area, search the encounter deck and discard pile for an enemy and add it to the staging area.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The City of Corsairs/Umbar-Patrol.jpg"
+   },
+   {
+      "pack_code": "CoC",
+      "pack_name": "The City of Corsairs",
+      "encounter_set": "The City of Corsairs",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 165,
+      "name": "Fury and Malice",
+      "text": "<b>When Revealed:</b> Add 1 resource to each engaged <b>Raider</b> enemy. Then, each player assigns damage among characters he controls equal to the number of resource tokens on <b>Raider</b> enemies engaged with him. If no damage is assigned by this effect, Fury and Malice gains surge.",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/The City of Corsairs/Fury-and-Malice.jpg"
    }
 ]
