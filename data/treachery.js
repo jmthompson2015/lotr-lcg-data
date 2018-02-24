@@ -2599,5 +2599,62 @@
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Temple of the Deceived/Sunken-Ruins.jpg"
+   },
+   {
+      "pack_code": "DR",
+      "pack_name": "The Drowned Ruins",
+      "encounter_set": "The Drowned Ruins",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 105,
+      "name": "Powerful Undertow",
+      "traits": "Hazard.",
+      "text": "<b>When Revealed:</b> You cannot flip the active location this round. If the active location is <b>Underwater</b>, resolve its <b>Forced</b> effect as if it is the end of the quest phase. If there is no <b>Underwater</b> active location, Powerful Undertow gains doomed 3, instead.",
+      "quantity_easy": 1,
+      "quantity": 2,
+      "image": "encounter-card/The Drowned Ruins/Powerful-Undertow.jpg"
+   },
+   {
+      "pack_code": "DR",
+      "pack_name": "The Drowned Ruins",
+      "encounter_set": "The Drowned Ruins",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 106,
+      "name": "Into the Abyss",
+      "text": "<b>When Revealed:</b> Each player chooses a card type and discards each card in his hand that is not of the chosen type. If no cards are discarded by this effect, Into the Abyss gains surge.",
+      "shadow": "<b>Shadow:</b> If the active location is <b>Underwater</b>, search the encounter deck and discard pile for a <b>Creature</b> enemy, and add it to the staging area.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Drowned Ruins/Into-the-Abyss.jpg"
+   },
+   {
+      "pack_code": "DR",
+      "pack_name": "The Drowned Ruins",
+      "encounter_set": "The Drowned Ruins",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 107,
+      "name": "Tangling and Grasping",
+      "traits": "Hazard.",
+      "text": "<b>When Revealed:</b> Each player must remove a character from the quest. If the active location is <b>Underwater</b>, deal 2 damage to each character removed from the quest by this effect.",
+      "shadow": "<b>Shadow:</b> Discard an attachment you control.",
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/The Drowned Ruins/Tangling-and-Grasping.jpg"
+   },
+   {
+      "pack_code": "DR",
+      "pack_name": "The Drowned Ruins",
+      "encounter_set": "The Drowned Ruins",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 108,
+      "name": "Ancient Depths",
+      "text": "<b>When Revealed:</b> Add the top location from the Grotto deck to the staging area and flip that location to its <b>Underwater</b> side. This effect cannot be canceled.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack (+2 Attack instead if the active location is <b>Underwater</b>).",
+      "quantity_easy": 1,
+      "quantity": 2,
+      "image": "encounter-card/The Drowned Ruins/Ancient-Depths.jpg"
    }
 ]
