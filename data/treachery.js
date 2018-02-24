@@ -2656,5 +2656,47 @@
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/The Drowned Ruins/Ancient-Depths.jpg"
+   },
+   {
+      "pack_code": "SoCH",
+      "pack_name": "A Storm on Cobas Haven",
+      "encounter_set": "A Storm on Cobas Haven",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 131,
+      "name": "Ramming Speed!",
+      "text": "<b>When Revealed:</b> If you are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), the engaged <b>Ship</b> enemy with the highest Attack makes an immediate attack. Until the end of the phase, add 1 to the total Threat in the staging area for each damage dealt by this attack. If no attack is made as a result of this effect, Ramming Speed! gains doomed 2.",
+      "sailing_test_success": true,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/A Storm on Cobas Haven/Ramming-Speed.jpg"
+   },
+   {
+      "pack_code": "SoCH",
+      "pack_name": "A Storm on Cobas Haven",
+      "encounter_set": "A Storm on Cobas Haven",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 132,
+      "name": "Taking on Water",
+      "text": "<b>When Revealed:</b> Attach to a <b>Ship</b> objective. (Counts as a <b>Condition</b> attachment with the text: \"<b>Forced:</b> When attached objective exhausts, deal 2 damage to it. <b>Action:</b> Exhaust 3 character you control to discard Taking on Water.\")",
+      "shadow": "<b>Shadow:</b> If defending character is a <b>Ship</b>, attach Taking on Water to it.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/A Storm on Cobas Haven/Taking-on-Water.jpg"
+   },
+   {
+      "pack_code": "SoCH",
+      "pack_name": "A Storm on Cobas Haven",
+      "encounter_set": "A Storm on Cobas Haven",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 133,
+      "name": "The Raiders' Assault",
+      "text": "<b>When Revealed:</b> Choose a <b>Ship</b> enemy that is not currently guarding an objective. Attach that enemy to an unguarded objective in the staging area, guarding it (return that enemy to the staging area if it is engaged). If no <b>Ship</b> enemy is returned to the staging area by this effect, The Raiders' Assault gains surge.",
+      "sailing_test_success": true,
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/A Storm on Cobas Haven/The-Raiders'-Assault.jpg"
    }
 ]
