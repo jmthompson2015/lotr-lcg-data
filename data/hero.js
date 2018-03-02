@@ -2106,7 +2106,7 @@
       "name": "Aragorn",
       "traits": "Dúnedain. Noble. Ranger.",
       "text": "The first player gains control of Aragorn. If Aragorn leaves play, the players lose the game.\n<b>Action:</b> Spend 2 resources from Aragorn's resource pool to ready a hero.",
-      "flavor": "\"I am Aragorn son of Arathorn and am called Elessar, the Elfstone, Dunadan, the heir of Isildur Elendil’s son of Gondor.\"\n<cite>The Two Towers</cite>",
+      "flavor": "\"I am Aragorn son of Arathorn and am called Elessar, the Elfstone, Dunadan, the heir of Isildur Elendil's son of Gondor.\"\n<cite>The Two Towers</cite>",
       "is_unique": true,
       "threat": 0,
       "willpower": 2,

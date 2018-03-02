@@ -3808,7 +3808,7 @@
       "name": "Mighty Warrior",
       "traits": "Skill.",
       "text": "Attach to a hero. Limit 1 per hero.\nAttached hero gains the <b><i>Warrior</i></b> trait.\n<b>Response:</b> After you play Mighty Warrior from your hand, draw a card.",
-      "flavor": "Gimli hewed the legs from another that had sprung up on Balin’s tomb. -The Fellowship of the Ring",
+      "flavor": "Gimli hewed the legs from another that had sprung up on Balin's tomb. -The Fellowship of the Ring",
       "is_unique": false,
       "cost": "1",
       "quantity": 3,

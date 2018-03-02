@@ -5553,7 +5553,7 @@
       "sphere_name": "Leadership",
       "position": 29,
       "code": "17029",
-      "name": "Kahliel’s Tribesman",
+      "name": "Kahliel's Tribesman",
       "traits": "Harad.",
       "text": "<b>Action:</b> Exhaust Kahliel's Tribesman to choose another <b><i>Harad</i></b> character. That character gets +1 [willpower], +1 [attack], and +1 [defense] until the end of the phase.",
       "flavor": "But the Haradrim, being now driven to the brink, turned at bay, and they were fierce in despair... -The Return of the King ",
@@ -5570,7 +5570,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/17029",
       "imagesrc": "/bundles/cards/17029.png",
-      "image": "player-card/ally/Kahliel’s-Tribesman.jpg"
+      "image": "player-card/ally/Kahliel's-Tribesman.jpg"
    },
    {
       "pack_code": "RAH",
