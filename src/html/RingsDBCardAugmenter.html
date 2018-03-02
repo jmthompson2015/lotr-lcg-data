@@ -10,7 +10,8 @@
 
 		require(["js/JSONFileLoader"], function(JSONFileLoader)
 		{
-			var files = ["ally.js", "attachment.js", "event.js", "hero.js", "player-side-quest.js"];
+			// var files = ["ally.js", "attachment.js", "event.js", "hero.js", "player-side-quest.js"];
+			var files = ["event.js"];
 			var fileIndex = 0;
 
 			function processFile()
@@ -32,6 +33,11 @@
 			{
 				// console.log("loaderCallback() cards.length = " + cards.length);
 				// console.log("loaderCallback() type = " + type);
+
+				cards.forEach((card) =>
+				{
+					card.text = card.text.replace("<b><i>Heale</i>r</b>", "<b><i>Healer</i></b>");
+				});
 
 				cards.forEach((card) =>
 				{
