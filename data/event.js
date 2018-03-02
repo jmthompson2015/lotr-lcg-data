@@ -3025,7 +3025,7 @@
       "code": "10056",
       "name": "Dúnedain Message",
       "traits": "Signal.",
-      "text": "<b>Action:</b> Search your deck for a side quest and add it to your hand. Suffle your deck.",
+      "text": "<b>Action:</b> Search your deck for a side quest and add it to your hand. Shuffle your deck.",
       "flavor": "\"I called for the help of the Dúnedain, and their watch has doubled...\"\n<cite>Gandalf, The Fellowship of the Ring</cite>",
       "is_unique": false,
       "cost": "1",

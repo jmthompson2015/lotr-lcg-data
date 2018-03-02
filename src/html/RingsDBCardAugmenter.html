@@ -11,7 +11,7 @@
 		require(["js/JSONFileLoader"], function(JSONFileLoader)
 		{
 			// var files = ["ally.js", "attachment.js", "event.js", "hero.js", "player-side-quest.js"];
-			var files = ["event.js"];
+			var files = ["ally.js", "attachment.js", "event.js"];
 			var fileIndex = 0;
 
 			function processFile()
@@ -37,6 +37,11 @@
 				cards.forEach((card) =>
 				{
 					card.text = card.text.replace("<b><i>Heale</i>r</b>", "<b><i>Healer</i></b>");
+					card.text = card.text.replace(/D\u00FAnadan/g, "D\u00FAnedain");
+					card.text = card.text.replace(/Dunedain/g, "D\u00FAnedain");
+					card.text = card.text.replace(/Resonse/g, "Response");
+					card.text = card.text.replace(/resouce/g, "resource");
+					card.text = card.text.replace(/Suffle/g, "Shuffle");
 				});
 
 				cards.forEach((card) =>
