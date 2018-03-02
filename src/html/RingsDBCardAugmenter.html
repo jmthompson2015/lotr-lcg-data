@@ -10,8 +10,7 @@
 
 		require(["js/JSONFileLoader"], function(JSONFileLoader)
 		{
-			// var files = ["ally.js", "attachment.js", "event.js", "hero.js", "player-side-quest.js"];
-			var files = ["ally.js", "attachment.js", "event.js"];
+			var files = ["ally.js", "attachment.js", "event.js", "hero.js", "player-side-quest.js"];
 			var fileIndex = 0;
 
 			function processFile()
@@ -36,6 +35,11 @@
 
 				cards.forEach((card) =>
 				{
+					card.text = card.text.replace(/\u00A0/g, " "); // non-breaking space
+					card.text = card.text.replace(/\u2013/g, "-"); // en-dash
+					card.text = card.text.replace(/\u2022/g, ""); // bullet
+					card.text = card.text.replace(/\u2019/g, "'"); // right single quotation mark
+
 					card.text = card.text.replace("<b><i>Heale</i>r</b>", "<b><i>Healer</i></b>");
 					card.text = card.text.replace(/D\u00FAnadan/g, "D\u00FAnedain");
 					card.text = card.text.replace(/Dunedain/g, "D\u00FAnedain");
