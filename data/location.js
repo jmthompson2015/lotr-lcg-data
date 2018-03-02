@@ -801,14 +801,14 @@
       "type_code": "location",
       "type_name": "Location",
       "position": 47,
-      "name": "The Mountains&#39; Roots",
+      "name": "The Mountains' Roots",
       "traits": "Underground.",
       "text": "X is the number of players in the game.",
       "shadow": "<b>Shadow:</b> Attacking enemy gets +X Attack. X is the number of players in the game.",
       "flavor": "Already they seemed to have been tramping on, on, endlessly to the mountains' roots.\n<cite>The Fellowship of the Ring</cite>",
       "quantity_easy": 3,
       "quantity": 0,
-      "image": "encounter-card/Deeps of Moria/The-Mountains&#39;-Roots.jpg"
+      "image": "encounter-card/Deeps of Moria/The-Mountains'-Roots.jpg"
    },
    {
       "pack_code": "KD",
@@ -1522,7 +1522,7 @@
       "quest_points": 3,
       "quantity_easy": 3,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Sewers.jpg"
+      "image": "encounter-card/The Steward's Fear/Sewers.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1540,7 +1540,7 @@
       "quest_points": 5,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Roots-of-Mindolluin.jpg"
+      "image": "encounter-card/The Steward's Fear/Roots-of-Mindolluin.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1558,7 +1558,7 @@
       "quest_points": 2,
       "quantity_easy": 2,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Storehouse.jpg"
+      "image": "encounter-card/The Steward's Fear/Storehouse.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1576,7 +1576,7 @@
       "quest_points": 4,
       "quantity_easy": 0,
       "quantity": 1,
-      "image": "encounter-card/The Steward&#39;s Fear/Houses-of-the-Dead.jpg"
+      "image": "encounter-card/The Steward's Fear/Houses-of-the-Dead.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1593,7 +1593,7 @@
       "quest_points": 5,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/The-Fourth-Star.jpg"
+      "image": "encounter-card/The Steward's Fear/The-Fourth-Star.jpg"
    },
    {
       "pack_code": "TDF",
@@ -1720,7 +1720,7 @@
       "type_code": "location",
       "type_name": "Location",
       "position": 97,
-      "name": "The King&#39;s Library",
+      "name": "The King's Library",
       "is_unique": true,
       "traits": "Osgiliath.",
       "text": "<b>Travel:</b> Reveal the top card of the encounter deck and add it to the staging area to travel here.<br/><b>Forced:</b> After the player who controls The King's Library lets an attack go undefended, return The King's Library to the staging area.",
@@ -1729,7 +1729,7 @@
       "quest_points": 3,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/Assault on Osgiliath/The-King&#39;s-Library.jpg"
+      "image": "encounter-card/Assault on Osgiliath/The-King's-Library.jpg"
    },
    {
       "pack_code": "AoO",
@@ -2028,14 +2028,14 @@
       "type_code": "location",
       "type_name": "Location",
       "position": 19,
-      "name": "The King&#39;s Road",
+      "name": "The King's Road",
       "traits": "Road.",
       "text": "While any player has 3 or more cards in hand, The King's Road gets +3 quest points.<br/>While any player has 5 or more cards in hand, The King's Road gains: \"When faced with the option to travel, the players must travel to The King's Road if able.\"",
       "threat": 2,
       "quest_points": 2,
       "quantity_easy": 2,
       "quantity": 0,
-      "image": "encounter-card/The Fords of Isen/The-King&#39;s-Road.jpg"
+      "image": "encounter-card/The Fords of Isen/The-King's-Road.jpg"
    },
    {
       "pack_code": "VoI",
@@ -2094,7 +2094,7 @@
       "type_code": "location",
       "type_name": "Location",
       "position": 29,
-      "name": "Mugash&#39;s Lair",
+      "name": "Mugash's Lair",
       "traits": "Mountain. Cave.",
       "text": "<b>Forced:</b> At the beginning of the encounter phase, reveal the top card of each player's out-of-play deck. Add each revealed enemy to the staging area and discard the rest.",
       "shadow": "<b>Shadow:</b> Defending player discards an attachment he controls.",
@@ -2102,7 +2102,7 @@
       "quest_points": 2,
       "quantity_easy": 2,
       "quantity": 0,
-      "image": "encounter-card/To Catch an Orc/Mugash&#39;s-Lair.jpg"
+      "image": "encounter-card/To Catch an Orc/Mugash's-Lair.jpg"
    },
    {
       "pack_code": "VoI",
@@ -2974,7 +2974,7 @@
       "type_code": "location",
       "type_name": "Location",
       "position": 40,
-      "name": "Deadmen&#39;s Gate",
+      "name": "Deadmen's Gate",
       "traits": "Fornost. Ruins.",
       "text": "While Deadmen's Gate is the active location, it gains: \"<b>Forced:</b> After a player triggers an 'Action' or 'Response' effect, he must discard the top card of his deck.\"",
       "shadow": "<b>Shadow:</b> Discard an attachment you control.",
@@ -3075,7 +3075,7 @@
       "type_code": "location",
       "type_name": "Location",
       "position": 24,
-      "name": "Warg&#39;s Den",
+      "name": "Warg's Den",
       "traits": "Arnor.",
       "text": "Immune to player card effects.<br/><b>Travel:</b> The first player searches the encounter deck and discard pile for a <b>Warg</b> enemy, reveals it, and puts it into play engages with him. Shuffle the encounter deck.",
       "flavor": "The howling of the wolves was now all around them...\n<cite>The Fellowship of the Ring</cite>",
@@ -3083,7 +3083,7 @@
       "quest_points": 1,
       "quantity_easy": 1,
       "quantity": 1,
-      "image": "encounter-card/The Wastes of Eriador/Warg&#39;s-Den.jpg"
+      "image": "encounter-card/The Wastes of Eriador/Warg's-Den.jpg"
    },
    {
       "pack_code": "WoE",

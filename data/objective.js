@@ -224,13 +224,13 @@
       "type_code": "objective",
       "type_name": "Objective",
       "position": 88,
-      "name": "Durin&#39;s Greaves",
+      "name": "Durin's Greaves",
       "is_unique": true,
       "traits": "Artifact. Armour.",
       "text": "<b>When Revealed:</b> The first player attaches Durin's Greaves to a hero of his choice as an attachment.<br/>Attached hero gets +1 Defense",
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Long Dark/Durin&#39;s-Greaves.jpg"
+      "image": "encounter-card/The Long Dark/Durin's-Greaves.jpg"
    },
    {
       "pack_code": "FoS",
@@ -239,13 +239,13 @@
       "type_code": "objective",
       "type_name": "Objective",
       "position": 119,
-      "name": "Durin&#39;s Axe",
+      "name": "Durin's Axe",
       "is_unique": true,
       "traits": "Weapon. Artifact.",
       "text": "Surge. Restricted.<br/>Attached hero gets +3 Attack. If attached hero is a <b>Dwarf</b>, it gets +1 Willpower<br/><b>Action:</b> Exhaust a hero to claim this objective. Then, attach Durin's Axe to that hero as an attachment.",
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/Foundations of Stone/Durin&#39;s-Axe.jpg"
+      "image": "encounter-card/Foundations of Stone/Durin's-Axe.jpg"
    },
    {
       "pack_code": "FoS",
@@ -254,13 +254,13 @@
       "type_code": "objective",
       "type_name": "Objective",
       "position": 120,
-      "name": "Durin&#39;s Helm",
+      "name": "Durin's Helm",
       "is_unique": true,
       "traits": "Armor. Artifact.",
       "text": "Surge.<br/>Attached hero gets +1 Defense. If attached hero is a <b>Dwarf</b>, it gets +2 hit points.<br/><b>Action:</b> Exhaust a hero to claim this objective. Then, attach Durin's Helm to that hero as an attachment.",
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/Foundations of Stone/Durin&#39;s-Helm.jpg"
+      "image": "encounter-card/Foundations of Stone/Durin's-Helm.jpg"
    },
    {
       "pack_code": "HoN",
@@ -328,7 +328,7 @@
       "victory": 1,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/A-Scrap-of-History.jpg"
+      "image": "encounter-card/The Steward's Fear/A-Scrap-of-History.jpg"
    },
    {
       "pack_code": "TSF",
@@ -343,7 +343,7 @@
       "victory": 1,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Secret-Map.jpg"
+      "image": "encounter-card/The Steward's Fear/Secret-Map.jpg"
    },
    {
       "pack_code": "TSF",
@@ -358,7 +358,7 @@
       "victory": 1,
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/A-Prisoner.jpg"
+      "image": "encounter-card/The Steward's Fear/A-Prisoner.jpg"
    },
    {
       "pack_code": "TSF",
@@ -372,7 +372,7 @@
       "text": "Reveal 1 additional card from the encounter deck and add it to the staging area during the staging step each round.<br/><b>If a hero is destroyed by an enemy attack, the players have lost the game.</b>",
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Unholy-Alliance.jpg"
+      "image": "encounter-card/The Steward's Fear/Unholy-Alliance.jpg"
    },
    {
       "pack_code": "TSF",
@@ -386,7 +386,7 @@
       "text": "<b>Forced:</b> At the end of the round, place 1 resource token on Up in Flames and discard the top X cards of each player's deck. X is the number of resource tokens on Up in Flames.<br/><b>If any player has no cards in his deck, the players have lost the game.</b>",
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Up-in-Flames.jpg"
+      "image": "encounter-card/The Steward's Fear/Up-in-Flames.jpg"
    },
    {
       "pack_code": "TSF",
@@ -401,7 +401,7 @@
       "flavor": "\"... whispering was in your ears, poisoning your thought...\"\n<cite>Gandalf, The Two Towers</cite>",
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Poisoned-Counsels.jpg"
+      "image": "encounter-card/The Steward's Fear/Poisoned-Counsels.jpg"
    },
    {
       "pack_code": "EaAD",
@@ -867,7 +867,7 @@
       "type_code": "objective",
       "type_name": "Objective",
       "position": 110,
-      "name": "Daechanar&#39;s Brand",
+      "name": "Daechanar's Brand",
       "traits": "Clue.",
       "text": "<b>Action:</b> Exhaust Amarthiúl or a hero to claim Daechanar's Brand. Then, attach Daechanar's Brand to that character.<br/>Attached character gets +1 Attack while attacking <b>Undead</b> enemies.",
       "flavor": "When you touch this dark blade, you can feel a cursed power coursing through it. In Tengwar, the name \"Daechanar\" is inscribed upon its handle.",
@@ -963,7 +963,7 @@
       "type_code": "objective",
       "type_name": "Objective",
       "position": 79,
-      "name": "Na&#39;asiyah",
+      "name": "Na'asiyah",
       "is_unique": true,
       "traits": "Corsair. Raider.",
       "text": "The last player gains control of Na'asiyah.<br/><b>Action:</b> While Na'asiyah is attacking or defending, spend 1 resource from her to give her +2 Attack or +2 Defense for this attack.<br/><b>Action:</b> Spend 1 resource from a hero you control to place 1 resource on Na'asiyah. (Limit once per round).<br/><b>If Na'asiyah leaves play, the players lose.</b>",

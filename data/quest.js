@@ -1188,13 +1188,13 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 13,
-      "name": "The Mountains&#39; Peaks",
+      "name": "The Mountains' Peaks",
       "sequence": "3A",
       "flavor": "The mountain peaks are almost in reach, but the swirling snows make it difficult to see, and your strength begins to drain away with the daunting final push to the pinnacle.",
       "encounter_sets": ["Misty Mountains"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Redhorn Gate/The-Mountains&#39;-Peaks-3A.jpg"
+      "image": "quest-card/The Redhorn Gate/The-Mountains'-Peaks-3A.jpg"
    },
    {
       "pack_code": "TRG",
@@ -1203,14 +1203,14 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 13,
-      "name": "The Mountains&#39; Peaks",
+      "name": "The Mountains' Peaks",
       "sequence": "3B",
       "text": "<b>When Revealed:</b> Shuffle all copies of Snowstorm in the encounter discard pile back into the encounter deck.<br/>Characters are discarded from play if their Willpower is ever 0.<br/><b>Players cannot defeat this stage unless they have 5 victory points. If the players defeat this stage, they have won the game.</b>",
       "quest_points": 13,
       "encounter_sets": ["Misty Mountains"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Redhorn Gate/The-Mountains&#39;-Peaks-3B.jpg"
+      "image": "quest-card/The Redhorn Gate/The-Mountains'-Peaks-3B.jpg"
    },
    {
       "pack_code": "RtR",
@@ -1473,13 +1473,13 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 112,
-      "name": "The Water&#39;s Edge",
+      "name": "The Water's Edge",
       "sequence": "2A",
       "flavor": "Small rivers cut their way across your path. Some are not much more than a trickle, and recent looking too. Another rumble shakes the walls, this time it seems to be above you.",
       "encounter_sets": ["Goblins of the Deep", "Hazards of the Pit", "Twists and Turns"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/Foundations of Stone/The-Water&#39;s-Edge-2A.jpg"
+      "image": "quest-card/Foundations of Stone/The-Water's-Edge-2A.jpg"
    },
    {
       "pack_code": "FoS",
@@ -1488,14 +1488,14 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 112,
-      "name": "The Water&#39;s Edge",
+      "name": "The Water's Edge",
       "sequence": "2B",
       "text": "<b>Forced:</b> After a player commits characters to the quest, he must discard the top 2 cards of his deck.",
       "quest_points": 12,
       "encounter_sets": ["Goblins of the Deep", "Hazards of the Pit", "Twists and Turns"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/Foundations of Stone/The-Water&#39;s-Edge-2B.jpg"
+      "image": "quest-card/Foundations of Stone/The-Water's-Edge-2B.jpg"
    },
    {
       "pack_code": "FoS",
@@ -1835,7 +1835,7 @@
       "position": 66,
       "name": "Fighting in the Streets",
       "sequence": "2B",
-      "text": "Battle. (Characters use their Attack instead of Willpower when questing.)<br/>The players cannot advance to the next stage unless Alcaron&#39;s Scroll is attached to a hero.<br/><b>When Revealed:</b> Attach Alcaron's Scroll to the highest engagement cost enemy in play, if able. Otherwise, add Alcaron's Scroll to the staging area.",
+      "text": "Battle. (Characters use their Attack instead of Willpower when questing.)<br/>The players cannot advance to the next stage unless Alcaron's Scroll is attached to a hero.<br/><b>When Revealed:</b> Attach Alcaron's Scroll to the highest engagement cost enemy in play, if able. Otherwise, add Alcaron's Scroll to the staging area.",
       "quest_points": 13,
       "encounter_sets": ["Streets of Gondor", "Brigands"],
       "quantity_easy": 1,
@@ -2172,7 +2172,7 @@
       "encounter_sets": ["Brigands", "Streets of Gondor"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Steward&#39;s Fear/Conspiracy-1A.jpg"
+      "image": "quest-card/The Steward's Fear/Conspiracy-1A.jpg"
    },
    {
       "pack_code": "TSF",
@@ -2188,7 +2188,7 @@
       "encounter_sets": ["Brigands", "Streets of Gondor"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Steward&#39;s Fear/Conspiracy-1B.jpg"
+      "image": "quest-card/The Steward's Fear/Conspiracy-1B.jpg"
    },
    {
       "pack_code": "TSF",
@@ -2204,7 +2204,7 @@
       "encounter_sets": ["Brigands", "Streets of Gondor"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Steward&#39;s Fear/The-Grand-Design-2A.jpg"
+      "image": "quest-card/The Steward's Fear/The-Grand-Design-2A.jpg"
    },
    {
       "pack_code": "TSF",
@@ -2219,7 +2219,7 @@
       "encounter_sets": ["Brigands", "Streets of Gondor"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Steward&#39;s Fear/The-Grand-Design-2B.jpg"
+      "image": "quest-card/The Steward's Fear/The-Grand-Design-2B.jpg"
    },
    {
       "pack_code": "TSF",
@@ -2235,7 +2235,7 @@
       "encounter_sets": ["Brigands", "Streets of Gondor"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Steward&#39;s Fear/The-Confrontation-3A.jpg"
+      "image": "quest-card/The Steward's Fear/The-Confrontation-3A.jpg"
    },
    {
       "pack_code": "TSF",
@@ -2251,7 +2251,7 @@
       "encounter_sets": ["Brigands", "Streets of Gondor"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Steward&#39;s Fear/The-Confrontation-3B.jpg"
+      "image": "quest-card/The Steward's Fear/The-Confrontation-3B.jpg"
    },
    {
       "pack_code": "TDF",
@@ -2769,13 +2769,13 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 64,
-      "name": "The Wizard&#39;s Prize",
+      "name": "The Wizard's Prize",
       "sequence": "3A",
       "flavor": "You've found Mugash, but the Orc captain won't be taken without a fight! He howls and rages against you with the ferocity of a cornered animal. All the commotion is sure to draw more Orcs to the fray, yet you must subdue the huge Uruk before you can retreat down the mountain...",
       "encounter_sets": ["Misty Mountain Orcs", "Broken Lands"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/To Catch an Orc/The-Wizard&#39;s-Prize-3A.jpg"
+      "image": "quest-card/To Catch an Orc/The-Wizard's-Prize-3A.jpg"
    },
    {
       "pack_code": "VoI",
@@ -2784,14 +2784,14 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 64,
-      "name": "The Wizard&#39;s Prize",
+      "name": "The Wizard's Prize",
       "sequence": "3B",
       "text": "Time 3. <b>Forced:</b> After the last time counter is removed from this stage, return Mugash to the staging area and reveal X encounter cards. X is the number of players in the game minus 1. Place 3 time counters on this stage.<br/>Progress cannot be placed on this stage unless Mugash is attached to a hero.<br/><b>If the players defeat this stage, they win the game.</b>",
       "quest_points": 15,
       "encounter_sets": ["Misty Mountain Orcs", "Broken Lands"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/To Catch an Orc/The-Wizard&#39;s-Prize-3B.jpg"
+      "image": "quest-card/To Catch an Orc/The-Wizard's-Prize-3B.jpg"
    },
    {
       "pack_code": "VoI",
@@ -3503,14 +3503,14 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 123,
-      "name": "The Enemy&#39;s Servant",
+      "name": "The Enemy's Servant",
       "sequence": "2A",
       "text": "<b>When Revealed:</b> Trigger each <b>Scour</b> effect currently in play. Bellach makes an attack against the player who controls Celebrimbor's Mould. Then, attach Celebrimbor's Mould to Bellach.",
       "flavor": "You have just recovered a partial ring-mould from Celebrimbor's secret forge when you are struck from behind. You look up to see Bellach holding the mould and gloating, \"Fools! My master will be pleased.\" As he turns to leave, he shouts to his servants, \"Kill them!\" You must escape the Orcs and recapture the mould!",
       "encounter_sets": ["Misty Mountain Orcs", "Broken Lands"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/Celebrimbor's Secret/The-Enemy&#39;s-Servant-2A.jpg"
+      "image": "quest-card/Celebrimbor's Secret/The-Enemy's-Servant-2A.jpg"
    },
    {
       "pack_code": "CS",
@@ -3519,14 +3519,14 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 123,
-      "name": "The Enemy&#39;s Servant",
+      "name": "The Enemy's Servant",
       "sequence": "2B",
       "text": "Time 3. <b>Forced:</b> After the last time counter is removed from this stage, trigger each <b>Scour</b> effect currently in play. Place 3 time counters on this stage.<br/>Unless there is at last 12 progress on this stage, Bellach is immune to player card effects and cannot be engaged.<br/><b>The players cannot win unless Celebrimbor's Mould is attached to a hero. If the players defeat this stage, they win the game.</b>",
       "quest_points": 12,
       "encounter_sets": ["Misty Mountain Orcs", "Broken Lands"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/Celebrimbor's Secret/The-Enemy&#39;s-Servant-2B.jpg"
+      "image": "quest-card/Celebrimbor's Secret/The-Enemy's-Servant-2B.jpg"
    },
    {
       "pack_code": "TAC",
@@ -3923,7 +3923,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 39,
-      "name": "Gorn&#225;kh&#39;s Dungeons",
+      "name": "Gorn&#225;kh's Dungeons",
       "sequence": "2A",
       "text": "Capture 7.<br/><b>When Revealed:</b> Search the encounter deck for 1 copy of Prison Cell, reveal it, and add it to your staging area. Then capture an additional 2 cards from the top of your captured deck underneath that copy of Prison Cell.",
       "flavor": "Alone and without your equipment, you steel yourself and being to search for your companions and belongings.",
@@ -3939,7 +3939,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 39,
-      "name": "Gorn&#225;kh&#39;s Dungeons",
+      "name": "Gorn&#225;kh's Dungeons",
       "sequence": "2B",
       "text": "Any time players would place progress on this quest, rescue an equal number of captured cards at random from underneath it instead. (Progress is placed on the active location before triggering this effect.)<br/><b>Forced:</b> If there are no captured cards underneath Gornákh's Dungeons, join another player at the beginning of the travel phase. If you cannot join another player, all players advance to stage 3A together.",
       "encounter_sets": ["Angmar Orcs"],
@@ -4052,7 +4052,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 66,
-      "name": "Journey&#39;s End",
+      "name": "Journey's End",
       "sequence": "3A",
       "text": "<b>When Revealed:</b> Shuffle the encounter discard pile into the encounter deck. Discard cards from the top of the encounter deck until a side quest is discarded. Reveal that side quest and add it to the staging area, if able.",
       "flavor": "You are getting closer to the edge of the Troll-fells, but exhaustion has taken its toll. One way or another, this journey is nearing its end...",
@@ -4068,7 +4068,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 66,
-      "name": "Journey&#39;s End",
+      "name": "Journey's End",
       "sequence": "3B",
       "text": "Each damaged character gets -2 Willpower unless there is an active location with the safe keyword.<br/><b>If the players defeat this stage, they have escaped the Ettenmoors with their lives, and win the game.</b>",
       "flavor": "Your wounded companions only slow your progress. With Trolls on your heels and foul weather overhead, you press onward.",
@@ -4076,7 +4076,7 @@
       "encounter_sets": ["Eriador Wilds", "Foul Weather"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/Across the Ettenmoors/Journey&#39;s-End-3B.jpg"
+      "image": "quest-card/Across the Ettenmoors/Journey's-End-3B.jpg"
    },
    {
       "pack_code": "ToR",
@@ -4116,7 +4116,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 95,
-      "name": "Thaurdir&#39;s Pursuit",
+      "name": "Thaurdir's Pursuit",
       "sequence": "2A",
       "text": "<b>When Revealed:</b> Add Thaurdir to the staging area. Each player searches the encounter deck and discard pile for an <b>Undead</b> enemy and adds it to the staging area. Shuffle the encounter deck.",
       "flavor": "As you study the clues that you've found, you feel a chill wind flow through the keep. \"You will not leave this place alive,\" a sinister voice echoes throughout the halls. \"My master Daechanar wills it so.\"<br>\"Thaurdir!\" Amarthiúl exclaims, unsheathing his blades.",
@@ -4132,7 +4132,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 95,
-      "name": "Thaurdir&#39;s Pursuit",
+      "name": "Thaurdir's Pursuit",
       "sequence": "2B",
       "text": "Thaurdir's Pursuit has -5 quest points for each <b>Clue</b> objective attached to a character.<br/><b>This stage cannot be defeated while Thaurdir has any hit point remaining. If this stage is defeated, the players win the game.</b>",
       "flavor": "The wraith you fought in Fornost has followed you since your flight from Mount Gram. Your only hope is to escape with the clues you've found.",
@@ -4182,7 +4182,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 126,
-      "name": "Midwinter&#39;s Crux",
+      "name": "Midwinter's Crux",
       "sequence": "2A",
       "text": "<b>When Revealed:</b> Raise each player's threat by X, where X is the number of shadow cards in play. If Thaurdir is <b>Captain</b> side faceup, flip him.",
       "flavor": "A swirling dark cloud starts to gather above you, and a cold wind tenses your muscles. \"I have a bad feeling about this...\" you hear Amarthiúl mutter. It seems Daechanar's ritual has begun. Sensing you have little time to spare, your company rushes to the gates of Carn Dûm",
@@ -4198,7 +4198,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 126,
-      "name": "Midwinter&#39;s Crux",
+      "name": "Midwinter's Crux",
       "sequence": "2B",
       "text": "Thaurdir cannot leave the staging area, is considered to be engaged with each player, and attacks each player in turn during the combat phase (deal and discard a new shadow card for each attack). At the end of the round, if Thaurdir is <b>Captain</b> side faceup, flip him.<br/>While Midwinter's Crux has 15 or more progress on it, Thaurdir loses indestructible. You cannot defeat this stage while Thaurdir is in play.<br/><b>If Thaurdir is defeated, you win the game</b>",
       "quest_points": 15,
@@ -4279,14 +4279,14 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 152,
-      "name": "Daechanar&#39;s Fall",
+      "name": "Daechanar's Fall",
       "sequence": "3A",
       "text": "<b>When Revealed:</b> If there are less than X locations in the staging area, search the encounter deck and discard pile and add locations to the staging area until there are X locations in staging area. X is the number of players in the game.",
       "flavor": "The imposter in Iârion's body collapses in agony, and a piercing shriek echoes through the halls as the sorcerer exits Iârion. \"Thank you,\" Iârion says with a pained smile before his eyes close for the last time. Before you can mourn your loss, the walls begin to shake and crack. The catacombs are collapsing!",
       "encounter_sets": ["Dark Sorcery", "Cursed Dead"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Dread Realm/Daechanar&#39;s-Fall-3A.jpg"
+      "image": "quest-card/The Dread Realm/Daechanar's-Fall-3A.jpg"
    },
    {
       "pack_code": "TDR",
@@ -4295,13 +4295,13 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 152,
-      "name": "Daechanar&#39;s Fall",
+      "name": "Daechanar's Fall",
       "sequence": "3B",
       "text": "Reanimated Dead are <b>Undead</b> enemies with 2 Threat, 2 Attack, 2 Defense and 2 hit points.<br/>Progress that would be placed on this quest is instead placed on locations in the staging area, divided as you choose.<br/><b>Forced:</b> At the end of the quest phase, if there are any locations in play, deal 1 damage to all characters in play. <b>If there are no locations in play, the players have escaped Carn Dûm, and win the game.</b>",
       "encounter_sets": ["Dark Sorcery", "Cursed Dead"],
       "quantity_easy": 1,
       "quantity": 0,
-      "image": "quest-card/The Dread Realm/Daechanar&#39;s-Fall-3B.jpg"
+      "image": "quest-card/The Dread Realm/Daechanar's-Fall-3B.jpg"
    },
    {
       "pack_code": "TGH",
@@ -4409,7 +4409,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 19,
-      "name": "Calphon&#39;s Divination",
+      "name": "Calphon's Divination",
       "sequence": "2A",
       "text": "<b>When Revealed:</b> Search the encounter deck and discard pile for 1 copy of Scouting Ship and add it to the staging area. Shuffle the encounter deck.",
       "flavor": "Calphon bursts into one of the heroes’ quarters in the middle of the night, sweating profusely and breathing heavily. “I saw it again!” he cries. “It was the same island as before, only the sun was rising behind it, bathing the sky in orange. It must be to the east!” You can change course to follow Calphon’s vision, but you risk being discovered by the Corsairs chasing you...",
@@ -4425,7 +4425,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 19,
-      "name": "Calphon&#39;s Divination",
+      "name": "Calphon's Divination",
       "sequence": "2B",
       "text": "Sailing.<br/>While you are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), each <b>Ship</b> enemy gains Boarding 1.<br/><b>When this stage is defeated, if you are on-course (Sunny Heading), look at the top 2 stages of the quest deck and advance to one of your choice, placing the other on the bottom of the quest deck. Otherwise, advance to the top stage of the quest deck.</b>",
       "quest_points": 4,
@@ -4442,7 +4442,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 20,
-      "name": "The Star&#39;s Guidance",
+      "name": "The Star's Guidance",
       "sequence": "2A",
       "text": "<b>When Revealed:</b> Search the encounter deck and discard pile for 1 copy of Starlit Sea and add it to the staging area. Shuffle the encounter deck.",
       "flavor": "Calphon recognizes a bright star in the night sky, pointing to it. \"There! That star! I remember that star from my vision. I believe we must follow that star if we are to reach the island.\" Calphon’s guidance has led you this far. But none of your maps or almanacs make any mention of this bright star...",
@@ -4458,7 +4458,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 20,
-      "name": "The Star&#39;s Guidance",
+      "name": "The Star's Guidance",
       "sequence": "2B",
       "text": "Sailing.<br/>While you are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), each <b>Ocean</b> location gets +1 Threat.<br/><b>When this stage is defeated, if you are on-course (Sunny Heading), look at the top 2 stages of the quest deck and advance to one of your choice, placing the other on the bottom of the quest deck. Otherwise, advance to the top stage of the quest deck.</b>",
       "quest_points": 4,
@@ -4571,7 +4571,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 36,
-      "name": "The Corsairs&#39; Assault",
+      "name": "The Corsairs' Assault",
       "sequence": "1A",
       "text": "<b>Setup:</b> Set Captain Sahír and Na’asiyah aside, out of play. Add The Havens Burn, the Dream-chaser, and 1 copy of Sahír’s Ravager to the staging area. Shuffle the encounter deck and discard cards from the top of the encounter deck until X locations with the Aflame keyword are discarded, where X is the number of players in the game. Add each discarded Aflame location to the staging area. Then, shuffle the encounter discard pile back into the encounter deck.",
       "encounter_sets": ["Corsair Raiders", "The Stormcaller Elite"],
@@ -4586,7 +4586,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 36,
-      "name": "The Corsairs&#39; Assault",
+      "name": "The Corsairs' Assault",
       "sequence": "1B",
       "text": "<b>Forced:</b> At the end of the combat phase, deal X damage to the Aflame location in play with the lowest Aflame value. X is the number of <b>Corsair</b> enemies in play.",
       "flavor": "Corsairs are attacking the Grey Havens and burning the Elven fleet. You must defend the Havens from these fierce raiders and save as many ships as you can!",
@@ -4603,7 +4603,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 37,
-      "name": "Sah&#237;r&#39;s Advance",
+      "name": "Sah&#237;r's Advance",
       "sequence": "2A",
       "text": "<b>When Revealed:</b> Add Na’asiyah and Captain Sahír to the staging area, enemy side faceup. Each player reveals the top card of the encounter deck. Place resources on Na’asiyah and Captain Sahír equal to the amount of damage on the Dream-chaser. Add 1 resource to each other <b>Raider</b> enemy in play.",
       "flavor": "A menacing ship leads the raiders, its charismatic captain bellowing orders to the Corsairs: \"Kill the defenders!\" he shouts. \"Destroy their ships!\"",
@@ -4619,7 +4619,7 @@
       "type_code": "quest",
       "type_name": "Quest",
       "position": 37,
-      "name": "Sah&#237;r&#39;s Advance",
+      "name": "Sah&#237;r's Advance",
       "sequence": "2B",
       "text": "Any time players would place progress on this quest, remove an equal amount of damage from locations in play instead. (Progress is placed on the active location before triggering this effect.)<br/>Each <b>Raider</b> enemy revealed by the encounter deck enters play with 1 resource on it.<br/><b>If Captain Sahír is in the victory display and each location in play has no damage, the players win the game.</b>",
       "encounter_sets": ["Corsair Raiders", "The Stormcaller Elite"],
@@ -4638,7 +4638,7 @@
       "sequence": "1A",
       "text": "<b>Setup:</b> Prepare the Corsair deck. Players prepare their fleet. Prepare the Stormcaller's area with a second quest deck consisting of only stages 2C, 3C, and 4C, as well as the Stormcaller (see insert). Search the encounter deck for 1 copy of Rolling Seas, and add it to the staging area (2 copies instead if there are 3 or more players in the game). Shuffle the encounter deck.",
       "flavor": "Corsairs led by the treacherous Captain Sahír have stolen the black key you recovered in the ruins of Númenor. You must get it back!",
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/Swift-Departure-1A.jpg"
@@ -4655,7 +4655,7 @@
       "text": "Sailing.<br/><b>Forced:</b> At the end of the quest phase, if you are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), move 2 progress from Swift Departure to the Stormcaller's quest stage.",
       "flavor": "The Stormcaller has a considerable lead on your fleet, but with good fortune and skilled sailing, perhaps you can catch up to it.",
       "quest_points": 8,
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/Swift-Departure-1B.jpg"
@@ -4671,7 +4671,7 @@
       "sequence": "2A",
       "text": "<b>When Revealed:</b> Search the encounter deck and discard pile for 1 copy of Swift Raider and add it to the staging area. Shuffle the encounter deck.",
       "flavor": "As you travel along the western coast of Middle-earth, Corsairs continue to harry your fleet in an attempt to slow your progress.",
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/Full-Sail-Ahead-AB-2A.jpg"
@@ -4687,7 +4687,7 @@
       "sequence": "2B",
       "text": "Sailing.<br/>No more than 8 progress can be placed here each round. If you are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), no more than 4 progress can be placed here each round instead.<br/><b>When you defeat this stage, if the Stormcaller is at stage 2, you have caught up to the Stormcaller and win the game. Otherwise, advance to the next stage.</b>",
       "quest_points": 12,
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/Full-Sail-Ahead-AB-2B.jpg"
@@ -4702,7 +4702,7 @@
       "name": "The Weather Turns Foul",
       "sequence": "3A",
       "flavor": "As your voyage continues, the skies darken and the rain becomes relentless. Storm clouds on the horizon flash with lightning, and unpredictable wind makes setting a course difficult.",
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/The-Weather-Turns-Foul-AB-3A.jpg"
@@ -4718,7 +4718,7 @@
       "sequence": "3B",
       "text": "Sailing.<br/><b>Forced:</b> At the end of the staging step, if you are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), reveal an additional encounter card from the top of the encounter deck.<br/><b>When you defeat this stage, if the Stormcaller is still at stage 3, you have caught up to the Stormcaller and win the game. Otherwise, advance to the next stage.</b>",
       "quest_points": 18,
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/The-Weather-Turns-Foul-AB-3B.jpg"
@@ -4734,7 +4734,7 @@
       "sequence": "4A",
       "text": "<b>When Revealed:</b> Discard cards from the top of the encounter deck until a <b>Weather</b> treachery is discarded. Resolve that card’s \"when revealed\" effect. That effect cannot be canceled.",
       "flavor": "You’ve pursued the Stormcaller all the way to the deadly Cape of Andrast, where terrible winds and sharp jetties threaten to tear apart your entire fleet.",
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/The-Cape-of-Andrast-AB-4A.jpg"
@@ -4750,7 +4750,7 @@
       "sequence": "4B",
       "text": "Sailing.<br/><b>Forced:</b> After a <b>Weather</b> treachery is revealed, deal 1 damage to each <b>Ship</b> objective and <b>Ship</b> enemy at this stage.<br/><b>If you defeat this stage, you have caught up to the Stormcaller and win the game.</b>",
       "quest_points": 24,
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/The-Cape-of-Andrast-AB-4B.jpg"
@@ -4765,7 +4765,7 @@
       "name": "Full Sail Ahead!",
       "sequence": "2C",
       "flavor": "The Stormcaller is the pride of the Corsair fleet, swift as the wind and nigh-unsinkable. It won’t be an easy quarry to chase.",
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/Full-Sail-Ahead-CD-2C.jpg"
@@ -4781,7 +4781,7 @@
       "sequence": "2D",
       "text": "If the players are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), the Stormcaller gets +2 Threat.<br/>No more than 4 damage may be placed on the Stormcaller each round.<br/><b>Forced:</b> At the end of the round, discard the top card of the encounter deck. The Stormcaller places progress on this stage equal to its Threat plus the Threat of the discarded card.",
       "quest_points": 12,
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/Full-Sail-Ahead-CD-2D.jpg"
@@ -4797,7 +4797,7 @@
       "sequence": "3C",
       "text": "<b>When Revealed:</b> Search the encounter deck and discard pile for 1 copy of Sahír's Escort and add it to the Stormcaller's area. Shuffle the encounter deck.",
       "flavor": "Aided by other Corsair ships, the Stormcaller slips out of sight, heading into the dark clouds on the southern horizon.",
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/The-Weather-Turns-Foul-CD-3C.jpg"
@@ -4813,7 +4813,7 @@
       "sequence": "3D",
       "text": "If the players are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), the Stormcaller gets +2 Threat.<br/>No more than 8 damage may be placed on the Stormcaller each round.<br/><b>Forced:</b> At the end of the round, discard the top card of the encounter deck. The Stormcaller places progress on this stage equal to its Threat plus the Threat of the discarded card.",
       "quest_points": 18,
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/The-Weather-Turns-Foul-CD-3D.jpg"
@@ -4828,7 +4828,7 @@
       "name": "The Cape of Andrast",
       "sequence": "4C",
       "flavor": "The Stormcaller once again slips out of your grasp, rounding the Cape of Andrast to the south.",
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/The-Cape-of-Andrast-CD-4C.jpg"
@@ -4844,7 +4844,7 @@
       "sequence": "4D",
       "text": "<b>Forced:</b> At the end of the round, discard the top card of the encounter deck. The Stormcaller places progress on this stage equal to its Threat plus the Threat of the discarded card.<p class='main-text'><b>If the Stormcaller defeats this stage, Captain Sahír has gotten away with the key, and the players lose the game.</b>",
       "quest_points": 24,
-      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Vast Oceans", "Corsair Pirates", "Stormy Weather", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Flight of the Stormcaller/The-Cape-of-Andrast-CD-4D.jpg"
@@ -5048,7 +5048,7 @@
       "sequence": "1A",
       "text": "<b>Setup:</b> Prepare the Corsair deck. Players prepare their fleet. Set each copy of Dol Amroth Warship aside, out of play. Search the encounter deck for Raider Flagship and 1 copy of Scouting Ship, and add them to the staging area. Search the encounter deck for a <b>Dol Amroth</b> objective of your choice and add it to the staging area. Then, shuffle the encounter deck and resolve the Guarded keyword on that objective.",
       "flavor": "Corsairs are attacking Dol Amroth to cover Sahír's escape to Umbar!",
-      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/A Storm on Cobas Haven/Outmaneuver-the-Enemy-1A.jpg"
@@ -5064,7 +5064,7 @@
       "sequence": "1B",
       "text": "Sailing.<br/><b>Forced:</b> When a <b>Ship</b> enemy engages you, if you are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading), deal 2 damage to a <b>Ship</b> objective you control. If you are on-course (Sunny Heading), deal 2 damage to that <b>Ship</b> enemy instead.<br/>If your current heading is at the worst setting (Stormy Heading), Raider Flagship gets -50 engagement cost.",
       "quest_points": 10,
-      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/A Storm on Cobas Haven/Outmaneuver-the-Enemy-1B.jpg"
@@ -5080,7 +5080,7 @@
       "sequence": "2A",
       "text": "<b>When Revealed:</b> Search the encounter deck and discard pile for a <b>Ship</b> enemy and add it to the staging area (2 <b>Ship</b> enemies instead if there are 3 or 4 players in the game). Shuffle the encounter deck. For each unguarded objective in the staging area, attach a non-unique <b>Ship</b> enemy in the staging area to that objective, guarding it.",
       "flavor": "The Corsair fleet seems to be attacking multiple key locations simultaneously. To stop the attack, you must defend Dol Amroth from the Corsair ships.",
-      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/A Storm on Cobas Haven/Battle-in-the-Bay-2A.jpg"
@@ -5096,7 +5096,7 @@
       "sequence": "2B",
       "text": "Sailing.<br/>If your current heading is at the worst setting (Stormy Heading), Raider Flagship gets -50 engagement cost.<br/><b>You cannot advance while at least 1 objective is guarded by an encounter.</b>",
       "quest_points": 16,
-      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/A Storm on Cobas Haven/Battle-in-the-Bay-2B.jpg"
@@ -5112,7 +5112,7 @@
       "sequence": "3A",
       "text": "<b>When Revealed:</b> The players make engagement checks against each enemy in the staging area. Raider Flagship gets -50 engagement cost during these engagement checks.",
       "flavor": "\"You have to go after Sahír!\" Imrahil yells as the battle rages on. \"We will finish this fight!\"",
-      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/A Storm on Cobas Haven/Break-Through-the-Fleet-3A.jpg"
@@ -5126,9 +5126,9 @@
       "position": 122,
       "name": "Break Through the Fleet!",
       "sequence": "3B",
-      "text": "Sailing.<br/>Raider Flagship gets -50 engagement cost.<br/>Break Through the Fleet! has +5 quest points for each <b>Ship</b> enemy in play.<br/><b>f this stage is defeated, or if Raider Flagship is in the victory display, the players have broken through the Corsair fleet and win the game!</b>",
+      "text": "Sailing.<br/>Raider Flagship gets -50 engagement cost.<br/>Break Through the Fleet! has +5 quest points for each <b>Ship</b> enemy in play.<br/><b>If this stage is defeated, or if Raider Flagship is in the victory display, the players have broken through the Corsair fleet and win the game!</b>",
       "quest_points": 5,
-      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Corsair Raiders", "Corsair Pirates", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/A Storm on Cobas Haven/Break-Through-the-Fleet-3B.jpg"
@@ -5143,7 +5143,7 @@
       "name": "The Coast of Umbar",
       "sequence": "1A",
       "text": "<b>Setup:</b> Shuffle the Coast of Umbar, Corsair Raiders, Stormy Weather, Umbar Fleet, and Voyage across Belegaer encounter sets into one encounter deck and make it the active encounter deck. Set The City of Corsairs encounter set aside, as an inactive second encounter deck. Prepare the Corsair deck. Players prepare their fleet. Add the Stormcaller to the staging area. Add 1 copy of Southern Belfalas to the staging area (2 instead if there are 3 or 4 players in the game). Shuffle the encounter deck.",
-      "encounter_sets": ["Corsair Raiders", "Stormy Weather", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Corsair Raiders", "Stormy Weather", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Coast of Umbar/The-Coast-of-Umbar-1A.jpg"
@@ -5160,7 +5160,7 @@
       "text": "Sailing.<br/>Progress cannot be placed on The Coast of Umbar if the players are off-course (Cloudy Heading, Rainy Heading, or Stormy Heading).<br/><b>If the Stormcaller is destroyed (or if this stage has 15 or more progress on it), advance to stage 2.</b>",
       "flavor": "Deep in enemy waters, you must recover the artifact from the Stormcaller.",
       "quest_points": 15,
-      "encounter_sets": ["Corsair Raiders", "Stormy Weather", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser&#39;s Fleet"],
+      "encounter_sets": ["Corsair Raiders", "Stormy Weather", "Umbar Fleet", "Voyage Across Belegaer", "The Dream-chaser's Fleet"],
       "quantity_easy": 1,
       "quantity": 0,
       "image": "quest-card/Coast of Umbar/The-Coast-of-Umbar-1B.jpg"

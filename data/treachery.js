@@ -1138,12 +1138,12 @@
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 60,
-      "name": "The Master&#39;s Malice",
+      "name": "The Master's Malice",
       "text": "<b>When Revealed:</b> Each player chooses 1 sphere of influence (Leadership, Tactics, Spirit, or Lore). Each character a player controls that does not belong to his chosen sphere takes 3 damage.",
       "flavor": "\"I doubt not that the days of Gondor are numbered, and the walls of Minas Tirith are doomed, so great is His strength and malice.\"\n<cite>Damrod, The Two Towers</cite>",
       "quantity_easy": 0,
       "quantity": 2,
-      "image": "encounter-card/Mordor Elite/The-Master&#39;s-Malice.jpg"
+      "image": "encounter-card/Mordor Elite/The-Master's-Malice.jpg"
    },
    {
       "pack_code": "HoN",
@@ -1183,7 +1183,7 @@
       "text": "Surge.<br/><b>When Revealed:</b> Reveal 1 card from the underworld deck and add it to the staging area. If it is a <i><b>Clue</b></i> card, discard it instead.",
       "quantity_easy": 2,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/Unwelcome-Discovery.jpg"
+      "image": "encounter-card/The Steward's Fear/Unwelcome-Discovery.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1196,7 +1196,7 @@
       "text": "<b>When Revealed:</b> Randomly select 1 ally controlled by the first player, if able. The first player deals X damage to one of his heroes, where X is that ally's Attack. Then discard that ally. If no ally is discarded by this effect, A Knife in the Back gains surge.",
       "quantity_easy": 1,
       "quantity": 2,
-      "image": "encounter-card/The Steward&#39;s Fear/A-Knife-in-the-Back.jpg"
+      "image": "encounter-card/The Steward's Fear/A-Knife-in-the-Back.jpg"
    },
    {
       "pack_code": "TSF",
@@ -1210,7 +1210,7 @@
       "shadow": "<b>Shadow:</b> If this attack destroys a character, remove all tokens from the current quest.",
       "quantity_easy": 2,
       "quantity": 0,
-      "image": "encounter-card/The Steward&#39;s Fear/False-Lead.jpg"
+      "image": "encounter-card/The Steward's Fear/False-Lead.jpg"
    },
    {
       "pack_code": "TDF",
@@ -1496,11 +1496,11 @@
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 37,
-      "name": "The Forest&#39;s Malice",
+      "name": "The Forest's Malice",
       "text": "<b>When Revealed:</b> Each <b>Huorn</b> enemy engaged with a player makes an immediate attack. If no attack was made as a result of this effect, each player must search encounter deck and discard pile for a <b>Huorn</b> enemy and pit it into play engaged with him. This effect cannot be canceled.",
       "quantity_easy": 1,
       "quantity": 3,
-      "image": "encounter-card/Into Fangorn/The-Forest&#39;s-Malice.jpg"
+      "image": "encounter-card/Into Fangorn/The-Forest's-Malice.jpg"
    },
    {
       "pack_code": "VoI",
@@ -1661,12 +1661,12 @@
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 54,
-      "name": "The Guardian&#39;s Fury",
+      "name": "The Guardian's Fury",
       "text": "<b>When Revealed:</b> Each <b>Guardian</b> enemy makes an attack. If there are no <b>Guardian</b> enemies in play, reveal a random <b>Guardian</b> enemy from the victory display, and add it to the staging area.",
       "shadow": "If the attacking enemy is a <b>Guardian</b> it makes an additional attack after this one.",
       "quantity_easy": 0,
       "quantity": 2,
-      "image": "encounter-card/The Three Trials/The-Guardian&#39;s-Fury.jpg"
+      "image": "encounter-card/The Three Trials/The-Guardian's-Fury.jpg"
    },
    {
       "pack_code": "TTT",
@@ -2143,7 +2143,7 @@
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 79,
-      "name": "Arador&#39;s Bane",
+      "name": "Arador's Bane",
       "text": "<b>When Revealed:</b> Starting with the first player, each player must either engage an enemy in the staging area with a higher engagement cost than his threat, or search the encounter deck and discard pile for a <b>Troll</b> or <b>Giant</b> enemy and add it to the staging area. Deal each enemy that engages a player through this effect 2 shadow cards.",
       "quantity_easy": 1,
       "quantity": 1,
@@ -2258,7 +2258,7 @@
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 138,
-      "name": "Daechanar&#39;s Will",
+      "name": "Daechanar's Will",
       "text": "<b>When Revealed:</b> Flip Thaurdir. Then, if he is <b>Captain</b> side faceup, Daechanar's Will gains surge.",
       "shadow": "<b>Shadow:</b> Flip Thaurdir after this attack.",
       "quantity_easy": 1,
