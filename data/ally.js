@@ -2163,7 +2163,7 @@
       "code": "06084",
       "name": "Knight of Minas Tirith",
       "traits": "Gondor. Warrior.",
-      "text": "If each of your heroes has a printed [tactics] hero resource icon, Knight of Minas Tirith Tirith gains: \"<b>Response:</b> After Knight of Minas Tirith enters play, choose an enemy in the staging area. Engage that enemy and exhaust Knight of Minas Tirith to declare it as attacker (and resolve its attack) against that enemy.\"",
+      "text": "If each of your heroes has a printed [tactics] hero resource icon, Knight of Minas Tirith gains: \"<b>Response:</b> After Knight of Minas Tirith enters play, choose an enemy in the staging area. Engage that enemy and exhaust Knight of Minas Tirith to declare it as attacker (and resolve its attack) against that enemy.\"",
       "is_unique": false,
       "cost": "3",
       "willpower": 0,

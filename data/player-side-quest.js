@@ -238,7 +238,7 @@
       "code": "17087",
       "name": "Rally the West",
       "text": "Limit 1 copy of Rally the West in the victory display. While this side quest is in the victory display, each hero gets +1 [willpower].",
-      "flavor": "“Foes and fire are before you, and your homes far behind. Yet, though you fight upon an alien field, the glory that you reap there shall be your own forever.” -Theoden, The Return of the King",
+      "flavor": "“Foes and fire are before you, and your homes far behind. Yet, though you fight upon an alien field, the glory that you reap there shall be your own forever.” -Théoden, The Return of the King",
       "is_unique": false,
       "cost": "1",
       "victory": 1,

@@ -3475,7 +3475,7 @@
       "code": "144010",
       "name": "Snowmane",
       "traits": "Mount.",
-      "text": "Attach to a <b><i>Rohan</i></b> hero. Restricted.\nIf attached hero is Theoden, Snowmane loses the restricted keyword.\n<b>Response:</b> After attached hero quests successfully, ready attached hero.",
+      "text": "Attach to a <b><i>Rohan</i></b> hero. Restricted.\nIf attached hero is Théoden, Snowmane loses the restricted keyword.\n<b>Response:</b> After attached hero quests successfully, ready attached hero.",
       "flavor": "Suddenly the king cried to Snowmane and the horse sprang away. <cite>The Return of the King</cite>",
       "is_unique": true,
       "cost": "1",
