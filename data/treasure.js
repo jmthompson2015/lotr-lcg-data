@@ -20,7 +20,8 @@
       "octgnid": "51223bd0-ffd1-11df-a976-1801204c9075",
       "has_errata": false,
       "url": "http://ringsdb.com/card/131020",
-      "imagesrc": "/bundles/cards/131020.png"
+      "imagesrc": "/bundles/cards/131020.png",
+      "image": "player-card/treasure/Sting.jpg"
    },
    {
       "pack_code": "OHaUH",
@@ -43,7 +44,8 @@
       "octgnid": "51223bd0-ffd1-11df-a976-1801204c9064",
       "has_errata": false,
       "url": "http://ringsdb.com/card/131021",
-      "imagesrc": "/bundles/cards/131021.png"
+      "imagesrc": "/bundles/cards/131021.png",
+      "image": "player-card/treasure/Orcrist.jpg"
    },
    {
       "pack_code": "OHaUH",
@@ -65,7 +67,8 @@
       "octgnid": "51223bd0-ffd1-11df-a976-1801204c9037",
       "has_errata": false,
       "url": "http://ringsdb.com/card/131022",
-      "imagesrc": "/bundles/cards/131022.png"
+      "imagesrc": "/bundles/cards/131022.png",
+      "image": "player-card/treasure/Glamdring.jpg"
    },
    {
       "pack_code": "OtD",
@@ -87,7 +90,8 @@
       "octgnid": "9dd6bf3e-e090-4ebf-a056-765c94e8a199",
       "has_errata": false,
       "url": "http://ringsdb.com/card/132019",
-      "imagesrc": "/bundles/cards/132019.png"
+      "imagesrc": "/bundles/cards/132019.png",
+      "image": "player-card/treasure/Bilbo's-Magic-Ring.jpg"
    },
    {
       "pack_code": "OtD",
@@ -110,7 +114,8 @@
       "octgnid": "ae774680-c6e9-49eb-96b8-fcdebe90b49d",
       "has_errata": false,
       "url": "http://ringsdb.com/card/132020",
-      "imagesrc": "/bundles/cards/132020.png"
+      "imagesrc": "/bundles/cards/132020.png",
+      "image": "player-card/treasure/The-Arkenstone.jpg"
    },
    {
       "pack_code": "OtD",
@@ -133,7 +138,8 @@
       "octgnid": "12d51424-0edd-4977-9df1-5f6a7a5a96e1",
       "has_errata": false,
       "url": "http://ringsdb.com/card/132021",
-      "imagesrc": "/bundles/cards/132021.png"
+      "imagesrc": "/bundles/cards/132021.png",
+      "image": "player-card/treasure/Mithril-Shirt.jpg"
    },
    {
       "pack_code": "OtD",
@@ -156,7 +162,8 @@
       "octgnid": "857d6dc8-ba1e-4839-8e96-a8a0136a2302",
       "has_errata": false,
       "url": "http://ringsdb.com/card/132022",
-      "imagesrc": "/bundles/cards/132022.png"
+      "imagesrc": "/bundles/cards/132022.png",
+      "image": "player-card/treasure/Thror's-Battle-Axe.jpg"
    },
    {
       "pack_code": "OtD",
@@ -179,7 +186,8 @@
       "octgnid": "7adc49c0-640d-4934-89c5-312ab584b77c",
       "has_errata": false,
       "url": "http://ringsdb.com/card/132023",
-      "imagesrc": "/bundles/cards/132023.png"
+      "imagesrc": "/bundles/cards/132023.png",
+      "image": "player-card/treasure/Thror's-Hunting-Bow.jpg"
    },
    {
       "pack_code": "OtD",
@@ -203,6 +211,7 @@
       "octgnid": "ff7b0b9d-f8ae-4464-9db3-7205c5ae4db7",
       "has_errata": false,
       "url": "http://ringsdb.com/card/132024",
-      "imagesrc": "/bundles/cards/132024.png"
+      "imagesrc": "/bundles/cards/132024.png",
+      "image": "player-card/treasure/Thror's-Golden-Cup.jpg"
    }
 ]
