@@ -74,10 +74,6 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
 
          var fragment1 = ParseUtilities.extractInclusive(fragment, "<div style=\"font-weight", "</div>");
          var type_name = ParseUtilities.extractContent(fragment1);
-         type_name = type_name.replace("Objective-Ally", "Objective");
-         type_name = type_name.replace("Objective-Location", "Objective");
-         type_name = type_name.replace("Ship-Enemy", "Enemy");
-         type_name = type_name.replace("Ship-Objective", "Objective");
          var type_code = type_name.toLowerCase();
          // console.log("type_code = " + type_code);
          // console.log("type_name = " + type_name);

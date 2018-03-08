@@ -32,12 +32,28 @@
       "type_name": "Objective"
    },
    {
+      "type_code": "objective-ally",
+      "type_name": "Objective-Ally"
+   },
+   {
+      "type_code": "objective-location",
+      "type_name": "Objective-Location"
+   },
+   {
       "type_code": "player-side-quest",
       "type_name": "Player Side Quest"
    },
    {
       "type_code": "quest",
       "type_name": "Quest"
+   },
+   {
+      "type_code": "ship-enemy",
+      "type_name": "Ship-Enemy"
+   },
+   {
+      "type_code": "ship-objective",
+      "type_name": "Ship-Objective"
    },
    {
       "type_code": "treachery",
