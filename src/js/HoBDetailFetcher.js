@@ -318,6 +318,7 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
                   text = ParseUtilities.removeTag(text, "span");
                }
 
+               text = text.replace(/ {2,}/g, " "); // remove extra spaces
                text = text.trim();
 
                if (text.length === 0)
@@ -373,6 +374,7 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
                   shadow = ParseUtilities.removeImg(shadow);
                }
 
+               shadow = shadow.replace(/ {2,}/g, " "); // remove extra spaces
                shadow = shadow.trim();
 
                if (shadow.length === 0)
