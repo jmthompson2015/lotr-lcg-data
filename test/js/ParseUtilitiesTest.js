@@ -78,6 +78,82 @@ define(["qunit", "js/ParseUtilities"], function(QUnit, ParseUtilities)
       assert.equal(ParseUtilities.extractInclusive(titleBox, "<a", "</a>"), "<a href=\"/Cards/Search?CardSet=Khazad-d&#251;m\" title=\"Search for Khazad-d&#251;m\">Khazad-d&#251;m</a>");
    });
 
+   QUnit.test("parseTree()", function(assert)
+   {
+      // Setup.
+      var fragment = "<div class=\"statTextBox\" style=\"margin:2px;padding-top:0px;padding-left:6px;padding-right:6px;border: 1px solid gray;border-radius:4px;max-width:500px;min-height:180px;min-width:200px;position:relative;background-color:rgba(0, 0, 0, .1);\">" +
+         "<img src='/Images/encounter-card-back.jpg' style=\"pointer-events:none;position: absolute;left:0px;top:0px;width:100%;height:100%;opacity:.08;\" />" +
+         "<div style=\"text-align:center;\">" +
+         "    <a title=\"Trait Search\" href='/Cards/Search?Trait=Troll.'><b><i>Troll.</i></b></a>  &nbsp;" +
+         "</div>" +
+         "<div style=\"padding:4px;\">" +
+         "                    <a title=\"Trait Search\" style=\"font-weight:bold;font-style:italic;\" href='/Cards/Search?Trait=Troll.'>Troll</a>" +
+         "                      enemies not engaged with a player cannot take damage." +
+         "            <br />" +
+         "            <br />" +
+         "                    <b>Forced:</b> After William engages a player, sack 2." +
+         "            <br />" +
+         "            <br />" +
+         "                    <b>Forced:</b> Return William to the staging area at the end of the combat phase. The engaged player may raise his threat by 1 to cancel this effect." +
+         "            <br />" +
+         "            <br />" +
+         "        <br />" +
+         "        <div style=\"text-align:right;font-weight:bold;\"><span style=\"padding-left:4px;padding-right:4px;border-style:solid;border-width:1px;border-color:black;\">VICTORY 5.</span></div>" +
+         "                                        </div>" +
+         "</div>" +
+         "</div>" +
+         "</div>" +
+         "</div>";
+
+      // Run.
+      var result = ParseUtilities.parseTree(fragment, "div");
+
+      // Verify.
+      assert.ok(result);
+      assert.equal(result.node, fragment);
+      assert.ok(result.children);
+      assert.equal(result.children.length, 2, "result.children.length === 2");
+
+      var child0 = result.children[0];
+      assert.ok(child0);
+      assert.equal(child0.node, "<div style=\"text-align:center;\">" +
+         "    <a title=\"Trait Search\" href='/Cards/Search?Trait=Troll.'><b><i>Troll.</i></b></a>  &nbsp;" +
+         "</div>");
+      assert.equal(child0.children.length, 0, "child0.children.length === 0");
+
+      var child1 = result.children[1];
+      assert.ok(child1);
+      assert.equal(child1.node, "<div style=\"padding:4px;\">" +
+         "                    <a title=\"Trait Search\" style=\"font-weight:bold;font-style:italic;\" href='/Cards/Search?Trait=Troll.'>Troll</a>" +
+         "                      enemies not engaged with a player cannot take damage." +
+         "            <br />" +
+         "            <br />" +
+         "                    <b>Forced:</b> After William engages a player, sack 2." +
+         "            <br />" +
+         "            <br />" +
+         "                    <b>Forced:</b> Return William to the staging area at the end of the combat phase. The engaged player may raise his threat by 1 to cancel this effect." +
+         "            <br />" +
+         "            <br />" +
+         "        <br />" +
+         "        <div style=\"text-align:right;font-weight:bold;\"><span style=\"padding-left:4px;padding-right:4px;border-style:solid;border-width:1px;border-color:black;\">VICTORY 5.</span></div>" +
+         "                                        </div></div></div></div></div>");
+      assert.equal(child1.children.length, 2, "child1.children.length === 2");
+      child1.children.forEach((child, i) =>
+      {
+         console.log(i + " " + child.node);
+      });
+
+      var child10 = child1.children[0];
+      assert.ok(child10);
+      assert.equal(child10.node, "<div style=\"text-align:right;font-weight:bold;\"><span style=\"padding-left:4px;padding-right:4px;border-style:solid;border-width:1px;border-color:black;\">VICTORY 5.</span></div>");
+      assert.equal(child10.children.length, 0, "child10.children.length === 0");
+
+      var child11 = child1.children[1];
+      assert.ok(child11);
+      assert.equal(child11.node, "</div></div></div></div></div>");
+      assert.equal(child11.children.length, 0, "child11.children.length === 0");
+   });
+
    QUnit.test("removeImg()", function(assert)
    {
       // Setup.

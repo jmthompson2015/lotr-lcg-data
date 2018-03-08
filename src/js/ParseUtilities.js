@@ -75,6 +75,31 @@ define(function()
       return this.extract(fragment, startDelimiter, endDelimiter, true, true);
    };
 
+   ParseUtilities.parseTree = function(fragment, tag)
+   {
+      var startTag = "<" + tag;
+      var endTag = "</" + tag + ">";
+      var children = [];
+
+      var index1 = fragment.indexOf(startTag, 1);
+      var index2 = fragment.indexOf(endTag, index1);
+
+      if (index1 >= 0 && index2 > index1)
+      {
+         var fragment0 = fragment.substring(index1, index2 + endTag.length).trim();
+         children.push(ParseUtilities.parseTree(fragment0, tag));
+
+         var fragment1 = fragment.substring(index2 + endTag.length).trim();
+         children.push(ParseUtilities.parseTree(fragment1, tag));
+      }
+
+      return (
+      {
+         node: fragment,
+         children: children,
+      });
+   };
+
    ParseUtilities.removeImg = function(fragment)
    {
       var answer = fragment;
@@ -91,6 +116,9 @@ define(function()
          {
             case "/Images/attack-small.png":
                content = "Attack";
+               break;
+            case "/Images/Baggins.png":
+               content = "Baggins";
                break;
             case "/Images/defense-small.png":
                content = "Defense";

@@ -92,6 +92,94 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
       HoBDetailFetcher.fetch(file, callback);
    });
 
+   QUnit.test("fetch() Enemy William", function(assert)
+   {
+      // Setup.
+      var file = "http://hallofbeorn.com/LotR/Details/William-THOHaUH";
+      var callback = function(detail)
+      {
+         // Verify.
+         assert.ok(true, "test resumed from async operation");
+         assert.ok(detail);
+         // console.log("Enemy detail: " + JSON.stringify(detail));
+
+         assert.equal(detail.pack_code, "OHaUH", "pack_code");
+         assert.equal(detail.pack_name, "The Hobbit: Over Hill and Under Hill", "pack_name");
+         assert.equal(detail.encounter_set, "We Must Away, Ere Break of Day", "encounter_set");
+         assert.equal(detail.type_code, "enemy", "type_code");
+         assert.equal(detail.type_name, "Enemy", "type_name");
+         assert.equal(detail.position, 32, "position");
+         assert.equal(detail.name, "William", "name");
+         assert.equal(detail.is_unique, true, "is_unique");
+         assert.equal(detail.sequence, undefined, "sequence");
+         assert.equal(detail.traits, "Troll.", "traits");
+         assert.equal(detail.text, "Troll enemies not engaged with a player cannot take damage.\n<b>Forced:</b> After William engages a player, sack 2.\n<b>Forced:</b> Return William to the staging area at the end of the combat phase. The engaged player may raise his threat by 1 to cancel this effect.", "text");
+         assert.equal(detail.shadow, undefined, "shadow");
+         assert.equal(detail.flavor, undefined, "flavor");
+         assert.equal(detail.engagement_cost, 38, "engagement_cost");
+         assert.equal(detail.threat, 3, "threat");
+         assert.equal(detail.attack, 5, "attack");
+         assert.equal(detail.defense, 2, "defense");
+         assert.equal(detail.hit_points, 12, "hit_points");
+         assert.equal(detail.quest_points, undefined, "quest_points");
+         assert.equal(detail.victory, undefined, "victory");
+         assert.equal(detail.encounter_sets, undefined, "encounter_sets");
+         assert.equal(detail.quantity_easy, 1, "quantity_easy");
+         assert.equal(detail.quantity, 0, "quantity");
+         assert.equal(detail.image, "encounter-card/We Must Away, Ere Break of Day/William.jpg", "image");
+
+         done();
+      };
+
+      // Run.
+      var done = assert.async();
+      HoBDetailFetcher.fetch(file, callback);
+   });
+
+   QUnit.test("fetch() Enemy A Suspicious Crow", function(assert)
+   {
+      // Setup.
+      var file = "http://hallofbeorn.com/LotR/Details/A-Suspicious-Crow-THOHaUH";
+      var callback = function(detail)
+      {
+         // Verify.
+         assert.ok(true, "test resumed from async operation");
+         assert.ok(detail);
+         // console.log("Enemy detail: " + JSON.stringify(detail));
+
+         assert.equal(detail.pack_code, "OHaUH", "pack_code");
+         assert.equal(detail.pack_name, "The Hobbit: Over Hill and Under Hill", "pack_name");
+         assert.equal(detail.encounter_set, "Western Lands", "encounter_set");
+         assert.equal(detail.type_code, "enemy", "type_code");
+         assert.equal(detail.type_name, "Enemy", "type_name");
+         assert.equal(detail.position, 35, "position");
+         assert.equal(detail.name, "A Suspicious Crow", "name");
+         assert.equal(detail.is_unique, undefined, "is_unique");
+         assert.equal(detail.sequence, undefined, "sequence");
+         assert.equal(detail.traits, "Creature.", "traits");
+         assert.equal(detail.text, "<b>When Revealed:</b> Reveal the top card of the encounter discard pile and add it to the staging area, if able.", "text");
+         assert.equal(detail.shadow, "<b>Shadow:</b> If this attack deals at least 1 damage, shuffle this card back into the encounter deck.", "shadow");
+         assert.equal(detail.flavor, undefined, "flavor");
+         assert.equal(detail.engagement_cost, 25, "engagement_cost");
+         assert.equal(detail.threat, 1, "threat");
+         assert.equal(detail.attack, 1, "attack");
+         assert.equal(detail.defense, 1, "defense");
+         assert.equal(detail.hit_points, 1, "hit_points");
+         assert.equal(detail.quest_points, undefined, "quest_points");
+         assert.equal(detail.victory, undefined, "victory");
+         assert.equal(detail.encounter_sets, undefined, "encounter_sets");
+         assert.equal(detail.quantity_easy, 3, "quantity_easy");
+         assert.equal(detail.quantity, 0, "quantity");
+         assert.equal(detail.image, "encounter-card/Western Lands/A-Suspicious-Crow.jpg", "image");
+
+         done();
+      };
+
+      // Run.
+      var done = assert.async();
+      HoBDetailFetcher.fetch(file, callback);
+   });
+
    QUnit.test("fetch() Location East-gate", function(assert)
    {
       // Setup.

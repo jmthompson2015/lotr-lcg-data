@@ -126,6 +126,8 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
       HoBDetailFetcher.processStatTextBox = function(fragment, type_code)
       {
          // console.log("processStatTextBox() fragment = " + fragment);
+         // console.log("processStatTextBox() type_code = " + type_code);
+
          var index = fragment.indexOf("<div class=\"statTextBox\"", 1);
          var fragment0 = (index < 0 ? fragment : fragment.substring(0, index));
 
@@ -153,6 +155,14 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
                var index222 = fragment0.indexOf(key222, index2222 + key2222.length);
                key2 = "<p>";
                index2 = index222 + key222.length;
+
+               if (index1 < 0)
+               {
+                  key1 = "";
+                  index1 = fragment0.lastIndexOf("<", index222);
+                  index1 = fragment0.lastIndexOf("<div", index1 - 1);
+                  index1 = fragment0.indexOf(">", index1 + 1) + 1;
+               }
             }
          }
 
@@ -161,18 +171,98 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
          var indices = [index1, index2, index3, index4];
          indices.sort((a, b) => parseInt(a) - parseInt(b));
 
-         // traits
-         var i;
-         var myIndex = fragment0.length;
-         for (i = 0; i < 4; i++)
+         var fragmentTraits, fragmentText, fragmentShadow, fragmentFlavor;
+
          {
-            if (indices[i] >= 0)
+            let i;
+            let myIndex = fragment0.length;
+            for (i = 0; i < 4; i++)
             {
-               myIndex = indices[i];
-               break;
+               if (indices[i] >= 0)
+               {
+                  myIndex = indices[i];
+                  break;
+               }
+            }
+            // console.log("traits myIndex = " + myIndex);
+            if (myIndex < fragment0.length)
+            {
+               fragmentTraits = fragment0.substring(0, myIndex);
             }
          }
-         var fragment2 = fragment0.substring(0, myIndex);
+
+         if (index1 >= 0)
+         {
+            let myIndex = fragment0.length;
+            for (let i = 0; i < 4; i++)
+            {
+               if (indices[i] >= 0 && index1 < indices[i])
+               {
+                  myIndex = indices[i];
+                  break;
+               }
+            }
+
+            let start = index1 + key1.length;
+            let index11 = fragment0.lastIndexOf("</p>", myIndex);
+            let end = (index11 >= 0 ? index11 : fragment0.lastIndexOf("<", index2 - 1));
+            fragmentText = fragment0.substring(start, end).trim();
+         }
+
+         if (index2 >= 0)
+         {
+            let start = index2 + key2.length;
+            let index22 = fragment0.indexOf("</p>", index2 + 1);
+            let end = (index22 >= 0 ? index22 : fragment0.length);
+            fragmentShadow = fragment0.substring(start, end);
+         }
+
+         if (index3 >= 0)
+         {
+            let start = index3 + key3.length;
+            let end = fragment0.indexOf("</p>", index3 + 1);
+            fragmentFlavor = fragment0.substring(start, end);
+         }
+
+         // console.log("fragmentTraits = " + fragmentTraits);
+         // console.log("fragmentText = " + fragmentText);
+         // console.log("fragmentShadow = " + fragmentShadow);
+         // console.log("fragmentFlavor = " + fragmentFlavor);
+
+         if (fragmentTraits === undefined && fragmentText === undefined && fragmentShadow === undefined && fragmentFlavor === undefined)
+         {
+            var divTree = ParseUtilities.parseTree(fragment0, "div");
+            var children = divTree.children;
+
+            if (children.length > 0)
+            {
+               fragmentTraits = children[0].node;
+            }
+
+            if (children.length > 1)
+            {
+               fragmentText = children[1].node;
+
+               if (fragmentText !== undefined)
+               {
+                  fragmentText = ParseUtilities.extractContent(fragmentText).trim();
+                  fragmentText = fragmentText.substring(0, fragmentText.indexOf("<div"));
+               }
+            }
+
+            if (children.length > 2)
+            {
+               fragmentShadow = children[2].node;
+            }
+
+            if (children.length > 3)
+            {
+               fragmentFlavor = children[3].node;
+            }
+         }
+
+         // traits
+         var fragment2 = fragmentTraits;
          var startKey = "<a";
          var endKey = "</a>";
          var index11 = fragment2.indexOf(startKey);
@@ -195,28 +285,22 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
          // console.log("traits = " + traits);
 
          // text
-         var text, start, end;
-         if (index1 >= 0)
+         var text;
+         if (fragmentText !== undefined)
          {
-            myIndex = fragment0.length;
-            for (i = 0; i < 4; i++)
-            {
-               if (indices[i] >= 0 && index1 < indices[i])
-               {
-                  myIndex = indices[i];
-                  break;
-               }
-            }
-
-            start = index1 + key1.length;
-            end = fragment0.lastIndexOf("</p>", myIndex);
-            text = fragment0.substring(start, end);
+            text = fragmentText;
 
             if (text !== undefined)
             {
                text = text.trim();
+               text = text.replace(/\r?\n|\r/g, " ").trim();
+               text = text.replace(/ {2,}/g, " "); // remove extra spaces
+               text = text.replace(/<br \/> <br \/> /g, "<br />");
+               text = text.replace(/<br \/><br \/>/g, "<br />");
+               text = text.replace(/ <br \/>/g, "\n");
+               text = text.replace(/<\/b> <b>/g, " ");
                text = text.replace(/<\/p>/g, "");
-               text = text.replace(/<p>/g, "<br/>");
+               text = text.replace(/<p>/g, "<br/>").trim();
 
                while (text.indexOf("<a") >= 0)
                {
@@ -237,6 +321,13 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
                {
                   text = ParseUtilities.removeTag(text, "span");
                }
+
+               text = text.trim();
+
+               if (text.length === 0)
+               {
+                  text = undefined;
+               }
             }
 
             // console.log("text = " + text);
@@ -244,15 +335,18 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
 
          // flavor
          var flavor;
-         if (index3 >= 0)
+         if (fragmentFlavor !== undefined)
          {
-            start = index3 + key3.length;
-            end = fragment0.indexOf("</p>", index3 + 1);
-            flavor = fragment0.substring(start, end);
+            flavor = fragmentFlavor;
 
             if (flavor !== undefined)
             {
                flavor = flavor.trim();
+
+               if (flavor.length === 0)
+               {
+                  flavor = undefined;
+               }
             }
 
             // console.log("flavor = " + flavor);
@@ -260,14 +354,19 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
 
          // shadow
          var shadow;
-         if (index2 >= 0)
+         if (fragmentShadow !== undefined)
          {
-            start = index2 + key2.length;
-            end = fragment0.indexOf("</p>", index2 + 1);
-            shadow = fragment0.substring(start, end);
+            shadow = fragmentShadow;
 
             if (shadow !== undefined)
             {
+               shadow = shadow.replace(/\r?\n|\r/g, " ").trim();
+               shadow = shadow.replace(/ {2,}/g, " "); // remove extra spaces
+               shadow = shadow.replace(/<br \/> <br \/> /g, "<br />");
+               shadow = shadow.replace(/<br \/><br \/>/g, "<br />");
+               shadow = shadow.replace(/<\/div>/g, "");
+               shadow = shadow.replace(/<br \/>/g, "\n").trim();
+
                while (shadow.indexOf("<a") >= 0)
                {
                   shadow = ParseUtilities.removeTag(shadow, "a");
@@ -276,6 +375,13 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
                while (shadow.indexOf("<img") >= 0)
                {
                   shadow = ParseUtilities.removeImg(shadow);
+               }
+
+               shadow = shadow.trim();
+
+               if (shadow.length === 0)
+               {
+                  shadow = undefined;
                }
             }
 
@@ -454,7 +560,8 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
          pack_name = pack_name.replace("&#251;", "\u00fb"); // û
          // console.log("pack_name = " + pack_name);
 
-         var packData = Pack.findByName(pack_name);
+         // var packData = Pack.findByName(pack_name);
+         var packData = Pack.findByName(pack_name.replace("The Hobbit: ", ""));
          var pack_code = (packData !== undefined ? packData.code : undefined);
 
          fragment1 = ParseUtilities.extractInclusive(fragment.substring(index2), "<span", "</span>");
