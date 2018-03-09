@@ -116,7 +116,7 @@ define(["js/HoBDetailFetcher", "js/HoBSummaryFetcher"],
          }
       };
 
-      HoBPackFetcher.TYPES = ["encounter-side-quest", "enemy", "location", "objective", "quest", "treachery"];
+      HoBPackFetcher.TYPES = ["encounter-side-quest", "enemy", "location", "objective", "objective-ally", "objective-location", "quest", "ship-enemy", "ship-objective", "treachery"];
 
       return HoBPackFetcher;
    });

@@ -832,5 +832,20 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Dungeons Deep and Caverns Dim/Bilbo's-Magic-Ring.jpg"
+   },
+   {
+      "pack_code": "OtD",
+      "pack_name": "The Hobbit: On the Doorstep",
+      "encounter_set": "The Lonely Mountain",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 39,
+      "name": "A Bare Patch",
+      "traits": "Information.",
+      "text": "While attached, Smaug the Magnificent gets -3 Defense.\n<b>Response:</b> After the players quest successfully, the first player makes a burgle attempt. If successful, attach A Bare Patch to Smaug the Magnificent.",
+      "flavor": "\"Old fool! Why there is a large patch in the hollow of his left breast as bare as a snail out of its shell!\"\n<cite>Bilbo Baggins, The Hobbit</cite>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Lonely Mountain/A-Bare-Patch.jpg"
    }
 ]
