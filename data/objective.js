@@ -847,5 +847,18 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Lonely Mountain/A-Bare-Patch.jpg"
+   },
+   {
+      "pack_code": "TSoH",
+      "pack_name": "The Sands of Harad",
+      "encounter_set": "Escape from Umbar",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 14,
+      "name": "\"Seize Them!\"",
+      "text": "<b>Forced:</b> After an enemy attacks and destroys a character, remove X progress from the main quest. X is the attacking enemy's Threat.\n<b>At the end of the round, if the main quest has been in play the entire round and there are no progress tokens on it, the players lose the game.</b>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Escape from Umbar/Seize-Them.jpg"
    }
 ]

@@ -36,6 +36,10 @@
       "type_name": "Objective-Ally"
    },
    {
+      "type_code": "objective-hero",
+      "type_name": "Objective-Hero"
+   },
+   {
       "type_code": "objective-location",
       "type_name": "Objective-Location"
    },
