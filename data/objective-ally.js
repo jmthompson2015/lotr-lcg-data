@@ -317,5 +317,23 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Battle of Five Armies/Misty-Mountain-Eagle.jpg"
+   },
+   {
+      "pack_code": "RAH",
+      "pack_name": "Race Across Harad",
+      "encounter_set": "Race Across Harad",
+      "type_code": "objective-ally",
+      "type_name": "Objective-Ally",
+      "position": 38,
+      "name": "Tamed M\u00FBmak",
+      "traits": "Creature.",
+      "text": "Immune to player card effects.\nDamage from undefended attacks against you must be assigned to Tamed Mûmak.\n<b>If Tamed Mûmak leaves play, the controlling player is eliminated.</b>",
+      "willpower": 2,
+      "attack": 5,
+      "defense": 2,
+      "hit_points": 8,
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/Race Across Harad/Tamed-Mumak.png"
    }
 ]

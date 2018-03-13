@@ -2563,7 +2563,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/17028",
       "imagesrc": "/bundles/cards/17028.png",
-      "image": "player-card/hero/Thurindir.jpg"
+      "image": "player-card/hero/Thurindir.png"
    },
    {
       "pack_code": "BtS",

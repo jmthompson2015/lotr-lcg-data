@@ -3794,7 +3794,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/17030",
       "imagesrc": "/bundles/cards/17030.png",
-      "image": "player-card/attachment/Steed-of-the-North.jpg"
+      "image": "player-card/attachment/Steed-of-the-North.png"
    },
    {
       "pack_code": "RAH",

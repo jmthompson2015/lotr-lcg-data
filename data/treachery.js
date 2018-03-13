@@ -3367,5 +3367,33 @@
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Mumakil/Biting-Insects.jpg"
+   },
+   {
+      "pack_code": "RAH",
+      "pack_name": "Race Across Harad",
+      "encounter_set": "Race Across Harad",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 45,
+      "name": "Pursuers from Mordor",
+      "text": "Doomed 2.\n<b>When Revealed:</b> Discard cards from the top of the encounter deck until an <b>Orc</b> enemy is discarded. Add that enemy to the Orcs' area.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. If this attack destroys a character, place 2 progress on the Orcs' stage.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/Race Across Harad/Pursuers-from-Mordor.jpg"
+   },
+   {
+      "pack_code": "RAH",
+      "pack_name": "Race Across Harad",
+      "encounter_set": "Race Across Harad",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 46,
+      "name": "Howling at their Heels",
+      "text": "<b>When Revealed:</b> If the players are not at the same stage as the Orcs, add the total Threat of each card in the Orcs' area to the total Threat in the staging area until the end of the phase. If the players are at the same stage as the Orcs, each enemy gets +1 Threat until the end of the phase.",
+      "shadow": "<b>Shadow:</b> Raise your threat by 1.",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/Race Across Harad/Howling-at-their-Heels.jpg"
    }
 ]

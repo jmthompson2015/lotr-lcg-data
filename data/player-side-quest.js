@@ -200,7 +200,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/17036",
       "imagesrc": "/bundles/cards/17036.png",
-      "image": "player-card/side-quest/Explore-Secret-Ways.jpg"
+      "image": "player-card/side-quest/Explore-Secret-Ways.png"
    },
    {
       "pack_code": "BtS",
