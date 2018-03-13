@@ -3311,5 +3311,61 @@
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Mordor Orcs/Fear-of-Mordor.jpg"
+   },
+   {
+      "pack_code": "M",
+      "pack_name": "The Mûmakil",
+      "encounter_set": "The M\u00FBmakil",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 21,
+      "name": "Stampeding Oliphaunt",
+      "text": "Doomed 1.\n<b>When Revealed:</b> Choose a Wild Mûmak in the staging area to attack the first player. If no attacks are made this way, search the encounter deck and discard pile for a Mûmak Trail and add it to the staging area. Shuffle the encounter deck.",
+      "flavor": "On the great beast thundered, blundering in blind wrath through pool and thicket.\n<cite>The Two Towers</cite>",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Mumakil/Stampeding-Oliphaunt.jpg"
+   },
+   {
+      "pack_code": "M",
+      "pack_name": "The Mûmakil",
+      "encounter_set": "The M\u00FBmakil",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 22,
+      "name": "The Savage South",
+      "text": "<b>When Revealed:</b> Each player discards the top 5 cards of his deck. Each player discards each card he controls that shares a title with any of the 5 cards he just discarded.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. If this attack destroys a character, return attacking enemy to the staging area.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Mumakil/The-Savage-South.jpg"
+   },
+   {
+      "pack_code": "M",
+      "pack_name": "The Mûmakil",
+      "encounter_set": "The M\u00FBmakil",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 23,
+      "name": "Terrible Fever",
+      "text": "<b>When Revealed:</b> Remove a hero from the quest and attach Terrible Fever to that hero. (Counts as a <b>Condition</b> attachment with the text: \"<b>Forced:</b> At the end of the round, deal 1 damage to attached character.\")",
+      "shadow": "<b>Shadow:</b> Defending character cannot ready until the end of the round.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Mumakil/Terrible-Fever.jpg"
+   },
+   {
+      "pack_code": "M",
+      "pack_name": "The Mûmakil",
+      "encounter_set": "The M\u00FBmakil",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 24,
+      "name": "Biting Insects",
+      "text": "<b>When Revealed:</b> Each player discards a random card from his hand and assigns X damage among characters he controls. X is the discarded card's cost.",
+      "shadow": "<b>Shadow:</b> Discard a random card from your hand and assign X damage among characters you control. X is the discarded card's cost.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Mumakil/Biting-Insects.jpg"
    }
 ]

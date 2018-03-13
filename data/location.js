@@ -5043,5 +5043,21 @@
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Jungle Forest/Dense-Jungle.jpg"
+   },
+   {
+      "pack_code": "M",
+      "pack_name": "The Mûmakil",
+      "encounter_set": "The M\u00FBmakil",
+      "type_code": "location",
+      "type_name": "Location",
+      "position": 20,
+      "name": "M\u00FBmak Trail",
+      "traits": "Forest.",
+      "text": "While Mûmak Trail is the active location, it gains: \"<b>Response:</b> When Mûmak Trail leaves play as an explored location, search the encounter deck and discard pile for a Wild Mûmak and add it to the staging area. Shuffle the encounter deck.\"\n<b>Travel:</b> Raise each player's threat by 1 to travel here.",
+      "threat": 2,
+      "quest_points": 3,
+      "quantity_easy": 4,
+      "quantity": 0,
+      "image": "encounter-card/The Mumakil/Mumak-Trail.jpg"
    }
 ]

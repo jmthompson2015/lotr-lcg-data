@@ -377,5 +377,21 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Mordor Orcs/Uruks-of-the-Eye.jpg"
+   },
+   {
+      "pack_code": "M",
+      "pack_name": "The Mûmakil",
+      "encounter_set": "The M\u00FBmakil",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 25,
+      "name": "Guardians of the Jungle",
+      "text": "Each location gets +1 Threat.\n<b>Forced:</b> When Guardians of the Jungle becomes the current quest, search the encounter deck and discard pile for a Territorial Ape and put it into play engaged with the first player.",
+      "flavor": "The great apes of the jungle gather in the trees around you. They shadow your steps and slow your progress.",
+      "quest_points": 6,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Mumakil/Guardians-of-the-Jungle.jpg"
    }
 ]
