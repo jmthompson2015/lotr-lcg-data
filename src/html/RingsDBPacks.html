@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RingsDB Packs</title>
+	<script src="../../lib/requirejs/require-2.3.5.js" data-main="../../src/main"></script>
+</head>
+<body>
+	<h1>RingsDB Packs</h1>
+	<div id="panel"></div>
+	<script>
+		"use strict";
+
+		require(["js/JSONFileLoader"], function(JSONFileLoader)
+		{
+			var file = "http://ringsdb.com/api/public/packs/";
+			var callback = function(data)
+			{
+				var content = data.reduce(function(accumulator, card, i)
+				{
+					var item = JSON.stringify(card);
+					return accumulator + item + (i < data.length - 1 ? ", " : "");
+				}, "[");
+				content += "]";
+				console.log(content);
+				document.getElementById("panel").innerHTML = "See browser console for output.";
+			}
+			JSONFileLoader.loadFile(file, callback);
+			document.getElementById("panel").innerHTML = "Working...";
+		});
+	</script>
+</body>
+
+</html>

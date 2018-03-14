@@ -8,82 +8,81 @@
 	<script>
 		"use strict";
 
-		require(["js/JSONFileLoader"], function(JSONFileLoader)
-		{
-			var files = ["ally.js", "attachment.js", "event.js", "hero.js", "player-side-quest.js", "treasure.js"];
-			var fileIndex = 0;
-
-			function processFile()
+		require(["js/CardComparator", "js/JSONFileLoader"],
+			function(CardComparator, JSONFileLoader)
 			{
-				var file = files[fileIndex];
-				console.log(fileIndex + " Processing file " + file);
-				fileIndex++;
-				var filepath = "../../data/" + file;
-				var type = file.substring(0, file.indexOf("."));
-				// console.log("type = " + type);
-				var myLoaderCallback = function(cards)
+				var files = ["ally.js", "attachment.js", "event.js", "hero.js", "player-side-quest.js", "treasure.js"];
+				var fileIndex = 0;
+
+				function processFile()
 				{
-					loaderCallback(type, cards);
-				}
-				JSONFileLoader.loadFile(filepath, myLoaderCallback);
-			}
-
-			function loaderCallback(type, cards)
-			{
-				// console.log("loaderCallback() cards.length = " + cards.length);
-				// console.log("loaderCallback() type = " + type);
-
-				cards.forEach((card) =>
-				{
-					card.text = card.text.replace(/\u00A0/g, " "); // non-breaking space
-					card.text = card.text.replace(/\u2013/g, "-"); // en-dash
-					card.text = card.text.replace(/\u2022/g, ""); // bullet
-					card.text = card.text.replace(/\u2019/g, "'"); // right single quotation mark
-
-					card.text = card.text.replace("<b><i>Heale</i>r</b>", "<b><i>Healer</i></b>");
-					card.text = card.text.replace(/D\u00FAnadan/g, "D\u00FAnedain");
-					card.text = card.text.replace(/Dunedain/g, "D\u00FAnedain");
-					card.text = card.text.replace(/Resonse/g, "Response");
-					card.text = card.text.replace(/resouce/g, "resource");
-					card.text = card.text.replace(/Suffle/g, "Shuffle");
-				});
-
-				cards.forEach((card) =>
-				{
-					var name = card.name;
-					name = name.replace(/ /g, "-");
-					name = name.replace(/,/g, "");
-					name = name.replace(/\!/g, "");
-					name = name.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
-					var typePath = type;
-					typePath = typePath.replace("player-", "");
-					card.image = "player-card/" + typePath + "/" + name + ".jpg";
-				});
-
-				var imageMap = {};
-				cards.forEach((card) =>
-				{
-					if (imageMap[card.image] !== undefined)
+					var file = files[fileIndex];
+					console.log(fileIndex + " Processing file " + file);
+					fileIndex++;
+					var filepath = "../../data/" + file;
+					var type = file.substring(0, file.indexOf("."));
+					var myLoaderCallback = function(cards)
 					{
-						if (card.pack_code !== "Core")
-						{
-							card.image = card.image.substring(0, card.image.length - 4) + "_" + card.pack_code + ".jpg";
-						}
+						loaderCallback(type, cards);
 					}
-
-					imageMap[card.image] = card;
-				});
-
-				console.log(type + " " + JSON.stringify(cards));
-
-				if (fileIndex < files.length)
-				{
-					processFile();
+					JSONFileLoader.loadFile(filepath, myLoaderCallback);
 				}
-			}
 
-			processFile();
-		});
+				function loaderCallback(type, cards)
+				{
+					cards.forEach((card) =>
+					{
+						card.text = card.text.replace(/\u00A0/g, " "); // non-breaking space
+						card.text = card.text.replace(/\u2013/g, "-"); // en-dash
+						card.text = card.text.replace(/\u2022/g, ""); // bullet
+						card.text = card.text.replace(/\u2019/g, "'"); // right single quotation mark
+
+						card.text = card.text.replace("<b><i>Heale</i>r</b>", "<b><i>Healer</i></b>");
+						card.text = card.text.replace(/D\u00FAnadan/g, "D\u00FAnedain");
+						card.text = card.text.replace(/Dunedain/g, "D\u00FAnedain");
+						card.text = card.text.replace(/Resonse/g, "Response");
+						card.text = card.text.replace(/resouce/g, "resource");
+						card.text = card.text.replace(/Suffle/g, "Shuffle");
+					});
+
+					cards.forEach((card) =>
+					{
+						var name = card.name;
+						name = name.replace(/ /g, "-");
+						name = name.replace(/,/g, "");
+						name = name.replace(/\!/g, "");
+						name = name.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+						var typePath = type;
+						typePath = typePath.replace("player-", "");
+						card.image = "player-card/" + typePath + "/" + name + ".jpg";
+					});
+
+					var imageMap = {};
+					cards.forEach((card) =>
+					{
+						if (imageMap[card.image] !== undefined)
+						{
+							if (card.pack_code !== "Core")
+							{
+								card.image = card.image.substring(0, card.image.length - 4) + "_" + card.pack_code + ".jpg";
+							}
+						}
+
+						imageMap[card.image] = card;
+					});
+
+					cards.sort(CardComparator);
+
+					console.log(type + " " + JSON.stringify(cards));
+
+					if (fileIndex < files.length)
+					{
+						processFile();
+					}
+				}
+
+				processFile();
+			});
 	</script>
 </body>
 
