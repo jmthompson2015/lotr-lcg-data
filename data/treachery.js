@@ -3422,5 +3422,47 @@
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Beneath the Sands/Grabbed-by-Spiders.jpg"
+   },
+   {
+      "pack_code": "TBS",
+      "pack_name": "The Black Serpent",
+      "encounter_set": "The Black Serpent",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 101,
+      "name": "Bold and Grim",
+      "text": "Surge. Doomed 1.\n<b>When Revealed:</b> Deal 1 damage to each hero with an objective attached.",
+      "shadow": "<b>Shadow:</b> If attacking enemy is non-unique, either attach a <b>Harad</b> objective you control to attacking enemy, or it makes an additional attack after this one.",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/The Black Serpent/Bold-and-Grim.jpg"
+   },
+   {
+      "pack_code": "TBS",
+      "pack_name": "The Black Serpent",
+      "encounter_set": "The Black Serpent",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 102,
+      "name": "No Quarter",
+      "text": "<b>When Revealed:</b> Either reveal 2 encounter cards, or detach a <b>Harad</b> objective from a hero, reveal it, and add it to the staging area.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, attach a <b>Harad</b> objective you control to a non-unique encounter card in the staging area.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Black Serpent/No-Quarter.jpg"
+   },
+   {
+      "pack_code": "TBS",
+      "pack_name": "The Black Serpent",
+      "encounter_set": "The Black Serpent",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 103,
+      "name": "Chaos in the Night",
+      "text": "<b>When Revealed:</b> The first player must choose: either raise each player's threat by 3, or progress cannot be placed on quest cards until the end of the round.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. If this attack destroys a character, remove all progress from the main quest.",
+      "quantity_easy": 2,
+      "quantity": 0,
+      "image": "encounter-card/The Black Serpent/Chaos-in-the-Night.jpg"
    }
 ]

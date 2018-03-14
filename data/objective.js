@@ -948,5 +948,50 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Beneath the Sands/On-Track.jpg"
+   },
+   {
+      "pack_code": "TBS",
+      "pack_name": "The Black Serpent",
+      "encounter_set": "The Black Serpent",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 91,
+      "name": "Banner of the Serpent",
+      "is_unique": true,
+      "traits": "Item. Harad.",
+      "text": "Guarded (enemy or location).\nWhile Banner of the Serpent is attached to an encounter card, each <b>Harad</b> enemy gets +1 Attack.\n<b>Action:</b> Exhaust Banner of the Serpent and raise your threat by 1 to give each <b>Harad</b> enemy engaged with you -1 Attack until the end of the phase.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Black Serpent/Banner-of-the-Serpent.jpg"
+   },
+   {
+      "pack_code": "TBS",
+      "pack_name": "The Black Serpent",
+      "encounter_set": "The Black Serpent",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 92,
+      "name": "The Serpent's Garb",
+      "is_unique": true,
+      "traits": "Item. Harad.",
+      "text": "Guarded (enemy).\nAttached encounter card gets +2 Threat and is immune to player card effects.\n<b>Action:</b> Exhaust The Serpent's Garb and raise your threat by 1 to give a <b>Harad</b> enemy in the staging area -2 Threat until the end of the phase.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Black Serpent/The-Serpent's-Garb.jpg"
+   },
+   {
+      "pack_code": "TBS",
+      "pack_name": "The Black Serpent",
+      "encounter_set": "The Black Serpent",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 93,
+      "name": "Summons from Mordor",
+      "is_unique": true,
+      "traits": "Item. Harad.",
+      "text": "Guarded (location).\nWhile Summons from Mordor is attached to an encounter card, each player's threat cannot be reduced.\n<b>Action:</b> Exhaust Summons from Mordor and raise your threat by 1 to add 1 resource to attached hero's pool.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Black Serpent/Summons-from-Mordor.jpg"
    }
 ]

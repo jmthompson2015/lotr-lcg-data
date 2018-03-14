@@ -409,5 +409,21 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Beneath the Sands/Lost-Underground.jpg"
+   },
+   {
+      "pack_code": "TBS",
+      "pack_name": "The Black Serpent",
+      "encounter_set": "The Black Serpent",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 104,
+      "name": "Don't Let Them Escape!",
+      "text": "<b>Forced:</b> At the end of the round, discard all progress from the main quest.\n<b>Forced:</b> After this quest is chosen as the current quest, reveal an encounter card.",
+      "flavor": "Some of the Serpent’s men are trying to flee on horseback. If you don't act quickly they could escape and bring news to Cirith Gurat.",
+      "quest_points": 6,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Black Serpent/Don't-Let-Them-Escape.jpg"
    }
 ]
