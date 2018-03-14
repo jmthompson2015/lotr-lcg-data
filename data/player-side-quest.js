@@ -23,7 +23,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/09014",
       "imagesrc": "/bundles/cards/09014.png",
-      "image": "player-card/side-quest/Gather-Information.jpg"
+      "image": "player-card/player-side-quest/Gather-Information.jpg"
    },
    {
       "pack_code": "WoE",
@@ -48,7 +48,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/10009",
       "imagesrc": "/bundles/cards/10009.png",
-      "image": "player-card/side-quest/Scout-Ahead.jpg"
+      "image": "player-card/player-side-quest/Scout-Ahead.jpg"
    },
    {
       "pack_code": "EfMG",
@@ -74,7 +74,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/10034",
       "imagesrc": "/bundles/cards/10034.png",
-      "image": "player-card/side-quest/Double-Back.jpg"
+      "image": "player-card/player-side-quest/Double-Back.jpg"
    },
    {
       "pack_code": "AtE",
@@ -100,7 +100,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/10058",
       "imagesrc": "/bundles/cards/10058.png",
-      "image": "player-card/side-quest/Delay-the-Enemy.jpg"
+      "image": "player-card/player-side-quest/Delay-the-Enemy.jpg"
    },
    {
       "pack_code": "ToR",
@@ -126,7 +126,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/10086",
       "imagesrc": "/bundles/cards/10086.png",
-      "image": "player-card/side-quest/Send-for-Aid.jpg"
+      "image": "player-card/player-side-quest/Send-for-Aid.jpg"
    },
    {
       "pack_code": "TSoH",
@@ -151,7 +151,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/16013",
       "imagesrc": "/bundles/cards/16013.png",
-      "image": "player-card/side-quest/The-Storm-Comes.jpg"
+      "image": "player-card/player-side-quest/The-Storm-Comes.jpg"
    },
    {
       "pack_code": "M",
@@ -176,7 +176,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/17003",
       "imagesrc": "/bundles/cards/17003.png",
-      "image": "player-card/side-quest/Prepare-for-Battle.jpg"
+      "image": "player-card/player-side-quest/Prepare-for-Battle.jpg"
    },
    {
       "pack_code": "RAH",
@@ -200,7 +200,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/17036",
       "imagesrc": "/bundles/cards/17036.png",
-      "image": "player-card/side-quest/Explore-Secret-Ways.png"
+      "image": "player-card/player-side-quest/Explore-Secret-Ways.png"
    },
    {
       "pack_code": "BtS",
@@ -225,7 +225,7 @@
       "has_errata": false,
       "url": "http://ringsdb.com/card/17059",
       "imagesrc": "/bundles/cards/17059.png",
-      "image": "player-card/side-quest/Keep-Watch.jpg"
+      "image": "player-card/player-side-quest/Keep-Watch.jpg"
    },
    {
       "pack_code": "TBS",
@@ -249,6 +249,6 @@
       "octgnid": "97d09901-724d-4932-ac51-59df1ef1dbec",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17087",
-      "image": "player-card/side-quest/Rally-the-West.jpg"
+      "image": "player-card/player-side-quest/Rally-the-West.jpg"
    }
 ]
