@@ -393,5 +393,21 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Mumakil/Guardians-of-the-Jungle.jpg"
+   },
+   {
+      "pack_code": "BtS",
+      "pack_name": "Beneath the Sands",
+      "encounter_set": "Beneath the Sands",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 75,
+      "name": "Lost Underground",
+      "text": "<b>When Revealed:</b> Flip the <b>Search</b> objective to Off Track. While Lost Underground is in play, the <b>Search</b> objective cannot flip. (Do not resolve the Track keyword.)\n<b>Response:</b> When this stage is defeated, flip the <b>Search</b> objective to On Track and ignore its <b>Forced</b> effects until the end of the phase.",
+      "flavor": "You've lost your way underground. You must retrace your steps to get on track.",
+      "quest_points": 5,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Beneath the Sands/Lost-Underground.jpg"
    }
 ]

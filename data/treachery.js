@@ -3395,5 +3395,32 @@
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Race Across Harad/Howling-at-their-Heels.jpg"
+   },
+   {
+      "pack_code": "BtS",
+      "pack_name": "Beneath the Sands",
+      "encounter_set": "Beneath the Sands",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 73,
+      "name": "Forced Off Track",
+      "text": "<b>When Revealed:</b> Either flip the Search objective to Off Track, or deal 1 damage to each questing character.",
+      "shadow": "<b>Shadow:</b> If On Track is in play, attacking enemy makes an additional attack against you after this one.",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/Beneath the Sands/Forced-Off-Track.jpg"
+   },
+   {
+      "pack_code": "BtS",
+      "pack_name": "Beneath the Sands",
+      "encounter_set": "Beneath the Sands",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 74,
+      "name": "Grabbed by Spiders",
+      "text": "Surge. Doomed 1.\n<b>When Revealed:</b> Attach to the main quest. Limit 1 per quest. (Counts as a <b>Condition</b> attachment with the text: \"<b>Forced:</b> After the <b>Search</b> objective is flipped to Off Track, each player discards an ally he controls. Then, discard Grabbed by Spiders.\")",
+      "quantity_easy": 2,
+      "quantity": 1,
+      "image": "encounter-card/Beneath the Sands/Grabbed-by-Spiders.jpg"
    }
 ]

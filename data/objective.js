@@ -920,5 +920,33 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Mumakil/Noose-of-Vines.jpg"
+   },
+   {
+      "pack_code": "BtS",
+      "pack_name": "Beneath the Sands",
+      "encounter_set": "Beneath the Sands",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 79,
+      "name": "Off Track",
+      "traits": "Search.",
+      "text": "<b>Forced:</b> At the end of the quest phase, place 1 progress here. Then, either return the topmost location in the encounter discard pile to the staging area, or raise each player's threat by 1 for each resource here.\n<b>Progress cannot be placed on the main quest.</b>",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Beneath the Sands/Off-Track.jpg"
+   },
+   {
+      "pack_code": "BtS",
+      "pack_name": "Beneath the Sands",
+      "encounter_set": "Beneath the Sands",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 80,
+      "name": "On Track",
+      "traits": "Search.",
+      "text": "<b>Forced:</b> At the end of the quest phase, search the top 3 cards of the encounter deck for a card with 'On Track' in the lower right corner, add it to the staging area and discard the rest. If no card enters play from this effect, flip this objective.\n<b>Forced:</b> After the players quest unsuccessfully, flip this objective.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Beneath the Sands/On-Track.jpg"
    }
 ]
