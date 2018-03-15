@@ -3243,6 +3243,7 @@
       "octgnid": "69a257ff-3223-4511-a20f-81cb08655081",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17082",
+      "imagesrc": "/bundles/cards/17082.png",
       "image": "player-card/attachment/Song-of-Hope.png"
    },
    {
@@ -3265,6 +3266,7 @@
       "octgnid": "168c62d8-bb38-4258-9d2b-6b46aef6c700",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17086",
+      "imagesrc": "/bundles/cards/17086.png",
       "image": "player-card/attachment/Fearless-Scout.jpg"
    },
    {
@@ -3287,6 +3289,7 @@
       "octgnid": "00c52eae-b536-4458-abed-5b69e9283b11",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17088",
+      "imagesrc": "/bundles/cards/17088.png",
       "image": "player-card/attachment/Dunedain-Pipe.jpg"
    },
    {
@@ -3310,6 +3313,7 @@
       "octgnid": "06581875-bb7a-4214-b2c4-3774d68e8b8f",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17111",
+      "imagesrc": "/bundles/cards/17111.png",
       "image": "player-card/attachment/Diligent-Noble.jpg"
    },
    {
@@ -3333,7 +3337,55 @@
       "octgnid": "a3f93416-08e8-4d0c-b983-58ae2505e75c",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17117",
+      "imagesrc": "/bundles/cards/17117.png",
       "image": "player-card/attachment/Legacy-Blade.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "attachment",
+      "type_name": "Attachment",
+      "sphere_code": "tactics",
+      "sphere_name": "Tactics",
+      "position": 139,
+      "code": "17139",
+      "name": "Followed",
+      "traits": "Condition. Trap.",
+      "text": "Play into your play area unattached. \r\nWhile unattached, attach to the next eligible enemy that engages you. \r\n\r\nWhile attached enemy is engaged with you, reduce the total [threat] in the staging area by X, where X is attached enemy's printed [threat].",
+      "is_unique": false,
+      "cost": "1",
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Dimitri Bielak",
+      "octgnid": "b1edce11-55ce-468d-bf6a-b5d7035d41a3",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17139",
+      "imagesrc": "/bundles/cards/17139.png",
+      "image": "player-card/attachment/Followed.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "attachment",
+      "type_name": "Attachment",
+      "sphere_code": "neutral",
+      "sphere_name": "Neutral",
+      "position": 143,
+      "code": "17143",
+      "name": "Magic Ring",
+      "traits": "Artifact. Item. Ring.",
+      "text": "Attach to a hero. Limit 1 per hero and 1 per deck.\r\n<b>Action</b>: Exhaust Magic Ring and raise your threat by 1 to (choose 1): heal 1 damage from attached hero, add 1 resource to attached hero's pool, or ready attached hero.",
+      "flavor": "\"In Eregion long ago many Elven-rings were made, magic rings as you call them, and they were, of course, of various kinds...\" -Gandalf, The Fellowship of the Ring",
+      "is_unique": false,
+      "cost": "2",
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Lucas Durham",
+      "octgnid": "c984e8e8-94a6-4af6-9455-824ad2cf46f9",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17143",
+      "imagesrc": "/bundles/cards/17143.png",
+      "image": "player-card/attachment/Magic-Ring.jpg"
    },
    {
       "pack_code": "OHaUH",
@@ -3447,7 +3499,7 @@
       "cost": "0",
       "victory": 1,
       "quantity": 3,
-      "deck_limit": 3,
+      "deck_limit": 1,
       "illustrator": "Melissa Findley",
       "octgnid": "ae16236d-886e-4f65-9129-5ead1d373bfe",
       "has_errata": false,
@@ -3979,6 +4031,7 @@
       "octgnid": "ee75373c-d979-4e7a-934d-5542c24c8ab1",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146009",
+      "imagesrc": "/bundles/cards/146009.png",
       "image": "player-card/attachment/Guthwine.jpg"
    },
    {
@@ -4002,6 +4055,7 @@
       "octgnid": "04aa368e-b411-4d20-9ca3-f7baf4670599",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146010",
+      "imagesrc": "/bundles/cards/146010.png",
       "image": "player-card/attachment/Friend-of-Friends.jpg"
    },
    {
@@ -4025,6 +4079,7 @@
       "octgnid": "e4fd6941-6ced-4ddc-970d-a933ae7d5cb5",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146011",
+      "imagesrc": "/bundles/cards/146011.png",
       "image": "player-card/attachment/Orc-Disguise.jpg"
    }
 ]

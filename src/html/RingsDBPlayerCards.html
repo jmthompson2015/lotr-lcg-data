@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>RingsDB Attachment</title>
+	<title>RingsDB Player Cards</title>
 	<script src="../../lib/requirejs/require-2.3.5.js" data-main="../../src/main"></script>
 </head>
 <body>
-	<h1>RingsDB Attachment</h1>
+	<h1>RingsDB Player Cards</h1>
 	<div id="panel"></div>
 	<script>
 		"use strict";
 
 		require(["js/JSONFileLoader"], function(JSONFileLoader)
 		{
+			var types = ["ally", "attachment", "event", "hero", "player-side-quest", "treasure"];
 			var file = "http://ringsdb.com/api/public/cards/";
 			var callback = function(data)
 			{
-				var filteredData = data.filter((card) => card.type_code === "attachment");
-				var content = filteredData.reduce(function(accumulator, card, i)
+				types.forEach(type =>
 				{
-					var item = JSON.stringify(card);
-					return accumulator + item + (i < filteredData.length - 1 ? ", " : "");
-				}, "[");
-				content += "]";
-				console.log(content);
+					var filteredData = data.filter((card) => card.type_code === type);
+					var content = filteredData.reduce(function(accumulator, card, i)
+					{
+						var item = JSON.stringify(card);
+						return accumulator + item + (i < filteredData.length - 1 ? ", " : "");
+					}, "[");
+					content += "]";
+					console.log(type + " = " + content);
+				});
 				document.getElementById("panel").innerHTML = "See browser console for output.";
 			}
 			JSONFileLoader.loadFile(file, callback);

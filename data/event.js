@@ -4054,6 +4054,7 @@
       "octgnid": "a73ea798-1d91-4bda-86d9-1085739d9cb4",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17083",
+      "imagesrc": "/bundles/cards/17083.png",
       "image": "player-card/event/Burst-into-Song.png"
    },
    {
@@ -4075,6 +4076,7 @@
       "octgnid": "ae807a4c-d656-42a1-bf2c-024eaffc9fc6",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17085",
+      "imagesrc": "/bundles/cards/17085.png",
       "image": "player-card/event/Oath-of-Eorl.jpg"
    },
    {
@@ -4097,6 +4099,7 @@
       "octgnid": "c7c503b9-a804-4e37-8554-927d0095e7b1",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17089",
+      "imagesrc": "/bundles/cards/17089.png",
       "image": "player-card/event/Old-Toby.png"
    },
    {
@@ -4119,6 +4122,7 @@
       "octgnid": "e1401810-ad6f-41e9-a637-c2e1928f89f9",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17113",
+      "imagesrc": "/bundles/cards/17113.png",
       "image": "player-card/event/Fierce-Defense.jpg"
    },
    {
@@ -4140,6 +4144,7 @@
       "octgnid": "d8755c10-b8c6-4a2c-9315-fce9f765234d",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17115",
+      "imagesrc": "/bundles/cards/17115.png",
       "image": "player-card/event/Heirs-of-Earendil.jpg"
    },
    {
@@ -4161,7 +4166,102 @@
       "octgnid": "b82b6804-22c6-4e54-b029-50e99962cbe4",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17118",
+      "imagesrc": "/bundles/cards/17118.png",
       "image": "player-card/event/Open-the-Armory.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "event",
+      "type_name": "Event",
+      "sphere_code": "leadership",
+      "sphere_name": "Leadership",
+      "position": 137,
+      "code": "17137",
+      "name": "Bulwark of the West",
+      "text": "<b>Action</b>: Discard an ally you control to choose and discard a <b><i>Condition</b></i> attachment.",
+      "flavor": "\"By our valour the wildfolk of the East are still restrained, and the terror of Morgul kept at bay; and thus alone are peace and freedom maintained in the lads behind us…\" -Boromir, The Fellowship of the Ring",
+      "is_unique": false,
+      "cost": "0",
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Stanislav Dikolenko",
+      "octgnid": "110c523a-1fcb-49ee-bd8b-04f724bfe3cf",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17137",
+      "imagesrc": "/bundles/cards/17137.png",
+      "image": "player-card/event/Bulwark-of-the-West.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "event",
+      "type_name": "Event",
+      "sphere_code": "spirit",
+      "sphere_name": "Spirit",
+      "position": 140,
+      "code": "17140",
+      "name": "Flight to the Sea",
+      "text": "Play only if you control a <b><i>Noldor</b></i> or <b><i>Silvan</b></i> hero.\r\n<b>Planning Action</b>: Shuffle a set aside Wind from the Sea into the encounter deck. Then, remove Flight to the Sea from the game.",
+      "flavor": "\"...they may pass to the Sea unhindered and leave the Middle-earth forever.\" -Haldir, The Two Towers",
+      "is_unique": false,
+      "cost": "2",
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Alexander Gustafson",
+      "octgnid": "3bad07dc-0b1a-4785-97c0-7f912aacb443",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17140",
+      "imagesrc": "/bundles/cards/17140.png",
+      "image": "player-card/event/Flight-to-the-Sea.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "event",
+      "type_name": "Event",
+      "sphere_code": "lore",
+      "sphere_name": "Lore",
+      "position": 142,
+      "code": "17142",
+      "name": "The Dam Bursts",
+      "text": "Play only if you control a unique character with the <b><i>Ent</b></i> trait and another unique character with the <b><i>Hobbit</b></i> trait.\r\n<b>Action</b>: Ready each damaged <b><i>Ent</b></i> character you control.",
+      "is_unique": false,
+      "cost": "2",
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Sergey Glushakov",
+      "octgnid": "f932fd38-a1ba-45b3-a2a6-d152298a23ff",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17142",
+      "imagesrc": "/bundles/cards/17142.png",
+      "image": "player-card/event/The-Dam-Bursts.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "event",
+      "type_name": "Event",
+      "sphere_code": "neutral",
+      "sphere_name": "Neutral",
+      "position": 144,
+      "code": "17144",
+      "name": "Wind from the Sea",
+      "text": "Encounter. \r\n<b>When Revealed</b>: Ready each hero committed to the quest and remove Wind from the Sea from the game.\r\n<i><b>Shadow</b>: Ready the defending character</i>",
+      "is_unique": false,
+      "cost": "2",
+      "willpower": 1,
+      "attack": 1,
+      "defense": 0,
+      "health": 2,
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Davis Engel",
+      "octgnid": "edb23ff8-1851-41ec-8e8e-dfac6ef9e710",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17144",
+      "imagesrc": "/bundles/cards/17144.png",
+      "image": "player-card/event/Wind-from-the-Sea.jpg"
    },
    {
       "pack_code": "OHaUH",
@@ -4750,6 +4850,7 @@
       "octgnid": "cb08f48e-7acf-44ff-ac6f-36d4f017a962",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146012",
+      "imagesrc": "/bundles/cards/146012.png",
       "image": "player-card/event/Captains-of-the-West.jpg"
    },
    {
@@ -4772,6 +4873,7 @@
       "octgnid": "08d95282-e88d-4a9c-a01b-651d569052ee",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146013",
+      "imagesrc": "/bundles/cards/146013.png",
       "image": "player-card/event/Raise-the-Shire.jpg"
    }
 ]

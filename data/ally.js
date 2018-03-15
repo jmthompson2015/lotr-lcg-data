@@ -4873,6 +4873,7 @@
       "octgnid": "0238e687-61a4-4e2f-a858-70251cc88552",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17084",
+      "imagesrc": "/bundles/cards/17084.png",
       "image": "player-card/ally/Defender-of-Cair-Andros.jpg"
    },
    {
@@ -4899,6 +4900,7 @@
       "octgnid": "2872a8fb-53e6-4e0d-855d-4e1f32cdcfa0",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17090",
+      "imagesrc": "/bundles/cards/17090.png",
       "image": "player-card/ally/Southron-Refugee.jpg"
    },
    {
@@ -4926,6 +4928,7 @@
       "octgnid": "0525e10a-8260-4f75-add1-1706e39a9665",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17110",
+      "imagesrc": "/bundles/cards/17110.png",
       "image": "player-card/ally/Knight-of-Dale.jpg"
    },
    {
@@ -4953,6 +4956,7 @@
       "octgnid": "0916b82a-068e-4ca3-9554-f589a58e82fe",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17112",
+      "imagesrc": "/bundles/cards/17112.png",
       "image": "player-card/ally/Riddermark-Knight.jpg"
    },
    {
@@ -4980,6 +4984,7 @@
       "octgnid": "d86c881f-b79c-42ff-9a8f-35e2fc26242c",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17114",
+      "imagesrc": "/bundles/cards/17114.png",
       "image": "player-card/ally/Eregion-Survivor.jpg"
    },
    {
@@ -5007,7 +5012,91 @@
       "octgnid": "b6065fa3-ce09-4b16-a968-7dc86d72482c",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17116",
+      "imagesrc": "/bundles/cards/17116.png",
       "image": "player-card/ally/Leaflock.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "ally",
+      "type_name": "Ally",
+      "sphere_code": "leadership",
+      "sphere_name": "Leadership",
+      "position": 136,
+      "code": "17136",
+      "name": "Halfast Gamgee",
+      "traits": "Hobbit.",
+      "text": "Reduce the cost to play Halfast Gamgee by 1 for each side quest in the victory display. \r\n\r\n<b>Response</b>: After Halfast Gamgee enters play, add 1 resource to a hero's resource pool.",
+      "flavor": "\"He works for Mr. Boffin at Overhill and goes up to the Northfarthing for the hunting.\" -Sam Gamgee, The Fellowship of the Ring",
+      "is_unique": true,
+      "cost": "3",
+      "willpower": 2,
+      "attack": 1,
+      "defense": 0,
+      "health": 2,
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Stanislav Dikolenko",
+      "octgnid": "4e72098a-9ddf-4426-a2df-110c3f4c32c4",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17136",
+      "imagesrc": "/bundles/cards/17136.png",
+      "image": "player-card/ally/Halfast-Gamgee.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "ally",
+      "type_name": "Ally",
+      "sphere_code": "tactics",
+      "sphere_name": "Tactics",
+      "position": 138,
+      "code": "17138",
+      "name": "Beorning Guardian",
+      "traits": "Beorning.",
+      "text": "<b>Response</b>: After Beorning Guardian participates in an attack that destroys an enemy, discard Beorning Guardian to place X progress on a location, where X is the destroyed enemy's printed [threat].",
+      "flavor": "\"...if it were not for the Beornings, the passage from Dale to Rivendell would long ago have become impossible.\" -Glóin, The Fellowship of the Ring",
+      "is_unique": false,
+      "cost": "3",
+      "willpower": 0,
+      "attack": 3,
+      "defense": 1,
+      "health": 3,
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Marius Bota",
+      "octgnid": "cd1ebcfa-adea-47e5-9b0b-473d7114b709",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17138",
+      "imagesrc": "/bundles/cards/17138.png",
+      "image": "player-card/ally/Beorning-Guardian.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "ally",
+      "type_name": "Ally",
+      "sphere_code": "lore",
+      "sphere_name": "Lore",
+      "position": 141,
+      "code": "17141",
+      "name": "Emyn Arnen Ranger",
+      "traits": "Gondor. Ranger.",
+      "text": "<b>Response</b>: After Emyn Arnen Ranger commits to the quest, choose an enemy with a <b><i>Trap</b></i> attachment. Until the end of the phase, Emyn Arnen Ranger gets +X [willpower], where X is the chosen enemy's printed [threat].",
+      "is_unique": false,
+      "cost": "2",
+      "willpower": 0,
+      "attack": 1,
+      "defense": 1,
+      "health": 2,
+      "quantity": 3,
+      "deck_limit": 3,
+      "illustrator": "Aleksander Karcz",
+      "octgnid": "67b8089a-af30-46eb-b581-5def4da14149",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17141",
+      "imagesrc": "/bundles/cards/17141.png",
+      "image": "player-card/ally/Emyn-Arnen-Ranger.jpg"
    },
    {
       "pack_code": "OHaUH",
@@ -5787,6 +5876,7 @@
       "octgnid": "0baaf661-4bfd-48ed-80d4-bfa98217da1c",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146005",
+      "imagesrc": "/bundles/cards/146005.png",
       "image": "player-card/ally/Rosie-Cotton.jpg"
    },
    {
@@ -5814,6 +5904,7 @@
       "octgnid": "0ff72c0f-a6d6-48d3-8781-1988a7e3ba11",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146006",
+      "imagesrc": "/bundles/cards/146006.png",
       "image": "player-card/ally/Elfhelm_MoF.jpg"
    },
    {
@@ -5841,6 +5932,7 @@
       "octgnid": "51512531-0697-4005-9fb6-884da5b02f75",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146007",
+      "imagesrc": "/bundles/cards/146007.png",
       "image": "player-card/ally/Elladan.jpg"
    },
    {
@@ -5868,6 +5960,7 @@
       "octgnid": "769dbf59-9e02-4750-9605-b1ad6c8783e2",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146008",
+      "imagesrc": "/bundles/cards/146008.png",
       "image": "player-card/ally/Elrohir.jpg"
    }
 ]

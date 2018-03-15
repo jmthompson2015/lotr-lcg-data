@@ -1784,6 +1784,7 @@
       "octgnid": "d87344c3-d234-44c8-89b1-249f5c88bfab",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17081",
+      "imagesrc": "/bundles/cards/17081.png",
       "image": "player-card/hero/Fastred.jpg"
    },
    {
@@ -1811,7 +1812,36 @@
       "octgnid": "375d1e9d-7de9-4853-a99f-c15885256a6f",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17109",
+      "imagesrc": "/bundles/cards/17109.png",
       "image": "player-card/hero/Folco-Boffin.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "type_code": "hero",
+      "type_name": "Hero",
+      "sphere_code": "tactics",
+      "sphere_name": "Tactics",
+      "position": 135,
+      "code": "17135",
+      "name": "Quickbeam",
+      "traits": "Ent.",
+      "text": "Cannot have restricted attachments. \r\n<b>Action</b>: Deal 2 damage to Quickbeam to ready him. (Limit once per phase.)",
+      "flavor": "\"...he can move like a wind when he is roused.\" -Pippin, The Two Towers",
+      "is_unique": true,
+      "threat": 12,
+      "willpower": 2,
+      "attack": 4,
+      "defense": 1,
+      "health": 5,
+      "quantity": 1,
+      "deck_limit": 1,
+      "illustrator": "Guillaume Ducos",
+      "octgnid": "b62716d9-5e70-4ec1-bcb7-852f67299e82",
+      "has_errata": false,
+      "url": "http://ringsdb.com/card/17135",
+      "imagesrc": "/bundles/cards/17135.png",
+      "image": "player-card/hero/Quickbeam.jpg"
    },
    {
       "pack_code": "OHaUH",
@@ -2564,6 +2594,7 @@
       "octgnid": "b937644c-ccbb-4a39-ae3c-24857d1d4d57",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146001",
+      "imagesrc": "/bundles/cards/146001.png",
       "image": "player-card/hero/Frodo-Baggins_MoF.jpg"
    },
    {
@@ -2591,6 +2622,7 @@
       "octgnid": "f1cc6057-ced3-4105-9172-869d26a54af5",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146002",
+      "imagesrc": "/bundles/cards/146002.png",
       "image": "player-card/hero/Aragorn_MoF.jpg"
    },
    {
@@ -2618,6 +2650,7 @@
       "octgnid": "7a1bc81a-c226-4589-a1cf-65668846c64b",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146003",
+      "imagesrc": "/bundles/cards/146003.png",
       "image": "player-card/hero/Eomer_MoF.jpg"
    },
    {
@@ -2644,6 +2677,7 @@
       "octgnid": "bbab76d6-7554-40da-af74-fb502d08d9a8",
       "has_errata": false,
       "url": "http://ringsdb.com/card/146004",
+      "imagesrc": "/bundles/cards/146004.png",
       "image": "player-card/hero/Tom-Cotton.jpg"
    }
 ]

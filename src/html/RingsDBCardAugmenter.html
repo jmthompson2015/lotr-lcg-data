@@ -53,7 +53,6 @@
 						name = name.replace(/\!/g, "");
 						name = name.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
 						var typePath = type;
-						typePath = typePath.replace("player-", "");
 						card.image = "player-card/" + typePath + "/" + name + ".jpg";
 					});
 
