@@ -425,5 +425,21 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Black Serpent/Don't-Let-Them-Escape.jpg"
+   },
+   {
+      "pack_code": "DoCG",
+      "pack_name": "The Dungeons of Cirith Gurat",
+      "encounter_set": "The Dungeons of Cirith Gurat",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 131,
+      "name": "Captured!",
+      "text": "<b>When Revealed:</b> Each player loses control of an ally he controls and attaches it to this stage. If no allies are attached to this stage, discard it and reveal an additional encounter card.\n<b>Forced:</b> When this stage is defeated, each player reduces his threat by X, where X is the cost of the ally he controls that was attached to this stage.",
+      "flavor": "Orcs spring from a secret passage and pull your friends inside!",
+      "quest_points": 5,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Dungeons of Cirith Gurat/Captured.jpg"
    }
 ]

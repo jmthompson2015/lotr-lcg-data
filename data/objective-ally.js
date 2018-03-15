@@ -335,5 +335,24 @@
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Race Across Harad/Tamed-Mumak.png"
+   },
+   {
+      "pack_code": "DoCG",
+      "pack_name": "The Dungeons of Cirith Gurat",
+      "encounter_set": "The Dungeons of Cirith Gurat",
+      "type_code": "objective-ally",
+      "type_name": "Objective-Ally",
+      "position": 120,
+      "name": "Abaan",
+      "is_unique": true,
+      "traits": "Harad.",
+      "text": "While Abaan is free of encounters, the first player gains control of Abaan.\n<b>Response:</b> After Abaan exhausts, choose a <b>Harad</b> character to get +1 Willpower, +1 Attack, and +1 Defense until the end of the round.\n<b>If Abaan leaves play, the players lose the game.</b>",
+      "willpower": 1,
+      "attack": 1,
+      "defense": 1,
+      "hit_points": 3,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Dungeons of Cirith Gurat/Abaan.jpg"
    }
 ]

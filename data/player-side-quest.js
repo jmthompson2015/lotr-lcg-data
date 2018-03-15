@@ -249,6 +249,6 @@
       "octgnid": "97d09901-724d-4932-ac51-59df1ef1dbec",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17087",
-      "image": "player-card/player-side-quest/Rally-the-West.jpg"
+      "image": "player-card/player-side-quest/Rally-the-West.png"
    }
 ]

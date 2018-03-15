@@ -4054,7 +4054,7 @@
       "octgnid": "a73ea798-1d91-4bda-86d9-1085739d9cb4",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17083",
-      "image": "player-card/event/Burst-into-Song.jpg"
+      "image": "player-card/event/Burst-into-Song.png"
    },
    {
       "pack_code": "TBS",
@@ -4097,7 +4097,7 @@
       "octgnid": "c7c503b9-a804-4e37-8554-927d0095e7b1",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17089",
-      "image": "player-card/event/Old-Toby.jpg"
+      "image": "player-card/event/Old-Toby.png"
    },
    {
       "pack_code": "DoCG",

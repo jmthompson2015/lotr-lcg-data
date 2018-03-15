@@ -3464,5 +3464,33 @@
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Black Serpent/Chaos-in-the-Night.jpg"
+   },
+   {
+      "pack_code": "DoCG",
+      "pack_name": "The Dungeons of Cirith Gurat",
+      "encounter_set": "The Dungeons of Cirith Gurat",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 129,
+      "name": "Taken Prisoner",
+      "text": "<b>When Revealed:</b> The first player attaches an ally he controls to an unattached enemy or location in the staging area. If he cannot, Taken Prisoner gains doomed 2.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. If this attack destroys an ally, reveal the top card of the encounter deck.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Dungeons of Cirith Gurat/Taken-Prisoner.jpg"
+   },
+   {
+      "pack_code": "DoCG",
+      "pack_name": "The Dungeons of Cirith Gurat",
+      "encounter_set": "The Dungeons of Cirith Gurat",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 130,
+      "name": "Tormented by Orcs",
+      "text": "<b>When Revealed:</b> Each player raises his threat by 1 for each guarded objective he owns. If any player does not own a guarded objective, Tormented by Orcs gains surge.",
+      "shadow": "<b>Shadow:</b> Until the end of the phase, attacking enemy gets +1 Defense (+2 Defense instead if it is guarding an objective).",
+      "quantity_easy": 3,
+      "quantity": 0,
+      "image": "encounter-card/The Dungeons of Cirith Gurat/Tormented-by-Orcs.jpg"
    }
 ]

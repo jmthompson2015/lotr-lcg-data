@@ -3243,7 +3243,7 @@
       "octgnid": "69a257ff-3223-4511-a20f-81cb08655081",
       "has_errata": false,
       "url": "http://ringsdb.com/card/17082",
-      "image": "player-card/attachment/Song-of-Hope.jpg"
+      "image": "player-card/attachment/Song-of-Hope.png"
    },
    {
       "pack_code": "TBS",

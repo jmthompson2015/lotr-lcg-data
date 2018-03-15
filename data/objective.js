@@ -993,5 +993,18 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Black Serpent/Summons-from-Mordor.jpg"
+   },
+   {
+      "pack_code": "DoCG",
+      "pack_name": "The Dungeons of Cirith Gurat",
+      "encounter_set": "The Dungeons of Cirith Gurat",
+      "type_code": "objective",
+      "type_name": "Objective",
+      "position": 119,
+      "name": "The Captives of Cirith Gurat",
+      "text": "While a character is attached to an encounter card, it is considered to be a guarded objective with a blank text box.\n<b>Forced:</b> When a character is attached to an encounter card, discard each token and attachment on that character.\n<b>Forced:</b> When an objective is free of encounters, it is 'rescued' and that character's owner takes control of it, exhausted.",
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Dungeons of Cirith Gurat/The-Captives-of-Cirith-Gurat.jpg"
    }
 ]
