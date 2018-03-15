@@ -441,5 +441,21 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dungeons of Cirith Gurat/Captured.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "encounter_set": "Mountains of Shadow",
+      "type_code": "encounter-side-quest",
+      "type_name": "Encounter-Side-Quest",
+      "position": 156,
+      "name": "Find a Way Down",
+      "text": "Surge.\nEach player's threat cannot be reduced.\n<b>Response:</b> When Find a Way Down is defeated, each player reduces his threat by 3.",
+      "flavor": "The path through the hills has led you too far up, and now you walk along exposed heights where there's nowhere to hide. You need to find a way down.",
+      "quest_points": 6,
+      "victory": 10,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/Mountains of Shadow/Find-a-Way-Down.jpg"
    }
 ]

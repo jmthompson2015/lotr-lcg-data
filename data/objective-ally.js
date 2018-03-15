@@ -354,5 +354,24 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dungeons of Cirith Gurat/Abaan.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "encounter_set": "The Crossings of Poros",
+      "type_code": "objective-ally",
+      "type_name": "Objective-Ally",
+      "position": 145,
+      "name": "Poros Garrison",
+      "is_unique": true,
+      "traits": "Gondor.",
+      "text": "The first player gains control of Poros Garrison.\nImmune to player card effects.\nYou can optionally engage an additional enemy during the encounter phase.\n<b>If Poros Garrison leaves play, the players lose the game.</b>",
+      "willpower": 3,
+      "attack": 4,
+      "defense": 3,
+      "hit_points": 6,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Crossings of Poros/Poros-Garrison.jpg"
    }
 ]

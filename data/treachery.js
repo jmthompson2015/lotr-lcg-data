@@ -3492,5 +3492,33 @@
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Dungeons of Cirith Gurat/Tormented-by-Orcs.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "encounter_set": "The Crossings of Poros",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 152,
+      "name": "Danger Close Behind",
+      "text": "Doomed 1.\n<b>When Revealed:</b> Choose 1 random card from the set aside encounter set with the most cards remaining, Reveal that card as if it was the top card of the encounter deck.",
+      "shadow": "<b>Shadow:</b> If this attack destroys a character, resolve the 'when revealed' effect of this card.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/The Crossings of Poros/Danger-Close-Behind.jpg"
+   },
+   {
+      "pack_code": "CoP",
+      "pack_name": "The Crossings of Poros",
+      "encounter_set": "Mountains of Shadow",
+      "type_code": "treachery",
+      "type_name": "Treachery",
+      "position": 155,
+      "name": "Mountains of Shadow",
+      "text": "<b>When Revealed:</b> Raise each player's threat by X, where X is the printed quest points of the active location. If there is no active location, Mountains of Shadow gains surge.",
+      "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack. If this attack destroys a character, raise your threat by 2.",
+      "quantity_easy": 1,
+      "quantity": 1,
+      "image": "encounter-card/Mountains of Shadow/Mountains-of-Shadow.jpg"
    }
 ]
