@@ -11,7 +11,9 @@
 		require(["js/CardComparator", "js/JSONFileLoader", "js/Pack"],
 			function(CardComparator, JSONFileLoader, Pack)
 			{
-				var files = ["enemy.js", "location.js", "objective.js", "quest.js", "treachery.js"];
+				var files = ["encounter-side-quest.js", "enemy.js", "location.js", "objective.js", "objective-ally.js", "objective-hero.js", "objective-location.js",
+					"quest.js", "ship-enemy.js", "ship-objective.js", "treachery.js"
+				];
 				var fileIndex = 0;
 
 				function processFile()

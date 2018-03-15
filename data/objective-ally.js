@@ -300,25 +300,6 @@
       "image": "encounter-card/The Stormcaller Elite/Na'asiyah-Objective-Ally.jpg"
    },
    {
-      "pack_code": "OtD",
-      "pack_name": "The Hobbit: On the Doorstep",
-      "encounter_set": "The Battle of Five Armies",
-      "type_code": "objective-ally",
-      "type_name": "Objective-Ally",
-      "position": 52,
-      "name": "Misty Mountain Eagle",
-      "traits": "Creature. Eagle.",
-      "text": "<b>Action:</b> The first player may spend 2 Baggins resources to (choose one): take control of Misty Mountain Eagle, or discard this ally to discard a non-unique enemy in the staging area.",
-      "shadow": "<b>Shadow:</b> Deal 3 damage to attacking enemy.",
-      "willpower": 3,
-      "attack": 3,
-      "defense": 3,
-      "hit_points": 2,
-      "quantity_easy": 1,
-      "quantity": 0,
-      "image": "encounter-card/The Battle of Five Armies/Misty-Mountain-Eagle.jpg"
-   },
-   {
       "pack_code": "RAH",
       "pack_name": "Race Across Harad",
       "encounter_set": "Race Across Harad",
@@ -373,5 +354,24 @@
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Crossings of Poros/Poros-Garrison.jpg"
+   },
+   {
+      "pack_code": "OtD",
+      "pack_name": "The Hobbit: On the Doorstep",
+      "encounter_set": "The Battle of Five Armies",
+      "type_code": "objective-ally",
+      "type_name": "Objective-Ally",
+      "position": 52,
+      "name": "Misty Mountain Eagle",
+      "traits": "Creature. Eagle.",
+      "text": "<b>Action:</b> The first player may spend 2 Baggins resources to (choose one): take control of Misty Mountain Eagle, or discard this ally to discard a non-unique enemy in the staging area.",
+      "shadow": "<b>Shadow:</b> Deal 3 damage to attacking enemy.",
+      "willpower": 3,
+      "attack": 3,
+      "defense": 3,
+      "hit_points": 2,
+      "quantity_easy": 1,
+      "quantity": 0,
+      "image": "encounter-card/The Battle of Five Armies/Misty-Mountain-Eagle.jpg"
    }
 ]
