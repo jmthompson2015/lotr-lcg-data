@@ -14,7 +14,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Spiders of Mirkwood/King-Spider.jpg"
@@ -34,7 +34,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "victory": 5,
       "quantity_easy": 0,
       "quantity": 1,
@@ -55,7 +55,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Spiders of Mirkwood/Ungoliant's-Spawn.jpg"
@@ -75,7 +75,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 0,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Wilderlands/Wolf-Rider.jpg"
@@ -95,7 +95,7 @@
       "threat": 1,
       "attack": 6,
       "defense": 3,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Wilderlands/Hill-Troll.jpg"
@@ -114,7 +114,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 0,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Wilderlands/Goblin-Sniper.jpg"
@@ -134,7 +134,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 1,
-      "hit_points": 7,
+      "health": 7,
       "victory": 3,
       "quantity_easy": 0,
       "quantity": 1,
@@ -155,7 +155,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Wilderlands/Wargs.jpg"
@@ -175,7 +175,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Dol Guldur Orcs/Dol-Guldur-Orcs-Enemy.jpg"
@@ -194,7 +194,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "victory": 4,
       "quantity_easy": 0,
       "quantity": 1,
@@ -214,7 +214,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Dol Guldur Orcs/Dol-Guldur-Beastmaster.jpg"
@@ -234,7 +234,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Passage Through Mirkwood/Forest-Spider.jpg"
@@ -253,7 +253,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Passage Through Mirkwood/East-Bight-Patrol.jpg"
@@ -273,7 +273,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 0,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Passage Through Mirkwood/Black-Forest-Bats.jpg"
@@ -292,7 +292,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "victory": 5,
       "quantity_easy": 0,
       "quantity": 2,
@@ -312,7 +312,7 @@
       "threat": 5,
       "attack": 4,
       "defense": 3,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Escape from Dol Guldur/Nazgul-of-Dol-Guldur.jpg"
@@ -332,7 +332,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Escape from Dol Guldur/Cavern-Guardian.jpg"
@@ -352,7 +352,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Journey Along the Anduin/Misty-Mountain-Goblins.jpg"
@@ -372,7 +372,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 0,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Sauron's Reach/Eastern-Crows.jpg"
@@ -391,7 +391,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Hunt for Gollum/Goblintown-Scavengers.jpg"
@@ -411,7 +411,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 2,
       "quantity": 3,
       "image": "encounter-card/The Hunt for Gollum/Hunters-from-Mordor.jpg"
@@ -431,7 +431,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 10,
+      "health": 10,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Conflict at the Carrock/Louis.jpg"
@@ -451,7 +451,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 10,
+      "health": 10,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Conflict at the Carrock/Morris.jpg"
@@ -471,7 +471,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 10,
+      "health": 10,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Conflict at the Carrock/Stuart.jpg"
@@ -491,7 +491,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 10,
+      "health": 10,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Conflict at the Carrock/Rupert.jpg"
@@ -511,7 +511,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 0,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 2,
       "quantity": 2,
       "image": "encounter-card/Conflict at the Carrock/Muck-Adder.jpg"
@@ -531,7 +531,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/A Journey to Rhosgobel/Mirkwood-Flock.jpg"
@@ -551,7 +551,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 0,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 5,
       "quantity": 0,
       "image": "encounter-card/A Journey to Rhosgobel/Black-Forest-Bats.jpg"
@@ -570,7 +570,7 @@
       "threat": 3,
       "attack": 1,
       "defense": 2,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Hills of Emyn Muil/Orc-Horse-Thieves.jpg"
@@ -590,7 +590,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 2,
-      "hit_points": 6,
+      "health": 6,
       "escape": 2,
       "quantity_easy": 2,
       "quantity": 2,
@@ -610,7 +610,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 1,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 2,
       "quantity": 2,
       "image": "encounter-card/Return to Mirkwood/Mirkwood-Bats.jpg"
@@ -630,7 +630,7 @@
       "threat": 2,
       "attack": 8,
       "defense": 4,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 0,
       "quantity": 3,
       "image": "encounter-card/Return to Mirkwood/Attercop-Attercop.jpg"
@@ -650,7 +650,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 3,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Into the Pit/Patrol-Leader.jpg"
@@ -669,7 +669,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 4,
-      "hit_points": 7,
+      "health": 7,
       "victory": 2,
       "quantity_easy": 1,
       "quantity": 1,
@@ -689,7 +689,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/The Seventh Level/Orc-Horn-Blower.jpg"
@@ -707,7 +707,7 @@
       "text": "Immune to player card effects. The Nameless Fear cannot engage or be engaged.<br/>X is the number of victory points in the victory display.",
       "flavor": "\"Too deep we delved there, and woke the nameless fear.\"\n<cite>Glóin, The Fellowship of the Ring</cite>",
       "engagement_cost": 50,
-      "hit_points": 27,
+      "health": 27,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Flight from Moria/The-Nameless-Fear.jpg"
@@ -727,7 +727,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/Plundering Goblins/Chieftain-of-the-Pit.jpg"
@@ -747,7 +747,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 5,
       "quantity": 0,
       "image": "encounter-card/Plundering Goblins/Goblin-Spearman.jpg"
@@ -766,7 +766,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 3,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Plundering Goblins/Goblin-Archer.jpg"
@@ -786,7 +786,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Twists and Turns/Goblin-Follower.jpg"
@@ -805,7 +805,7 @@
       "threat": 2,
       "attack": 7,
       "defense": 3,
-      "hit_points": 10,
+      "health": 10,
       "victory": 3,
       "quantity_easy": 0,
       "quantity": 2,
@@ -825,7 +825,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 3,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/Deeps of Moria/Orc-Drummer.jpg"
@@ -843,7 +843,7 @@
       "shadow": "<b>Shadow:</b> Attacking enemy gets +X Attack. X is the number of players in the game.",
       "engagement_cost": 29,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Deeps of Moria/Stray-Goblin.jpg"
@@ -863,7 +863,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 3,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Misty Mountains/Black-Uruks.jpg"
@@ -883,7 +883,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Misty Mountains/Mountain-Warg.jpg"
@@ -902,7 +902,7 @@
       "threat": 3,
       "attack": 1,
       "defense": 0,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Goblins of the Deep/Goblin-Scout.jpg"
@@ -922,7 +922,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 5,
       "quantity": 0,
       "image": "encounter-card/Goblins of the Deep/Goblin-Swordsman.jpg"
@@ -942,7 +942,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Redhorn Gate/Mountain-Goblin.jpg"
@@ -962,7 +962,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 5,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/The Redhorn Gate/Mountain-Troll.jpg"
@@ -981,7 +981,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Redhorn Gate/Snow-Warg.jpg"
@@ -1000,7 +1000,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Road to Rivendell/Goblin-Taskmaster.jpg"
@@ -1019,7 +1019,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Road to Rivendell/Orc-Raiders.jpg"
@@ -1039,7 +1039,7 @@
       "threat": 2,
       "attack": 0,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Road to Rivendell/Crebain.jpg"
@@ -1058,7 +1058,7 @@
       "threat": 0,
       "attack": 2,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Road to Rivendell/Wild-Bear.jpg"
@@ -1078,7 +1078,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 7,
-      "hit_points": 9,
+      "health": 9,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -1098,7 +1098,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/The Watcher in the Water/Grasping-Tentacle.jpg"
@@ -1117,7 +1117,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/The Watcher in the Water/Thrashing-Tentacle.jpg"
@@ -1136,7 +1136,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/The Watcher in the Water/Striking-Tentacle.jpg"
@@ -1155,7 +1155,7 @@
       "threat": 3,
       "attack": 2,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Long Dark/Cave-Spider.jpg"
@@ -1175,7 +1175,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Long Dark/Goblin-Sneak.jpg"
@@ -1195,7 +1195,7 @@
       "threat": 4,
       "attack": 3,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/The Long Dark/Goblin-Warlord.jpg"
@@ -1215,7 +1215,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Long Dark/Rock-Adder.jpg"
@@ -1270,7 +1270,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 2,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Foundations of Stone/Moria-Bats.jpg"
@@ -1290,7 +1290,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 3,
-      "hit_points": 27,
+      "health": 27,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Shadow and Flame/Durin's-Bane.jpg"
@@ -1309,7 +1309,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Shadow and Flame/Ranging-Goblin.jpg"
@@ -1329,7 +1329,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 5,
       "quantity": 0,
       "image": "encounter-card/Peril in Pelargir/Harbor-Thug.jpg"
@@ -1349,7 +1349,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Into Ithilien/Southron-Company.jpg"
@@ -1369,7 +1369,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Siege of Cair Andros/Orc-Scramblers.jpg"
@@ -1389,7 +1389,7 @@
       "threat": 2,
       "attack": 7,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Siege of Cair Andros/Battering-Ram.jpg"
@@ -1409,7 +1409,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 1,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Siege of Cair Andros/Siege-Raft.jpg"
@@ -1429,7 +1429,7 @@
       "threat": 3,
       "attack": 1,
       "defense": 0,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Streets of Gondor/Pickpocket.jpg"
@@ -1448,7 +1448,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Brigands/Zealous-Traitor.jpg"
@@ -1467,7 +1467,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Brigands/Lossarnach-Bandit.jpg"
@@ -1486,7 +1486,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/Brigands/Umbar-Assassin.jpg"
@@ -1506,7 +1506,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Creatures of the Forest/Morgul-Spider.jpg"
@@ -1526,7 +1526,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 1,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Creatures of the Forest/Forest-Bat.jpg"
@@ -1546,7 +1546,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Southrons/Southron-Mercenaries.jpg"
@@ -1566,7 +1566,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Southrons/Haradrim-Elite.jpg"
@@ -1586,7 +1586,7 @@
       "threat": 4,
       "attack": 7,
       "defense": 3,
-      "hit_points": 12,
+      "health": 12,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/Southrons/Mumak.jpg"
@@ -1605,7 +1605,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -1626,7 +1626,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Mordor Elite/Orc-Arbalesters.jpg"
@@ -1646,7 +1646,7 @@
       "threat": 2,
       "attack": 8,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Mordor Elite/Orc-Vanguard.jpg"
@@ -1666,7 +1666,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 0,
       "quantity": 3,
       "image": "encounter-card/Ravaging Orcs/Orc-Rabble.jpg"
@@ -1686,7 +1686,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Ravaging Orcs/Orc-Arsonist.jpg"
@@ -1706,7 +1706,7 @@
       "threat": 3,
       "attack": 2,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 5,
       "quantity": 0,
       "image": "encounter-card/The Steward's Fear/Underworld-Dissident.jpg"
@@ -1726,7 +1726,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Steward's Fear/Daughter-of-Beruthiel.jpg"
@@ -1746,7 +1746,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Steward's Fear/The-Hand-of-Castamir.jpg"
@@ -1766,7 +1766,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 2,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Steward's Fear/Telemnar's-Bane.jpg"
@@ -1786,7 +1786,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Druadan Forest/Dru-buri-Dru.jpg"
@@ -1806,7 +1806,7 @@
       "threat": 0,
       "attack": 1,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/The Druadan Forest/Druadan-Drummer.jpg"
@@ -1826,7 +1826,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Druadan Forest/Druadan-Elite.jpg"
@@ -1846,7 +1846,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 2,
       "image": "encounter-card/The Druadan Forest/Druadan-Hunter.jpg"
@@ -1866,7 +1866,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Druadan Forest/Druadan-Thief.jpg"
@@ -1885,7 +1885,7 @@
       "engagement_cost": 30,
       "threat": 3,
       "defense": 3,
-      "hit_points": 7,
+      "health": 7,
       "victory": 2,
       "quantity_easy": 1,
       "quantity": 0,
@@ -1906,7 +1906,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Encounter at Amon Din/Marauding-Orc.jpg"
@@ -1926,7 +1926,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Encounter at Amon Din/Orc-Ravager.jpg"
@@ -1946,7 +1946,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Encounter at Amon Din/Craven-Eagle.jpg"
@@ -1966,7 +1966,7 @@
       "threat": 2,
       "attack": 6,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Assault on Osgiliath/Uruk-Lieutenant.jpg"
@@ -1986,7 +1986,7 @@
       "threat": 1,
       "attack": 4,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Assault on Osgiliath/Uruk-Soldier.jpg"
@@ -2006,7 +2006,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Assault on Osgiliath/Southron-Phalanx.jpg"
@@ -2026,7 +2026,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Assault on Osgiliath/Southron-Commander.jpg"
@@ -2044,7 +2044,7 @@
       "engagement_cost": 35,
       "attack": 5,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -2065,7 +2065,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 2,
       "image": "encounter-card/The Blood of Gondor/Orc-Ambusher.jpg"
@@ -2084,7 +2084,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/The Blood of Gondor/Brutal-Uruk.jpg"
@@ -2104,7 +2104,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 0,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Blood of Gondor/Evil-Crow.jpg"
@@ -2124,7 +2124,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Morgul Vale/Morgul-Bodyguard.jpg"
@@ -2144,7 +2144,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Morgul Vale/Morgul-Sorcerer.jpg"
@@ -2164,7 +2164,7 @@
       "threat": 4,
       "attack": 1,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Morgul Vale/Morgul-Tracker.jpg"
@@ -2184,7 +2184,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 2,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Morgul Vale/Murzag.jpg"
@@ -2204,7 +2204,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Morgul Vale/Lord-Alcaron.jpg"
@@ -2225,7 +2225,7 @@
       "threat": 4,
       "attack": 7,
       "defense": 4,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Morgul Vale/Nazgul-of-Minas-Morgul.jpg"
@@ -2245,7 +2245,7 @@
       "threat": 4,
       "attack": 7,
       "defense": 4,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/To Catch an Orc/Mugash.jpg"
@@ -2264,7 +2264,7 @@
       "threat": 3,
       "attack": 6,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "victory": 3,
       "quantity_easy": 3,
       "quantity": 0,
@@ -2285,7 +2285,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/To Catch an Orc/Methedras-Orc.jpg"
@@ -2305,7 +2305,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 4,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/Into Fangorn/Dark-Hearted-Huorn.jpg"
@@ -2325,7 +2325,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 4,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Into Fangorn/Angry-Huorn.jpg"
@@ -2345,7 +2345,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 4,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Into Fangorn/Deadly-Huorn.jpg"
@@ -2365,7 +2365,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Misty Mountain Orcs/Orc-Skirmisher.jpg"
@@ -2385,7 +2385,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Misty Mountain Orcs/Orc-Hunter.jpg"
@@ -2404,7 +2404,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Misty Mountain Orcs/Orc-Hound.jpg"
@@ -2424,7 +2424,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Dunland Raiders/Dunland-Prowler.jpg"
@@ -2444,7 +2444,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Dunland Raiders/Dunlending-Bandit.jpg"
@@ -2464,7 +2464,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Dunland Raiders/Dunland-Raider.jpg"
@@ -2484,7 +2484,7 @@
       "threat": 0,
       "attack": 4,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Dunland Warriors/Dunland-Tribesman.jpg"
@@ -2503,7 +2503,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Dunland Warriors/Dunland-Chieftain.jpg"
@@ -2523,7 +2523,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Dunland Warriors/Dunland-Berserker.jpg"
@@ -2543,7 +2543,7 @@
       "threat": 3,
       "attack": 1,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Broken Lands/Prowling-Wolf.jpg"
@@ -2563,7 +2563,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dunland Trap/Chief-Turch.jpg"
@@ -2582,7 +2582,7 @@
       "threat": 3,
       "attack": 0,
       "defense": 0,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Dunland Trap/Boar-Clan-Stalker.jpg"
@@ -2602,7 +2602,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Dunland Trap/Boar-Clan-Warrior.jpg"
@@ -2622,7 +2622,7 @@
       "threat": 1,
       "attack": 4,
       "defense": 4,
-      "hit_points": 10,
+      "health": 10,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -2643,7 +2643,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 3,
-      "hit_points": 12,
+      "health": 12,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -2664,7 +2664,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 5,
-      "hit_points": 8,
+      "health": 8,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -2685,7 +2685,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 1,
       "image": "encounter-card/The Three Trials/Spirit-of-the-Wild.jpg"
@@ -2704,7 +2704,7 @@
       "engagement_cost": 50,
       "attack": 5,
       "defense": 4,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Trouble in Tharbad/Bellach.jpg"
@@ -2724,7 +2724,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Trouble in Tharbad/Spy-from-Mordor.jpg"
@@ -2744,7 +2744,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 4,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Trouble in Tharbad/Bellach's-Marauder.jpg"
@@ -2764,7 +2764,7 @@
       "threat": 3,
       "attack": 6,
       "defense": 4,
-      "hit_points": 9,
+      "health": 9,
       "victory": 5,
       "quantity_easy": 1,
       "quantity": 0,
@@ -2785,7 +2785,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/The Nin-in-Eilph/Giant-Swamp-Adder.jpg"
@@ -2805,7 +2805,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 1,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Nin-in-Eilph/Neekerbreekers.jpg"
@@ -2824,7 +2824,7 @@
       "engagement_cost": 50,
       "attack": 5,
       "defense": 4,
-      "hit_points": 7,
+      "health": 7,
       "victory": 5,
       "quantity_easy": 1,
       "quantity": 0,
@@ -2845,7 +2845,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/Celebrimbor's Secret/Bellach's-Scout.jpg"
@@ -2865,7 +2865,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Celebrimbor's Secret/Prowling-Orc.jpg"
@@ -2885,7 +2885,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 5,
-      "hit_points": 9,
+      "health": 9,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -2906,7 +2906,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/The Antlered Crown/Raven-Warrior.jpg"
@@ -2926,7 +2926,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Antlered Crown/Raven-Skirmisher.jpg"
@@ -2946,7 +2946,7 @@
       "threat": 3,
       "attack": 6,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Intruders in Chetwood/Orc-War-Party.jpg"
@@ -2966,7 +2966,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 4,
       "quantity": 1,
       "image": "encounter-card/The Weather Hills/Cornered-Orc.jpg"
@@ -2986,7 +2986,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 4,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Deadmen's Dike/Thaurdir.jpg"
@@ -3006,7 +3006,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Deadmen's Dike/Thaurdir's-Damned.jpg"
@@ -3026,7 +3026,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Deadmen's Dike/Baleful-Shade.jpg"
@@ -3046,7 +3046,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Angmar Orcs/Angmar-Orc.jpg"
@@ -3066,7 +3066,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Angmar Orcs/Angmar-Marauder.jpg"
@@ -3086,7 +3086,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Angmar Orcs/Angmar-Captain.jpg"
@@ -3106,7 +3106,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Cursed Dead/Dead-Lord.jpg"
@@ -3126,7 +3126,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 4,
       "quantity": 1,
       "image": "encounter-card/Cursed Dead/Cursed-Dead.jpg"
@@ -3146,7 +3146,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 4,
-      "hit_points": 8,
+      "health": 8,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -3167,7 +3167,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/The Wastes of Eriador/Northern-Warg.jpg"
@@ -3187,7 +3187,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Wastes of Eriador/Blood-thirsty-Warg.jpg"
@@ -3207,7 +3207,7 @@
       "threat": 3,
       "attack": 6,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Wastes of Eriador/Hunting-Pack.jpg"
@@ -3227,7 +3227,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Wastes of Eriador/White-Warg.jpg"
@@ -3247,7 +3247,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Wastes of Eriador/Wolf-of-Angmar.jpg"
@@ -3268,7 +3268,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Escape from Mount Gram/Jailor-Gornakh.jpg"
@@ -3288,7 +3288,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Escape from Mount Gram/Cruel-Torturer.jpg"
@@ -3307,7 +3307,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Escape from Mount Gram/Dungeon-Guard.jpg"
@@ -3326,7 +3326,7 @@
       "engagement_cost": 28,
       "threat": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Escape from Mount Gram/Goblin-Tormentor.jpg"
@@ -3346,7 +3346,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Across the Ettenmoors/Savage-Trollspawn.jpg"
@@ -3366,7 +3366,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 4,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Across the Ettenmoors/Coldfell-Giant.jpg"
@@ -3386,7 +3386,7 @@
       "threat": 3,
       "attack": 6,
       "defense": 2,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Across the Ettenmoors/Cruel-Mountain-troll.jpg"
@@ -3406,7 +3406,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 1,
-      "hit_points": 12,
+      "health": 12,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Across the Ettenmoors/Ruthless-Hill-troll.jpg"
@@ -3426,7 +3426,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Across the Ettenmoors/Goblin-Pursuer.jpg"
@@ -3446,7 +3446,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 4,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Treachery of Rhudaur/Thaurdir.jpg"
@@ -3466,7 +3466,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Treachery of Rhudaur/Wight-of-Rhudaur.jpg"
@@ -3486,7 +3486,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Treachery of Rhudaur/Traitorous-Wight.jpg"
@@ -3506,7 +3506,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 4,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Battle of Carn Dum/Thaurdir-Captain.jpg"
@@ -3526,7 +3526,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 4,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Battle of Carn Dum/Thaurdir-Champion.jpg"
@@ -3546,7 +3546,7 @@
       "threat": 1,
       "attack": 4,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/The Battle of Carn Dum/Carn-Dum-Garrison.jpg"
@@ -3566,7 +3566,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 2,
       "image": "encounter-card/The Battle of Carn Dum/Orc-Grunts.jpg"
@@ -3585,7 +3585,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 4,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/The Battle of Carn Dum/Werewolf-of-Angmar.jpg"
@@ -3605,7 +3605,7 @@
       "threat": 5,
       "attack": 4,
       "defense": 5,
-      "hit_points": 12,
+      "health": 12,
       "victory": 10,
       "quantity_easy": 1,
       "quantity": 0,
@@ -3626,7 +3626,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 0,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/The Dread Realm/Dwimmerlaik.jpg"
@@ -3645,7 +3645,7 @@
       "threat": 3,
       "attack": 2,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Dread Realm/Witch-of-Angmar.jpg"
@@ -3664,7 +3664,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 0,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Dread Realm/Wraith-of-Carn-Dum.jpg"
@@ -3683,7 +3683,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 4,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Fate of Numenor/Servant-of-the-Deceiver.jpg"
@@ -3702,7 +3702,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Raid on the Grey Havens/Corsair-Arsonist.jpg"
@@ -3721,7 +3721,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Raid on the Grey Havens/Sahir's-Ravager.jpg"
@@ -3741,7 +3741,7 @@
       "threat": 0,
       "attack": 2,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Corsair Pirates/Southron-Sailor.jpg"
@@ -3760,7 +3760,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Corsair Pirates/Cunning-Pirate.jpg"
@@ -3779,7 +3779,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Corsair Pirates/Vicious-Marauder.jpg"
@@ -3799,7 +3799,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Corsair Pirates/Umbar-Captain.jpg"
@@ -3819,7 +3819,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Corsair Raiders/Umbar-Raider.jpg"
@@ -3838,7 +3838,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 3,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Corsair Raiders/Corsair-Infiltrator.jpg"
@@ -3858,7 +3858,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Corsair Raiders/Raid-Leader.jpg"
@@ -3878,7 +3878,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Drowned Dead/Drowned-Dead.jpg"
@@ -3897,7 +3897,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Drowned Dead/Soulless-Cadaver.jpg"
@@ -3916,7 +3916,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 0,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Drowned Dead/Throngs-of-Unfaithful.jpg"
@@ -3936,7 +3936,7 @@
       "threat": 6,
       "attack": 6,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "victory": 6,
       "quantity_easy": 1,
       "quantity": 0,
@@ -3957,7 +3957,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "victory": 4,
       "quantity_easy": 1,
       "quantity": 0,
@@ -3977,7 +3977,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Flight of the Stormcaller/Corsair-Seafarer.jpg"
@@ -3996,7 +3996,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 3,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Flight of the Stormcaller/Serpent's-Blade.jpg"
@@ -4015,7 +4015,7 @@
       "engagement_cost": 50,
       "threat": 2,
       "attack": 5,
-      "hit_points": 8,
+      "health": 8,
       "victory": 10,
       "quantity_easy": 1,
       "quantity": 0,
@@ -4034,7 +4034,7 @@
       "engagement_cost": 0,
       "threat": 2,
       "defense": 5,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Thing in the Depths/Eye-of-the-Beast.jpg"
@@ -4053,7 +4053,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 1,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Thing in the Depths/Thrashing-Arm.jpg"
@@ -4072,7 +4072,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Thing in the Depths/Crushing-Arm.jpg"
@@ -4092,7 +4092,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Thing in the Depths/Grasping-Arm.jpg"
@@ -4112,7 +4112,7 @@
       "threat": 1,
       "attack": 4,
       "defense": 1,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Thing in the Depths/Giant-Arm.jpg"
@@ -4131,7 +4131,7 @@
       "engagement_cost": 50,
       "attack": 6,
       "defense": 4,
-      "hit_points": 10,
+      "health": 10,
       "victory": 4,
       "quantity_easy": 1,
       "quantity": 0,
@@ -4152,7 +4152,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Temple of the Deceived/Faithless-Desecrator.jpg"
@@ -4171,7 +4171,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Temple of the Deceived/Island-Watcher.jpg"
@@ -4191,7 +4191,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Temple of the Deceived/Profane-Dead.jpg"
@@ -4211,7 +4211,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Drowned Ruins/Sea-scorpion.jpg"
@@ -4230,7 +4230,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 4,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Drowned Ruins/Cave-Eel.jpg"
@@ -4249,7 +4249,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Coast of Umbar/Umbar-Slaver.jpg"
@@ -4269,7 +4269,7 @@
       "threat": 6,
       "attack": 6,
       "defense": 2,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The City of Corsairs/Captain-Sahir.jpg"
@@ -4289,7 +4289,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 4,
       "quantity": 1,
       "image": "encounter-card/Escape from Umbar/Umbar-Sentry.jpg"
@@ -4308,7 +4308,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Desert Crossing/Carrion-Bird.jpg"
@@ -4325,7 +4325,7 @@
       "text": "X is the tens digit of the temperature.\n<b>Forced:</b> After Were-worm engages you, it makes an immediate attack. (Do not deal it a shadow card.)",
       "shadow": "<b>Shadow:</b> Attacking enemy gets +1 Attack (+2 Attack instead if the temperature is 40 or higher).",
       "engagement_cost": 22,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Desert Crossing/Were-worm.jpg"
@@ -4342,7 +4342,7 @@
       "text": "X is the stage number on the main quest.\n<b>Forced:</b> At the end of the round, assign X damage among characters in play.",
       "flavor": "Fierce and shrill rose the yells of the Orcs...\n<cite>The Fellowship of the Ring</cite>",
       "engagement_cost": 30,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Long Arm of Mordor/Sauron's-Enforcers.jpg"
@@ -4362,7 +4362,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Harad Soldiers/Southron-Captain.jpg"
@@ -4382,7 +4382,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Harad Soldiers/Southron-Soldier.jpg"
@@ -4401,7 +4401,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 3,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/Harad Soldiers/Southron-Archer.jpg"
@@ -4421,7 +4421,7 @@
       "threat": 4,
       "attack": 1,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Desert Creatures/Sand-Viper.jpg"
@@ -4441,7 +4441,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Desert Creatures/Giant-Scorpion.jpg"
@@ -4461,7 +4461,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Mordor Orcs/Uruk-Chieftain.jpg"
@@ -4481,7 +4481,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Mordor Orcs/Uruk-of-Mordor.jpg"
@@ -4501,7 +4501,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 1,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Mordor Orcs/Uruk-Warg-rider.jpg"
@@ -4520,7 +4520,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Mordor Orcs/Mordor-Warg.jpg"
@@ -4539,7 +4539,7 @@
       "threat": 3,
       "attack": 6,
       "defense": 3,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Mumakil/Wild-Mumak.jpg"
@@ -4559,7 +4559,7 @@
       "threat": 4,
       "attack": 4,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/The Mumakil/Harad-Tiger.jpg"
@@ -4579,7 +4579,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Mumakil/Territorial-Ape.jpg"
@@ -4598,7 +4598,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Mumakil/Strangling-Python.jpg"
@@ -4618,7 +4618,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Mumakil/Giant-Centipede.jpg"
@@ -4638,7 +4638,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/Race Across Harad/Uruk-Pursuer.jpg"
@@ -4657,7 +4657,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 1,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Race Across Harad/Racing-Warg.jpg"
@@ -4677,7 +4677,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 4,
-      "hit_points": 12,
+      "health": 12,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Beneath the Sands/Brood-Mother.jpg"
@@ -4697,7 +4697,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Beneath the Sands/Hive-Guardian.jpg"
@@ -4717,7 +4717,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 4,
       "quantity": 1,
       "image": "encounter-card/Beneath the Sands/Spider-Broodling.jpg"
@@ -4737,7 +4737,7 @@
       "threat": 0,
       "attack": 2,
       "defense": 1,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Black Serpent/The-Black-Serpent.jpg"
@@ -4757,7 +4757,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Black Serpent/Serpent-Guard.jpg"
@@ -4777,7 +4777,7 @@
       "threat": 4,
       "attack": 3,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/The Dungeons of Cirith Gurat/Jailer-of-Cirith-Gurat.jpg"
@@ -4796,7 +4796,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Dungeons of Cirith Gurat/Prison-Guard.jpg"
@@ -4816,7 +4816,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/The Dungeons of Cirith Gurat/Dungeon-Warg.jpg"
@@ -4836,7 +4836,7 @@
       "threat": 0,
       "attack": 2,
       "defense": 1,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Crossings of Poros/The-Black-Serpent.jpg"
@@ -4856,7 +4856,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Crossings of Poros/Southron-Outrider.jpg"
@@ -4876,7 +4876,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Crossings of Poros/Uruk-Prowler.jpg"
@@ -4896,7 +4896,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Crossings of Poros/Desert-Warg.jpg"
@@ -4916,7 +4916,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 12,
+      "health": 12,
       "victory": 5,
       "quantity_easy": 1,
       "quantity": 0,
@@ -4937,7 +4937,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 10,
+      "health": 10,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -4958,7 +4958,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 11,
+      "health": 11,
       "victory": 4,
       "quantity_easy": 1,
       "quantity": 0,
@@ -4979,7 +4979,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 1,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Western Lands/A-Suspicious-Crow.jpg"
@@ -4999,7 +4999,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Misty Mountain Goblins/Goblin-Axeman.jpg"
@@ -5019,7 +5019,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 0,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Misty Mountain Goblins/Goblin-Miners.jpg"
@@ -5039,7 +5039,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Misty Mountain Goblins/Goblin-Runners.jpg"
@@ -5059,7 +5059,7 @@
       "threat": 3,
       "attack": 2,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Misty Mountain Goblins/Goblin-Driver.jpg"
@@ -5079,7 +5079,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Great Goblin/Goblin-Bent-Swords.jpg"
@@ -5099,7 +5099,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 8,
+      "health": 8,
       "victory": 3,
       "quantity_easy": 1,
       "quantity": 0,
@@ -5119,7 +5119,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 3,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Over the Misty Mountains Grim/Stone-Giant.jpg"
@@ -5140,7 +5140,7 @@
       "threat": 0,
       "attack": 2,
       "defense": 3,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Dungeons Deep and Caverns Dim/Gollum.jpg"
@@ -5160,7 +5160,7 @@
       "threat": 4,
       "attack": 5,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/Dungeons Deep and Caverns Dim/Great-Gray-Wolf.jpg"
@@ -5180,7 +5180,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Dungeons Deep and Caverns Dim/Wild-Wargs.jpg"
@@ -5199,7 +5199,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Flies and Spiders/Old-Tomnoddy.jpg"
@@ -5219,7 +5219,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Flies and Spiders/Crazy-Cob.jpg"
@@ -5239,7 +5239,7 @@
       "threat": 3,
       "attack": 3,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/Flies and Spiders/Lazy-Lob.jpg"
@@ -5259,7 +5259,7 @@
       "threat": 2,
       "attack": 1,
       "defense": 1,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/Flies and Spiders/Fat-Spider.jpg"
@@ -5279,7 +5279,7 @@
       "threat": 1,
       "attack": 4,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 5,
       "quantity": 0,
       "image": "encounter-card/Flies and Spiders/Wicked-Spider.jpg"
@@ -5299,7 +5299,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 0,
-      "hit_points": 1,
+      "health": 1,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Wilderland/Dark-Bats.jpg"
@@ -5318,7 +5318,7 @@
       "engagement_cost": 50,
       "attack": 6,
       "defense": 9,
-      "hit_points": 20,
+      "health": 20,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Lonely Mountain/Smaug-the-Golden.jpg"
@@ -5338,7 +5338,7 @@
       "threat": 6,
       "attack": 8,
       "defense": 8,
-      "hit_points": 20,
+      "health": 20,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Lonely Mountain/Smaug-the-Magnificent.jpg"
@@ -5358,7 +5358,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Lonely Mountain/Croaking-Crows.jpg"
@@ -5377,7 +5377,7 @@
       "engagement_cost": 50,
       "attack": 6,
       "defense": 3,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Battle of Five Armies/Bolg.jpg"
@@ -5397,7 +5397,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Battle of Five Armies/Bodyguard-of-Bolg.jpg"
@@ -5417,7 +5417,7 @@
       "threat": 1,
       "attack": 3,
       "defense": 0,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/The Battle of Five Armies/Gundabad-Wolf-Rider.jpg"
@@ -5437,7 +5437,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/The Battle of Five Armies/Gundabad-Climber.jpg"
@@ -5457,7 +5457,7 @@
       "threat": 1,
       "attack": 1,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 3,
       "quantity": 1,
       "image": "encounter-card/The Battle of Five Armies/Vanguard-of-Bolg.jpg"
@@ -5477,7 +5477,7 @@
       "threat": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/The Battle of Five Armies/Gundabad-Archer.jpg"
@@ -5497,7 +5497,7 @@
       "threat": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 2,
       "image": "encounter-card/The Battle of Five Armies/Ravenous-Warg.jpg"

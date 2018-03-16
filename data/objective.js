@@ -68,7 +68,7 @@
       "text": "Grimbeorn the Old does not exhaust to defend against Troll enemies.<br/>If Grimbeorn the Old has 8 or more resource tokens on him, he joins the first player as an ally.<br/><b>Action:</b> Spend 1 Leadership resource to place that resource on Grimbeorn the Old.",
       "attack": 4,
       "defense": 3,
-      "hit_points": 10,
+      "health": 10,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Conflict at the Carrock/Grimbeorn-the-Old.jpg"
@@ -100,7 +100,7 @@
       "text": "No attachments. The first player gains control of Wilyador, as an ally.<br/><b>Forced:</b> At the end of each round, Wilyador suffers 2 damage.<br/>Wilyador cannot be healed of more than 5 wounds by a single effect. If Wilyador leaves play, the players have lost the game.",
       "attack": 1,
       "defense": 1,
-      "hit_points": 20,
+      "health": 20,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/A Journey to Rhosgobel/Wilyador.jpg"
@@ -131,7 +131,7 @@
       "is_unique": true,
       "traits": "Creature.",
       "text": "Damage from undefended attacks against you must be dealt to Gollum. If Gollum is destroyed, or if the player guarding Gollum is eliminated, the players have lost the game.<br/><b>Forced:</b> At the end of each round, raise the threat of the player guarding Gollum by 3. Then, that player may choose a new player to guard Gollum.",
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Return to Mirkwood/Gollum.jpg"
@@ -193,7 +193,7 @@
       "willpower": 2,
       "attack": 0,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Redhorn Gate/Arwen-Undomiel.jpg"
@@ -212,7 +212,7 @@
       "willpower": 2,
       "attack": 0,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Road to Rivendell/Arwen-Undomiel.jpg"

@@ -13,7 +13,7 @@
       "willpower": 5,
       "attack": 4,
       "defense": 4,
-      "hit_points": 18,
+      "health": 18,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dream-chaser's Fleet/Dream-chaser.jpg"
@@ -32,7 +32,7 @@
       "willpower": 3,
       "attack": 3,
       "defense": 4,
-      "hit_points": 16,
+      "health": 16,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dream-chaser's Fleet/Dawn-Star.jpg"
@@ -51,7 +51,7 @@
       "willpower": 3,
       "attack": 3,
       "defense": 5,
-      "hit_points": 16,
+      "health": 16,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dream-chaser's Fleet/Narelenya.jpg"
@@ -70,7 +70,7 @@
       "willpower": 2,
       "attack": 4,
       "defense": 2,
-      "hit_points": 14,
+      "health": 14,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dream-chaser's Fleet/Silver-Wing.jpg"
@@ -88,7 +88,7 @@
       "willpower": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/A Storm on Cobas Haven/Dol-Amroth-Warship.jpg"

@@ -14,7 +14,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 2,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 3,
       "quantity": 0,
       "image": "encounter-card/Voyage Across Belegaer/Scouting-Ship.jpg"
@@ -34,7 +34,7 @@
       "threat": 4,
       "attack": 6,
       "defense": 5,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Umbar Fleet/Light-Cruiser.jpg"
@@ -54,7 +54,7 @@
       "threat": 3,
       "attack": 8,
       "defense": 4,
-      "hit_points": 9,
+      "health": 9,
       "quantity_easy": 0,
       "quantity": 2,
       "image": "encounter-card/Umbar Fleet/Corsair-Warship.jpg"
@@ -74,7 +74,7 @@
       "threat": 2,
       "attack": 6,
       "defense": 6,
-      "hit_points": 18,
+      "health": 18,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Flight of the Stormcaller/Stormcaller.jpg"
@@ -93,7 +93,7 @@
       "threat": 2,
       "attack": 4,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/Flight of the Stormcaller/Sahir's-Escort.jpg"
@@ -112,7 +112,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 4,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Flight of the Stormcaller/Swift-Raider.jpg"
@@ -131,7 +131,7 @@
       "threat": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Flight of the Stormcaller/Corsair-Skiff.jpg"
@@ -151,7 +151,7 @@
       "threat": 3,
       "attack": 5,
       "defense": 3,
-      "hit_points": 18,
+      "health": 18,
       "victory": 20,
       "quantity_easy": 1,
       "quantity": 0,
@@ -171,7 +171,7 @@
       "threat": 3,
       "attack": 4,
       "defense": 4,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/A Storm on Cobas Haven/Corsair-Skirmisher.jpg"
@@ -190,7 +190,7 @@
       "threat": 2,
       "attack": 5,
       "defense": 5,
-      "hit_points": 7,
+      "health": 7,
       "quantity_easy": 2,
       "quantity": 1,
       "image": "encounter-card/A Storm on Cobas Haven/Siege-Ship.jpg"
@@ -210,7 +210,7 @@
       "threat": 5,
       "attack": 7,
       "defense": 5,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 0,
       "quantity": 1,
       "image": "encounter-card/A Storm on Cobas Haven/Heavy-Cruiser.jpg"
@@ -230,7 +230,7 @@
       "threat": 2,
       "attack": 6,
       "defense": 6,
-      "hit_points": 18,
+      "health": 18,
       "victory": 10,
       "quantity_easy": 1,
       "quantity": 0,
@@ -250,7 +250,7 @@
       "threat": 3,
       "attack": 7,
       "defense": 5,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 1,
       "image": "encounter-card/Coast of Umbar/Slave-Ship.jpg"

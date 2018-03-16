@@ -13,7 +13,7 @@
       "willpower": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Long Arm of Mordor/Kahliel.jpg"
@@ -32,7 +32,7 @@
       "willpower": 3,
       "attack": 1,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Long Arm of Mordor/Firyal.jpg"
@@ -51,7 +51,7 @@
       "willpower": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Long Arm of Mordor/Yazan.jpg"
@@ -70,7 +70,7 @@
       "willpower": 1,
       "attack": 2,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Long Arm of Mordor/Jubayr.jpg"

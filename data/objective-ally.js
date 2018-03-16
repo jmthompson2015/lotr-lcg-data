@@ -13,7 +13,7 @@
       "willpower": 2,
       "attack": 2,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Into Ithilien/Celador.jpg"
@@ -32,7 +32,7 @@
       "willpower": 2,
       "attack": 2,
       "defense": 1,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 2,
       "quantity": 0,
       "image": "encounter-card/Into Ithilien/Ithilien-Guardian.jpg"
@@ -51,7 +51,7 @@
       "willpower": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Encounter at Amon Din/Lord-Alcaron.jpg"
@@ -70,7 +70,7 @@
       "willpower": 2,
       "attack": 3,
       "defense": 1,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Blood of Gondor/Faramir.jpg"
@@ -89,7 +89,7 @@
       "willpower": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Blood of Gondor/Lord-Alcaron.jpg"
@@ -109,7 +109,7 @@
       "willpower": 2,
       "attack": 1,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Fords of Isen/Grima.jpg"
@@ -127,7 +127,7 @@
       "willpower": 0,
       "attack": 1,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Trouble in Tharbad/Nalir.jpg"
@@ -146,7 +146,7 @@
       "willpower": 0,
       "attack": 1,
       "defense": 2,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Nin-in-Eilph/Nalir.jpg"
@@ -165,7 +165,7 @@
       "willpower": 1,
       "attack": 3,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Antlered Crown/Chief-Turch.jpg"
@@ -180,7 +180,7 @@
       "name": "Iârion",
       "traits": "Dúnedain. Ranger.",
       "text": "X is the number of quest cards in play.<br/>The first player gains control of Iârion.<br/><b>Response:</b> After a side quest is revealed from the encounter deck, ready Iârion.<br/><b>If Iârion leaves play, the players lose the game.</b>",
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Iarion/Iarion.jpg"
@@ -199,7 +199,7 @@
       "willpower": 1,
       "attack": 3,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Wastes of Eriador/Amarthiul.jpg"
@@ -218,7 +218,7 @@
       "willpower": 1,
       "attack": 3,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/Across the Ettenmoors/Amarthiul.jpg"
@@ -237,7 +237,7 @@
       "willpower": 1,
       "attack": 3,
       "defense": 3,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Treachery of Rhudaur/Amarthiul.jpg"
@@ -256,7 +256,7 @@
       "willpower": 1,
       "attack": 0,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Fate of Numenor/Calphon.jpg"
@@ -275,7 +275,7 @@
       "willpower": 0,
       "attack": 0,
       "defense": 2,
-      "hit_points": 5,
+      "health": 5,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Stormcaller Elite/Captain-Sahir-Objective-Ally.jpg"
@@ -294,7 +294,7 @@
       "willpower": 1,
       "attack": 2,
       "defense": 2,
-      "hit_points": 4,
+      "health": 4,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Stormcaller Elite/Na'asiyah-Objective-Ally.jpg"
@@ -312,7 +312,7 @@
       "willpower": 2,
       "attack": 5,
       "defense": 2,
-      "hit_points": 8,
+      "health": 8,
       "quantity_easy": 4,
       "quantity": 0,
       "image": "encounter-card/Race Across Harad/Tamed-Mumak.png"
@@ -331,7 +331,7 @@
       "willpower": 1,
       "attack": 1,
       "defense": 1,
-      "hit_points": 3,
+      "health": 3,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Dungeons of Cirith Gurat/Abaan.jpg"
@@ -350,7 +350,7 @@
       "willpower": 3,
       "attack": 4,
       "defense": 3,
-      "hit_points": 6,
+      "health": 6,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Crossings of Poros/Poros-Garrison.jpg"
@@ -369,7 +369,7 @@
       "willpower": 3,
       "attack": 3,
       "defense": 3,
-      "hit_points": 2,
+      "health": 2,
       "quantity_easy": 1,
       "quantity": 0,
       "image": "encounter-card/The Battle of Five Armies/Misty-Mountain-Eagle.jpg"

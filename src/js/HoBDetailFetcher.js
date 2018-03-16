@@ -411,7 +411,7 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
       {
          // console.log("processStatValueBox() fragment = " + fragment);
 
-         var engagement_cost, threat, willpower, attack, defense, hit_points, quest_points, quest_points1;
+         var engagement_cost, threat, willpower, attack, defense, health, quest_points, quest_points1;
          var parts = fragment.split(">");
          parts.forEach(function(part, i)
          {
@@ -488,8 +488,8 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
             }
             else if (part.indexOf("heart-med.png") >= 0)
             {
-               hit_points = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
-               // console.log("hit_points = " + hit_points);
+               health = parseInt(parts[i - 1].substring(0, parts[i - 1].indexOf("<")));
+               // console.log("health = " + health);
             }
          });
 
@@ -499,7 +499,7 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
             "willpower": willpower,
             "attack": attack,
             "defense": defense,
-            "hit_points": hit_points,
+            "health": health,
             "quest_points": quest_points,
          };
 
@@ -661,7 +661,7 @@ define(["js/FileLoader", "js/Pack", "js/ParseUtilities"],
          maybeAddData(detail, "willpower", statValueBoxData.willpower);
          maybeAddData(detail, "attack", statValueBoxData.attack);
          maybeAddData(detail, "defense", statValueBoxData.defense);
-         maybeAddData(detail, "hit_points", statValueBoxData.hit_points);
+         maybeAddData(detail, "health", statValueBoxData.health);
          maybeAddData(detail, "quest_points", statValueBoxData.quest_points);
          maybeAddData(detail, "encounter_sets", statBoxData.encounter_sets);
          maybeAddData(detail, "quantity_easy", titleBoxData.quantity_easy);
