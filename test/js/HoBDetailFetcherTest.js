@@ -32,7 +32,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, 3, "threat");
          assert.equal(detail.attack, 4, "attack");
          assert.equal(detail.defense, 3, "defense");
-         assert.equal(detail.hit_points, 4, "hit_points");
+         assert.equal(detail.health, 4, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -76,7 +76,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, 27, "hit_points");
+         assert.equal(detail.health, 27, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -120,7 +120,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, 3, "threat");
          assert.equal(detail.attack, 5, "attack");
          assert.equal(detail.defense, 2, "defense");
-         assert.equal(detail.hit_points, 12, "hit_points");
+         assert.equal(detail.health, 12, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -164,7 +164,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, 1, "threat");
          assert.equal(detail.attack, 1, "attack");
          assert.equal(detail.defense, 1, "defense");
-         assert.equal(detail.hit_points, 1, "hit_points");
+         assert.equal(detail.health, 1, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -208,7 +208,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, 7, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, 7, "quest_points");
          // victory missing
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -252,7 +252,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, 2, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, 4, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -296,7 +296,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -343,7 +343,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.quantity_easy, 1, "quantity_easy");
@@ -377,7 +377,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          // quest_points missing
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.quantity_easy, 1, "quantity_easy");
@@ -429,7 +429,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.quantity_easy, 1, "quantity_easy");
@@ -463,7 +463,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, 5, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.quantity_easy, 1, "quantity_easy");
@@ -512,7 +512,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -556,7 +556,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
@@ -600,7 +600,7 @@ define(["qunit", "js/HoBDetailFetcher"], function(QUnit, HoBDetailFetcher)
          assert.equal(detail.threat, undefined, "threat");
          assert.equal(detail.attack, undefined, "attack");
          assert.equal(detail.defense, undefined, "defense");
-         assert.equal(detail.hit_points, undefined, "hit_points");
+         assert.equal(detail.health, undefined, "health");
          assert.equal(detail.quest_points, undefined, "quest_points");
          assert.equal(detail.victory, undefined, "victory");
          assert.equal(detail.encounter_sets, undefined, "encounter_sets");
