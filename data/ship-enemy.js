@@ -86,7 +86,7 @@
       "type_code": "ship-enemy",
       "type_name": "Ship-Enemy",
       "position": 20,
-      "name": "Sah\u00EDr's Escort",
+      "name": "Sahír's Escort",
       "traits": "Corsair. Ship.",
       "text": "Boarding 1. Cannot have attachments.<br/>While Sahír's Escort is in the Stormcaller's area, it contributes its Threat to the amount of progress the Stormcaller places on its quest stage each round.<br/><b>When Revealed:</b> Add Sahír's Escort to the Stormcaller's area, instead of the players' staging area.",
       "engagement_cost": 46,

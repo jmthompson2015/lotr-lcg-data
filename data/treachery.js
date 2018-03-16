@@ -2115,7 +2115,7 @@
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 51,
-      "name": "Captives of Gorn&#225;kh",
+      "name": "Captives of Gornákh",
       "text": "<b>When Revealed:</b> Each player chooses one of his allies and captures it underneath the encounter card with the highest Threat.",
       "shadow": "<b>Shadow:</b> If this attack would damage an ally, capture that ally underneath the attacking enemy instead.",
       "quantity_easy": 1,
@@ -2311,7 +2311,7 @@
    {
       "pack_code": "TGH",
       "pack_name": "The Grey Havens",
-      "encounter_set": "The Fate of N&#250;menor",
+      "encounter_set": "The Fate of Númenor",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 33,
@@ -2325,7 +2325,7 @@
    {
       "pack_code": "TGH",
       "pack_name": "The Grey Havens",
-      "encounter_set": "The Fate of N&#250;menor",
+      "encounter_set": "The Fate of Númenor",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 34,
@@ -2339,7 +2339,7 @@
    {
       "pack_code": "TGH",
       "pack_name": "The Grey Havens",
-      "encounter_set": "The Fate of N&#250;menor",
+      "encounter_set": "The Fate of Númenor",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 35,
@@ -2466,7 +2466,7 @@
    {
       "pack_code": "TGH",
       "pack_name": "The Grey Havens",
-      "encounter_set": "Ruins of N&#250;menor",
+      "encounter_set": "Ruins of Númenor",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 75,
@@ -2938,7 +2938,7 @@
    {
       "pack_code": "M",
       "pack_name": "The Mûmakil",
-      "encounter_set": "The M\u00FBmakil",
+      "encounter_set": "The Mûmakil",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 21,
@@ -2952,7 +2952,7 @@
    {
       "pack_code": "M",
       "pack_name": "The Mûmakil",
-      "encounter_set": "The M\u00FBmakil",
+      "encounter_set": "The Mûmakil",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 22,
@@ -2966,7 +2966,7 @@
    {
       "pack_code": "M",
       "pack_name": "The Mûmakil",
-      "encounter_set": "The M\u00FBmakil",
+      "encounter_set": "The Mûmakil",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 23,
@@ -2980,7 +2980,7 @@
    {
       "pack_code": "M",
       "pack_name": "The Mûmakil",
-      "encounter_set": "The M\u00FBmakil",
+      "encounter_set": "The Mûmakil",
       "type_code": "treachery",
       "type_name": "Treachery",
       "position": 24,
@@ -3238,7 +3238,7 @@
       "position": 57,
       "name": "More Like a Grocer",
       "text": "<b>When Revealed:</b> Discard all Baggins resources.",
-      "shadow": "<b>Shadow:</b> Resolve this card's \"When Revealed\" effect.  <div style=\"text-align:center;padding:4px;font-size:small;\"> <i>&quot;As soon as I clapped eyes on the little fellow bobbing and puffing on the mat, I had my doubts. He looks more like a grocer than a burglar!&quot; -Gl&#243;in The Hobbit</i>",
+      "shadow": "<b>Shadow:</b> Resolve this card's \"When Revealed\" effect.",
       "flavor": "\"As soon as I clapped eyes on the little fellow bobbing and puffing on the mat, I had my doubts. He looks more like a grocer than a burglar!\"\n<cite>Glóin, The Hobbit</cite>",
       "quantity_easy": 1,
       "quantity": 0,

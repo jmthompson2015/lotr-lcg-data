@@ -44,7 +44,7 @@
       "type_code": "ship-objective",
       "type_name": "Ship-Objective",
       "position": 82,
-      "name": "N&#225;relenya",
+      "name": "Nárelenya",
       "is_unique": true,
       "traits": "Grey Havens. Ship.",
       "text": "Immune to player card effects. Sentinel.<br/>Reduce the cost of the first ally you play each round by 1.<br/><b>If the Nárelenya is destroyed, its controller is eliminated from the game.</b>",

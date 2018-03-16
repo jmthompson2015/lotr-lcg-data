@@ -22,7 +22,7 @@
       "type_code": "encounter-side-quest",
       "type_name": "Encounter-Side-Quest",
       "position": 24,
-      "name": "Rescue I&#226;rion",
+      "name": "Rescue Iârion",
       "text": "Time 4. <b>When Revealed:</b> The first player loses control of Iârion and places him facedown underneath this stage. When this stage is defeated, the first player takes control of Iârion and exhausts him.<br/><b>Forced:</b> After the last time counter is removed from this stage, discard Iârion.",
       "flavor": "While scouting ahead, Iârion is ambushed by several Orcs. The Ranger is knocked unconscious and dragged away by the Orcs. You must rescue him!",
       "quest_points": 6,
@@ -270,7 +270,7 @@
    {
       "pack_code": "BoCD",
       "pack_name": "The Battle of Carn Dûm",
-      "encounter_set": "The Battle of Carn D&#251;m",
+      "encounter_set": "The Battle of Carn Dûm",
       "type_code": "encounter-side-quest",
       "type_name": "Encounter-Side-Quest",
       "position": 139,
@@ -381,7 +381,7 @@
    {
       "pack_code": "M",
       "pack_name": "The Mûmakil",
-      "encounter_set": "The M\u00FBmakil",
+      "encounter_set": "The Mûmakil",
       "type_code": "encounter-side-quest",
       "type_name": "Encounter-Side-Quest",
       "position": 25,
