@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unique Designation</title>
+	<script src="../../lib/requirejs/require-2.3.5.js" data-main="../../src/main"></script>
+</head>
+<body>
+	<h1>Unique Designation</h1>
+	<div id="panel"></div>
+	<script>
+		"use strict";
+
+		require(["js/CardComparator", "js/JSONFileLoader", "js/Pack", "js/SpecialCharacterConverter"],
+			function(CardComparator, JSONFileLoader, Pack, SpecialCharacterConverter)
+			{
+				var types = ["ally", "attachment", "encounter-side-quest", "enemy", "event", "hero", "location", "objective", "objective-ally", "objective-hero",
+					"objective-location", "player-side-quest", "quest", "ship-enemy", "ship-objective", "treachery", "treasure"
+				];
+				var typeIndex = 0;
+				var uniqueKeys = [];
+
+				function processFile()
+				{
+					let type = types[typeIndex];
+					let file = type + ".js";
+					console.log(typeIndex + " Processing file " + file);
+					typeIndex++;
+					let filepath = "../../data/" + file;
+					let myLoaderCallback = function(cards)
+					{
+						loaderCallback(type, cards);
+					}
+					JSONFileLoader.loadFile(filepath, myLoaderCallback);
+				}
+
+				function loaderCallback(type, cards)
+				{
+					cards.forEach((card, i) =>
+					{
+						let key = card.pack_code;
+						key += `_${card.position}`;
+						key += (card.sequence !== undefined ? `_${card.sequence}` : "");
+
+						// if (card.pack_code === "AtE" && card.position === 71)
+						// {
+						// 	console.log(`card ${card.name} ${card.type_code} ${card.pack_code} ${card.position} ${card.sequence}`);
+						// }
+
+						if (uniqueKeys.includes(key))
+						{
+							console.log(`non-unique key for card ${card.name} ${card.type_code} ${card.pack_code} ${card.position} ${card.sequence}`);
+						}
+						else
+						{
+							uniqueKeys.push(key);
+						}
+					});
+
+					if (typeIndex < types.length)
+					{
+						processFile();
+					}
+					else
+					{
+						document.getElementById("panel").innerHTML = "Done.";
+					}
+				}
+
+				document.getElementById("panel").innerHTML = "Working...";
+				processFile();
+			});
+	</script>
+</body>
+
+</html>
