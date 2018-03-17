@@ -13,11 +13,11 @@
 		require(["js/CardComparator", "js/JSONFileLoader", "js/Pack", "js/SpecialCharacterConverter"],
 			function(CardComparator, JSONFileLoader, Pack, SpecialCharacterConverter)
 			{
-				var types = ["ally", "attachment", "encounter-side-quest", "enemy", "event", "hero", "location", "objective", "objective-ally", "objective-hero",
+				let types = ["ally", "attachment", "encounter-side-quest", "enemy", "event", "hero", "location", "objective", "objective-ally", "objective-hero",
 					"objective-location", "player-side-quest", "quest", "ship-enemy", "ship-objective", "treachery", "treasure"
 				];
-				var typeIndex = 0;
-				var uniqueKeys = [];
+				let typeIndex = 0;
+				let uniqueKeys = [];
 
 				function processFile()
 				{
@@ -37,14 +37,10 @@
 				{
 					cards.forEach((card, i) =>
 					{
-						let key = card.pack_code;
-						key += `_${card.position}`;
-						key += (card.sequence !== undefined ? `_${card.sequence}` : "");
-
-						// if (card.pack_code === "AtE" && card.position === 71)
-						// {
-						// 	console.log(`card ${card.name} ${card.type_code} ${card.pack_code} ${card.position} ${card.sequence}`);
-						// }
+						let positionString = card.position.toString().padStart(3, "0");
+						let key = (card.sequence !== undefined ? card.sequence : "");
+						key += `_${card.pack_code}`;
+						key += `_${positionString}`;
 
 						if (uniqueKeys.includes(key))
 						{
